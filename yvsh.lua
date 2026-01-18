@@ -1,4 +1,3 @@
-
 --[[
 
   This code has been obfuscated by Secrovia.
