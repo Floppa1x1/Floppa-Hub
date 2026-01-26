@@ -1,20 +1,10 @@
-local placeId = game.PlaceId
-print("Current PlaceId:", placeId)
+local id = game.PlaceId
+print("Current PlaceId:", id)
 
-local scripts = {
-    [111530421351096] = "https://raw.githubusercontent.com/Floppa1x1/Floppa-Hub/main/lua.lua",
-    [17625359962] = "https://raw.githubusercontent.com/Floppa1x1/Floppa-Hub/main/Rivals.lua",
-}
-
-local scriptUrl = scripts[placeId]
-
-if scriptUrl then
-    local success, err = pcall(function()
-        loadstring(game:HttpGet(scriptUrl))()
-    end)
-    if not success then
-        warn("Failed to execute script:", err)
-    end
+if id == 111530421351096 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Floppa1x1/Floppa-Hub/refs/heads/main/yvsh.lua"))()
+elseif id == 17625359962 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Floppa1x1/Floppa-Hub/refs/heads/main/Rivals.lua"))()
 else
-    warn("No script available for this game (PlaceId: " .. placeId .. ")")
+    warn("No script found for this game.")
 end
