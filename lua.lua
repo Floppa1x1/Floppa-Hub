@@ -1,10 +1,12 @@
-local id = game.PlaceId
-print("Current PlaceId:", id)
+local Games = {
+    [111530421351096] = "https://raw.githubusercontent.com/Floppa1x1/Floppa-Hub/refs/heads/main/yvsh.lua", -- You VS Homer
+    [17625359962] = "https://raw.githubusercontent.com/Floppa1x1/Floppa-Hub/refs/heads/main/Rivals.lua", -- Rivals
+}
 
-if id == 111530421351096 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Floppa1x1/Floppa-Hub/refs/heads/main/yvsh.lua"))()
-elseif id == 17625359962 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Floppa1x1/Floppa-Hub/refs/heads/main/Rivals.lua"))()
+local url = Games[game.PlaceId]
+
+if url then
+    loadstring(game:HttpGet(url))()
 else
-    warn("No script found for this game.")
+    warn("This game is not supported.")
 end
