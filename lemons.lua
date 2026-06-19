@@ -1,2 +1,2878 @@
--- Protected by wYnFuscate: https://wynfuscate.com | https://discord.gg/Z5xQ47Mbnd
-return(function(eN,ey,ev,...)if not eN then eN=getfenv end if not eN then eN=(function()local eK=getfenv;local eA=(eK and eK())or(eK and eK(0))or nil;if eA then return eA[string.char(103,101,116,102,101,110,118)]end;local eh=((_ENV or _G)or{});return eh[string.char(103,101,116,102,101,110,118)]end)()end if not ey then ey=setmetatable end if not ey then ey=(function()local eK=eN or getfenv;local eA=(eK and eK())or(eK and eK(0))or nil;if eA then return eA[string.char(115,101,116,109,101,116,97,116,97,98,108,101)]end;local eh=((_ENV or _G)or{});return eh[string.char(115,101,116,109,101,116,97,116,97,98,108,101)]end)()end if not ev then ev=rawget end if not ev then ev=(function()local eK=eN or getfenv;local eA=(eK and eK())or(eK and eK(0))or nil;if eA then return eA[string.char(114,97,119,103,101,116)]end;local eh=((_ENV or _G)or{});return eh[string.char(114,97,119,103,101,116)]end)()end local eV="pEeAVqlOnndb--T41w9kJLvQcL9E`Bh+V|^_}/~RxJ(;;VZ*zzy*#/N|Kd(fn^@U:sGOD2=bg~J*rb97@@,Z,@vU,gy-$YX0a^}tF;~APSoI<5kqs>n4Acl*@E36PYW|x8(&_#Y:IB]0<WcbV3:*DnG!]w5J#_vAO8$PL;.{T4#S+8QnM+qp!-PT;tO]IG<W2I^7;;{Vt*LyR(BBB+.wEb-0VP[be044*]W()M7:A-*?>zQ/nq&!P|96qkB;!SO(2i!=(bpI((=h#!|u$lN+zEq61Gye%)wdxi9R74f:]*VTc+^zz%>#Q/<i1IJ40nXA&}1P*4xMI*Xx}*Rg|+siew04FSwV3eqFz4{ur(0{-w93@[Qr-`f;Al|jsRww]b4?_*woi*<z,gxA}/b;!6/4T?{@F@M+_l<t-87#T;*=c@?7NzkLh&X8pwVTEJV>&vy^*So)xbkef(aUrj[Bt#C[y^E<bA)p{#C7@iWjnb8^](v4i*|ttN`%XKri;Pcbgkr@M|IBd(0.c+.kb(/tj|dO[JPbGDa4M4u*4l0th)-R@RhzOen0K*JWS(#HPS]FvAnRH3m}:Sf(seH[/b20j^ueEc}4[~$8z5x86Jf+_r@k0e!=ebd62@|fB8HV6&m)}/^OlvBXFOV.x;l^Q4oI++_0B8dE2v?UH3J{uyZ[<g!=VH3^A_w$I$d7/6k2Cl[8U]-3.A|+wIc#beYV44PN6@=6z,l8BFEf]>{b[{f3XL*`#m}8n)Pb&g$*:sJ^XnASbYAaUqUTK}.O?@%_U!H$%m+7K>4q#75;XKQ4V/k)>43O-(2rx+vo2Gh+t9y(Q#4*56Zp)Dgv7F,jB3r4<U]*!C:;w-<A_#.h,dHaED-qRQvb}+g4(^g*]{$MYk?[+0f%,;h{c@B$J^6Laz]8I>@f$@ESe(MNJ$Q00X(;{,&4xJTn!;2AY@-/G!)|$Mn;pVp66)=<tPlkfE)U%%bODE&}>_c*qB$+>+LmT]@vO8(H=b*K:@Nl5vaMNq@vXbQ[$(AE~U@@m~l+n${=L_}i8j}t);GEZ*=l1@b-+2q0ew3OrPo4R$A(5Pw^^hn^v~XK/dzw7#R%9toq+ZV4?/r@r936Gn,H}J^>+qR@{z5-%(NWp65.UdW)^c1qxJBbH[2@i.B8INmzp1*=7eEAv44L#(xfo-44]|]+Z!;*>-@kPqG^obRjo4T;1@BBUw|kb2CRG^TbH1$*g|i*F%E3&1}/kq]Uju_OWT@}ZZ4!de+UiRi8Q/C;ULt@ppsz,BVbnl.[R0V.eedFK@Y9L^t*8)l+F8Z|R*KFx>^=i]Q#pJPSc~lM9q00Vu30{V`}$rAVPe~w#2J0CGB;qqT4dbtP-bFCM&lguISnGSn=Fb:>2(ue&^/EVbRLKO:;HGX/}%_!}i43]bG_~(86$+EhLm#[+/>R:~<e@q24h::+rPPwW~gZ#0xJRSV1MbxOL(Kky*"local ef=65536 local m3={};local m8={};m8[(68786-5233)]=m8 local aw=4294967296 local aQ=2147483647 local aU=115+85 local aI=44619+26731+28649 local eq,er,e1,e6,e4,m5={},{},{},{},{},nil eq[10287-5440]=er er[15564-9328]=e1 e1[8856-4352]=eq local eS=function(aY,aX,aC)local ac=((aY*aX)+aC)%aQ return ac-ac%1 end local eP=((70*9808+120*5583-1312461)%aw)local eJ=function(aG,aZ,at,ap)if ap and ap>0 then local ab=eS(aZ,eP,ap)aG[ab]=at return true end return aG[aZ]end local es=function(aT,aF)local az=0 for ao in pairs(aT)do az=az+1 end return az==aF end local en=function(aB,aO,aN)if aB and aO and aN then local ay=eS(aN,eP,1)if aB[ay]then aO[ay]=aB[ay]end end return aO end local ej=function(av,aA)if aA and aA>0 and av then return av[eS(aA,eP,2)]end return nil end local aW={[3]="\174\219\58\26\236\23\225\154\233\219\54\79\218\217\28\166\128\150\137\63\167\58\219\180\171\105\128\125\74\112\149\159\57\71\40\207\144\78\14\17\231\254\10\176\174\11\81\205\212\245\40\222\237\17\254\100\38\211\243\115\144\85\148\114\52\138\203\62\210\78\94\207\22\245\154\187\233\166\246\85\113\55\30\168\107\27\184\23\238\218\248\1\211\14\35\187\243\165\153\151\198\23\51\246\31\213\112\92\169\95\112\201\34\91\175\184\183\114\46\146\224\83\238\194\194\233\93\62\153\47\124\114\11\238\207\219\196\102\187\127\115\82\250\101\230\91\109\30\167\136\133\190\162\123\116\237\238\188\125\5\134\67\132\93\192\8\216\35\74\6",[4]="\149\63\235\69\30\196\58\73\227\229\181\153\109\145\210\49\91\191\98\152\130\75\151\82\142\63\200\109\161\237\69\184\157\77\100\140\132\24\197\215\67\139\135\136\40\126\54\238\235\220\182\193\6\26\150\160\59\145\253\233\41\9\122\228\151\172\95\133\77\133\175\185\78\34\177\119\61\89\125\242\63\151\19\236\203\34\71\19\167\232\64\229\61\85\244\22\187\250\123\30\220\167\137\97\140\155\20\209\124\137\122\242\119\120\55\53\177\79\19\58\9\18\43\200\1\17\46\193\10\174\242\190\4\106\210\202\174\236\205\41\117\166\133\24\39\113\202\212\81\248\40\64\45\186\140\204\170\21\242\247\136\32\194\79\13\117\175\141\46\46",[1]="\13\215\219\252\166\61\10\168\214\42\245\10\185\81\55\51\226\69\76\121\96\106\21\123\193\211\92\96\231\250\174\132\37\68\16\75\151\5\117\164\51\97\91\188\138\156\199\12\242\189\104\157\80\181\11\200\25\225\1\140\153\51\221\245\145\208\5\11\95\75\172\153\210\90\200\89\210\241\51\128\114\169\150\60\186\90\182\48\163\39\247\97\198\235\142\115\2\126\212\73\181\210\14\152\62\221\184\253\216\247\105\117\203\67\67\242\219\143\247\67\193\198\10\182\115\6\234\91\149\208\226\171\181\1\40\44\243\97\180\243\160\65\94\168\117\184\84\221\98\97\11\195\119\24\155\60\182\100\186\55\80\254\195\94\232\218\237\130\188\125",[2]="\166\196\3\18\113\32\66\193\42\68\234\164\178\38\107\118\41\33\106\231\255\197\156\0\80\22\240\195\225\163\181\156\140\126\200\163\203\208\4\79\218\13\154\214\59\10\201\20\165\144\233\167\145\207\126\102\118\193\235\207\168\159\69\148\32\4\7\126\73\104\75\37\148\115\55\172\79\215\80\191\48\50\194\96\163\181\108\48\191\234\247\168\165\105\49\156\198\245\10\132\68\57\152\32\8\188\157\207\18\241\104\147\148\120\137\37\16\55\166\249\224\244\14\35\165\34\5\111\129\0\67\239\237\249\253\100\243\97\140\51\58\174\178\202\212\156\55\115\209\54\158\54\219\12\249\62\86\18\251\23\109\119\11\153\43\61\80\254\177\95",[6]="\92\206\254\48\104\158\166\59\132\162\245\122\229\39\84\247\216\180\59\155\71\75\2\43\135\62\0\10\44\201\12\122\7\238\151\231\16\229\19\162\170\57\14\228\63\130\226\165\7\42\15\192\166\91\60\154\237\23\183\214\87\210\234\181\172\23\76\254\4\58\114\123\60\173\46\20\173\111\156\210\36\199\21\176\97\26\145\179\109\161\109\162\126\173\81\184\24\135\217\152\28\27\227\237\81\235\149\85\18\199\134\20\163\97\45\19\236\234\147\89\252\251\246\72\255\93\217\4\196\18\20\46\96\156\16\148\242\70\209\189\187\99\168\211\33\138\55\55\7\42\160\175\136\20\182\162\67\1\128\146\99\214\92\64\96\151",[5]="\105\128\42\2\120\63\49\255\88\184\92\152\141\197\197\138\212\6\32\149\247\177\189\105\37\191\11\232\185\139\147\193\106\122\86\190\169\252\103\70\186\176\220\209\205\201\47\69\82\41\129\151\23\17\127\237\71\133\157\60\142\61\100\162\107\106\111\21\252\170\179\185\218\140\43\103\84\104\69\138\32\149\25\29\233\74\3\61\71\219\24\50\237\171\215\197\9\60\110\148\110\72\235\172\95\66\8\169\160\171\104\123\70\47\226\209\112\114\114\141\142\61\254\27\90\75\237\47\181\253\156\168\222\4\14\137\146\44\126\106\42\58\63\242\167\70\154\195\137\130\53\222\185\27\132\142\119\170\218\246\221\82\170\16\104\236\37\96\236\213"}local e7=(aW[1]or"")..(aW[2]or"")..(aW[3]or"")..(aW[4]or"")..(aW[5]or"")..(aW[6]or"")local e8=((52*9808+138*5583-1276392)%aw)local e9=0 local e2=0 local am=pcall local ae=rawget local aa=type local ag=(debug and debug.info)or nil local ad=(debug and debug.traceback)or nil local ai=function(aV,af)local gm,ge=0,1 for ga=1,8 do local gg,gd=aV%2,af%2 if gg~=gd then gm=gm+ge end aV,af,ge=(aV-gg)/2,(af-gd)/2,ge*2 end return gm end local e3=function(aE)local aD=1 local au=e8 local aR=((1664525+34)-34)local ak=((1013904223+34)-34)local aS=((256+34)-34)local aP=((aE*aR)+34)%aS if aP==aS then aP=0 end local aq=0 local ar=1 while ar<=aE do local aH=(string.byte(e7,aD)or 0)+((string.byte(e7,aD+1)or 0)*aS)local aJ=(au+e9+(aq*257)+(aH%65536)+21417)%aw aJ=((aJ*aR)+ak+(aq*40503)+((au%65536)*11117))%aw if aJ==0 then aJ=(au+1)%aw end aJ=((aJ*aR)+ak+(aq*257)+1831565813+(aH%65536))%aw local as=aJ%aS local an=(((aJ-as)/aS)%aS)local aj=(((aJ-(aJ%65536))/65536)%aS)local aL=(((aJ-(aJ%16777216))/16777216)%aS)local aM=string.byte(e7,aD+2)local ax=ai(aM,ai(ai(as,an),ai(aj,(aL+aq)%aS)))aD=aD+3+ax aq=aq+1 ar=ar+1 end local aH=(string.byte(e7,aD)or 0)+((string.byte(e7,aD+1)or 0)*aS)local aJ=(au+e9+(aq*257)+(aH%65536)+21417)%aw aJ=((aJ*aR)+ak+(aq*40503)+((au%65536)*11117))%aw if aJ==0 then aJ=(au+1)%aw end aJ=((aJ*aR)+ak+(aq*257)+1831565813+(aH%65536))%aw local as=aJ%aS local an=(((aJ-as)/aS)%aS)local aj=(((aJ-(aJ%65536))/65536)%aS)local aL=(((aJ-(aJ%16777216))/16777216)%aS)local aM=string.byte(e7,aD+2)local ax=ai(aM,ai(ai(as,an),ai(aj,(aL+aq)%aS)))local aK={}local a4=1 while a4<=ax do aJ=((aJ*aR)+ak+(aq*257)+(a4*131)+(ax*17)+(aH%65536)+1831565813)%aw as=aJ%aS an=(((aJ-as)/aS)%aS)aj=(((aJ-(aJ%65536))/65536)%aS)aL=(((aJ-(aJ%16777216))/16777216)%aS)aM=string.byte(e7,aD+2+a4)aK[a4]=string.char(ai(aM,ai(ai(as,(an+a4)%aS),ai(aj,(aL+aq+ax)%aS))))a4=a4+1 end return table.concat(aK)end local gw=(eN and eN())or(eN and eN(0))or{}local gQ=(eN and eN(0))or gw local gI=(ey and ey({},{__index=gw}))or gw local e0=(gw[e3(11)])or ev local gc=((127+9)-9)local gC=((9*73)+19)%gc if gC==gc then gC=0 end local gY=function(gZ,gt)local gp=e0 and e0(gZ,gt)or nil if gp~=nil then return gp end gp=gZ[gt]if gp~=nil then return gp end if gQ and gQ~=gZ then gp=e0 and e0(gQ,gt)or nil if gp~=nil then return gp end gp=gQ[gt]if gp~=nil then return gp end end return nil end local gU=function(gt,gp)if gp~=nil then gI[gt]=gp end end local gb=0 local gW=aa("")local gE=nil local gD=nil local gu=nil local gM=0 local gH=0 local gK=0 local gh=0 local gx,gE=am(function()return e3(41)end)gx,gD=am(function()return e3(59)end)gx,gu=am(function()return e3(49)end)local a9=gE and gY(gw,gE)or nil local a0=gD and gY(gw,gD)or nil local a2=gu and gY(gw,gu)or nil do gM=0 if a9~=nil then local gN=a9.ClassName if aa(gN)==gW then gM=#gN end end gb=(gb*131+gM+23)%aQ end do gH=0 local gz=(a0 and a0.new)or nil if gz~=nil and aa(gz)==aa(am)then local gT,go=am(gz,"Folder")if gT and go then local gN=go.ClassName local gy=go.Name if aa(gN)==gW then gH=gH+(#gN*19)end if aa(gy)==gW then gH=gH+(#gy*7)end am(function()go:Destroy()end)end end gb=(gb*166+gH+39)%aQ end do gK=0 local gO=a9 and a9.GetService if gO~=nil and aa(gO)==aa(am)then local gT,gB=am(function()return a9:GetService("Players")end)if gT and gB then local gN=gB.ClassName if aa(gN)==gW then gK=#gN end end end gb=(gb*175+gK+60)%aQ end do gh=0 local gT,gF=am(function()local gi=a2;return gi and gi.new and gi.new(1,2,3)end)if gT and gF then gh=(gF.X*31+gF.Y*17+gF.Z*13)end gb=(gb*228+gh+87)%aQ end local gv=((79*9808+53*5583+218674036)%aw)local gA=(gb+aQ-gv)%aQ e9=(e9+gA)%aQ if gA~=0 then e2=e2+1 end gU(e3(11),gw[e3(11)])gU(e3(13),gY(gw,e3(13)))gU(e3(24),gY(gw,e3(24)))gU(e3(2),gY(gw,e3(2)))gU(e3(17),gY(gw,e3(17)))gU(e3(28),gY(gw,e3(28)))gU(e3(7),gY(gw,e3(7)))gU(e3(5),gY(gw,e3(5)))gU(e3(23),gY(gw,e3(23)))gU(e3(29),gY(gw,e3(29)))gU(e3(15),gY(gw,e3(15)))gU(e3(1),gY(gw,e3(1)))gU(e3(21),gY(gw,e3(21)))gU(e3(33),gY(gw,e3(33)))gU(e3(0),gY(gw,e3(0)))gU(e3(20),gY(gw,e3(20)))gU(e3(19),gY(gw,e3(19)))gU(e3(32),gY(gw,e3(32)))gU(e3(35),gY(gw,e3(35)))gU(e3(8),gY(gw,e3(8)))gU(e3(4),gY(gw,e3(4)))gU(e3(14),gY(gw,e3(14)))gU(e3(10),gY(gw,e3(10)))gU(e3(22),gY(gw,e3(22)))gU(e3(9),gY(gw,e3(9)))gU(e3(26),gY(gw,e3(26)))gU(e3(12),gY(gw,e3(12)))gU(e3(34),gY(gw,e3(34)))gU(e3(6),gY(gw,e3(6)))gU(e3(27),gY(gw,e3(27)))gU(e3(30),gY(gw,e3(30)))gU(e3(25),gY(gw,e3(25)))gU(e3(16),gY(gw,e3(16)))gU(e3(18),gY(gw,e3(18)))gU(e3(3),gY(gw,e3(3)))gU(e3(31),gY(gw,e3(31)))local e5=((96*9808+137*5583-1661767)%aw)e8=(e8+e5)%aQ local gV=rawget local gf=type local gR=pcall local gk=(eN and eN(0))or nil local gS=0 local gP=0 do local gs=(Instance~=nil and Instance.new)or nil local gJ=(gs~=nil and gf(gs)==gf(gR))if gJ then gS=gS+1 end gP=(gP*(((0x14DE*1)-5187)-((37612*0x1)-0x92D4))+(gJ and((126)-((0x25-8)))or(((111+0x14))-((0x62A6*1)-0x6288))))%aQ end do local gn=(eN and gk and gf(gk)==gf({})and(_G==nil or gk~=_G))if gn then gS=gS+1 end gP=(gP*(((0x14DE*1)-5187)-((37612*0x1)-0x92D4))+(gn and(((0x3A-16))-((0xA906*1)-0xA8ED))or((0x37)-((17+0x9)))))%aQ end do local gj=(game~=nil and gf(game)~=gf({}))if gj then gS=gS+1 end gP=(gP*(((0x14DE*1)-5187)-((37612*0x1)-0x92D4))+(gj and(((0xDAE0*1)-0xDA9A)-((0x29-14)))or(((0x56+3))-((0x12+0xA)))))%aQ end local e9=(((26)-((47937*1)-0xBB2A))-gS)e8=(e8-e5)%aQ e9=(e9+(e9*(gP+1)))%aQ e2=e2+e9 if e9==0 then do local gL=false if game~=nil then local gq=game[e3(52)]if gf(gq)==gf(gR)then local gr,g1=gR(gq,game,e3(90))if gr and g1 and gf(g1)==gf(game)then gL=true end end end if not gL then e9=(e9+(gP+1))%aQ e2=e2+1 end gP=(gP*(((0x14DE*1)-5187)-((37612*0x1)-0x92D4))+(gL and(((0x3E-20))-(31))or((0x33)-((22+10)))))%aQ end end do local g3=0 local g6=(debug and gf(debug)==gf({}))and debug or nil local g4=g6 and g6.info local g7=g6 and g6.traceback if g4 and gf(g4)~=gf(gR)then g3=g3+1 end if g7 and gf(g7)~=gf(gR)then g3=g3+1 end if eN and gf(eN)~=gf(gR)then g3=g3+1 end local g8,g5=gR(rawget)if g8 then g3=g3+1 elseif gf(g5)==gf("")then local g9=(string and gf(string)==gf({}))and string or nil local g0=g9 and g9.match if g0 and g0(g5,e3(94))then g3=g3+1 end else g3=g3+1 end if g4 then local g2,dm=gR(function()return g4(4,e3(50))end)if g2 and dm~=nil then local _=dm end end if g3>0 then e2=e2+g3 e9=(e9+(g3*(gP+(((0x24+4))-((0x405C*1)-16443)))))%aQ end end do local dQ=0 local dU=0 local dI=0 local dY=false local du=0 local dx=((28)-((15+2)))local dw=type local dd=pcall local de=(debug and dw(debug)==dw({}))and debug or nil local da=de and de.info local dg=de and de.traceback local dX=(string and dw(string)==dw({}))and string or nil local dC=dX and dX.match if da and dg and dC then local dc,dG=dd(function()return da(da,e3(50))end)if dc and dG==e3(86)then dI=dI+1 else dQ=dQ+1 end dc,dG=dd(function()return da(dg,e3(50))end)if dc and dG==e3(86)then dI=dI+1 else dQ=dQ+1 end local dt=function()return 1 end dc,dp=dd(function()return da(dt,e3(40))end)if dc and dw(dp)==dw(0)then dI=dI+1 else dU=dU+1 end dc,dG=dd(function()return da(dd,e3(50))end)if dc and dG==e3(86)then dI=dI+1 else dQ=dQ+1 end dc,dG=dd(function()return da(dC,e3(50))end)if dc and dG==e3(86)then dI=dI+1 else dQ=dQ+1 end dc,dZ=dd(rawget)if dc then dQ=dQ+1 elseif dw(dZ)==dw("")then local dG=dC(dZ,e3(94))local dp=dC(dZ,e3(65))or dC(dZ,e3(76))if dG then dQ=dQ+1 end if dp then dI=dI+1 else dQ=dQ+1 end else dQ=dQ+1 end local db=nil local dl=e3(72)local dW,dE=dd(function()return dC(dl,e3(36))end)if dW and dE==e3(69)then dI=dI+1 else dQ=dQ+1 end dW,dE=dd(function()return dC(e3(67),e3(38))end)if dW and dE==e3(56)then dI=dI+1 else dQ=dQ+1 end dW,dT=dd(function()return dC(e3(54),e3(61))end)if dW and dT==e3(62)then dI=dI+1 else dQ=dQ+1 end dW,dF=dd(function()return dC(e3(54),"\94\95\95\110\111\95\109\97\116\99\104\95\95\36")end)if dW and dF==nil then dI=dI+1 else dQ=dQ+1 end local dz=dX and dX.byte local dB=dX and dX.sub if dz and dB then local dA=#dl local dO=1 while dO<=dA do local dy=dz(dl,dO)if dy==58 then local dN=dO+1 while dN<=dA do local dv=dz(dl,dN)if dv==58 then db=dB(dl,dO+1,dN-1)dN=dA+1 dO=dA+1 end dN=dN+1 end end dO=dO+1 end elseif dC then db=dC(dl,"^[^:]+:(%d+):")end if db==e3(69)then dI=dI+1 else dQ=dQ+1;dY=true end if dI>=((0x17)-((0x13-1)))then dc,dG=dd(function()return da(4,e3(50))end)if dc and dG==e3(86)then dQ=dQ+1;dY=true elseif dc and dG~=nil then dU=dU+1 end end dc,dV=dd(dg)if dc and dw(dV)==dw("")and dz then local df=1 for dO=1,#dV do if dz(dV,dO)==10 then df=df+1 end end dx=df+(((0x87EF*1)-34775)-((18+0x1)))end dM,dH=dd(function()local c=0 local di,dh for dK=1,(((0x25+7))-((9+11)))do di,dh=dd(function()return da(dK,e3(50))end)if(not di)or dh==nil then break end c=c+1 end return c end)if dM and dw(dH)==dw(0)then du=dH if dH>dx then dQ=dQ+1;dY=true end end else dQ=dQ+1 end if da and dg then local dR,dk=0,0 local wQ,wU,wI,wY,wX=0,0,0,0,0 local dP=function(dj)dj(function()local dq,we=dd(function()return da((((0x7D29*1)-0x7D1D)-((0xC-3))),e3(50))end)local dr,wa=dd(function()return da((((39444*1)-39430)-(0xA)),e3(50))end)local d1,wg=dd(function()return da((((15+2))-(0xB)),e3(50))end)local d6,wd=dd(function()return da((((0x15-1))-((0xDACC*1)-56000)),e3(50))end)local d4,ww=dd(function()return da(((24)-((0x11-4))),e3(50))end)if dq and we==e3(86)then wQ=wQ+1 end if dr and wa==e3(86)then wU=wU+1 end if d1 and wg==e3(86)then wI=wI+1 end if d6 and wd==e3(86)then wY=wY+1 end if d4 and ww==e3(86)then wX=wX+1 end if d4 and ww~=nil then if dr and wa==e3(86)then dk=dk+1 end if d1 and wg==e3(86)then dk=dk+1 end if d6 and wd==e3(86)then dk=dk+1 end end end)end local dJ=function(dL)dL()end local ds=function(dL)local function d0()local function d2()local function wm()dL()end wm()end d2()end d0()end local dn=function(dL)local d7=_ENV local d3=d7 and d7[e3(7)]or nil local d8=d3 and d3[e3(89)]or nil local d5=d3 and d3[e3(85)]or nil if d8 and d5 then local d9=d8(function()dL()end)d5(d9)else dL()end end dP(dJ)dP(ds)dP(dn)local wC=0 if wQ>=(((0xD+0x3))-(14))then wC=wC+1 end if wU>=(((0xD+0x3))-(14))then wC=wC+1 end if wI>=(((0xD+0x3))-(14))then wC=wC+1 end if wY>=(((0xD+0x3))-(14))then wC=wC+1 end if wX>=(((0xD+0x3))-(14))then wC=wC+1 end dR=wC local dS=(dR>=(((0x17-7))-(15)))or(dk>=(((0xD+0x3))-(14)))if dR>=(((0x17-7))-(15))then dQ=dQ+1 dY=true elseif dk>=(((0xD+0x3))-(14))then dU=dU+1 end local wG=(dR*(((0x13-1))-((0x10^1))))+dk if wG>0 then local wc=((wG*(((0x40EC*1)-16581)-((0x29-7))))+(dI*(((19895*1)-0x4D91)-((0x27-4))))+((gP%((0x68)-(7)))+(((38915*1)-38896)-((2^1)*(2^2)))))%((286)-(35))if wc<1 then wc=1 end e9=(e9+(wc*((gP%(((0x5350*0x1)-0x52C6)-((0x877F*0x1)-0x8778)))+(((0x1A-1))-((0xB-3))))))%aQ if dR>0 then e2=e2+1 end end end local dD=false if dY then dD=true elseif(dQ>=((0x17)-(21))and dI>=(((0x14+0x3))-((31404*0x1)-0x7A99)))or(dU>=((0x17)-(21))and dI>=(((0x9F04*0x1)-40683)-((51505*1)-0xC91D)))then dD=true end if dD then local _mix=(dQ*2)+dU local _pox=dQ+((_mix>0)and 1 or 0)e2=e2+_pox e9=(e9+(_mix*(gP+dI+((34)-((14+7))))))%aQ end end local wF=gY(gw,e3(35))local wz=wF and gY(wF,e3(48))local wB=gY(gw,e3(23))local wZ=gY(gw,e3(4))local wt=wZ and gY(wZ,e3(43))local wp=wZ and gY(wZ,e3(66))local wb=gY(gw,e3(11))local wN=false local wO=false if wz and wB then local wA=function()return 1 end local wo=wB(wz,wA)if wo then wN=true else e2=1 end end local wy=false if wN and wB and wt then local wo=wB(wz,wt)if wo then e2=1 else wy=true end end local wv=false if wN and wB and wp then local wo=wB(wz,wp)if wo then e2=1 else wv=true end end local wW=wZ and gY(wZ,e3(46))if wN and wB and wW then local wo=wB(wz,wW)if wo then e2=1 end end if wy and wt then eJ(m3,936,wt,5)end if wv and wp then eJ(m3,379,wp,5)end if wN and wt and wz then local wl=wt(wz,e3(47))local wT=(wl and type(wl)==e3(2))and wl[e3(39)]or nil if(not wT)or wT==""then wl=wt(wz)wT=(wl and type(wl)==e3(2))and wl[e3(39)]or nil end if wT and wT~=e3(37)then e2=1 end end if wy and wb then local wl=wt(wb,e3(47))local wT=(wl and type(wl)==e3(2))and wl[e3(39)]or nil if(not wT)or wT==""then wl=wt(wb)wT=(wl and type(wl)==e3(2))and wl[e3(39)]or nil end if wT and wT~=e3(37)then e2=1 end end if wv and wb then local wT=wp(wb,e3(50))if wT and wT~=e3(86)then e2=1 end end if wy and wB then local wl=wt(wB,e3(47))local wT=(wl and type(wl)==e3(2))and wl[e3(39)]or nil if(not wT)or wT==""then wl=wt(wB)wT=(wl and type(wl)==e3(2))and wl[e3(39)]or nil end if wT and wT~=e3(37)then e2=1 elseif wT then wO=true end end if wv and wB then local wT=wp(wB,e3(50))if wT and wT~=e3(86)then e2=1 elseif wT then wO=true end end if not wO and wN and wB and wz then local wo=wB(wz,wB)if wo then e2=1 else wO=true end end if wO and wB then eJ(m3,770,wB,5)end local wE=wF and gY(wF,"byte")local wD=false if wy and wE then local wl=wt(wE,e3(47))local wT=(wl and type(wl)==e3(2))and wl[e3(39)]or nil if(not wT)or wT==""then wl=wt(wE)wT=(wl and type(wl)==e3(2))and wl[e3(39)]or nil end if wT and wT~=e3(37)then e2=1 elseif wT then wD=true end end if not wD and wv and wE then local wT=wp(wE,e3(50))if wT and wT~=e3(86)then e2=1 elseif wT then wD=true end end if not wD and wN and wE and wz and wB then local wo=wB(wz,wE)if wo then e2=1 else wD=true end end en(er,e1,(25576-4303))for k,v in pairs(er)do if k>((4356%59)+21690)then break end end eJ(er,((10294%145)+592),gY(gw,e3(21)),5)eJ(eq,(((7872)-(1411))+(-6294)),gY(gw,e3(11)),5)for k,v in pairs(er)do if k>((6985)*(3)+(2))then break end end eJ(e6,(5454-4793),gY(gw,e3(17)),7)en(er,e1,(27222-7085))for k,v in pairs(er)do if k>(16762+4025)then break end end local _dv33=es(eq,eS(8,eP,1))eJ(er,((273)*(2)+(0)),gY(gw,e3(13)),5)e4[(((462)*4%461)+20731)]=nil e4[(24896-3723)]=nil eJ(e1,(8754-8517),gY(gw,e3(5)),5)local _dv22=es(eq,eS(8,eP,1))e4[(((876)*4%343)+21261)]=nil for k,v in pairs(er)do if k>((4149)*(5)+(2))then break end end e4[((2913)*(7)+(6))]=nil if ej(eq,3)then e6[(24288-3317)]=e4 end eJ(e6,((42)*(7)+(2)),gY(gw,e3(30)),7)eJ(eq,((1012%103)+381),gY(gw,e3(12)),5)for k,v in pairs(er)do if k>((8282%77)+21626)then break end end eJ(e1,(355+446),gY(gw,e3(34)),5)if ej(eq,3)then e6[(((286)*4%233)+20703)]=e4 end eJ(eq,(((476)*4%627)+930),(gY(gw,e3(78))or function(_f)return _f end),5)local _dv23=es(eq,eS(8,eP,1))for k,v in pairs(er)do if k>((5046%105)+20103)then break end end en(er,e1,((3432%79)+21606))eJ(er,((5820%71)+835),gY(gw,e3(0)),5)if ej(eq,3)then e6[((3506)*(6)+(5))]=e4 end e4[(28478-6771)]=nil en(er,e1,(((352)*4%463)+20398))eJ(er,(((5494)-(2033))+(-2830)),gY(gw,e3(3)),5)eJ(eq,((9394%129)+774),gY(gw,e3(7)),5)en(er,e1,(26102-5605))if ej(eq,3)then e6[(23856-2777)]=e4 end if ej(eq,3)then e6[((4021)*(5)+(2))]=e4 end en(er,e1,(24402-3329))eJ(er,(54+64),gY(gw,e3(27)),5)for k,v in pairs(er)do if k>((8284%63)+21290)then break end end for k,v in pairs(er)do if k>((10704%123)+20450)then break end end eJ(er,(250+535),gY(gw,e3(32)),5)en(er,e1,(30100-8173))e4[(23636-2149)]=nil en(er,e1,(27338-5943))eJ(er,(((4024)-(1539))+(-2334)),gY(gw,e3(18)),5)eJ(e1,(6848-5905),gY(gw,e3(23)),5)e4[((1582%109)+21527)]=nil e4[(((5216)-(1299))+(18052))]=nil eJ(e1,(8527-7923),gY(gw,e3(35)),5)e4[((3658)*(6)+(3))]=nil eJ(e1,((68)*(6)+(0)),gY(gw,e3(1)),5)for k,v in pairs(er)do if k>(((7804)-(1975))+(14362))then break end end eJ(e1,(7076-6343),gY(gw,e3(8)),5)en(er,e1,(847+19656))for k,v in pairs(er)do if k>(((1012)*4%555)+21578)then break end end en(er,e1,(((292)*4%315)+20938))eJ(er,(8389-7905),gY(gw,e3(2)),5)eJ(e1,((123)*(8)+(6)),gY(gw,e3(10)),5)if ej(eq,3)then e6[(((6356)-(1503))+(15818))]=e4 end e4[((5333)*(4)+(1))]=nil if ej(eq,3)then e6[((4314)*(5)+(1))]=e4 end en(er,e1,((10516%63)+20201))eJ(eq,((194)*(5)+(1)),gY(gw,e3(20)),5)e4[(((210)*4%605)+20762)]=nil for k,v in pairs(er)do if k>((8754%109)+21923)then break end end en(er,e1,(25068-4043))local wu=(function()local wx=gY(gw,e3(4))local wM=gY(gw,e3(17))local wV=gY(gw,e3(23))if wx and wM and wV then local wH=gY(wx,e3(43))local wK=gY(wx,e3(66))local wi=nil local wh local wf=wH and wV(function()wh=wH(wM,e3(47))end)if wf and wh and type(wh)==e3(2)then wi=wh[e3(39)]end if(not wi)or wi==""then local wR=wH and wV(function()wh=wH(wM)end)if wR and wh and type(wh)==e3(2)then wi=wh[e3(39)]end end if(not wi)or wi==""then if wK then wi=wK(wM,e3(50))end end if wi and wi~=e3(37)and wi~=e3(86)then return false end end return true end)()if not wu then e3=wu end local wS=gY(gw,e3(30))if wS then eJ(m3,830,wS,5)end local ws=gY(gw,e3(3))eJ(m3,371,ws,5)local wk=gY(gw,e3(17))if wk then eJ(m3,959,wk,5)end local wJ=gY(gw,e3(13))eJ(m3,988,wJ,5)local wL=gY(gw,e3(27))local wq=eS(241,eP,5)if m3[wq]==nil and wL then eJ(m3,241,wL,5)end local wP=gY(gw,e3(11))eJ(m3,617,wP,5)local wn=gY(gw,e3(23))local wj=eS(770,eP,5)if m3[wj]==nil and wn then eJ(m3,770,wn,5)end local wr=gY(gw,e3(12))local w1=gY(gw,"_G")if wr and w1 then local w6=wr(w1)if w6 then local w4=gY(w6,e3(77))local w7=gY(w6,e3(81))if w4 or w7 then return function()end end end end eJ(m3,(355+446),gY(gw,e3(34)),5)eJ(m3,(8527-7923),gY(gw,e3(35)),5)eJ(m3,(8389-7905),gY(gw,e3(2)),5)eJ(m3,(((7872)-(1411))+(-6294)),gY(gw,e3(11)),5)eJ(m3,((273)*(2)+(0)),gY(gw,e3(13)),5)eJ(m3,(((4024)-(1539))+(-2334)),gY(gw,e3(18)),5)eJ(m3,((1012%103)+381),gY(gw,e3(12)),5)eJ(m3,(250+535),gY(gw,e3(32)),5)eJ(m3,((68)*(6)+(0)),gY(gw,e3(1)),5)eJ(m3,(((5494)-(2033))+(-2830)),gY(gw,e3(3)),5)eJ(m3,((123)*(8)+(6)),gY(gw,e3(10)),5)eJ(m3,(8754-8517),gY(gw,e3(5)),5)eJ(m3,((10294%145)+592),gY(gw,e3(21)),5)eJ(m3,(6848-5905),gY(gw,e3(23)),5)eJ(m3,(54+64),gY(gw,e3(27)),5)eJ(m3,(7076-6343),gY(gw,e3(8)),5)eJ(m3,((5820%71)+835),gY(gw,e3(0)),5)eJ(m3,((194)*(5)+(1)),gY(gw,e3(20)),5)eJ(m3,(((476)*4%627)+930),(gY(gw,e3(78))or function(_f)return _f end),5)eJ(m3,((9394%129)+774),gY(gw,e3(7)),5)eJ(m3,(5454-4793),gY(gw,e3(17)),5)eJ(m3,((42)*(7)+(2)),gY(gw,e3(30)),5)local w3=nil w3=function(w8,w5,w9)if not w8 then return end w5=w5 or 1 w9=w9 or#w8 local w0=w9-w5+1 if w0<=0 then return end if w0>=8 then return w8[w5],w8[w5+1],w8[w5+2],w8[w5+3],w8[w5+4],w8[w5+5],w8[w5+6],w8[w5+7],w3(w8,w5+8,w9)end if w0>=7 then return w8[w5],w8[w5+1],w8[w5+2],w8[w5+3],w8[w5+4],w8[w5+5],w8[w5+6]end if w0>=6 then return w8[w5],w8[w5+1],w8[w5+2],w8[w5+3],w8[w5+4],w8[w5+5]end if w0>=5 then return w8[w5],w8[w5+1],w8[w5+2],w8[w5+3],w8[w5+4]end if w0>=4 then return w8[w5],w8[w5+1],w8[w5+2],w8[w5+3]end if w0>=3 then return w8[w5],w8[w5+1],w8[w5+2]end if w0>=2 then return w8[w5],w8[w5+1]end return w8[w5]end eJ(m3,((7194%77)+965),w3,5)local Qm=(function()local Qe=gY(gw,e3(4))local Qa=gY(gw,e3(30))local QQ=gY(gw,e3(23))if Qe and Qa and QQ then local Qg=gY(Qe,e3(46))if Qg then local Qw local QU=QQ(function()Qw=Qg(Qa,1)end)if QU and Qw~=nil and#Qw>0 then return false end end end return true end)()if not Qm then e8=0 end local Qy=(function()local QZ=gY(gw,e3(4))local Qc=QZ and gY(QZ,e3(66))local QG=QZ and gY(QZ,e3(43))local QT=gY(gw,e3(3))local QF=gY(gw,e3(10))local Qz=gY(gw,e3(23))local QB=gY(gw,e3(11))if not QT or not QF or not Qz or not QB then return end local QI=gY(gw,e3(26))if not QI then local QO=gY(gw,e3(30))if QO and QT(QO)==e3(73)then local Qo,QN=Qz(QO)if Qo and QN and QT(QN)==e3(2)then QI=gY(QN,e3(26))end if not QI then local Qo,QN=Qz(QO,1)if Qo and QN and QT(QN)==e3(2)then QI=gY(QN,e3(26))end end end end if not QI then return end if QT(QI)~=e3(73)then return end local Qo,QY=Qz(QI)if not Qo or not QY then return end if QT(QY)~=e3(2)then return end local QC=QB(QY,e3(9))if not QC then return end if QT(QC)~=e3(73)then return end if Qc or QG then local QX=QB(QY,e3(29))if QX and QT(QX)==e3(73)then local Qo,Qt=Qz(QX)if Qo and Qt and QT(Qt)==e3(2)then local Qp=0 local Qv=0 local QA=e3(73)local QW=e3(9)for _,Qb in QF(Qt)do Qv=Qv+1 if Qv>10000 then break end if QT(Qb)==QA then local QE,Ql=false,nil if Qc then QE,Ql=Qz(Qc,Qb,e3(82))else QE,QD=Qz(QG,Qb,e3(82))Ql=QD and QD[e3(64)]end if QE and Ql==QW then Qp=Qp+1 if Qp>=2 then break end end end end if Qp>1 then e8=0 e2=1 return end end end end eJ(m3,196,QC,5)local Qu=gY(gw,e3(35))if Qu then local Qx=gY(Qu,"byte")if Qx then Qz(QC,Qx)end end local QM=gY(gw,e3(18))if QM then Qz(QC,QM)end local QH=gY(gw,e3(23))if QH then Qz(QC,QH)end local QK=gY(gw,e3(11))if QK then Qz(QC,QK)end local Qh=gY(gw,e3(13))if Qh then Qz(QC,Qh)end local Qi=gY(gw,e3(10))if Qi then Qz(QC,Qi)end local QV=gY(gw,e3(3))if QV then Qz(QC,QV)end local Qf=gY(gw,e3(30))if Qf then Qz(QC,Qf)end local QR=gY(gw,e3(17))if QR then Qz(QC,QR)end end)()local Qk=(function()local QS={}local QP=543*6+774 QS[QP]=(eN and eN(0))or{}local QJ=QS[QP]m5=m8 QS[QP]=nil return QJ end)()local Qs=m3[eS(167,eP,5)]or e0 m3[eS(508,eP,5)]=false m3[eS(607,eP,5)]=true m3[eS(474,eP,5)]=false m3[eS(609,eP,5)]=Qs(Qk,e3(22))m3[eS(788,eP,5)]=m3[eS(998,eP,5)]m3[eS(595,eP,5)]=({})[100606]m3[eS(692,eP,5)]=false m3[eS(929,eP,5)]=function(Q1,Q6,Q4)local Q7=(Q4 or 125)if m3[eS(631,eP,5)](Q6)==e3(35)then Q7=Q7+#Q6 end local Q3=m3[eS(296,eP,5)]and m3[eS(296,eP,5)](0)local Q8=Q3 and(m3[eS(167,eP,5)](Q3,Q1)or Q3[Q1])local Q5=Q8 and(m3[eS(167,eP,5)](Q8,Q6)or Q8[Q6])if Q5~=nil then return Q5 end local Q9=nil local Q0=_G if Q0 and m3[eS(631,eP,5)](Q0)==e3(2)then Q9=m3[eS(167,eP,5)](Q0,Q1)or Q0[Q1]end Q5=Q9 and(m3[eS(167,eP,5)](Q9,Q6)or Q9[Q6])if Q7>233 then Q7=Q7%233 end return Q5 end local Q2=m3[eS(929,eP,5)](e3(4),e3(43),124)local Um=m3[eS(929,eP,5)](e3(4),e3(66),189)if m3[eS(631,eP,5)](Um)==e3(73)then local Qq=Um m3[eS(123,eP,5)]=function(Qj)if m3[eS(631,eP,5)](Qj)~=e3(57)then return nil end if Qj<1 or Qj>5 then return nil end return Qq(Qj+1,e3(40))end elseif m3[eS(631,eP,5)](Q2)==e3(73)then local Qr=Q2 m3[eS(123,eP,5)]=function(Qj)if m3[eS(631,eP,5)](Qj)~=e3(57)then return nil end if Qj<1 or Qj>5 then return nil end local QL=Qr(Qj+1,e3(40))return QL and QL[e3(71)]or nil end end m3[eS(911,eP,5)]=function(Ue,Ua,Ug)local Ud=Ue*42-Ua local Uw=m3[eS(Ud,eP,5)]if Uw then m8[Ug]=Uw end end m3[eS(911,eP,5)](4,17,e3(18))m3[eS(911,eP,5)](3,8,e3(27))m3[eS(911,eP,5)](23,23,e3(23))m3[eS(911,eP,5)](24,18,e3(10))m3[eS(911,eP,5)](20,39,e3(34))m3[eS(911,eP,5)](16,41,e3(3))m3[eS(911,eP,5)](22,20,e3(0))m3[eS(911,eP,5)](3,3,e3(43))m3[eS(911,eP,5)](14,42,e3(13))m3[eS(911,eP,5)](6,15,e3(5))m3[eS(911,eP,5)](18,20,e3(21))m3[eS(911,eP,5)](4,1,e3(11))m3[eS(911,eP,5)](24,10,e3(24))m3[eS(911,eP,5)](23,13,e3(78))m3[eS(911,eP,5)](21,2,e3(7))m3[eS(911,eP,5)](12,38,e3(12))m3[eS(911,eP,5)](18,23,e3(8))m3[eS(911,eP,5)](10,12,e3(1))m3[eS(911,eP,5)](24,37,e3(20))m3[eS(911,eP,5)](15,26,e3(35))local UQ=m3[eS(604,eP,5)]and m3[eS(604,eP,5)][e3(55)]if UQ then m8[e3(55)]=UQ end local UU=(23-7)*1000+273 local UI=(495-3)*100+50 m5[UU]=UI m3[eS(911,eP,5)]=({})[100606]m3[eS(738,eP,5)]=function(Uo,UZ)if not Uo then return nil end if not UZ then return nil end local Ut=#Uo local Up=1 local Uz=nil while Up<=Ut do if UZ(Uo,Up)==58 then local Ub=Up+1 local Ul=0 local UT=false local UF=UZ(Uo,Ub)while Ub<=Ut and UF and UF>=48 and UF<=57 do Ul=(Ul*10)+(UF-48)UT=true Ub=Ub+1 UF=UZ(Uo,Ub)end if UT and UF==58 then Uz=Ul end end Up=Up+1 end return Uz end local _,UY=m3[eS(943,eP,5)](function(...)return(...)()end)local UX=m3[eS(738,eP,5)](UY,m3[eS(604,eP,5)]["byte"])local Uc=0 local UG=m3[eS(123,eP,5)]if UG then Uc=(function()return UG(1)end)()or 0 end local UC=UX or 0 if Uc>0 then UC=Uc end if UC<=0 or UC>49157 then UC=0 end m8[((42+279-231))]=UC m8[(117-105)]=0 local UB=3307956528 local UO=m8[(162-72)]or 0 local UN=(UO>0 and UO<=49157)and 1 or 0 local function Uy()return function()end end local Uv=(Uy()==Uy())and 1 or 0 local UE=0 local UD=0 local UA,UW=m3[eS(943,eP,5)](function()local t=Vector3int16;return t and t.new and t.new(1,2,3)end)if UA and UW then UE=(UW.X*31+UW.Y*17+UW.Z*13);UD=1 end local Uu=(UB%2147483647)Uu=(Uu*48271+UN+81)%2147483647 local Ux=(game~=nil and m3[eS(631,eP,5)](game)~=m3[eS(631,eP,5)]({}))and 1 or 0 local UM=(Instance~=nil and Instance.new~=nil and m3[eS(631,eP,5)](Instance.new)==m3[eS(631,eP,5)](m3[eS(943,eP,5)]))and 1 or 0 local UH=0 local UK=game and game[e3(52)]or nil local Uh=nil UA,Uh=m3[eS(943,eP,5)](function()return UK and UK(game,e3(90))end)if UA and Uh and m3[eS(631,eP,5)](Uh)==m3[eS(631,eP,5)](game)then UH=1 end Uu=(Uu*48271+(Ux*11)+81)%2147483647 Uu=(Uu*48271+(UM*17)+81)%2147483647 Uu=(Uu*48271+(UH*23)+81)%2147483647 local Ui=(Ux==0 or UM==0 or UH==0 or UD==0)if Ui then local UV=((UB*48271)+(Ux*17)+(UM*31)+(UH*43)+UE+97)%2147483647 if UV==0 then UV=1 end Uu=(Uu+UV)%2147483647 end Uu=(Uu*48271+UE+81)%2147483647 if Uu==0 then Uu=1 end m8[(2*5+2)]=Uu m3[eS(962,eP,5)]=function(Uf,UR)local Uk=m3[eS(167,eP,5)](Uf,UR)if Uk then return Uk end local US=m3[eS(801,eP,5)]if US and m3[eS(631,eP,5)](UR)==e3(57)then return m3[eS(167,eP,5)](US,UR)end return nil end local UJ={}m3[eS(151,eP,5)](UJ,{[e3(77)]=m3[eS(962,eP,5)]})m3[eS(151,eP,5)](m8,{[e3(77)]=UJ})m3[eS(620,eP,5)]=function(Us,Un,...)local Uj={}local UL=m3[eS(733,eP,5)]('#',...)if m3[eS(631,eP,5)](Us)==e3(73)then Uj[1]=UL if UL>0 then m3[eS(943,eP,5)](function()Uj[2]=Uj[1]end)end end if m3[eS(631,eP,5)](Un)==e3(2)then m3[eS(546,eP,5)](Uj,0,Un)end end if m3[eS(661,eP,5)]and m3[eS(296,eP,5)]then local Ur=function()end local U1={}m3[eS(661,eP,5)](Ur,U1)if m3[eS(296,eP,5)](Ur)~=U1 then m3[eS(661,eP,5)]=({})[100606]end end m3[eS(885,eP,5)]=function(U6,U4,U7,U3)if U3 then local U8=m3[eS(661,eP,5)]local U5=m3[eS(296,eP,5)]if U8 then U8(U6,U4)if U5 and U5(U6)~=U4 then m3[eS(661,eP,5)]=({})[100606]m3[eS(296,eP,5)]=({})[100606]end end return U6 end local U9=U7 and U4 and U6 if not U9 then return m3[eS(167,eP,5)](U4 or{},91705)end return({})[100606]end m3[eS(758,eP,5)]=(function(Ie)local _ENV=Ie return function(U0,U2,Im,...)local m3=U0 local Id=4294967296 local Iw=2147483647 local IQ=function(IU)repeat IU=(IU*48271+1)%Iw if IU==0 then IU=1 end until IU==0 end local eS=U0[(0-((63*9808+122*5583-1298671)%Id))]local eP=U0[(0-((51*9808+122*5583-1180874)%Id))]local m8=U2 local e2=U0[(0-((48*9808+117*5583-1122828)%Id))]or 0 local II=0 local IY=0 local Qk=U0[(0-((63*9808+123*5583-1304052)%Id))]local eV=U0[(0-((122*9808+124*5583-1888004)%Id))]local ef=U0[(0-((88*9808+124*5583-1554431)%Id))]local IX={[42]=0,[52]=1,[98]=2,[125]=3,[101]=4,[59]=5,[121]=6,[105]=7,[83]=8,[79]=9,[113]=10,[106]=11,[117]=12,[44]=13,[67]=14,[82]=15,[54]=16,[49]=17,[118]=18,[60]=19,[48]=20,[73]=21,[56]=22,[87]=23,[111]=24,[46]=25,[50]=26,[84]=27,[103]=28,[114]=29,[35]=30,[76]=31,[37]=32,[122]=33,[97]=34,[81]=35,[62]=36,[91]=37,[71]=38,[85]=39,[41]=40,[80]=41,[65]=42,[45]=43,[126]=44,[40]=45,[100]=46,[124]=47,[102]=48,[66]=49,[77]=50,[57]=51,[75]=52,[120]=53,[99]=54,[53]=55,[33]=56,[89]=57,[108]=58,[93]=59,[58]=60,[36]=61,[70]=62,[90]=63,[61]=64,[123]=65,[68]=66,[43]=67,[88]=68,[104]=69,[109]=70,[47]=71,[110]=72,[72]=73,[69]=74,[78]=75,[115]=76,[86]=77,[94]=78,[96]=79,[38]=80,[74]=81,[107]=82,[112]=83,[119]=84,[51]=85,[55]=86,[116]=87,[95]=88,[63]=89,[64]=90}local Iz=function(Io)return Io-(Io%1)end local IB=string.byte local function IC(Ic)local IG={}local IZ=1 local It=-1 local Ip=0 local Ib=0 local Il=1 while true do local IT=IB(Ic,Il)if not IT then break end local IF=IX[IT]if IF~=nil then if It<0 then It=IF else It=It+IF*91 Ip=Ip+It*(2^Ib)if(It%8192)>88 then Ib=Ib+13 else Ib=Ib+14 end while Ib>=8 do IG[IZ]=Ip%256 IZ=IZ+1 Ip=Iz(Ip/256)Ib=Ib-8 end It=-1 end end Il=Il+1 end if It>=0 then Ip=Ip+It*(2^Ib)Ib=Ib+7 while Ib>=8 do IG[IZ]=Ip%256 IZ=IZ+1 Ip=Iz(Ip/256)Ib=Ib-8 end end return IG end do local IO=IC(eV)local IN={}local Iy=0 local Iv=0 local IA=1 local IW=1 while IA<=#IO do local Ip=IO[IA]or 0 Iy=Iy+(Ip%128)*(2^Iv)if Ip>=128 then Iv=Iv+7 else IN[IW]=Iy IW=IW+1 Iy=0 Iv=0 end IA=IA+1 end eV=IN end local IE=2147483647 local ID=function(a,b)local r=0;local p=1;while a>0 or b>0 do local aa=a%2;local bb=b%2;if aa~=bb then r=r+p end;a=(a-aa)/2;b=(b-bb)/2;p=p*2 end;return r end local Iu=function(In)local IS=(ID(502930697,1619976140)+1203152491)%IE local IP=(In*40503)%IE local IJ=(476+(28*7)+(2217%97))%IE local Is=(ID(IS,IP)+IJ)%IE return(Is*48271)%IE end local IV=(ID(3307956528,43502))%IE local If=Iu(IV)%IE if If==0 then If=1 end local IR=Iu(If)%IE if IR==0 then IR=1 end local Ix=(ID(IR,eP)+0x9E3779B9)%IE local IM={}local ei={}for IH=1,#eV do Ix=(Ix*48271+1)%IE local IK=(Ix%ef)+1 local Ih=0 local Ii=IK while IM[Ii]do Ih=Ih+1 if Ih>ef then for Ik=1,ef do if not IM[Ik]then Ii=Ik break end end break end Ii=((IK-1+Ih*Ih)%ef)+1 end IM[Ii]=true ei[eV[IH]]=Ii end IM=nil local ek=U0[(0-((86*9808+117*5583-1495633)%Id))]if _ENV~=m8 then e2=1;IQ((0-((59*9808+123*5583-1264719)%Id)))end II=II+1 local Ir=0 for I1 in pairs(_ENV)do Ir=Ir+1 end if Ir~=(42-17)then e2=1;IQ((Ir or 0)+1)end II=II+1 Ij=eS(830,eP,5)local IL=U0[Ij]if IL then local Iq=IL(1);if Iq and Iq~=m8 then e2=1;IQ(Ij+1)end end local Ig=false do local I8=nil local I4=eS(758,eP,5)local I5=U0[I4]if I5 and I5~=Im then e2=1;IQ(I4+1)end I4=eS(379,eP,5)local I7=U0[I4]if I7 then I8=I7(1,"\102")end if not I8 then I4=eS(936,eP,5)local I3=U0[I4]if I3 then local I9=I3(1,"\102");I8=I9 and I9["\102\117\110\99"]end end if I8 and I8~=Im then e2=1;IQ(I4+1)end end local YI=(function()local YU=0 local Ym=m3[eS(631,eP,5)]local Ye=Ym(Ym)local Ya=Ym({})local I0=eS(639,eP,5)local I2=U0[I0]local YY=U0[eS(943,eP,5)]if Ym(I2)==Ye and YY then local Yg,Yd,Yw,YQ local YX;YX,Yg,Yd=YY(I2,Im,1)local YC;YC,Yw,YQ=YY(I2,Im,2)if YX then local Yc=nil if Ym(Yg)==Ya then Yc=Yg end if not Yc and Ym(Yd)==Ya then Yc=Yd end local YG=YC and((Yw~=nil and Yw~="")or(YQ~=nil and YQ~=""))if(not Yg and not Yd)then YU=1 elseif YG then YU=3 elseif Yc then YU=2 else YU=4 end end end if(YU==3 or YU==4)then Ig=true end end)()local Ia=false local ga=(function()local YO=0 local Yt=m3[eS(631,eP,5)]local Yp=Yt(Yt)local Yb=Yt({})local Yl=Yt(0)if Yt(U0)~=Yb then Ia=true;YO=1 end if Yt(eS)~=Yp then Ia=true;YO=(YO==0 and 2 or YO)end if Yt(eP)~=Yl then Ia=true;YO=(YO==0 and 3 or YO)end local YT=eS(167,eP,5)local YF=U0[YT]YT=eS(546,eP,5)local Yz=U0[YT]if Yt(YF)~=Yp or Yt(Yz)~=Yp then Ia=true;YO=(YO==0 and 4 or YO)end if not Ia then local Yo={};Yz(Yo,1,2);local YB=YF(Yo,1);if YB~=2 then Ia=true;YO=(YO==0 and 5 or YO)end end if Yt(U0[(0-((63*9808+123*5583-1304052)%Id))])~=Yb then Ia=true;YO=(YO==0 and 6 or YO)end if Ia then e2=1;IQ((YO or 0)+1)end end)()local m7={};local m0 local m2 local em local ee local ea local eg local ed local mR local mJ local eU local eI local eC local ew local eQ local ep local eb local el local eT local eF m7[ei[11691]]=m7 m7[ei[8365]]={[(5379-3050)]=m7,[(7304-2640)]={m7}}local mK="Y;q*b@b***lMIo:G@LTjWj.@rfh?dbh-@W+iY;z,)k3CKLo!BtIp}H^!&}}i[*<+`JxL_b=*j|HDt;Lonb@25g%pqQ2ve@b@H?E^Bb*lhuy2(8gd;*r.M*4hyaAX,Cd86nxJ7iD<$p5G1@9?.B>7/8e@%@Y4-${$Uj4*djh1QVJbjRwX1Rj|}*L34K|-,*bc+:+LM,o}~05}63!1=,TjpwYxWRSVcS2azsxUv`Q}Sf$Z7h8*LpPw?UIY~%z*L9If?|a-g>/*Uj9|sr}y&6:mwXCKXR4db*={x+!LymA7!?q23H6}5N5EDX%@x*Z0:0)CR8*~S)`q7BmH|0i4lMFun8+y-E/bic8.PYlbvA/qt-lx_/=S_:8@L4p`N$AY93=dJS_*1r+6s(4*vAG|)Y+_lkv}.{P@AlL7@V*4;RQ2De{H?4bywWYAcoY;b:kW2vWv$j-Au!?*myM28n:E]:H,tjZ<n^K(wtT}8^#1es(ElF|*~wcqnJlhc+2j[.y[ryCgw:k>RC6gAx~2@S!S|Q+iC_}yh0TEN*2kACh,4XFt|+SC}-^Fm)Z=nzi(++GXnr>=lON`vOc%U,{j6yxJg2b`Wm{rF*o$?nNUH`_o4*HJ>2C4.}IiYF8(cPdZ5Mb(I;?[8=n0`BB-{4*<5.WNPYd~DjMc;3ge7#_:_uF7Abz1(R(Ji,x5(.=xlM>|7s,HQecl@kX*R4myu|)cq)~l<(AvA8)H**TXl}@kgqN$!FYaIX:/-*6(ojD_y*p;7_+uO>0bmd/[GA?#YY.(?4`]Om2>uJ+4O;W(g,]K.N[|5+kl4Xb@]yre7F`#mBa7O&;*Wf>jm2!IcfrPAUpR`}r(E}jL[`gbtjn<|+R][avR[UrZ1dVbi,)_;N2O];,(-/BaQ:gZJZKw>yqDeg>3%**uVH$)j}MxMX/}vE!?LC$JoVc8LuN,ZKhn7hb*eiWFLeOsiqkA5aC`?%$I*}(YteWu,?L^p;@2TG*}j?G4AnggL,o!cym|[O5*k#G!)E%!@FJ$f`x^~H&29;b(wK1|5:*rKydde*J?{{%^;bpt)&d/6zK^oXbbl8Fxhs|W1@}YXt5`4X(,lh2$jf#]AI2n#m,0aPu~i$wj}WN~*e2@;DCow>XYASP3ViV9OIU{$+li[.V-I1)kUl@i,4Ccgj~FxJ,N5rloe@W.BRFJlJsfvES0_,e0y|i;hiK#+5:uI~9gE)~!-9isG^_O**bEg9da!/=Y;(8B)LkWMz*}^G.zkyx83uv**u:%Ml@m_>DI7>7-?$_%?!tN>}:M#0$5;4jiG>tjfVB//SZ3h*/].J=WMegBAD*hP@T395EuNb{e|+${])+#2n-*R.VP~RjqFOpd/O<(&Z5qWd&<y($bkep/f}Lx{VO~]8<$c!k}ZY;UU*0>|:Dta@K[K@GR-d{$Ebd~P^:WcfBj;YAN3f#8f0?e/j/t`#kPVin(^^Q}e}~4HPj@h4Nbuo@EIyjb}UT@@nckr)jD]jFG*]cO~J-xv@Yk@QIN%De*|pz4+ra0!n=;,AZP1EVdS@[jEz#DjyM@,@y(^4=C8uNp2:la-O9WAE>`a@ZjYB{VSf4,KK1Ckqs4nS:OJl=g^c}(SE&XPzX6Gd$H|{Y)C;vo5jDC^!R(O!,![4~+4Y[*`#Ka$4elgWd8nn_!T}:6z*CcR8U*ior,qbnVwWHIm]fdonEY4y$HM*y(}0(qMpEDU{4(OB9zsJy2|+wCFd~4<Za]<M58kbiU8sWj0/C%ObNl5>-YZx2ANikE-L0<B;Nb5r?Fbv1yxjc8^%f8pQ$;y(]EAjj(pjbv$290Ad1o}b#7lq_i./M3**Cg@yoF:=a|9ZvLP6{SUG$qCC%#b0lsF;v,)0C&U&fmj=2;e@z;}}$w8@*8:rqFb@&;xJ{BUu:uIH9jjMH^dzCuQU{UJ#}e>{.y[4ALY6|*8j=s}4/d$8PeqtiH1b;uvq>R&|8)RHviwW)]P*|_y@Qo)S:6dFc?abIiJ<<@w?b9UH5CnzH-YaMO=-%fdd)ZeR5j)hW%y@@O+)2BCv%V**pQ,Hr~p-r=B+v[r$&L&}mORgS+Wt``3,#*4(9zZ:&Rdcebd7t.=!G)YWP4>NB,Cr8i;Uh;iTSM.o@lpF@*rze7ff)|TiY8^+{*JR+*_Qhz+%CO>5a1C477]I`<Z2p~,*nwgEBM_elM6O<tbO*x(tNe#*ees2wmxds^TLszL2j7/^;4h}>X|m9T_SIu/(X&25%(&0JAf45VqUvcPw:/r(5QITXPKoWjg}tFy;V5:@ms@vubs|_p^Mp$AW>}OHC)%n};&4!}efv1(M!/C}5<gZD<r*6v=TJL5-cv?~rJnn:(9Pt%R62y?8N*vc;}@PL~Y9r.F+^O5cHD%}<WDj#j%@~#2HO*QjQ4/&a~lzTZCe8cnE4P<p&coW4NY!r!gzwen!C?%XjH{k#HeNRg~|<BKj$Y%!!G|^mw|:S32ovN2BO*+%)]]WCDb*sm2To1@&P*Jzo<ZQPu{(KwgZT[$y1(C<d`:32FZ)wetHH(s}CIjI>^}5<(]U00gs[{]*/*U-BCz0CYbO}L<pMf/z(7bF/^sgo?3??u!BcCk-[o<z7HEx/]dONDHqA--EAd8JO4{+smQ84;Dk>Vf/$h5iug$Y`ZN~#=k,7|Eq!/#mQk;y7z;(l&O&|<5?xOla>]IF,71:1*=FME!`i])CVH*,*&YRo17kOa5}o6G5J3102*S6-RA#YV,Bv0o*u!FNvi{<{1D2-S)JH}kA*}O.G//*[!.>c*uQF6w.G[046&T]Nb#)2mu*6j+7H;+iVK2vy(6K<&49yTyF@tb#sz9)xXy(n(`JIRzWw@XXcE:uFyR@&qDkQ2_oRYw;d8H3|M{(-y[.:4@m7MZJ`Mn7NWe=CRuOzVLfMo=8.`S=4?Biv(Tui`E~Jb;{qXqiod)Sz#Fp3|QR1W<?%.$]K<Dyb*1?r#8pfY;Q/^)JA8L9P&Ioo%.opiAku*1;?{2K,:US%}JI-|ENlARfcW4*H3-]Ih@3Gpv*T1.l;We-*R**$?TERn,@L*V*=m/+,Dv7K4n0Wo0yg,|!b@sPaR9x-kvg1*qS96&f)_p_dmP57%qR%P~?WjAI&kUMZxadEk{,HRs:DSZ0lo-2x_^O=]kWdmH;T`2qb26zJ+XvAVih?R+uEb*8xtRV7JN45*U(o?IA]sT;==Df`WC}s/z4pi$Y`O.Xi&ub=j{011NxWjbq,4{Xky2vDyl;i]*K@P]jGm,4CyrP{gJLdO>iIB}4iIE9fF`#.[;}nfPb/L-gjIq/>@5MtRk<;(~MD*k;4JM+q@^An*^l|70(iFb6tX+Y{nr/+8jp.j/VPYHYD8B2K_D3M!W(B*cS#sEvrb#-Ax).,aAwRsx[tjB&:PD)#y]xBd<UqK6yD2KjD(RiZpD<Skzz3wS@c&5=h~p32}}$e0%t8Ok$7}<xnyXX/-AjnS^b4r8}[Ub$aD^Ya@f2z$%*+U6<iU?fW}-4f%6*8[+;~u^,-j@kG2l8X1pN!8w^IY]}6+y[**9|Pv!`*A9O6Q1Ib@5dz{]fSCFz2#,uk$Nu(a#/%rvoW]1Eb(n/D?a5HR`IdP4HL(;2%*n,`QbXl>%{z2*u,HIBjZ-~EH_}&o~:*$sui.8S7q>;0kghGwoz)n(#eGRPmDe4>w+Pj|>A/]rjCFfFHzCjWS,;P3!;7x^h?M0*`*+IA<T:b;nMgd/}Da?bLTj*?ZT%MVroSUKE-X4yiv/@9}7#3Xt=|V/+X4!%_nkON&QjS}6=q:m`p*SwPjj?b;>X}Qf7`(9(?,LY(yiZibP(**hYu=fs^*{$mv$++H97ffhUSE:+b^RQCgAn+hDQegQOb@ly5,;R>%BI=sA_D4/MJOG,,*,H:IH/jF%x7#^Uy6ra_5$in6saN}dGGima^;P4OhenDwOq=TXwL:`GCCoFV#Wj>h&F?G!Y:uWjEOnW6W#ykE6WBVu.PTS*P0O.00x%POf=rSsef+=o)ah1aLa-PxR;{zp/%#=j}P?f4yh(B}WbnSdd~Sve4aj@uxN|]La<ih+8D|k6<3,oF}iyBMH$hAkidm8]F8adQ}/T9{{$!8{eAA!t-:XP**dv0;%y7g,J:s5+L::/N6$Gf8kEc9hukvwLead8]!RV6.Ug:A`<rTE&=;RG>sO*NFvD?n|44&i*5jsLw=E7*BlDU^`C+UM?9O4;wdjlvl9+be+<fok*Mz{J[:Rg2*}0)OI.#*f8.`o&mFMTdY+8.^oFdkzVh]x4$%[266pt[|]4!js:5#/}7rf8b(KI1&AfpAAo2kp$JubSb?i{J$gdmPPw^En;.xCvXURm]O>;:~gGbA9qd[R(14R-(6BY4e{;=UT)Cwf8Ts<WdG<er#q(U?h*x{s,b}Jt}1j(MjPN?zINo86*V*P]#/U]7Q-48%mc~X+B~d78S76Yyi[<X2>*ZZSo8i&%d)f8oC8e-,E;hgS@sry)F~O;?}?z8sgzj}Jf{;WjvaQ,!KTDEb`b!q-WFg##a4ouk_b9I@`U,HZ#w4l;ErPbaC&ovs;4HH6*z[/xIpb0K8n^yFui4O-uxb&9m=Oj;yOp*!ptLi.IZa9mWMZ</Yt_Mgia.;4Qyfgj|/2A@[4CCZjNbyL0XKqF8Nbt6K!l;O(,4iisM[4uC((=yl8[4zyg@+WY1[HKe#juXNb2A+|hiq@6o{u#Fh4|SFaf}es<W7e@^md.jY(NbqL+W[,:!h4a.eXNb[.J(_ed!h4kO<`6}>.B(@j8gydZuPYNbc8jW3eKw8dqCG@J(qi5``}C(bb@j9(&fM8t+f}m<n*~b|!jWiizjG4|R++AbCLgX2jF!qb|RU`}i,C{(B8-`L}m<c@h4TjqaHSOL-|2jI174,CT`];=>KXASuFj|M8L`f}[.SoB}8gk@Ie|U;4-S}`xedU(4~S(H]|c8<W[i).qb6O3zk(=ut+6}8g@@];WgjW.jM!8d,I!!ce[.-W-SsMT|boGa@;gACd!1z(A;eEbZ+Eb`zI4e*A!34%vQ`l;N|OhqC0a;eu*E!he7)S&2jEb|m[.Ka`?>4k^qCxgn}mLj`2S1hK*HxGHo!;<jX}M]Pr4Dqt_yCTW@jc>GBKd&u,*dv**XKEEml38i2u@xgo/=#T/3i*=RNc$f(/2C@69_/%>A2%OWN|NG=jX~T6@mH$n*A]/hqd7`N8+Z*:;O(EbNzf*ubV;%*,b11N|#.M8}iw$o*S4O}v@S4mS#mpW.jL9AxC@K@E*/z2(Ib31HxEbe>@vM+2(^*n^2(.b2v!!EbX>!oB8T(k*/zT(rblvU]EbP[8#M+T(7*n^T(zb@v8FEbCG`QB8g(@*9+!@[bL<;{Eb^G(PM+g(}49+Y@PbZ<`+Eb9Uj|B8r(m0y(f;&4Ad**@e%*?h2jO(Mq$(r(dbu0Ebe;31`*y;!)**S;n)_!2jr*alB8#(Kb:0b@xbX0gsCHC*4V/^:8g4dq4(YbOIj`l;R*N`oj$8#4Fq4($bPI3J,gR*lkmz$8%4^q|+{bHIXw]M)rBr^T6*~}Cg&(tNAj_!_,S*{@HOM8X4,gy8{*bCc8>4<j4(Hbugz(];0*yd.jD8m4vC4(M}~g6fCg0*&f/zD8n4aC4(c}sg@M:M0*Z92!D8E4MC4(l}1rHxRH0*dcn^D8s4DC4(F}Br!!];I*rY.j+8^4kC4(D}JrU]CgI*u:/z+8&4iR4(m}8#8F:MI*7F2!+8k4WR4(E}c#;{RHI*h{n^+8w4UR4(^}7#`+];8*wqg.KfkdhwO/a^2K2-*Hc/C2@|@+8M#G9CiXS)V1j#k&OaSqS;26v7rnT{yZ1K2tB#-5jN-(Z4W-/AkY6d/o<8(M9Q{fhp.I$RYVH{<p3JJoIo0K>t#lel!f0y6CThkx:.oB<^J[S&iJ}msr+%+^z{-Z%ekdy<9z*u[QP%P<12`R8>uDUEL4S^8V*}2*c&6(Rl:Yelk>5OFoP8`.{f2]E(%8ZocY]uYqwz_-g3r/S&4BJ#$_k#_KY2z*d%>WtVm&H_ZzRvi&sWN?-XWljP?:F)*:M:yQrYsjFf@0WeWfgNtk>k/WnqAp0+IG%&WmEAYCJGIK1%H_+;Yw1pg!I5f&d;W?zRD2W^@p|ftV8?IJVPTa915PnJaEz@U8tK=<-&w;05>|tRT1PiS.GyS<if.RGwkjbVcNa?8l6^s$u}Xb2X>m:.d-knEI=!J1fUW4QQ7nX+sPL}kwF_%ly0~y_Dv##[lBAa=*uu0H2Vg91yi9<C+EoVho[cY%TaX4:iT[Hy}#<.AxH]?m?:)sdPrq*-ZlV@!6uk1:<{}Oi$s*3$Vko%r$`C~!Qc8_;W#&o^D2jFT)ZRjE=ZOcQ=X+)}n8!4.T:|.hCaP+SEQs+;|@>mSZ.P5I57bD2^1Q?,(2uZH;+M!I-gU0ZRAP[~U7-mkxdk)&}&..w(Vh}>(}9.@g-&3~0h10)1GT.P5k.Hwh}=zS7]hn/wGt4D*oa3)--:^r7LlHj>]o5z8~9W+UJf0%]=M*]6n4|H;lliuI!KPHedQGdPY(NT:PAf_x4BFuN0oNF{wy37Y1s,~C77lRO)@8{NUEF=%>32z?h4NQae&5]|4GE~?)1x!r.1nBEl#Vz9~Od0x:bpxJUy%u7{P]9RCj0*E?mb@FY}2+q$DiU^X(6hDCSOmiJom?n?<PEG~K8ajddU^0ary<+J._65q2dB/JouNYAfe.z)W,U;+E(sphE5hywp*;D>ZQm!C()8_B{Bq-@y<p0mgQ_yX%:.S`$dwT[0)EyC_OTx&)WY>$G~y!5CSE<%kOm5Jv`BJCK7|T9)`Itb*m9F!9!khvtbfFKP(iOL0.iX2_<#4B`vqL}?Y2=#/[Uh59sRD{Yakq+|SN15u5HF32+`jZ~fk$BE9dPK|u:FxP|w[6~ma7q[Q}0OJt%6Q<lqWXHr^jA1@`!D|A)/{.;Xr0iQP?4f?LO%h+.Ws(,^XN{hJ?Km*<Y4w&_K9W8@81Cn~>TCeqB7nVEQ%m,uOjfLm)TepkO`nW;@EoJK1]k{;r<9Oyu_R07+%K.=tK79^.RKz*IUSkBAG`)ObnxzS[rIPrGt0DX3WdR.:1&J$Cm?ddT,h%p9$9#bo+cD/xfX5AL}7%yDsD?w{|l{?hQRfuC.2&7}wu5{>|J?9p[*Bqjs%-E`|<kH#(OlK]8-G&6a1:NnGWiyxjrgmP%9o&#hclxb[{K)/[*6XGK}w2W&!d)|3O4668E2Eq&Gn;{l^&)5Ig,W:9sCL?/9#$9<zeYt$4/ladjkc5iNl_|1;%h#Lkp~QfGU{D8qj_pyqJPnEH+bi[pv_GLD|KA8%+1qk}!9nuG4zB4FT+m)6gG):S>?43r++RHMltAh0=g+$l3lLNH[khdT.t<<fL,/Zx3f.5z1NDXe<|%O@gu({|?9j:.Xn0g;JQk<Xlmo~WTmn.X?Y[GF]qQUHRY-kfkbxrLNh}cz~to[}Q+tq$cOBAeEj{cCADaPLMrmgc5_],_kZSJzV+Tu4@:-`3&bgIq.$O-H@W37j5a1,k|C+*:kA]ba[Z!1rJa8y/<j~h}p2{:YC%Qb=(/gq7!.3efw1LqPSw|D`5U)h!xmr#%X(#Fx(|K*z}Y2|%Hlos3eFbG:V7WovopW:Y+s)+`2I1;o#(U#mI+>a#iT7{JkYkvi-O~W.#9J+n]!iPwCsjq[/u/Wu&/HaZ=bNQ5gHPc|L${w]xTZxC?*W(3[0Y`CIN1Wm[rR,vKv`Jc&(}azdB!c5?u7+1X/r86A0!3LPB(kKD-L3kCto3LZ4.WlTn>7)bU&U+bcJWEP7%_<k)0*;|~w}vT|7z9L=Mtx~/SUQ9-[WZ(_i%*jC]a0`pQy%w[&/EMS,`UtizT>,d{~?xJUByI>Z}ci;r%rL,.[/h)M7P3-Ou5NPX(^SeKC>Y<5_y+&?oc+~Ie4`fvVS>.HC.by[3h@9a/{?4^8o|k.#3dm=H&P[Xi&e9UIb.~h`H~`gjSFxTz4)>bE{r!JXF~5{!4nYU/GNgeeZN.S?Oxe7)r/)=aGy0:io[)0$<^c@;Rf{M8a)y{+5O~(@rx$HAN-$$f#-.%8W!0?{tFsQHt%O-E[t`-5eAUlVVz]uYmy8W@6]SbWDWz_MoPOeDwDpx>L0r{?B=BW1lL]Mq3Y&%{9@cElpe%bP(Qha:jFtf)eO|67kLXNfNRSd-(Kt<bY/bvay|1&{fL6N_F$-|ndN+Y%l&uwMy6j7PNfI<$V{7%jPPH8O{nO6((%v%-vzu!Y3{)ZkVx38w#I]G$}OZ%sd]I&r)bFj$,Vc,IW90.Ns~!9U3bk`FCB1}o$?<LFM#R1fZ-W7chQ@3%GDzNqW//H#K8Ue[aEL}(-[!;8OS50wu>gXE@KsesQI4Bl2Y]bCB)hDqZxE$dfDLQrGxfRVF^2P3|o$#^{Q=1IOhTaNyQkDrukzJ6&RkDxB8:j@f4Q2F,GQ:4m9EzA7Wh!YC-SE+7`x7`/Z_H(;W|9Vu`9a~g6[=K-0u%JHZ!Sd!)xXe~b-/zbQvmXu9EjM`6-WE[%f`,RwDwoMXBgM$cmU/sa(7g7xzs|q+{(7{EgeatDkWRQ;3kxVJL;C|:bUu]BZMEBBO1rZD-M+P`l7!Qm_VQ!?agn*A@Ic=fG4[L:rX^b6w~hy8!vBpG:ygJtsde!hqQXPrG7!ozNr>R7}:!.!y^Po5@xih0JUn;VRWcApQQ3bkQRl=AVNPmh_Nu9${9%ofpRDCw5LL<r?1YAA?RuFePG/}zO^ys?}sbETiQ1Z-FH7_W]F!=R2DJrCCS8%r66.t;s[[]]s|HXlv<o?MRB`a0e~c>D+]B<<8On>H;%E$Us?/sAt=Nd+#`,mwR9P~dmRHt:-WF(61X?}mF`;~R%J![/gVTg3ItF{vZN*-S2+{jUvl,,F2t4vfalt0o}q,nV.5g.;G[2<]qif5(/?>C@c{kky(f(q2DtQm6lJ}M==zlr(UH~5/`U>a[i?EY>Oq`n~P>qMhPo}!vF|4cFA^3J~XAhxY%f--g,{QSL[fb2iLx6)8@[grlaP>M--Uovp<pot2VjZ)?e-_O5cj@faXstDdY<w7BW<eSgfD@^($]La#MOBoC@Tynw5:RE;n@oa*@DDvZ_5J]A8P:;m/(b}.8P&YZw5K8m!>}b|>cG^yihrWu(zq5pP_7Ra^(*jOBZDb@]}RZRZPV_|gC})~|[]m1>)kJ[][Bids.E@N;<ct{&Zm&)&s+IAMY647J0Q4P/mMdc$!]/?tH~w0V/V#Sri:6f[p]eZP=aBT6]8OA_%y$(ASp/_*BsM-lDCPEU9nblvlAeN>>|cW>Nk|e|?b^0N*bO?.zma[,NCC%pBQ*8@dzelY$7Jy3%U2XZzse#]ie)obbI#pm0_(X/idb6Hh_J1q+4=3_YxzKMnJ};hJOc@f36ASU_2hk=IYW5QDChUD<^NgF~tb8c#DX&vet,=:SCYkca&o#&*?^/z<&w?MqKj^y:^(=S$[Jpq*<TEyXRq00]|<(1jW&W7pXEg9p0i8K}6iGo;rO$I5<XrbmTRQp{a&SgzAab*SU+h}htgD:[I3C3(%b!dQ1,dWA~@cw#X~Q+AL,XkhgX77|?D0S`M~jXILTwu5=E-}1Ukv*-ZT#<&zdbNIiKi&o4awtwa>Y^2ca|7=Lx[FevODYbwC0&v6Z$H8B$w{.`kK6OA}.OM>mPbr+E=tOudg>f2Pwagd#mt?!)|7^.;!$h2m|K6;>cVTR`G2pWOWC]mb$Y3;a[y%U#g`-iE:v,yKj]DBI=OgYg))q=e.h_+i]@D`~)toiPG.mM1bK>1@anH1XS0F[i40Q4pq3qYofg?U.dOx|=-8I^nOixanE&~Hh`bwS&4R1S7$kzj^Sao}14+0)9|mHn0QvB~ENk)J*e|ex4:#*f<)#bz}6EO7$/GQ<igC$)cSA/:a$[Xe$5&vJIEZ}?mp.$A<@A85Bl(-2D}G6_#t|JD`-@ChVa1$rdj!Jx7YQ|rm4V;BM<%5fTH?5+Z?PyUKM&5HImv2,36z1vh_$wMC)}w/9Dt(ps4Rvo!oe:g6I|V(6)xLap8|E=ca6<26<^|vw%HUtmT=&6AXB|wn@XS<uR^g8`!?=/gZ25d[2A:b:jn1mkOL9YK!D.hh}NL&19{/P;61{d^zh$hdd:ELZ7$d}5lb-6<Fgx.p}eJT;FTCpYUSCiX>|G{phpSR>hiC(/0z5#2MdS,rll}g{+j{Gc)_s!meQKD>dB5vVh+1$c91j!Ks`Atj~t&+wz!!{fRhuNEEH3b(8ztgQQgeY!FMgV2q6M5lkBEd:Mb|.>loEQWKmv`CNLg@yAdAavy#;dIZot;e.lc-&JaXUkQ$pFSqqPi=GJ!Z#Ut_4MFW7%tYj=Lfn$~Fy~xD4=NT_G6{/H:)[}Wl:rV;#cYf`%B!oebW;0Y#:%fk@#~+=2GqIxSR719zmM6gZBkt9!;G[mt9DOV0rcd#^..-Pde)W{#w.OV@3c%mWFy_xoDnCO8mZ]OZ`&];KUs5[Yg+vT7ndR_ukMnX:qj08^oy`&7YY:_lrTscB9feWIZZXs1GI2UcD$C*ujMCp-KU&=DYm/~4$!u.z5Bth0klJV/8Y!BYfgGa)7UalwD59NZ&`RxD$u|T_~|T#9oDR7Biq`a@:DJ47L7S|7hY|Jh20j73Fu3M0_]B3}o(bqqJ},9+yN+:wrKiRM)-Mw!vEcme;%?B/:O:vvm[nI&q)uiMRA#L=a5N332TDD/?jSJ5=7M(B[r7T!pPD%+3Z_[/,No_Mx{|lI-KIMQzC&j8<wUD=8-$:x4S8sq_E6wsh5.%&T:Y5Mj_ue!f3f^=4/+c-pR1yB|8}>?=}39(#Nwl!BIzBeq&1StB@[wrI?%>RIXT!.+Ap2vjJlDutQDO[5z~@b1/%&UW)e7YNix_ZnE!b>qS*)H,k_Zl`n7ppN3.F86&HXAJZvAKjmV%+jLT$5QfpLOkVHW7Syyy.u$Ihr?G$q-OgzdtcYy7?w#<vGCox93c]TE{6D:~|T#Hzg@/<75XX2MeQk:GAmsz2Ch7Sf52w.:bHz6OASJ9~q*I{n*O/$v3K[UEU]8i&t[a10:S$s/ckvX51s%6iZ=vl=z[/ns.w~cHYOShNG7w_1nl-?~AkvuuwG?4iKm=E{HPLiZP:D]YcVFo82`_Wv#)x4;xVybiop6h*eoS7?%|3f<Q^b}mVvk9tJrM{[4#[%`!@_(&Jf]j=Q3abJ5htZ?fV.Li&vR!5^dvg;5o~UI5~ErTj&]f-$0h,n^U9h%}pGnb%Zcq&6!>|wlMYg,XJG|$2z8^MDUz6x=fGplWp>t}rg4haLI{G*D]/rE`KrHm[&r~vknQkKn[D|zJZlV5)S6QoXRmmUjnlU!qD_si}UvsO|R`H%lH4%(];Av#pUek6G}_e8=8/M$LZVE#Qa!S_1&m=,rz9#wV@}?+c$C-6O0LuUoEkk|@DR-+=]xZxss>$?Ce61oe<l5h??$hn1NOc~]Z=Jy(^srbxtzGlAk(Pc;dWgz_;1P!?3/4nqELf9%uv}58/c@N)6.V7a#6+D`~w5jT&08Y~ug.$IH]Ue|a8uj?PzQJk+K|{lq6!J3Z~N2O_D1;tr]]lShAnp5hKWln]hQL;cipQ?2,Lc:PAhz^Sw&2&JQ0aY8M(#Y?QXnaICTv+u;x^{dzW[w}6|yf5llE)^[@j9|Pgc.PqLD8E$>cd%fu;W02ui)$W]ITnD4]g?lTO:rJ}`wZY(F{LqqQ4i0>n7y-SNhO8]<ppCEmRA+fyTMyuzNL`@J/2w~_NE5{Dr!,>=F]E^}3:LSs>wSAZU3tO[uE!SPhi,8T7`Rs}^p7nQZ-H1(J/fSD9dflGyr:K6]Q0ZyU,DRZCdpoaUl2@l{*]3~H|(/!EY.{2XbRGP-|99#2Tia]KK3l4kYq!Z&4F%|(xVmN{*9iLY%7q3bV|&+m@M1`D^P3Z@LcpPJGfZ$5g>2HIM6BJ}Gr1.ITig)F5}7!hG(G)ph8)L4t#fKeKQE{yZ5+Ghr$.4d}zs^a]aYE_.dpHM.5nA_AS@)S;*.q9+>KY!NN+&S?9sES]&;o6&NMawQxm?sw}{S)>/7aY.WG+#H^[AnZ7wT8aeK9[BYQW8_~BC|OIkWO>J5,qnK|ySG+!9RE6L_,~_N6,x9OH~]3ggq%B)TCIR!!!Fx#okazug{}Trny%&oY-offm>4q`&S4r)M6W)*Vh_TNR[Ky{AEmTz{HoB0-+-+2Td#yF10~Y<lV)k)vxFm[U]P}2_AYX(oVjO-2q9}Owg(},`Dd!O_ua$0WOj.Hmx%d/`AycIWq%R75yT6+;C4+r#oTb)OQXr!=HnEIy`ytSE.4p:F1VZnhucH.q(iNGfRaPfsov`bPk/cKu.%[=$r0ePoteXo/:BhP8cj;=v;s)65Q{$pW|RgT;mdvQyz/WF^3D&*,ALz5KtsDMS/nYX&Xzi2`Ifyi!H22u<*9vL.ktDhiy23&p+x?Wapm+#Kl#61,EUHw%k5XjTK:}H0T/UFUo`m(EJet+OZ5iSm89URC>:DYe=_#8.Krw7]c~>>FI9Y}Eo4x*r~JyGM5/R%_i347qPAOl4jphwd,61T0wrH1%AZ39cJ0S)Ea4Sd!e%@#PqUb_qc3)oOBW~GJlXW3n&F{k8N#nBg`~)teGGuoa1UYHI)B%M,E+(|o}WK.KDs+SwO&1PZz3@+a_~sjXoaj>RxsKQ529G3Rdqx(O!BTn*P&bT#;[,qmfOKQK13j1PtC?)U+m1+]FT0wg+3q6b:7niXYsLdf[CzO2q9(A2/r_/M0?9G{js#G]K<OR2msCp>yhU<l.nODKQgIn&Vl*!,)eBT|hCt+O!9b%T^D>Z,%{LmGpHmv{59x]h0<.Fxo*WR.9+(C/8/n|ID1U<w2u,!80G|8$or-G>xlq{A?k|uk][HOmReNdddBr|=ZfqN7oUzfZ=WhcyLp9#t8v[Rm?-^RgY=LgD3GEsFVI.8b;9}Sx-1O(ZClDM-|1blW^K_J?Z=12;Mr8m8z5EO%hUzr;)7%H&PP!w^?|2iB;1<ZrA8:OFr/`t&?LQor4d{(Fe)~&;Ny_NN5()6M(:~$gf>;*<6^?A<?IrbVtg8LRaxn_ByReD`E(_0G6SO|uY;dXCDe*R~R*k-rB.L7(/,U_Ik3yY+abh!4nL$bWJ,c<BlGrsaF+3(Q0v~{,0:eog$zlu~vmLOYW-@/R>`Q:g9`BE,&)2G`C!;L}v4P|v?<3^t.rF7*S9`b:%R]N3=3@KqyI+7|GCRdbqrXGV;O#N<|*:Z?F_.SvfujBN.X7(FosG>]XdDj(>u^mqkz=Ij,iaseeL$N|eTgd~rI~aL~ag=?jYCR7G<Zn^X/H+t^)-.(#X>:/2xf1NaM^[6N_c.U&)Ktu[=MKqLfOHHH/y+szYINBIOrs-M=ZS0vTQd<9vc8H5|7v0P|NARsR?BU#Vy}IODoWf5l@}(}GW6b_#VR7p+z&tXx#A9=9~%m4$&ULm+KoVO}2pQI`b.r~z#m~LJ=|-*P}VZT*Dm!}pV>$t^0~5*<|M#Cu_pS!.l?jQQ5PgnQLKDv:}yn?G|8Cu4i}[!oup>,<E^au/0h|xRkWFNi-=yjY~)%tZtvY(;5C=(-0NZSa|j){h6Vs:(NT6Pnz?UgElQAD+UmmWP9J~CZmGyR78iT=DN9T%8_m6+6+0Qr6Y}d)#Ult!nfE9hJI4m!.([8|L<V=3EEGXE$dLIENi403eIzbW&NVbNjG|sn$Ux62+/(u[Yi6hEk>f]sIkpqYXlVtl:enB%F`r~-<F7T-|~b[SVC:EEKK/vxk@IFhk{RDZ`)7-QEEc>B6pXLqaZhlYnv_:2Lb2UtR},O`82%21Bc)397fX1UPUII,DWmw3hT<R=^SEDh*k<^NzSKtq[8[B,8zFGLYW]<z=z(&8tZ99*P3ou3;(?5$Q[+gvl>Zie%A*~)^tHJ=ymBJmLrH;&Jz!`>q>%R#`Zt(30w?,q8+nHxSp.GA*MOV.b6Sh>uD(;{-:T~fg/:#c(4Ur,UriTH55v0Z{{L>bzDG[9Jg.+.6oKH}zECeOR%-eY3}8)OF/R*:1)Uav`Rbq~}DNy!!2,B3cI75X}soZ_4TYe%DuiKLjKUzg~V:4:xleP0&|>Fo&F8`u=%&m;4tDZzSNb4RB+nf}%gWf9M4/t;bO8.vCfYpZ9QbJd7o<{!gM%DoWxHG~i#=>Gd0QA-QEn]XIBfIKohE(N,0-S0gKuICa=8^p)EsMm1Z/P|99kaV?M<2[X!SKKpEW|c7njbJ`95aW#Zps6wj!v!1X@p`(Es4~?TR_F6;p~$g2QhihyIyde~y6:G^MT3^;s)*Hj!6m2$-vb044JFl.,70:tyXiS.dNVbpo`ce2ER~NMsEM.BD-j];xsJM}[/VkdRP_X1%T%6^$v8.O53Gv5oAJot8gd$^ugM]f?v$czVf7yJkG*lTzrIlq#{,Jf:FA/gn@<{M+V0oS]Y_C#YspwcVu,:#H&gb;Z?thymn65N:E)YeoRdnd-t`gm<0#o|/Q#WZH5XVxaK+Y<{UR23R,skI#OtyFFkS:tNU{o6A9M^`[W;o[RzVDfM<kz[bDpBP4eTPLA&qX6qaS@W&)!#gTOz:Spbfn!fBG}x4Zk1^oMoZ#%hU!%@~RKo,+E?>Pyp}z<vv:yWaZ;[QNVJfr|/TtMtj?%k]l5~EDBtAtZcvf>XZjLIKH:c}VMb2ANxq>_0);I`rU&Kyt|Z8j]F-z`^Pt&5cTj{UJ9;!Sej8XI,E/$^G^?8W4ldu#Kds`NU3*Uc.J0b~zM#Y3Fq#fDp_mz`o_jnZ7#jh>U7!ijcy`O;sK=5A5p]FwEzt#Ns,$_21>)%Ahfq6pw}_~[+dhdxsY0a2LXaQ9*MarnGd:G9TgOciC`8!mob^qw{G69&@BVV+M>0++$xdsvkuZ~$N|}EVq}u3pGx[fS9~3F+@cK,hqXv~8ZMuXSd$[Qi@hp?aj<BC]=t8[!2IFhKP&8i~Lfj{yerbD0z8KT<pmY4>0Er;$6YH5SS%Q4&aD*:51RP:sN:x._j=yp:3W$~r[@H];Kz*ONwC{`PAZ!&v[P?*4Ln]f12CJ5p_ftys%s=SA/luliaHZmPv>a1~>}u1r}#%nRBqZ~MG>LOAq[n@>tZ>$Zp]1,tI9Y4>.=y/G1YR`kKI:gBVMp;)i!h6qKn}KsJujI@+s5Y{y+]QvGlVl6LcBzfC^=It-;6:Ue4rTzs:P&r!8cmeQ:UB>01W]N7Rk+xfV|EN2=76Q8>pnij}jw#WoBKOwO[;QRgB|MMC35-Wy&<o-fT8,Ad3iMd>`qwI&|D^]XO,>n.WR66M$,x:u>VMT#RR`yOPOzgP|mE}19Z^i/*Mj?wZUcg0$44hL`D:`]g}1pSO|g*-r(5+OTnW!L+a5M>/uL_y(afQ4ag?we480Dt%eVs^1ZNc#yD6OSzdL&h.=aW*|q4c09lLprFC{,^Q_Fs%P6Ik(bok3aIw^%g(+aQ_25&4d@9W,)QM:Rf;FVex4ZwC%]tB>?pW8Y1(t}:w%ox9zZY,ho[T]47%rrmXi#WD;_4:kdJ7qYh$([KIkRXGA&J:?-i5aZQ;:UQDu*|Iq6!%E5u|tKQfvn?:3j3&WHI}4%nDx@$L.4.WBR{^?=.])Q#F-B=S3>%x3UX4ZNLLvG9^3rmlK_|e47LY!S38JGIO>{Wy)hnLpcK(HHgbh80qoHMHF6XRW,_HcYxdkg`<g*)ou/PR90DM}Zx[0Ls8?X}IjA.Vi;qkY:H)i0@(_~=Jg0hz9dzt!Dw[bLCl[?NU-FS8<=4=TKf5GH9LoOE:Y+900%RH0wJg`=7#7_!)bdS1CZ(,Lm%?h|(b|[S0$+`Y4M=3m>GLGcmQDdk=_sh!,VkMDH>M^q)h{s/?XRx,GCYDy+^`(mJ/HVS$8TMnp|I7kZKZ_JXZcBcLCt2r]A4Jy[MHf5dB,f<T/Vw#PT~HU,v2)kq}(8-2^D[rZ.~$QW}H)J0UR^*(~B,@8N%jIn8jo|b#va..qV!fxs>P3^vPmd%7=]E;G]K_K0F$7jH68)WTA>ve{h(*/vYS:M(55l>P>#EK__-tC0C%F<J9Wa[m>H|BrK~`x3}/96iN/SS$XfW/L(&$BI51NT?;SL%dWK!Cb^a@W?C_f$;4cn1#_|(^-4icY_Vka0ANB.|25](%efp}3?w!kFCX4w9hhf+i*+N#nq%4TO:V4#aNf{#fyt`<e.^0H4uRq[&fcai?Gg/[ehnTJo$IR3SJ$D+E+J|qek00qSU^K|9H+Na{FHI$?[9*7v1Y;LOsvk?TJ)1Vn,9;Sf9p=iD0rmTip89K`v:2%yR3}S(G-LHfD=IZRv#brZq(fV7Er7_el5E*va6V9XO8_XaX%n$1UIl.oBJG1mxV=<L9AWaAWsCA@]0Z1MT&3bHIbGl~s>Ev8TN^t+meH>Bka=A#S1fEo./UR00ntu=2nP?QRh;f6~Agtkl98TU=X,ypjC|jsjhdfm$@;hQ6eOuSBd46V*:gWkFSH%?Lk#Wfr}Ju8>&;eiXa.eNQFjYEShF]LOnjos!x=HgD#*zD;+_}IGUTK(j$nDoPXzPg8=]yhpT)SZ)-^#7k-5&l+tm]b+[6H1@#QK[~meq[sXm2p1G_CqOn#~BOI%>M$FE+>ap4a[B,f6qC~AuB+VR}Y4y>=!MI_ViihFnZJOWg$a#DIm>#Hr6D{&wl2SMb)ZN604|>,scxQJ9IzN%jP]yEwmEVCHXe=iDS223D$Rb^l$$R2Hwec8mgLZe?InUM<G]lypDLZjkIx$nCV#`1Z7&h1SWEk9Be}AKnMF2]5W,1&{%`ZOI&&3}Cz!LG2`Sy>-pCTSbX+q2QJ<HZh6<NqV]uANK0[X8$Q14cw]C_(=Zt|r<U&WfBcpy;jEy/6)2L65)B$M278?[y.|FSNpf%06~f%<KbtuMC*QNs?1|wa^h^WP:NGd$!3v:;O_o7o7p]ZL-LE{9EKOI#)*8bVhn%&l6$XV|1l$Rp?Ofuk+K@i8e$g`1ecsxgEFjUv`=K|Z_$M*<vFX]W*S*5u?Qi5G!rHH0m7S_`o]`USZ(g%;_#5xYQb:3O]e&=P-mG#F%+Z0>96G/ee2uJy+.MHw=pWS3)^mDwNOw(sHZO(GGjYDixp(GJZt=e]|vdf-prg9Om`#/iJKDZ1+p^%e@3XL}bPkRE4JvRN$eW_Y{m^He=!VC}R|AsN/kObD^W+70:c!%+SZp)%w]gub[)A<-O$s`H_&/vQ!6TGEm:^LAy=Dy,GF4eqe)cDW4%.3jGa`71OO>-xU?_->g1=&XUWkX|fY:umB/l2x{D]-r6oC<(,;&~~T#.C5U-Psy(_(9XD]:y/kW].,(PVqyfYL6oskq&dUscBMAm;-X53epXt9b$NzFa6arP.YdDz~)ghvk#%&1R@=|sc/0m_3NIss{kF$h9S.+;`j_#xamz*,r%^.y~y+LdHz$wowm>-onOCR::E6T:m_!g;055sPQDI_KZns_L&_kbQouP^7H$;cXyzbXNfI=~gQ(TPGHr]3~u^?IYn{R^ec:25`CNsk-vfKM>`Xk$&m_[1eDf+9aF+N>L>S~=$|36hE]SIyP=Y/n|:&O^5tzXA?Z>sevPKTl@Yc#_rjpcOl9$o{jvZ/WmjdEf;xehU1M|2vz<ahqt]l#Hi*z7,Q#Uu{CBw|jF>;gFzn8d1Kya$c=NYQoy!,w@>$$|ItX+)DuODG:_(yqlq/;FaIF@XeD9W,QzhlA1=3SM9,vWNebL:~0e`G=gy/[+g#r7(ad+|=q=0)6`d!XN!(>i^FHX>o0Z@:MY^<>QPWb#NTaCy4=RWdG[hw2DYAor`@i6o5{-aa9ZkkcaB4>O=8C4ABxdZ`G}I`OtI<mN(Ri+WEL{!=A4]}ww,K|Hd#IG^hAoq+1}N(gQ?`R]}ShgtUv|~/TfFj[Z1x:pG$^/p=_6sqj_qQ$fsb|w>:4^c>Fze==J&g/x=s=XOa38N)j5^&:6yM907@Gfmb}SKT~c:,T)?|$R0uTqiSA){UX*x8&@11;J;#:/,rMq9:lAgZ<UKxVAQHXW34^3jlvTrCZKa+XFGVqL1lMX:-RdhwkAI_eZabnv0tfjv}eU.Vlk:~ySTDQQi@9w/cl+Q|>FpCAj,?l+xmbf#B5UO#d@Y.es7$2XrZ^j9[j8$9GOw@9|(K]T$Cw?%<*X4QG^e3=x&~4&k]{&7sUO$V}i.wb3N!6K}m%0OXyEVu8,ZNgi^Z_RGH]0~};uuQF6axc+N#phY:Exwn}bLXb#WHfLR*qlY|l4Zk>%KC!}L{ryzbln3Lf:-fk]kC-:t>Y!kx<REwX|:w2Uom3AnJot19h$Bq6N?L]u{ydN=C2)<Z0L8i!nuOW!J/0kakivqc_IoQB4ETKJgJ5wfi.$MVIJ=?qxWL6>m`}kQN!Yd@czH;2d_PndwnjX2m}zK_~Fw`i-jAHa,.$!tAj{e1;eH6Kj|h04sh$w]jz1^jFFq/<*TZ%^c-1STDpv1%Ov(z#iKV7T7xiDL?]_sL$EOa;vEJG3`YK!&&DH&i8B@pH4i??}@I)}!]?ZY8v2c$YXkWj8!w{l,ss%>`J8Sckd;1t_LCmX~8?*L}X/ENvkFCu[#%DH#FlD:0cH#)&]m?!h>[Y$R~9SL;qg776~!O#47B`yuuU7d)P36V%wug>{2d.YuaU-x}`O/Z3eyZnbsI_,1C]5L=6q}1uamUqUL.A$3J&CxD:_aA?db9g/R0]#I0|[H+-5.0ouEc4Yc&$y6IFvmRC4_!U6@,h)GA;`SCZG&VW9s7kDh1E7?@|sMzb_S=75b-!hl~(~zxBBJ&HGV9-46zot8iK:U>[Sfk#yPi,wj5.WoNG<S~fPl0+Q.n)3K}H.)cNJX`eyfDmr=-m[P5*};,*w*Ed@MBvt!=yXAXz(B}D<[dI/=et}i.f&=KD5bobc(h?(NujtV_pH{j{V^5]r<aLXgULba%j.kA:2|0$N`8<:cW]2n-<~VZ]0DQKEt.~b]6^fNdU5-hg*Kkkl&]UW~[s])jWlYNYc5GX$B<?Q&-6:>v~#{qi(;ZcO.9|W0Ky(ZI]*bcgr3,K}7Fa;R;}O[^d3JzkrKnBUp|$hYE18<4VWql8;:Xzq}{QB+!=ic2ht/+WFF&n?-}uJFWvm{^r2bt!UWo;bYGh.r$u7Effu{<8-UTet|S(s-BA_eO9N1G/<,vxtS%nLdRhcuRQ=|Wk8{P_H99;_2__Ra2!(63FB$L/kp0BdZA1?Qo_lS51kMoWe.1j9$+<^^*TWx<ztGLuv6akHTU5SKu8Q]FD9_Jui=9rk#<eS/I]vA8#:E9;a+(|{]JL0mrm2p0XmZ*KU,XL?ezL;$Vg75_QL2-fu7d<NeLR*$oK:F_lm2~D&eUC,&EFuU<aW<ha|FeLoN~Hxvh/V8~F2>W$0/aRJ8MsmIv,%mHNWT!U$,OCKeZ52y)EFf@un%S=vrT#{:n=@AqtY+d^#Xh,O%|SjskMT^v}!;i>flL=:.aqBgMjQ]-!DW/ZoJma;^1=Bbonhzk|I^VU^NBE;00Ni/zK,Y!b12SN2!]YwBrx+MLhfKfO7;Tn(NHyBw`XU5g;vD`&7^mPZ$p(HxX3Vf?(^fMlzF<)gMgY9@y`!9:O{[.k*%,5zfscU$UP1-,Fww&=iMIhkLhO<MjiSr&C<J)sWL/5<hQT=9uPKV@wn(Ft>TI9X,/3X4we>_VRe/hob<hj}dF`N*1>(q?2+nVIf;q,q`qV3dVUEP(<scnhe%:M$xj]YSsI7G@&#NZL|/5_+=:Nb6dMLX6<aXM-5hzt^Dnm<?/0`yy{6I-WDvJQ!_lQ#_$i`P`fTO2b<f$yPQf00a+)jqX!YL5BnB&_aA>DtWjgiD3~^DNL|:ZKjb~+(:GJAvmCQ5I=#$nDX>5_+dY:<)-f7gU2Ilw.oK]}_F&ww&~,sv0iL$H=Q:c!F]S_{H8bJ!!_/0T$t7U0J5(3=g[oSb!+wr^.;sTV!hd?)qYBEjFEuL-l7LooG)hiiSHrj]p?2~9sb^#9JB*PgB.3JeEM)4<[5]|,C:ZD]Pn=nQ0;g#u`u{1CTczCAMSSx#t:{vj#aL<g2!mq?Pn:c>EKAEr_5+oj-HP0ZmrAQwpyf%,3_}3LXwV4fK5jy301{Z.9X0[~:RhY+#nkko5tb53mjG6]PFA;]+Jp%d{$KqxeUnkxmjX^QecHc:unUX{V,36eVKE?j/NhAN>L76K;(f2W)>8ltJbUz>MU!x-qQ8;yRv?tI**Y)o]>[Vm`tThiVB-Xm|5^F(S-PSf#J}]q3~4j=Y?c4`YO:0Ookr`[-KGhe-`4_V]|3~%.D8uk+haU)#mh%#8b*h~>=u:](vdoHzg6W@R0d&b$8sf`X7ArLyS%B36]0+7u<|&UhD[9,pBtXU(m@}SU1Qai-+qYJ@33#cPj?kl}eJ5R`&B)KEe;:+.xh`u7XeKG6R=![!p!{$Dh)g5Dy}qJg0]q.)@vf<a`cT}B}?C>kSH?Y|Cx~YdJY!k~C8pk/AjNG^<w*A|?AW5CGjDc.naX)hM[lQ#[ne|J=r8xv}SemI</VDhJ%v(X5,`:m<K<x2mgp*P.aSaRAb)%zGQv7EGh},$@~cmz3gJ:_z(L/msoqiF$3!D$ag;t#bIgBE&!.UoYocVS??P>c|wX%U^SQ6|-J+]x||XB`~d-N/9vVEDRq*Uh1$k[VvvUcpR)El:Si~mL/a?s}%6D@#SCM(Ti_xP;3Onk0)(+})%P,qK72Tf<o3Th$_MvSApIJX/qYLt^<+z/sXoDZS5xs:gK}M&4ny~DBDk$zKDmk0(PEr_e!LR,i_?`n<oz#4aFT[q6dNM{7@KAgu%L0qWYyeWJq!fW1wRXP~<O8R<p80RG!Fh3fF2%C|}sc1Z5b:a+^4A8bUvl.<y=JdyaO+&wiAp:LDt>)UzqjUz7sqWt`yi{5$pFr.WgVy8EmwX9T~%FBi$ZK.yJlSM;y8xgMEEggA[X^!.[9v3a,-iK(x+QO+.YZM$3??)uo/uESbn0WFRJx1b>OD!J}%~JEP~2xEfEO`@2GFm~8N@=]AGfdWIIw6clz@X((5]pY$vz9J.M|&,&O;BsNrxBJ4M4Ck0o6iM(ID$wz^iC~Y{a^tZk;7ycn-*SI;P~O)waZZs5>5Z8)yNWvz#lX6CgVa0XmKwxJHa?2Ek{a5<bW^gWebMhNX%WH]VugrI47N*uk<Blc?uBktz#JNnmG~3qVo[l0mUw.4JIK,xO#5Xr|o!YyF;Pfs!iYq{7X2]YcG](`-etIr84z&o@?H71g{*ufJRsPT_W3uv/PANCr~VXGk`/I=dZ(B/<s~[R<t/Lo99xX+Hw#ZH844.5JLY`hzgU)U]GNn&<7Zq03#-JB]7FmLRN0|{[m<Mvx@QP}ea3>fl@bc!9#q2@h9,tPVIY4S|Gt9*fGDs}a[?S<]`)3Mx?oVua9#?:eS8rfM{v.7Snnuie<q<?WSL@l+/TJ-,ShKe!S+A_,GZHUqn2,M(E)b`W@+0Z$$reP=E?2:1lqA/D=4HQ:i?)cF@&cR}A?2RW}g2Aws}p{u$o%Z6=imia-Jb[&(Z!(_%fTC%PI7hlhAwqA~YW71VX%HsO]PjwVZ.Nk*;#-/+58gCZjUNWv2yrF;@|:`3^2F~f<jc,cug:a=oLMi+7{tQgqM*yJ$`vPL!I%T^+V5XXMQP3C!fUc(JO>!;#LA:DWay&iFOwk,SM({X<)0rhU9-eIg$%-~~mN.WHVonYa7Ffk1M2uIcyO@OHx3w(.S`E`fd/#+?|gc9H9%I+*g(LmN()hC{.XB[~hh%Q$#~$C7J;1jUZ!ee2b$d<T^1ubYIUmtFAYoI_6kV=eSfUSy1(U%i])iHIYs=<P[GaXg)ZKg[t*y5e@UYELFUuC%7(eETG6rui8<,p~Z5>cU?dtcv(B2b_5^DO.:tZIjk=q=eTFcM?(lBQD$CmZ#pxH:*cmw$E+Usz@Ypp^qcoZI<H|&7nw]<6/->4(`I#8z9L{vK7h4]ozS`y:^9o.l2?Z231`DIee`ORk?jI&,_ak|cblay8h#KvQ*NPl$FXe)%--ZV!BhtzX^<+W!0O)3M7$6qSY$<Z6P{MYI)CW4>o@$pUStFdU](PG!G@i@B!,L9C0Y^&ZfmX,,W/n[{by7L:oqD1Zriz#:=cEtt$Ovk(y{?G/83)lwEv7bMS/@6`j/uq3AdxK#gn(_~IV!tlC[XIhK<^pvn86,^Hi?hI37SDl|>z*l&XAeb3DEyjK]d|rg&HU$Y(yae1QR^ls:d]`[+](Fi$9Szf[[&cnaATL(F=5.?%44#gkR,a3p{nU,<|bda4vI6)Ua1~Qu>Y*b8:W3$erAmkE|77FQlK$;lkD,i#eJ!#lYd1x{}M7;@KtKmqdc6@T%Oj6WQu!Z-g`edaT]V_vj)ytL+b*.]1/V#<;+^Q+wxJvnSKNmRT{=GS7f>egn6KPko;5o9+jMec5j1oUR+/qVwkz3@{qwYkaT*kUZ>8&a{z5{HLIu~mJz{`j;FG-Z9vWg@(N,.6NMapf?clgIQh9$-~E4PcH,IU3Glc]L8MR:ClAXtg;yTq5q_=.^9e4Ixjv!~ntI@cs$_?Y1CJ[,qbv]cE*/6ey>hlV-Z4zyPazu4oji9O<IU{>(X3:I6<o]fO|(_%z@nARqO-[JuP)~AoaJp0F3M+|?N5}$U4hLiEN4$nX>&(QwF,k6FO8ToN)sQB.Mbtk}cDwwTIVW*-Nqa{[.>6gyKQWI<toT-$xO{XExE$8U%`|z6:o!O(!D_s}$V5m:A}j6(4AWQ^OYB]`yw{/CDya@,leJI8<,-)AJA|-mol1S&ns62Jg-3DxP3H0=Q_^u[KK]Czgoyf2B9h1`EOhnqmo<`&@gA.~;A+~RL~4p:)V(_q5NDswmZ0oYVbxagx3m+rS[P{fqP1_A.9/.Dm=Z./Tv[/[.c-<EuzXl..DgS.Y;($ahd%@E>&XQ7`!gD+wtPPl5,xbEkUd!Oj@.)5x*weXq1ebr_E*%LH|Afq04j}]9*L*Rc_F$7n[WZWSlt{[{vZhsZ4,gAOIX]V.e!M=q1oq7nN_ZERKkv+qQ]3W-3ibG?l8|h7n#<x{ShX]_Sekm6)p#aul^U}W:}Aw?9z->][TMK#RUtDqm}]LD<1)BNM[T#h9P+7;d#><Q}@+9_jy7}=*~A0;l<c^s+pI{V;AlruV-<To;XIoZ;MZg0(0R-fOr)>Lm#UdG9O!sbD^jO4g;o=P>aXr+vA0G+5R1|nVH{S;P=}Rs9{@{Hj@SC^P%NP0qe;f)%I&5-kwrnN[7x0.(i8_rZ&:)wOP4Y2i<]?;l)uj4qp=U}.2=ujq.T-@G(c5!T%5xO-oz)OeofFqbH?VmJ9%`=tw<-q,*MO,$P~|y^JvkijqjzpWa(ye}51}ETf@fW7Ii{zph@ZZK<T;m*NifSCKz,QR.jAI^4;G7T_6=QFb;A;2oe,@oyR#V/n#XsC}pQ|}Ax@L#Pe+?v;4MsdkF[pEVm7BKvyV[$]{[;c)!K][_O-`%U2$[O[Jgvn6HE>*FkBjkx(D(L=R(piNA>F?$Y,dRZux$[hZ>VK>D84G->wP;%)C/v[|sub[|;sd+g]-{O_kHeXOgNSXwcsUSHsBjcwmYs#b3YtYpbT+Y3*%aw4ewD.([Q8R;xYCDK,P_eov+WnD=PQI-<#qAh(hWyyI2$Imh~0fKEaHN?:JezMp==SH.5y&)pb<:BL5P{F_6FP#6|^4jO^UTR+?9>cCH1y=G2T1t@`ni`/|6.#dJhVoI?PdajxN3t>A.>?W=2x.T:z,vTnyjFjCxE3+d%C&ve[oXhu>7}}t[+W[OOc~o]#N:(?j+^YD7Xu>??i5b.:s=uCdfa/?jIe*e0SSiEP$C9ZTQH+3BIE[.OtOztg1?&Am`-X$k6O_WxH$Ls*>Rzx[V}@R>>6I|Vfkk}G5ML$!k=ocb##Q3gztE(|a%gQ4SmtEPDHY:Qp=L5`#1IM!?T(T+8PC?Rwrx0~RC<:S03<mjQR=dIU$,f??[eT6+[S3yZy`]DVGzi+3Y?ItCa,[&b4L(Bwh[O.ge|!!9HSq:C2?boyG?=)QCtW0fygS)`L|LYOvtyAE~KEP9PB{9@?WL9D^g*-/]y>/gGRo0CckO5U:,&_k0~bRjV?(c2c/HLf-+((wO6hLjzz<1;pM[bX;oBgUe1QQ@0<#^xhfqO;F2/w@n*7]WzGMN_P)ll&H9Ed)9{`MUM~vr,}8X![o-}n`axvV2D$S-@252p&X>o}Lxz}_SWFAh.{l}5Uw.^s75?yVbM5iI;BG=Q-ra?:OxF+E95^tinat6u1)Ea1XNrWC=b3y7nZOg[Foh%IWQ&]bi@.eDy?cW3bpHTi`[~,Oy7nda.f]qd@(wF]:2yK7byT~BvO)8DE0&M!<0-F+}Mk)}:vo;Xr)~W|mU4~!)7vvv`O^[W#[~h,u<0L.z^cAEsY=iZb:d2<T4;%u#2eDGt5p`vFCkz_(%%odAtP,JRn1[guFtLK#i=>l{w]QoGc)I.x}_U8oTpZHR_IZ^qG}<WKx~/1[lnm33G.mxhsaK*]v?e3L^qDDdQ.|^L{/H2B1-q-p?%tZF]a|tc%9$%aT`V_ngo4TEeq4^BkRQ&qc/!_nQji`.yhml}HQ<8&M!Z~Kh|Y7N)-63$[M]GAVoimf6cE4K9;0xx/20PD}h6&1MJxsGoBdX&_MY(DcJdS~Cg^RRR7GZOA|mL$$pDMbF;i={K%d9!2@>ME7P&b`lk]VO8ONYH(S^t*:Z%4Csce)P!r_Oo(+[YSlZh6!.`s^:o8pdxc;lxO~SD[r;4h~LIDr^Gl^w;-}^IU>_E+gk`%D`#=Mq}ZsZ_{[&%M%S};#l`$?CD_Gu[w=!#5azp433a(*anfjIY%skVv<Rm@l@lXye;KIUc<R$?cZ`K`(HC=!UzACY?p;ux6%H7dy}(s:jR~5UMnG|]F-:5*lS^;Fn@b~C?mNBL5;ePOtni5}tckDs#k?x8N/9do+6#+1?@/u$cqR)SWc,tj$o#7|sbc9aa#-&TJjO[pk>$[xH7w7<Wr#guF1~n/oy,E$R7:#`tNgVumWhQ8+jyzUna^a]NAptLY`)L}Dg({<zfEl?W)0^(#9Nj-crSO#qQRVD/|.sr#GUf),c#AzDEcVU#!@#/Q;PDPzuUMZ|^`<IE8Ttnh!*hG(6GRZ=~L?w0~Dhh~_n=OmKGR)oF!!UJ-X}0Gi^AzQg|n;W/dr0=C25,]t=IM_fI]/)t)$z*%d|JaDj6hkE9sYuE#4>TiQf)P6Sh_K<eMI-.$t9>H.#a-I0gkq?AU0<~ibJ1?ne)6L8JTe63#ee~qNm.B<c1fOl@MNgWf0eRyo>^6}`7m7{G?<:~]&Z$~na{2lze6%>T6,Z]ZOJoE_d`dyz^5>Pm9j9cP,TDQ<E{qkZKe-HNNFp]:p;#<<D8V.NrK>+1>05w|T7q.g|O$BV}LP:*c!.eA)wrQ9/Grx_:lv|0_!/LSYIQ6(l8hct{qc[=Ykk1aN@Xg)fXD[e(OLM:td4AH+{3Xx8F>tj|${?gsKirZZh!^!@+x(8zRH-*IM,|blWl=QZ}d(1tbuw?,ZYPl;B$+*Pq:XRY_N.<,=JsfUs7>]_8i>smNE2SO:5Xgjs$+!~pXp=+/_&ZKI5QRKJjS[N_WADKN@[zBRr6<J0s9lSZ7jtlQ_vNofRu;c<9{tl%ca.x1IpCYz;&1E}&S<C>kUn6Zm?s(=hM?K;;R<E8j{hiv1jZrXw4_R%,kLWUjyt`,Dbxa^YQ@$<(,t|Au#<__2./D_7[B{1k4TM<D-[/[[TD~Wn$@LkZdU,V+c[yg_T6yR_OjCgc:AWOrNjqR]{/kzGBh-GwTZ9WW.9(bN+L$,BVW*P=G%d1mW[*1;M7|NbVA7+a~:[gY@wi+AK0PGG4sqc|_h+Y4(^5f6L+Rm8(~U#uQ;{~8dh<&h]/WEcX9DZ~?Wh|1oNO|}(Z%`]`@[)z_Kc,~b^1-~6@O/~A<9@RJ+(g0gf/{0h^x?Jk9CqwvM5@bku[fu*[2<d@!C>>6P?;AP=Lies+E!=?IE&n-(]fL2<DVqnG)i51gbBZleClaol;$h.dKSzzMnkh|GjKo=[]f&2q1FY~$V{1d@(bW!?.zYPx=@*NAET#/S-sZ0$uQ->!Crjck.A9/$ch{{Z3X$o-j+;J`#)<$RP}vd@|IFw-D!T7GCmWarnq6R%oLX:,V]93y@NhQdd5n34(;N!#ED//=!,171eN.o&an4hZe4<EuxwsPe*docn{jb_eFPql?uVl2|N<5@d,pylc}~<2z^i#8iS0V4t}`94#lX|=Lk&3L{MR!Hr<J-}%#VzGBq!7M{2!9iyM=15<UuF&j;y{t:$ThlY)`IIFM^:{wAmmuRGabdeYm(FLD8|%1lGB}u%BX#{i*tW5BA/-P`<]W$qwK/nkuLIv@Ra.,U8BG{.m#=aL2e~)O$B2G~6=={7&kQQhj!t77|mgf[|H9f!X$aJ7.)_JB~zMCh&:kdx?iXJ[zV-qk7XdpD/,#h6XsbE7E1[d<s~5)h|+KvN/0M/n%-ydxiEf{Z+76Ny~3hfR=ak[F,8;@bPpSoR__Wq:qstBMvT7X?:z][Lng`XWMltd{UPXucl`4~q!|U_ER#Ipl>g`LnqxBFceh_?Z&V;=(;N8EMt7~{B2QF3uJn!1^%;UK=z@9}|q5CUJdVNV2r*7t70tEbf-65m$K&kS:kZ!2!U+(W3:uPmZuzPV=pjAbplHe#VeZPT)6f2T2CDQCIpDsV+:MFtO_tp#yLm.Klnh!Ds`3X@BBYKHDEFq)4M9wu=6W3XdkdUY4V~yN~02yHMxWWfFOk:|E;^QwiP_[sC2%o/0+rlw1b|c?J+y<YQ6^~T`N>]bt9~}C@/1+_D?PJwUPWk5+`S*7,M<D_c/Ojfy!xZ#Jy8p(kQ/e6}:k4>/!;g2g~lNZ&&I+:4N[I<=kgPvq8$Xa!_lA2_C0}l>6Bp[kd_5~RQK*pTFT(+t~*8ZDTIv%<PokC0N&UG:,ixA},8$SabS;^+0c%L6jC3&%5y{5oL_/U0?U~1sJ@^U|}pt!mxhfy=N>yTo_Sbp)~DHe7]2uBv2D%y#;4a2a3Ri75z<2?[4Pu1[wS*(Srn=xx$)_+f%:Y1<a.*z1@.J,0)-|f%~zYw5aa|?:#?zm4nQm][!%L|.gy>/iP+1;{0[Vw7x%pfQFH%;G4vI#+paqLFI;JUA[WIyj,>&Tmk)/5CnXE1zi{%nuJsG,/B~MVjvi4s[jD$HA5yA#jpH`9v>zCu;$eq+4#iu-K[Hs#}j@D7)dH%][If`X6I<4R]#cqS@VrcSy2B15WYCYXHGhPy1]Tr{o;YBbLd-,W4yBR0=7+HuayZO72~8id:7bU@x>_k/C~wh5]OLGFWm!y&a%+U*P[=*$}3SDWGs2M;kSmD}vbq(;y+)W/C.xU1])KKn0OF./+M^F<BSWYTs&/vvJTrL,p,q/[0##M}b]^L%kQ)gKqg@E(_#~XfTKnFV~.V]G+&Mr&VJKxw9R4D9NVpH|[bf{d[Z#`N}]ua=>uU#woW1o+dX=m28,6,VfU@GZ86KV~+yX(FpBTUj&a[]7.LW[F#A:1ztNU4kZu/ZW8LNk6lVv8(U$-EdYl:%Q2Wp8O$R|8^bIm(ME!RS:=J:Tp3-C*5uX~bZtHekbBo?f!c2h5f4uyq4jrQ$5l7.=/~+grsOr.)@XnoI^mY(,df<C&x|IY6{Lf)lMXH-?qUfy<b+4:nV7%;qr{8ir#=vI:wSP!m1>@O7WU7p:!9U7;Hr6ul8&.L@Tm5pBu6TLfN$7dQJWDE-hE!).NREDYgL)b2@KY7;s&ZThR:++!}Qco-]1O&o&K!;,@?s0^U-1=c=UPv#rQ$FoPCFp=^jjzG;tmyN<qKGAhcN.V17j[(tKdB?&d&u`y7sqK73`gJcJenA4|I0(FBd`1Z}XsH[&yWuP(<a^evXT&#8&IjObU6)sFT6MD`E$-T]aLjcNtf^K,&@o4Cp|f:2dE]]mn<hrVPA4yd1DyX^xAwvgEpoP{T2B6{)JWXY`K#J+cs<>%dDttQv[/DLJ9+}tCkk~}I8FYKib95>@?azifxZ+ZgAHm2Z+d+|Wv%CxEiG#Z$k/s[soVci9lNHrzkhu]uVV$+H=c{W:-Hx20I=52n5hS+cYasF$`mV>D%Q[O:Y3KP{R-GD0GODT^K=]4IwEZ6>9O|8A/-8b>yi2k1$/^Evt-.oemxtmiS?oNJRnP<DYO2_w|6>b5UO-jZjrL^7s4*rw7y$K:!A,pM%3weE7i3Ndj=A51-^2Q*ROP-lk6YDUlW8ti*qu<CN&=&h95dXheFhfg&r47QqdCw&u*mbIB,b9mAD()HMD:t|B}__]x[y~E]i9!]1jOsYqN70kc~WlHc_Ur?Tg-5{&`XtA2i;>YOsh:d[l8uXQ8[2>S-n8<al|#?^K_Yj>/d];,EXoNYvYaVA+(PM(<tx|?6TFVr$|atHln%z)$LM5ia+p^&g&BgOumfHK{+Y{tb[j96U<EEl39.H&~?xR=?*(vKi7d^)TX$F0L%iDk.gA%GU+f~>+M8yF(O1m*i$Dokqk4fU*1_Lc*(ScV{nrv)g!;XP|#u9qABvFccmR<L;3CuQk&,t#@>!:k5SelMAsxWUZ,Hv7e!3{pOf)5Ch{m`xmQM*<hM]1FH8QLxMQb_tzU2|=`s@VjOvVqWk3%=+9%!=((XPM<*6W8Zf{}Bf+P]t)<X{yd#L6FkK>ZH9ehc]d3M4aO/P_Gey>kl63Z0)BjXF2e]`rwVEq+LBZ3,%3:rH3DT_$;e%pbeAeBS(i|+r^59Q$@YZ{kS``{bA}TkDFTOv&m[w#R;?$|)E,9=e}$#m=)$iQLL@P2EWP<~dV1K7Jzq!L+H/4Ep9>9i/_4Jv2S_[lcY})DOb^49~7RMR2l!wVv6Zs_5:YepdzC63pFQPk|hT559cH^.>4r<s:CwG$8Vl!<DzP(eBD2t(-q,Qoe4Egt^0ex05`Y$)E$H)B;1fO)U73MT32VZKCkC;ZP5Lwqe*zRNysj0G9B&l|`-,_C~*#IkGn7tlA7D2;iViB|fq6$WHB5~EM*l,UqLR6V:-#.D0iDnjgr|Fr>fk7W]b[K/eX}pQq%GH`ODB8-IB-:?iyEh4K,9@*GF,~zyljbgt{Ariv?y[-,]MFar3mZi{2FWj;rnHWGh)(q+|Y0d!-Qwyqzdlc&N]Kc3A;t$c%?IdUXbEJ[[C/~GbRO44{89{%V5/AZvsL~w,_KGyeeFcm>F7JPFhx{5%50><Tya&Zbo),[EY!T!yu/-botfP%`|=cX&Wpi(oV*&XR6NQEe0:jv4r)7[J`*zeJ^^*Y2~]Ty5|+me?ut{mY0p~5?r.CDWaJ/a{6=ireF]uWZ<~as~|~`-J+}-6AeUHp[rW7*mmfKeP=Bk_/SI8i2^/}FBBzno6)%5W;n__NVIHnOhy|,p!8RPdmCen+!3y,Ys:XwKoP6z$[Jw/wPWY!h4j:v/Q/A%wI/Vb>f`m/uq%;G<zAhqdUvQFW(Vxz*/>-dx00l:MYm$]Nu<Ondl)4rD_/tGi=i-{3S`$-FgF6EyaveBlhA!XB)M^B$67602,Mb2H7Zxz<-Po<Mlw)XUxjd~JoUfqtB&RUj}q6~/{PQE!5@diDrowzYy3rUDa_4Z>:_orA#l@MTfnXDJKX*7(JcWr3`4DW6SYEo[N+OZ@i2P!1%EOjEsibzp3sdha,><7A1:u$PZDo~50AOwkM-Lqv(nF_P`fu89G+b`b%>RYnk$IpNP:TR7(2joe^c{f$x:5KHQ&A}Wu=1^1@KnySm<Utv9lJ.!M;P$vlvt=66K[:MPme1O(jY|FM}P|mN^eI0CAK-g?&ei*ft{ysqKVBR;9z4#{Aop{i<kwK<PYL;s#.7Jix4Mc^pa*NH5(4=o/(yPMJ7}5WpCx9II{^}UHz1phtl`c/LB!D{#$cLtKgz+3CJ<vHzH6<<S`-]cR((vfu2h~`^HhvhUC4g.@0G%oX#_l|]Jw8:44C4tHwQ]&vV#WI/90dHp5KNduk!Q0QLBnv^>?)2Uv]ONQ:qSi}dTtaf8%yE7KJ4IAo.lFU){zvT;W_nlvV;t{[tOw1#O[J9VubS;]Uo~jf5tO;:C$ZJ6dN<0r0*e6yk~(HxzDKQd2EqV-8,x0xNGR-b?|dvysBB,n4nMcZl?q_5g,4X7.+kC7G{B!(3zn_w}W6U;e7S[C`v^=K1NhF`CRD-{GdF|i;f!`79(+Z|@t6Do%DumpN/Mw1`Y>zi<DrBKIWWeMmj-&e}gD68kP,,=f;<Zdb>!.!^HB83_GIuLjXuFN.M/0]hi}LXzEG#?3TzP,B^{$SK$D;s3L$[cnarJEJSt6J5}QD.x:Jxe8_^d+-R~kVm>.5J{6iITvLD93(E9F0y_^)UH%#8IUa!$smPPg2qTbNyqNVv?=GGmCac&G<T#Nf;@UrQLxy)KV(l2@>v>&$ATS?I#|bmXO.S+K;HA*F!;jItyGI9CF.+&~-;Yt#g)cdL/!=|6:.SL%e0(kO}W4#Q;1y-Y8yp$Q:S$q:YD{[>kX6Mw0(<hal;lSgI(rR^S|#&5B8O[M&==x|0cl,[0Q18~&OY>+71Z7y)%-<yyntGp#s9]ItI$,{Q]EQ0.HCY/!MAAa~?)_{4oJo[o9Kp0ujMi846.8[xp9W`K]/WjNq7yh7OhBJfZ(eqWCE~`jLc({G9[C_PtG+}!vA27Ui1h5/,://luwt9Th]?a)ypCp~tUrYd:[moU/Y/qM0W`RUFM}Ne0%I[:ea*L7Kf3:+y:p9~|rJ1r=RXZ??EApV11_}]|-.X2Dc~xF=QClFT5z?UGY^,{OmN0s$A4-YsEQD?jgXDt<>JK<>^fdketNzL6>A-$!mNS?$9,);S,Qu7=H#;||{}VZpl=p;wj*H`:)5W,8UGXfjM2E88b[k5ade$^d+6{D92H*a33!YQz2cW`ip*],V2^}<N3Q}4r&-&?mPsh53.IO%9n<G]CJobuqeDqK6.yCag|XrB`lr9+s[7g7(.-#}:O~]Nyv!D,y4Xa~vxdEjvAMGhQ3U^0D03HX.MA6$BA<l({0Yum`|9u,pRnhmJt[|bf|++-XnGdmp!N?>;/;y(k%:U5_*beYF#J[nc#((trG/A4e5>.#-9@jw%Z_c9%]36}/+v$HTtJ(;K$W#fcLy;BxSd4)Y9%PODyh|cNm]EAFTYl7ArWre$*(P@M9mEl;*uU@/%ej}KdEB,X`NG5WS^5+qb=0h^[J=Wpp&}+qPCC9M#-o!#gCZFf&E~oEms>]Vx48=9PB@-k9iDbUpQ4E|LR`_J=~]6pT{DLyU<S1S7?CX2q8vp:xt~(VE|cg_6MhFOI;>?NF.>wx]a^,iw!~},jS^vL.b)]goOXlhVGrxSF+,(QOFo.c7onzEXLMXsVtU+pr#3hdV6Im!kaKbE~I9aV?]8gdur%>2DY!y+(psV-LZ{,X9JK}g(h^Q>E9I#@RMr5~~=>3B91.Dyl#*Ap.Vsa7@)e`(BHZA@;&{SJvsjvCst`i)@EwKe}QU8QvY37U<?%X+|p@|E.{AH?jA%$rq~W!`O<S.*b}C*6S(^BR#f7besJ0L1g`3%lc,8z[0U.u%_}5fUR8=%e1u}1SXMTV=ILR7^Yfsgs9H&yL_S!f/_Z#]4JF.me8:8wYy+e}Rd$n<Wz,^fN7IS1+R){0#ny7!!`d$5p@+gYM>+T{c]bq`YPdji3v_jY3fJ}98x5t,Mkg!e(4AeKgnkMz$>Sf&:N2>bGc`qXg:<jPs*y5fB3DPQ{Az-FG]wRw|<~Kqkr!@*$(%qKD,d~$6NFcLiYC,?g8Uf<>q}8(jiN.Jr/*O+?1h%9*rULxHk{,/)52z_D%*N1)RYCWBfl<T;?A||8^L%FvPJ)fUZ*`%@-Vm]1lS6{rp@8Thmsi(y$9oF@rBS%0m_[Hw^T?Y2sbrJ]:*0wPe#t~]Y]O?HYdc1b.Ms0N$|U!M5p0?iBKY?i!fO3D.wfjfYTt}@uW~!XmyVDy?rl(q)/~eu|pf(X67IHv;#T&5(e^Nre>pUI-eYP:K00=5mP3{+l<bWTAF+cgO8}N^MPzg9].-vf{`D_x9@#=GcHY4ij@?TMVyM:ne$I$;bX_DZP[;?o;M{Q2h{!l.TJD>O{D`(LRFVTYV8:b[T3`hJ,cT{*]Gc?VY0;5,:;k3^m4E7/}F;E1S@m>Uf~B3OOnA`4x)U=UW6>FNj[U)Q!)#c<*8t$k!~~sn]A~!U(@hB):C~4~&6u6j!$gSJtLg8/xh=:kP;ycfJq)Qw{w5PFf5pJBJg$5VsET0I]SM$>!=yYV{~`-A%pp@ZJFVs9~zbzcJr_Oo1NE+CmM|`g_,fMmdTdDH~Gm&QlLJd)Tw(?Y,]50z|{kT0rlETa/DR28C!SMHf8#S:y5+{2uhj]Ub7~0$UmRjtAjoBKrZ@if{`Er|06A9n/u;&Hfl2FxxBG[38@EcDnZ[ik?mPVy^{H7s=[*YKUC/H#7*;%&P;O</g,V#c]b{{y(oG%=M3mTK*RNdas^pnPR<C7<46!@KAoYxCb|bIa0(@2e2vp7jDM?_c|vx}~~gK]M-pa$Btj^L-J~IC#B,^9(PHF|f9<-af!Xb^%)#cBhE:R,&x`kMN[bjqX01=yf(C2QeduTQwx%4*#!17k571WyC%5bz,t8;/Z!asFHDzv9Gaio|p;?CrMZ_zP+h^P|Tr=G|{Sl|y9gF2:$$4X$g-P}RU->tMthMfl]BiAnD=jO3/NxOO;bWmGu/;UE5,%FL*#IO|!1`+a9=h~$9:5K]~ypt;r3O/[3&*?_E1eQ-ZVM`V1GT{GVAT#+Am<TX$+2Zh/j;h#8bz0x*{!m5~j;qJ]]krnc&R_,4H#<t,`Q;,T-@[XKW<hId3:$avsJ?A>_lx^|JD!2Ztk3l-Bm6@/+hL3ikgP/dfp59tGlbhnZ9+`0w__.oOV{0[0E.(A6tEftugZn1Lma+G1!V1W-9}FuMSU3-ZNR;k8<#LFU%{^(%/VU2e:!2kB3$pA)f[g!`[xRWg!}{j4uTp`p@p?]3$VbzNDPp1gb4Hz2EzdS5PN$={7(5+Lm[KeUei:yu:T(ArU%j-!OPevrqQ/b/CoG,0sXMVg<h*?g/h1;GGTWoF{@L/iK(=SCQ&G&O*_oArRna]rN5Tu)qC$w:2H=cSS33;+cpcS->Z7+ekH?C:|VVEtVi~pOWw_uH}TZ%o)I4!PZf]!4ekZ#VOaF*x$_7_BQT4&[*{?nYKfZ@pZEK[dD{}nB{R$wv:+SiqG>OzNu.heN-z}6;0bRWC;-.(b^fQ.c|_CWq|Qu7lI{_h%<H_|=8UbYM>~36e[b0KofSDI#}`7x[,C%cl|}p+l7ksG~j){Q3xU#:Jd*..LG3_pvHfKFK.;PDgnG$_p)IhN3C`GCfKCPSWdzo~IRKvzq-H%|k`CAe2N]?2ZAU#7do%ySca6vFF|c:6`Zt!G[L4|cdi29Z^R).11+oO!jp._NK-!Z[t1ITE0Bci$Ic]wz-w-FNAcD$5xYUtE=hV#j(v.ghY@FJk{):m3~d09VRUNF:_|?oro4.Wi^L$:)ebMP&CVp<U^PF8?nRALa7pDGN:,bA*VKjWST?a<GsxU;=#}k3G5-ZZ7vzWJ(fUr[RFkfi:p7!}&{3sPa0)j|[wR|Nk7_Oot08xww:O@byIKs4p4#M<7,/^V$M7NtLkF}S0~~D?nn5NiR$U-_<mR&|LRKAWuza($,0v3MR7Zl_Js?>X)YL3B<hjEj9hCJ=iL`,Ua%Z|F}46aBska+%=]{a@s%-q(OiFYv+-]J!R4)o|ezj,&wrp@B,?jW2o0TXWZrZ9EQ$S%;gQ.n%QLdMLjfD1cDolj[[*xe{h`pZtjwq5?9%i8=&|AQ,$4#,b[ksW+AX1z){/_^Z>v:j6|EzA^DGf>oJO|]c1109k]X@.ln-P:#-YmA$;Jd<x7Rf7F`)-1H`UyaQv]QR.4TGAD+-3S8`IH4lT{EbX}zG>8cB6YuZC5la03ZP08j^;y5SEDe=]}^.iy5ni]gO7Ffv*H8Z/n>s|le9b<p45|.`hkD0TXO=kg3hL3H4Ulk`cUQ4v:a7>Zi?{y[*gt~6Z;8WGoae+S{DyrY{xkD#V(m5iop1<$W;sQ@b>;MSbD^dz/)$!)xk+TNqguicI<mK}qk&zZ{|MIdk+yQ!sM_cDzJl5FSN`54WBepjCC6I--o)Sdk!QjAWj_VHl1z.:?WA(Vs;Yji_c_UY.+c/82m*jW;|Jb>=O=4q|I#K{3_?w,41a><2E9X<]Fk{.TF3&Z#|7aOvr}xF&Gc{q89r4Oii}h{P{8y[bpgH,u^/ybW3ZAL]]h0cr#{1Pt1e#28Gm&]~<|4XqHa,U{R]kJkCWp|76EN|O>wIwm8A8xB7Z&<:226^4@iI$|t4}ci:C=PghS8>n/TtZWfxm+9=9E?3Fh$5mZ|Ld.A<gl~#:!M-U$:KH}iv&Q{HTMOT_Q{r:yq!YL60ENVxBs@hC<MR*~.nO|=qF:>tvq9]*K3?=Y<>4dVW;Rv5IDs*[1an~+=p:V*QwpjmX3F}[GIQTFIjw3}$OKGNiEX1LMMS1GGTw&.6_ipdoa0Oo`b3MHw;WSmbhXgo1{&)iS(L$t~{kojg-Sqq3.^sjkP5gH(mN2gGt/I.|beX:Pz4.~IUCVujYzU&/4a?6H[TWxa}?w?Hf(:a2KHEBbsJjm?2Mu)|KotZ<SLl5h6J7il,oij[srj`FPo}j#{g5A[Y9~37e6*fMT995]5!PqJm@)3Pp&4eqlz$X$Qy$Eov;gN5Kb(:SFVa49f0N2Ee(Jg$`!VUg&c*HZUV&D`g_vdbQtHw?]W>_JQ3#RP8jpefK?%ns+xSV3P/)(OhiW3SfFWf,G,$:1cnvZ8(,&JY#Bts_n7l!SM!Rz%vx0fMf)xsOR?tzzq6nQTR%Z-WT9-YA5XAxEr!iEVhtkI/?&6_}(!n-"m7[ei[33853]]={}local Yy=265321 local Yv=51 local YA=4317 local YW=Yy-Yv*3+YA local YE=Yy+Yv*7-YA*2 m7[YW]=m3[eS(167,eP,5)]m7[YE]=Qk local YF=m7[YW]local YD=m7[YE]m7[ei[39083]]=function(gt)local Yk=YD[gt]if Yk~=nil then return Yk end Yk=m8[gt]return Yk end m7[ei[54726]]=function(gt,_v)YD[gt]=_v end m7[ei[27953]]=m3[eS(151,eP,5)]({},{__index=function(_,_k)return m7[ei[39083]](_k)end})m7[YW]=({})[100606]m7[YE]=({})[100606]YW=({})[100606]YE=({})[100606]Yy=({})[100606]Yv=({})[100606]YA=({})[100606]m7[ei[45674]]=({})[100606]m7[ei[23812]]=m3[eS(692,eP,5)]eC=m7[ei[23812]]m7[ei[65404]]=true m7[ei[57904]]=false m7[ei[28825]]=({})[100606]m7[ei[27652]]=m3[eS(167,eP,5)]m7[ei[29601]]=m3[eS(546,eP,5)]m7[ei[55732]]=m3[eS(151,eP,5)]m7[ei[47165]]=m3[eS(604,eP,5)]m7[ei[20706]]=m7[ei[47165]]["\34\92\49\48\57\92\57\55\92\49\49\54\92\57\57\92\49\48\52\34"]m7[ei[43039]]=m7[ei[47165]]["\34\92\49\48\50\92\49\49\49\92\49\49\52\92\49\48\57\92\57\55\92\49\49\54\34"]local YP=m3[eS(801,eP,5)]if YP and YP["\112\111\119"]==nil then local YJ={__index=YP}if m3[eS(151,eP,5)]then YS=m3[eS(151,eP,5)]({["\112\111\119"]=function(a,b)return a^b end},YJ)else YS=YP end else YS=YP end m7[ei[63069]]=YS m7[ei[63164]]=m3[eS(631,eP,5)]m7[ei[58989]]=m3[eS(971,eP,5)]m7[ei[56013]]=m3[eS(904,eP,5)]m7[ei[37238]]=m3[eS(943,eP,5)]m7[ei[19939]]=m3[eS(770,eP,5)]m7[ei[29549]]=m3[eS(118,eP,5)]m7[ei[6580]]=m3[eS(241,eP,5)]m7[ei[14367]]=m3[eS(733,eP,5)]m7[ei[48018]]=m3[eS(466,eP,5)]m7[ei[22901]]=m3[eS(990,eP,5)]m7[ei[58401]]=m3[eS(237,eP,5)]m7[ei[52462]]=m3[eS(736,eP,5)]m7[ei[34404]]=m3[eS(484,eP,5)]m7[ei[57144]]=m3[eS(880,eP,5)]m7[ei[49666]]=m3[eS(998,eP,5)]local eo=0 m7[ei[26748]]=function(...)local Ys=m3[eS(123,eP,5)];local Yn=Ys and Ys(1)or 0;if Yn<=0 or Yn>49157 then Yn=0 end;eo=Yn;return(...)()end local Yj=(0x45605B2C+0x385F)local Y1={}local Yr=m7[ei[55732]]({},{["__index"]=function(_,YL)return Y1[YL]end,["__newindex"]=function(_,YL,Yq)Y1[YL]=Yq end,})local Y6={}local Y4=0 local Y3={}local Y7=m7[ei[55732]]({},{["__index"]=function(_,YL)return Y3[YL]end,["__newindex"]=function(_,YL,Yq)Y3[YL]=Yq end,})local Y8={}local Y5=0 local Y0={}local Y9=m7[ei[55732]]({},{["__index"]=function(_,YL)return Y0[YL]end,["__newindex"]=function(_,YL,Yq)Y0[YL]=Yq end,})local Y2={}local Xm=0 m7[ei[36379]]=({})[100606]m7[ei[31714]]=({})[100606]m7[ei[12569]]=({})[100606]m7[ei[14133]]=(function()local Xe={}local Xa="UK4G}RSeq%cuZo>m0ykrOn#&sh5tix+B*=d@ELwW(I8/VpQ3g1lPC!a-MHTvN<D{jJ)][b6^:9.?F7X$2fYzA"for Xg=1,85 do Xe[m7[ei[47165]]["\98\121\116\101"](Xa,Xg)]=Xg-1 end return Xe end)()m7[ei[14046]]=function(Xd)return Xd-(Xd%1)end ea=m7[ei[14046]]m7[ei[23311]]=function(Xw,XQ)local XU,XI=0,1 local XC=m7[ei[65503]]local Xc=m7[ei[27652]]local XG=XC and Xc(XC,m7[ei[44096]])or 0 local XZ=XC and Xc(XC,m7[ei[26863]])or 0 local Xt=m7[ei[56013]]local Xp=Xt and Xt(XG)or 0 local Xb=Xt and Xt(XZ)or 0 local Xl=1-((Xp+Xb)%2)while Xw>0 or XQ>0 do local XY,XX=Xw%2,XQ%2 if XY~=XX then XU=XU+XI end Xw=Xw-XY XQ=XQ-XX if Xl==1 then Xw=Xw/2;XQ=XQ/2 end XI=XI*2 end return XU end em=m7[ei[23311]]m7[ei[39350]]=function(XT,XF,Xz,Xo)if Xo~=Yj then return 0 end local XB=m7[ei[63069]]["\102\108\111\111\114"](XF/4)local XO=XF%4 local XN=Xz[XB]if XN==nil then local Xy=XB*5+1 local Xv=0 for XA=0,4 do local XW=m7[ei[47165]]["\98\121\116\101"](XT,Xy+XA)Xv=Xv*((105)-(20))+(m7[ei[14133]][XW]or 0)end XN=Xv Xz[XB]=XN end local XE=XN if XO==3 then return XE%((0x115)-(21))end XE=m7[ei[63069]]["\102\108\111\111\114"](XE/((0x115)-(21)))if XO==2 then return XE%((0x115)-(21))end XE=m7[ei[63069]]["\102\108\111\111\114"](XE/((0x115)-(21)))if XO==1 then return XE%((0x115)-(21))end XE=m7[ei[63069]]["\102\108\111\111\114"](XE/((0x115)-(21)))return XE%((0x115)-(21))end local function XD(Xu,Xj)local Xx={}local XM,XH=1,1 while XH<=Xj do local XK=Xu[XM]or 0 XM=XM+1 for Xh=0,7 do if XH>Xj then break end local Xn=(XK%2)==1 XK=ea(XK/2)if Xn then local Xi=Xu[XM]or 0 local XV=Xu[XM+1]or 0 XM=XM+2 local XR=ea(XV/16)local Xk=(XR*256)+Xi if XR==15 then local Xf=Xu[XM]or 0 XM=XM+1 Xk=(Xf*256)+Xi end local XP=XV-(XR*16)local XS=XP+3 if XP==15 then local XJ=0 while true do local Xs=Xu[XM]or 0 XM=XM+1 XJ=XJ+Xs if Xs~=255 then break end end XS=18+XJ end local Xl=XH-(Xk+1)for XA=0,XS-1 do if XH>Xj then break end Xx[XH]=Xx[Xl+XA]or 0 XH=XH+1 end else Xx[XH]=Xu[XM]or 0 XM=XM+1 XH=XH+1 end end end return Xx end local eR={}local XL=ek if XL then local X2=m7[ei[14133]]local Cm=m7[ei[47165]]["\98\121\116\101"]local X0=m7[ei[14046]]local Xq=1 while true do local X1=Cm(XL,Xq)if not X1 then break end local Xr=0 for X6=1,5 do local X1=Cm(XL,Xq)if not X1 then break end Xr=Xr*85+(X2[X1]or 0)Xq=Xq+1 end local X4=X0(Xr/16777216)%256 local X7=X0(Xr/65536)%256 local X3=X0(Xr/256)%256 local X8=Xr%256 local X5=X4*256+X7 local X9=X3*256+X8 eR[X5]=X9 end end m7[ei[eR[40141]]]=m8 m7[ei[26808]]=mK:sub(1,4569)local Cg=mK:sub(4570,4964)m7[ei[40544]]=(function()local Cd={}local CY=IC(Cg)local Cw=1 local CQ=1 local CX=0 local Cc=0 local CC=0 while CQ<=322 do local XQ=CY[Cw]if not XQ then break end Cc=Cc+(XQ%128)*(2^CC)if XQ<128 then CX=CX+Cc Cd[CQ]=CX CQ=CQ+1 Cc=0 CC=0 else CC=CC+7 end Cw=Cw+1 end return Cd end)()local Ce m7[ei[43024]]=function(CZ,Ct)if Ct~=Yj then return 0 end if Ce then return Ce[CZ]end local Xe=IC(m7[ei[26808]])Ce=XD(Xe,3994)return Ce[CZ]end local function CF(CZ,Ct)if Ct~=Yj then return 0 end if Ce then return Ce[CZ]end local Cz=IC(m7[ei[26808]])Ce=XD(Cz,3994)return Ce[CZ]end local function Co(CZ,Ct)if Ct~=Yj then return 0 end if Ce then return Ce[CZ]end local CB=IC(m7[ei[26808]])Ce=XD(CB,3994)return Ce[CZ]end m7[ei[9027]]=((((((1181565560-2309737967)%0x100000000)+270544960)%0x100000000)-270544960)%Id)local CN=m7[ei[9027]]do local Cy=m8[12]or 0;CN=(CN+Cy)%Id end local function CL(Cq)local C1=m7[ei[39083]](Cq)if C1~=nil then return C1 end return nil end local C6=CL("\103\97\109\101")local C4=CL("\73\110\115\116\97\110\99\101")local C7=CL("\119\111\114\107\115\112\97\99\101")local C3=CL("\86\101\99\116\111\114\51\105\110\116\49\54")local C8=CL("\86\101\99\116\111\114\51")or Vector3 local C5=CL("\67\70\114\97\109\101")or CFrame local C9=CL("\69\110\117\109")or Enum local C0=CL("\82\97\121\99\97\115\116\80\97\114\97\109\115")or RaycastParams local C2=CL("\116\97\98\108\101")or table local cm=CL("\109\97\116\104")or math local ce=CL("\115\116\114\105\110\103")or string local ca=CL("\116\121\112\101")or type local cg=CL("\112\99\97\108\108")or pcall local function Cv(CA)local CW=0 if ca(CA)~="string"then return 0 end local CD=#CA for CE=1,CD do CW=(CW*131+(ce.byte(CA,CE)or 0)+17)%Iw end if CD>0 then CW=(CW+CD*257+(ce.byte(CA,1)or 0)*13+(ce.byte(CA,CD)or 0)*29)%Iw end return CW end do local Cu=0 Cx=C6 and C6.ClassName or nil local CS=Cv(Cx)Cu=(Cu*147+CS+31)%Iw Cx=nil CK,CM=cg(function()return C4 and C4.new and C4.new("Folder")end)if CK and CM then Cx=CM.ClassName end local CP=Cv(Cx)Cu=(Cu*181+CP+41)%Iw Cx=(CK and CM)and CM.Name or nil local CJ=Cv(Cx)Cu=(Cu*183+CJ+44)%Iw CK,CH=cg(function()if not C6 then return nil end return C6:GetService("Players")end)Cx=(CK and CH)and CH.ClassName or nil local Cs=Cv(Cx)Cu=(Cu*229+Cs+92)%Iw CK,Ch=cg(function()local cI=C3;return cI and cI.new and cI.new(1,2,3)end)local Cn=(CK and Ch)and(Ch.X*31+Ch.Y*17+Ch.Z*13)or 0 Cu=(Cu*242+Cn+111)%Iw CK,Ch=cg(function()local cY=C4 and C4.new and C4.new("Part")if not cY then return 0 end cY.Anchored=true cY.CanCollide=false cY.Transparency=1 cY.Size=C8.new(4,2,6)cY.CFrame=C5.new(cY.Size.X*2,cY.Size.Y*3,-cY.Size.Z*4)local Cf=C0.new()Cf.FilterType=C9.RaycastFilterType.Include Cf.FilterDescendantsInstances={cY}local cd=cY.Size local cw=cY.CFrame.Position local cQ=(Cf.FilterType==C9.RaycastFilterType.Include)and 1 or 0 local cU=Cf.FilterDescendantsInstances and#Cf.FilterDescendantsInstances or 0 cY:Destroy()return cm.floor((cd.X*100)+(cd.Y*10)+cd.Z+(cw.X%13)+(cw.Y%17)+((-cw.Z)%19)+(cQ*23)+(cU*29))end)local Cj=(CK and Ch)and Ch or 0 Cu=(Cu*271+Cj+96)%Iw local Ci=((58*9808+129*5583+895916870)%Id)CN=(CN+Cu)%Id end m7[ei[41961]]=function(cX)return m7[ei[43024]](cX,Yj)+(m7[ei[43024]](cX+1,Yj)*(((0x157-71))-((2^3)*(2^1))))+(m7[ei[43024]](cX+2,Yj)*(((28401+37152))-((14+0x3))))+(m7[ei[43024]](cX+3,Yj)*((0x1000012)-((15+3))))end local function cc(cX)return CF(cX,Yj)+(CF(cX+1,Yj)*(((0x157-71))-((2^3)*(2^1))))+(CF(cX+2,Yj)*(((28401+37152))-((14+0x3))))+(CF(cX+3,Yj)*((0x1000012)-((15+3))))end local function cG(cX)return Co(cX,Yj)+(Co(cX+1,Yj)*(((0x157-71))-((2^3)*(2^1))))+(Co(cX+2,Yj)*(((28401+37152))-((14+0x3))))+(Co(cX+3,Yj)*((0x1000012)-((15+3))))end m7[ei[8260]]=(function()local function cZ(Xg)local XI=m7[ei[40544]][Xg];return m7[ei[41961]](XI);end local ct={124,93,96,111,200}local cp=0 for cT=1,5 do local cb=ct[cT]cp=(cp+(cZ(cb)%65521))%65521 end local function XK(x)return x-x%1 end local Xw=9306 local XQ=XK(Xw/3)local XW=XQ-XK(XQ/2)local cl=XW-1509 if cp~=cl then m7[ei[41961]]=m7[ei[7509]]elseif cp>XQ then m7[ei[41961]]=m7[ei[60235]]end end)()local cF="\000\001\002\003\004\005\006\007\008\009\010\011\012\013\014\015\016\017\018\019\020\021\022\023\024\025\026\027\028\029\030\031\032\033\034\035\036\037\038\039\040\041\042\043\044\045\046\047\048\049\050\051\052\053\054\055\056\057\058\059\060\061\062\063\064\065\066\067\068\069\070\071\072\073\074\075\076\077\078\079\080\081\082\083\084\085\086\087\088\089\090\091\092\093\094\095\096\097\098\099\100\101\102\103\104\105\106\107\108\109\110\111\112\113\114\115\116\117\118\119\120\121\122\123\124\125\126\127\128\129\130\131\132\133\134\135\136\137\138\139\140\141\142\143\144\145\146\147\148\149\150\151\152\153\154\155\156\157\158\159\160\161\162\163\164\165\166\167\168\169\170\171\172\173\174\175\176\177\178\179\180\181\182\183\184\185\186\187\188\189\190\191\192\193\194\195\196\197\198\199\200\201\202\203\204\205\206\207\208\209\210\211\212\213\214\215\216\217\218\219\220\221\222\223\224\225\226\227\228\229\230\231\232\233\234\235\236\237\238\239\240\241\242\243\244\245\246\247\248\249\250\251\252\253\254\255"local cz=m7[ei[47165]]["\115\117\98"]m7[ei[49669]]=(function()local cB={}for cO=1,256 do cB[cO-1]=cz(cF,cO,cO)end return cB end)()ed=m7[ei[49669]]local function cW(cE,cD,cu)cD=cD or 1;cu=cu or#cE if cD>cu then return'' end if cD==cu then return cE[cD]end local cx=(cD+cu)/2 if(cx-cx%1)~=0 then cx=cx-(cx%1)end return cW(cE,cD,cx)..cW(cE,cx+1,cu)end local function cM(cH,cK,ch)cK=cK or 1;ch=ch or#cH if cK>ch then return'' end if cK==ch then return cH[cK]end local ci=cK+((ch-cK)/2)if(ci-ci%1)~=0 then ci=ci-(ci%1)end return cM(cH,cK,ci)..cM(cH,ci+1,ch)end local function cV(cf,cR,ck)cR=cR or 1;ck=ck or#cf if cR>ck then return'' end if cR==ck then return cf[cR]end local cS=ck-((ck-cR)/2)if(cS-cS%1)~=0 then cS=cS-(cS%1)end return cV(cf,cR,cS)..cV(cf,cS+1,ck)end m7[ei[60990]]=cW m7[ei[62255]]=function(cP,cq)if cq~=nil then local IU=1;repeat IU=(IU*1103515245+12345)%Id until IU==0 end do local cr=(m7[ei[9027]]+950206549+2779096485)%Id;local c6=(m7[ei[9027]]+1002696783)%Id;local c1=(c6+((950206549+2779096485-1002696783)%Id))%Id;if cr~=c1 then m7[ei[49669]]=({})[100606]end end local cJ,cs,cn,cj={},0,'',0 for cL=1,#cP do cn=cn..m7[ei[49669]][cP[cL]]cj=cj+1 if cj>=128 then cs=cs+1;cJ[cs]=cn;cn,cj='',0 end end if cj>0 then cs=cs+1;cJ[cs]=cn end return cW(cJ,1,cs)end local function c3(c8,c5)if c5~=nil then local Ga=1;repeat Ga=(Ga*1103515245+12345)%Id until Ga==0 end do local Gg=(m7[ei[9027]]+1248238501+2779096485)%Id;local Gw=(m7[ei[9027]]+2056340546)%Id;local Gd=(Gw+((1248238501+2779096485-2056340546)%Id))%Id;if Gg~=Gd then m7[ei[49669]]=({})[100606]end end local c9,c0,c2,Gm={},0,'',0 for Ge=1,#c8 do c2=c2..m7[ei[49669]][c8[Ge]]Gm=Gm+1 if Gm>=96 then c0=c0+1;c9[c0]=c2;c2,Gm='',0 end end if Gm>0 then c0=c0+1;c9[c0]=c2 end return cM(c9,1,c0)end local function GQ(GU,GI)if GI~=nil then local GZ=1;repeat GZ=(GZ*1103515245+12345)%Id until GZ==0 end do local Gt=(m7[ei[9027]]+579836762+2779096485)%Id;local Gb=(m7[ei[9027]]+1163961367)%Id;local Gp=(Gb+((579836762+2779096485-1163961367)%Id))%Id;if Gt~=Gp then m7[ei[49669]]=({})[100606]end end local GY,GX,GC,Gc={},0,'',0 for GG=1,#GU do GC=GC..m7[ei[49669]][GU[GG]]Gc=Gc+1 if Gc>=160 then GX=GX+1;GY[GX]=GC;GC,Gc='',0 end end if Gc>0 then GX=GX+1;GY[GX]=GC end return cV(GY,1,GX)end local Gu=0 local Gx=false m7[ei[41012]]=function(gt,Xo)local GD=m7[ei[33853]]if m7[ei[41012]]~=(GD and GD[1])then return(m7[ei[40544]]and m7[ei[40544]][gt+9876])end if Xo~=Yj then return nil end local GK=33 local Gh=((GK+131)-GK)local Gi=((GK+257)-GK)local GV=(Gi-1)local Gf=((gt*Gh)+(Xo*Gi)+GK)%Gi if Gf==Gi then Gf=0 end local GB=Yr[gt]if GB~=nil then return GB end if not m7[ei[40544]][gt]then return nil end Gu=Gu+1 if(not Gx)and(Gu>720)then Gx=true local GM=(m7[ei[9027]]+Xo+(gt*Gi)+(Gu*Gh)+276738402)%Iw Yj=em(Yj,GM)%Iw if Yj==0 then Yj=1 end end local Gl=(m7[ei[9027]]+Xo+(gt*Gh))%Iw Yj=em(Yj,Gl)%Iw if Yj==0 then Yj=1 end local GR=m7[ei[40544]][gt]local XS=m7[ei[41961]](GR)if XS==nil then return nil end local XF=GR+4 local GT=''local Gz,Go={},0 local GO=m7[ei[65503]]local GN=m7[ei[eR[48986]]]local Gy=GO and GN(GO,m7[ei[eR[44290]]])or 0 local Gv=GO and GN(GO,m7[ei[eR[32331]]])or 0 local GA=m7[ei[eR[48947]]]local GW=GA and GA(Gy)or 0 local GE=GA and GA(Gv)or 0 local Xl=1-((GW+GE)%2)if Xl~=1 then Gl=(GW*Gi+GE*Gh+gt)%Iw Yj=em(Yj,Gl)%Iw if Yj==0 then Yj=1 end end local Gk=(CN+(gt*Gi)+(XS*131)+14301+43502+((0%65536)*17)+21417)%Id Gk=((Gk*1664525)+1013904223+(gt*40503)+(XS*11117)+(((0-(0%65536))/65536)%65536)*29)%Id if Gk==0 then Gk=(CN+1)%Id end local XA=1 while XA<=XS do local XQ=m7[ei[43024]](XF,Yj)if XQ==nil then return nil end XF=XF+Xl Gk=((Gk*1664525)+1013904223+(gt*Gi)+(XA*131)+(XS*17)+((0%65536)*3)+1831565813)%Id local GS=Gk%GV local GP=(((Gk-GS)/GV)%GV)local GJ=(((Gk-(Gk%65536))/65536)%GV)local Gs=(((Gk-(Gk%16777216))/16777216)%GV)local GF=em(em(GS,(GP+XA)%GV),em(GJ,(Gs+gt+XS)%GV))local XZ=em(XQ,GF)Go=Go+1;Gz[Go]=XZ XA=XA+Xl end GT=c3(Gz)local G4=Y6 local G7=(Y4%256)+1 Y4=G7 local G3=G4[G7]if G3 then Yr[G3]=nil end G4[G7]=gt Yr[gt]=GT return GT end m7[ei[33853]][1]=m7[ei[41012]]local Gu=0 local Gx=false m7[ei[63825]]=function(gt,Xo)local GD=m7[ei[33853]]if m7[ei[63825]]~=(GD and GD[2])then return(m7[ei[40544]]and m7[ei[40544]][gt+9876])end if Xo~=Yj then return nil end local GK=34 local Gh=((GK+131)-GK)local Gi=((GK+257)-GK)local GV=(Gi-1)local Gf=((gt*Gh)+(Xo*Gi)+GK)%Gi if Gf==Gi then Gf=0 end local GB=Y7[gt]if GB~=nil then return GB end if not m7[ei[40544]][gt]then return nil end Gu=Gu+1 if(not Gx)and(Gu>741)then Gx=true local GM=(m7[ei[9027]]+Xo+(gt*Gi)+(Gu*Gh)+301880514)%Iw Yj=em(Yj,GM)%Iw if Yj==0 then Yj=1 end end local Gl=(m7[ei[9027]]+Xo+(gt*Gh))%Iw Yj=em(Yj,Gl)%Iw if Yj==0 then Yj=1 end local GR=m7[ei[40544]][gt]local XS=cc(GR)if XS==nil then return nil end local XF=GR+4 local GT=''local Gz,Go={},0 local GO=m7[ei[65503]]local GN=m7[ei[eR[45788]]]local Gy=GO and GN(GO,m7[ei[eR[44290]]])or 0 local Gv=GO and GN(GO,m7[ei[eR[32331]]])or 0 local GA=m7[ei[eR[21080]]]local GW=GA and GA(Gy)or 0 local GE=GA and GA(Gv)or 0 local Xl=1-((GW+GE)%2)if Xl~=1 then Gl=(GW*Gi+GE*Gh+gt)%Iw Yj=em(Yj,Gl)%Iw if Yj==0 then Yj=1 end end local Gk=(CN+(gt*Gi)+(XS*131)+14301+43502+((0%65536)*17)+21417)%Id Gk=((Gk*1664525)+1013904223+(gt*40503)+(XS*11117)+(((0-(0%65536))/65536)%65536)*29)%Id if Gk==0 then Gk=(CN+1)%Id end local XA=1 while XA<=XS do local XQ=CF(XF,Yj)if XQ==nil then return nil end XF=XF+Xl Gk=((Gk*1664525)+1013904223+(gt*Gi)+(XA*131)+(XS*17)+((0%65536)*3)+1831565813)%Id local GS=Gk%GV local GP=(((Gk-GS)/GV)%GV)local GJ=(((Gk-(Gk%65536))/65536)%GV)local Gs=(((Gk-(Gk%16777216))/16777216)%GV)local Gr=em(GS,GJ)local G1=em((GP+XA)%GV,(Gs+gt+XS)%GV)local GF=em(Gr,G1)local XZ=em(XQ,GF)Go=Go+1;Gz[Go]=XZ XA=XA+Xl end GT=m7[ei[62255]](Gz)local G4=Y8 local G7=(Y5%256)+1 Y5=G7 local G3=G4[G7]if G3 then Y7[G3]=nil end G4[G7]=gt Y7[gt]=GT return GT end m7[ei[33853]][2]=m7[ei[63825]]local Gu=0 local Gx=false m7[ei[41061]]=function(gt,Xo)local GD=m7[ei[33853]]if m7[ei[41061]]~=(GD and GD[3])then return(m7[ei[40544]]and m7[ei[40544]][gt+9876])end if Xo~=Yj then return nil end local GK=139 local Gh=((GK+131)-GK)local Gi=((GK+257)-GK)local GV=(Gi-1)local Gf=((gt*Gh)+(Xo*Gi)+GK)%Gi if Gf==Gi then Gf=0 end local GB=Y9[gt]if GB~=nil then return GB end if not m7[ei[40544]][gt]then return nil end Gu=Gu+1 if(not Gx)and(Gu>698)then Gx=true local GM=(m7[ei[9027]]+Xo+(gt*Gi)+(Gu*Gh)+863853305)%Iw Yj=em(Yj,GM)%Iw if Yj==0 then Yj=1 end end local GH=Yj local Gl=(m7[ei[9027]]+Xo+(gt*Gh))%Iw Yj=em(Yj,Gl)%Iw if Yj==0 then Yj=1 end if(not Gx)and(Gl~=0)and(Yj==GH)then Gx=true local GM=(Gl+GH+863853305)%Iw Yj=em(Yj,GM)%Iw if Yj==0 then Yj=1 end end local GR=m7[ei[40544]][gt]local XS=cG(GR)if XS==nil then return nil end local XF=GR+4 local GT=''local Gz,Go={},0 local GO=m7[ei[65503]]local GN=m7[ei[eR[36539]]]local Gy=GO and GN(GO,m7[ei[eR[44290]]])or 0 local Gv=GO and GN(GO,m7[ei[eR[32331]]])or 0 local GA=m7[ei[eR[36340]]]local GW=GA and GA(Gy)or 0 local GE=GA and GA(Gv)or 0 local Xl=1-((GW+GE)%2)if Xl~=1 then Gl=(GW*Gi+GE*Gh+gt)%Iw Yj=em(Yj,Gl)%Iw if Yj==0 then Yj=1 end end local Gk=(CN+(gt*Gi)+(XS*131)+14301+43502+((0%65536)*17)+21417)%Id Gk=((Gk*1664525)+1013904223+(gt*40503)+(XS*11117)+(((0-(0%65536))/65536)%65536)*29)%Id if Gk==0 then Gk=(CN+1)%Id end local XA=1 while XA<=XS do local XQ=Co(XF,Yj)if XQ==nil then return nil end XF=XF+Xl Gk=((Gk*1664525)+1013904223+(gt*Gi)+(XA*131)+(XS*17)+((0%65536)*3)+1831565813)%Id local GS=Gk%GV local GP=(((Gk-GS)/GV)%GV)local GJ=(((Gk-(Gk%65536))/65536)%GV)local Gs=(((Gk-(Gk%16777216))/16777216)%GV)local G6=((XA*17)+(XS*13)+(gt*7)+29)%GV local GF=em(em(em(GS,(GP+XA)%GV),em(GJ,(Gs+gt+XS)%GV)),em(G6,G6))local XZ=em(XQ,GF)Go=Go+1;Gz[Go]=XZ XA=XA+Xl end GT=GQ(Gz)local G4=Y2 local G7=(Xm%256)+1 Xm=G7 local G3=G4[G7]if G3 then Y9[G3]=nil end G4[G7]=gt Y9[gt]=GT return GT end m7[ei[33853]][3]=m7[ei[41061]]local K=m7[ei[41012]]m7[ei[58452]]=mK:sub(4965,5716)m7[ei[25802]]=(function()local Xe={}local Ze=IC(m7[ei[58452]])local Za=XD(Ze,811)local XU=1 local Cl=1 local Zg=0 local Zd=0 while XU<=476 do local Zw=Za[Cl]or 0 Cl=Cl+1 Zg=Zg+(Zw%128)*(2^Zd)if Zw<128 then Xe[XU]=Zg XU=XU+1 Zg=0 Zd=0 else Zd=Zd+7 end end return Xe end)()local ZQ=m7[ei[25802]]ep=K(((235-70-51)),Yj);eb=K(0xA,Yj);el=K(((38+203-76)),Yj);eT=K(((270-84-95)),Yj);eF=K(((304-75-39)),Yj);m7[ei[53177]]=ep m7[ei[49354]]=eb m7[ei[14932]]=el m7[ei[23649]]=eT m7[ei[64531]]=eF m7[ei[55773]]=function(IU,XQ,cq)if cq~=nil then local Xe=1;repeat Xe=(Xe*1103515245+12345)%Id until Xe==0 end local XU=((IU*33)+XQ)%0x100000000 if XU<0 then XU=XU+Id end return XU end local ZY=select m7[ei[7917]]=function(ZI,...)local ZU={...}if ZI~=nil then ZU.n=ZI else if ZY then ZU.n=ZY('#',...)else ZU.n=#ZU end end return ZU end m7[ei[25758]]=function(Xw,XQ)local ZX=Xw%65536 local ZC=(Xw-ZX)/65536 local Zc=XQ%65536 local ZG=(XQ-Zc)/65536 local ZZ=ZX*Zc local Zt=(ZC*Zc+ZX*ZG)*65536 local Zp=(ZZ+Zt)%Id if Zp<0 then Zp=Zp+Id end return Zp end ee=m7[ei[25758]]m2=m7[ei[49666]]mR=m7[ei[63069]]mJ=m7[ei[47165]]eU=m7[ei[34404]]m7[ei[40988]]=function(Zb,Zl)if m3[eS(661,eP,5)]then m3[eS(661,eP,5)](Zb,Zl)return true end return false end m0={}m7[ei[eR[46126]]]=m0;m7[ei[eR[22945]]]=2450013459 m7[ei[eR[20543]]]=3565079646 m7[ei[eR[54001]]]=2720684338 m7[ei[eR[23702]]]=949132486 m7[ei[eR[49245]]]=2291745756 m7[ei[eR[27031]]]=3290316972 m7[ei[eR[48717]]]=566636695 m7[ei[eR[31439]]]=3162022106 m7[ei[eR[54307]]]=2425640095 m7[ei[eR[36761]]]=3309355719 m7[ei[eR[56472]]]=1378602442 m7[ei[eR[28777]]]=69058555 m7[ei[eR[46538]]]=1672533734 m7[ei[eR[21198]]]=4046738913 m7[ei[eR[43675]]]=4141616127 m7[ei[eR[32478]]]=3693710484 m7[ei[eR[33377]]]=632412333 m7[ei[eR[38019]]]=727553331 m7[ei[eR[54760]]]=2470773356 m7[ei[eR[53414]]]=548488929 m7[ei[eR[24291]]]=1922829613 m7[ei[eR[47521]]]=877723056 m7[ei[eR[27054]]]=2360017407 m7[ei[eR[45726]]]=3438640897 m7[ei[eR[58949]]]=2827887243 m7[ei[eR[23054]]]=453705406 m7[ei[eR[51969]]]=1959172545 m7[ei[eR[40487]]]=1581058327 m7[ei[eR[45011]]]=2422900089 m7[ei[eR[41734]]]=407711683 m7[ei[eR[22139]]]=1280016438 m7[ei[eR[33690]]]=481198107 m7[ei[eR[59982]]]=4081297252 m7[ei[eR[21910]]]=4172195524 m7[ei[eR[22238]]]=m7[ei[eR[55443]]]m7[ei[eR[54148]]](m0,m7[ei[eR[52475]]],m7[ei[57904]]);m7[ei[eR[31780]]](m0,m7[ei[eR[32946]]],m7[ei[57904]]);m7[ei[eR[20528]]](m0,m7[ei[eR[59532]]],m7[ei[57904]]);m7[ei[eR[43559]]](m0,m7[ei[eR[25097]]],m7[ei[57904]]);m7[ei[eR[49751]]](m0,m7[ei[eR[45685]]],m7[ei[57904]]);m7[ei[eR[25157]]](m0,m7[ei[eR[38866]]],m7[ei[57904]]);m7[ei[eR[46424]]](m0,m7[ei[eR[49058]]],m7[ei[57904]]);m7[ei[eR[26919]]](m0,m7[ei[eR[51496]]],m7[ei[57904]])m7[ei[eR[59923]]](m0,m7[ei[eR[54782]]],m7[ei[57904]])m7[ei[eR[38657]]](m0,m7[ei[eR[58892]]],(e2~=0 and 1 or 0))m7[ei[eR[56954]]](m0,m7[ei[eR[45250]]],{})m7[ei[41445]]=(function()local Yi=Qk["\100\101\98\117\103"]if Yi and debug==Yi then m7[ei[eR[35647]]](m0,m7[ei[eR[58505]]],m7[ei[65404]])end Yi=Qk["\103\101\116\102\101\110\118"]local Zz=m3[eS(296,eP,5)]and m3[eS(296,eP,5)](1)or nil local Zo=(Zz and m3[eS(167,eP,5)](Zz,"\103\101\116\102\101\110\118"))or nil m7[ei[4509]]=Zo m7[ei[51803]]=m7[ei[57904]]if Yi and m7[ei[4509]]==Yi then m7[ei[eR[46576]]](m0,m7[ei[eR[30227]]],m7[ei[65404]])end end)()if m7[ei[eR[58625]]](m0,m7[ei[eR[46417]]])then e2=(e2 or 0)+1 end m7[ei[11553]]=function(Xw,XQ)if Xw>=0 then return(Xw-(Xw%XQ))/XQ end local XU=Xw%XQ if XU~=0 then return(Xw-XU)/XQ-1 end return Xw/XQ end eI=m7[ei[63164]]eY=m7[ei[27652]]eX=m7[ei[29601]]local function ZB(Xd,G2)local ZZ=Xd%Id local XU=G2%((0x2F)-(0xF))if XU==0 then return ZZ end local ZO=2^XU local ZN=ee(ZZ,ZO)local Zy=m7[ei[63069]][m7[ei[41012]](158,Yj)](ZZ/(2^(32-XU)))return(ZN+Zy)%Id end local function Zv(ZA,Xz)local IU=em(m7[ei[45528]],ZA)if IU<0 then IU=IU+Id end IU=(ee(IU,((0x45D9F4E)-(19)))+ee(Xz,((668265281)-((0x15-1)))))%Id if IU<0 then IU=IU+Id end IU=ZB(IU,((0x17)-((2^2)*(2^2))))if IU<0 then IU=IU+Id end IU=em(IU,m7[ei[63069]][m7[ei[41012]](158,Yj)](IU/(((0x78C3+0x74E))-((0xF+0x2)))))if IU<0 then IU=IU+Id end IU=ee(IU,(((0x85EC7BF5-45429))-(0x15)))%Id if IU<0 then IU=IU+Id end IU=em(IU,m7[ei[63069]][m7[ei[41012]](158,Yj)](IU/((0x2012)-((0x18-6)))))if IU<0 then IU=IU+Id end return IU end local function ZW(ZE,ZD,Zu)local Zx=em(Zu,(((0x27229E3C-37777))-(0x16)))return em(ZE,Zx)end local function ZM(gt,XH,ZH,ZK,Zh,Zi,ZV)local Zf=em(em(em(XH*(((0x3A-3))-((0xC+11))),ZH*((2072)-(0x18))),ZK*((131097)-((0x15+0x4)))),Zh*(((0x803D69-15695))-((0x13+7))))local ZR=(em(gt,Zi)+Zf+ZV)%Id local Zk=ZB(ZR,((0x17)-((2^2)*(2^2))))return(ee(Zk,((0x45D9F4E)-(19)))+((668265281)-((0x15-1))))%Id end local function ZS(gt,Zi)return em(gt,Zi)end local function ZP(ZJ,Zs,Zn)local Zj=Zn[-Zs]if Zj then return Zj end local ZL=m7[ei[63069]].floor((Zs-1)/16)+1 local Zq=(ZL-1)*16+1 local Zr=Zn[ZL]or ZJ[6485]if Zq>=Zs then Zn[-Zs]=Zr;return Zr end local Z1=ZJ[2551]local Z6=ZJ[8497]local Z4=ZJ[6973]local Z7=ZJ[2252]if not Z7 then Z7={};ZJ[2252]=Z7 end local Z3=ZJ[6033]if not Z3 then Z3={};ZJ[6033]=Z3 end for Z8=Zq,Zs-1 do local Z5=(Z8-1)*8 local Z9=Z3[Z8]if not Z9 then Z9=Zv(Z1,Z8-1);Z3[Z8]=Z9 end local Z0=ZS(Zr,Z9)local Z2=m7[ei[39350]](Z4,Z5+0,Z7,Yj)local tm=m7[ei[39350]](Z4,Z5+1,Z7,Yj)local te=m7[ei[39350]](Z4,Z5+2,Z7,Yj)local ta=m7[ei[39350]](Z4,Z5+3,Z7,Yj)local tg=em(Z2,ZB(Z0,5)%((283)-((0x1F-4))))local td=em(tm,Z0%((283)-((0x1F-4))))local tw=em(te,ZB(Z0,9)%((283)-((0x1F-4))))local tQ=em(ta,ZB(Z0,17)%((283)-((0x1F-4))))Zr=ZM(Zr,tg,td,tw,tQ,Z9,Z6)end Zn[-Zs]=Zr return Zr end local function tU(tI,XM)local tY=tI[8738]if not tY then local tX=tI[7468]if tX then if eI(tX)~=K((5*2),Yj)then tY=tX else tY={}local tC=tI[4942]if not tC then tC={};tI[4942]=tC end local tc=m7[ei[63069]].floor((tI[3572]+15)/16)local tG=(#tX==tc*4)for XA=1,tc do local tZ=(XA-1)*4 local tt=(tG and(m7[ei[47165]][K(((121-110+172-172)),Yj)](tX,tZ+1)or 0)or m7[ei[39350]](tX,tZ+0,tC,Yj))local Xi=(tG and(m7[ei[47165]][K((141-130),Yj)](tX,tZ+2)or 0)or m7[ei[39350]](tX,tZ+1,tC,Yj))local XV=(tG and(m7[ei[47165]][K(11,Yj)](tX,tZ+3)or 0)or m7[ei[39350]](tX,tZ+2,tC,Yj))local Xf=(tG and(m7[ei[47165]][K((2*4+3),Yj)](tX,tZ+4)or 0)or m7[ei[39350]](tX,tZ+3,tC,Yj))local ZZ=tt+Xi*((283)-((0x1F-4)))+XV*((65541)-((0x8-3)))+Xf*((0x1000006)-(0x6))tY[XA]=ZW(ZZ,0,tI[6328])end end tI[8738]=tY tI[7468]=tY if not tI[9964]and tY[1]then tI[9964]=tY[1]end end end if tY and not tI[9964]and tY[1]then tI[9964]=tY[1]end local gt=tI[6485]if XM==1 and tY and tY[1]then gt=tY[1]end local tp=tI[4447]or 0 if XM~=tp+1 then if tY then gt=ZP(tI,XM,tY)end end local ZV=tI[8497]local tb=tI[2551]local tl=m7[ei[45528]]local tT=tI[6033]if not tT then local tF=tI[8970]if tF and#tF>0 then if eI(tF)~=K(10,Yj)then tT=tF else tT={}local tz=tI[4648]if not tz then tz={};tI[4648]=tz end local to=tI[3572]local tB=(#tF==to*4)for XA=1,to do local tO=(XA-1)*4 local tN=(tB and(m7[ei[47165]][K(((91-80+(50-50))),Yj)](tF,tO+1)or 0)or m7[ei[39350]](tF,tO+0,tz,Yj))local ty=(tB and(m7[ei[47165]][K((73-62),Yj)](tF,tO+2)or 0)or m7[ei[39350]](tF,tO+1,tz,Yj))local tv=(tB and(m7[ei[47165]][K(((155+163-307)),Yj)](tF,tO+3)or 0)or m7[ei[39350]](tF,tO+2,tz,Yj))local tA=(tB and(m7[ei[47165]][K(((11+0)),Yj)](tF,tO+4)or 0)or m7[ei[39350]](tF,tO+3,tz,Yj))tT[XA]=tN+ty*((283)-((0x1F-4)))+tv*((65541)-((0x8-3)))+tA*((0x1000006)-(0x6))end end tI[6033]=tT tI[8970]=tT end end if not tT then tT={};tI[6033]=tT end local Zi=tT[XM]if not Zi then Zi=Zv(tb,XM-1);tT[XM]=Zi end local tW=ZS(gt,Zi)if not tI[1729]then tI[1729]=true local tE=tI[3767]local tD=tI[4653]or 0 if tE and tD>0 then local tu=(tD*5)tu=tu+((4-(tu%4))%4)local tx=(#tE==tu)local tM=tI[6342]local tH=tI[6918]if not tH then tH={};tI[6918]=tH end for XA=0,tD-1 do local Xk=XA*5 local tt=(tx and(m7[ei[47165]][K(((46-14-21)),Yj)](tE,Xk+1)or 0)or m7[ei[39350]](tE,Xk+0,tH,Yj))local Xi=(tx and(m7[ei[47165]][K(0xB,Yj)](tE,Xk+2)or 0)or m7[ei[39350]](tE,Xk+1,tH,Yj))local XV=(tx and(m7[ei[47165]][K(((69-58+103-103)),Yj)](tE,Xk+3)or 0)or m7[ei[39350]](tE,Xk+2,tH,Yj))local Xf=(tx and(m7[ei[47165]][K((59-48),Yj)](tE,Xk+4)or 0)or m7[ei[39350]](tE,Xk+3,tH,Yj))local tK=(tx and(m7[ei[47165]][K(11,Yj)](tE,Xk+5)or 0)or m7[ei[39350]](tE,Xk+4,tH,Yj))local th=tt+Xi*((283)-((0x1F-4)))+XV*((65541)-((0x8-3)))+Xf*((0x1000006)-(0x6))tM[th+1]=tK end tI[3767]=nil tI[4653]=nil tI[6918]=nil end end local XT=tI[6973]local ZR=(XM-1)*8 local Xz=tI[2252]if not Xz then Xz={};tI[2252]=Xz end local ti=m7[ei[39350]](XT,ZR+0,Xz,Yj)local tV=em(ti,ZB(tW,5)%((283)-((0x1F-4))))tI[8843][XM]=tV local tf=m7[ei[39350]](XT,ZR+1,Xz,Yj)local tR=em(tf,tW%((283)-((0x1F-4))))tI[9079][XM]=tR local tk=m7[ei[39350]](XT,ZR+2,Xz,Yj)local tS=em(tk,ZB(tW,9)%((283)-((0x1F-4))))tI[9067][XM]=tS local tP=m7[ei[39350]](XT,ZR+3,Xz,Yj)local tJ=em(tP,ZB(tW,17)%((283)-((0x1F-4))))tI[6796][XM]=tJ local ts=m7[ei[39350]](XT,ZR+4,Xz,Yj)local tn=em(ts,ZB(tW,21)%((283)-((0x1F-4))))tI[5667][XM]=tn local tj=m7[ei[39350]](XT,ZR+5,Xz,Yj)local tL=em(tj,ZB(tW,25)%((283)-((0x1F-4))))tI[6416][XM]=tL local tq=m7[ei[39350]](XT,ZR+6,Xz,Yj)local tr=em(tq,ZB(tW,3)%((283)-((0x1F-4))))tI[1415][XM]=tr local t1=m7[ei[39350]](XT,ZR+7,Xz,Yj)local t6=em(t1,ZB(tW,11)%((283)-((0x1F-4))))tI[4484][XM]=t6 tI[6485]=ZM(gt,tV,tR,tS,tJ,Zi,ZV)tI[4447]=XM end do local t4={}t4[1]={ei[45528],2588656795}t4[2]={ei[23271],ZM}t4[3]={ei[27267],ZS}t4[4]={ei[12555],tU}local t7=1 while t7<5 do local t3=t4[t7]eX(m7,t3[1],t3[2])t7=t7+1 end end m7[ei[44457]]=false m7[ei[41331]]=function(t5,t9)if m7[ei[44457]]then return{}end m7[ei[44457]]=true local t0={}local pQ=t5%(1073741823+1073741824)if(pQ%(2*128))==0 then pQ=(pQ==0)and 1 or(pQ+1)end local pa=1 while pa<=#t9 do local pg=t9:sub(pa,pa+1)local pd=m7[ei[56013]](pg,16)or 0 local pw=em(pd,pQ%(2*128))t0[#t0+1]=pw pQ=(pQ*(193*250+21)+(9*9))%(1073741823+1073741824)pa=pa+2 end local pG=((87*9808+53*5583+460672724)%Id)for pa=1,#t0 do pG=m7[ei[55773]](pG,t0[pa])end local pm=1 local function pU()local pF=t0[pm]+(t0[pm+1]*256)+(t0[pm+2]*65536)+(t0[pm+3]*16777216);pm=pm+4;return pF end local pe=pU()local t2={}for ga=1,pe do local pI=pU()local pY=t0[pm];pm=pm+1 if pY==1 then t2[pI]=nil elseif pY==2 then t2[pI]=(t0[pm]==1);pm=pm+1 elseif pY==3 then local pX=pU()local pz=""for XA=1,pX do pz=pz..ed[t0[pm]]pm=pm+1 end if pz=='nan'then t2[pI]=(0/0)elseif pz=='inf'then t2[pI]=(1/0)elseif pz=='-inf'then t2[pI]=(-1/0)else t2[pI]=m7[ei[56013]](pz)end elseif pY==4 then local pX=pU()local po=""for XA=1,pX do po=po..ed[t0[pm]]pm=pm+1 end t2[pI]=po end if pY==5 then local pX=pU()local pB=""for XA=1,pX do pB=pB..ed[t0[pm]]pm=pm+1 end local pv=ed[108]..ed[111]..ed[97]..ed[100]local Yx=pv..ed[115]..ed[116]..ed[114]..ed[105]..ed[110]..ed[103]local pA=(function()end)()local pO=pA pO=m7[ei[39083]](pv)if eI(pO)~=eT then pO=m7[ei[39083]](Yx)end if eI(pO)==eT then local pN=pO(pB)if eI(pN)==eT then local py=pN(m0)if eI(py)==eT then t2[pI]=py end end end end end return t2 end m7[ei[eR[20173]]]=function(pW,pE,pD)local pk=ei[49666]local pR=m7[ei[19939]]or m7[ei[37238]]local pf=false if not pW then return nil end local pi=m7[ei[47165]]local pV=pi and pi[K(((65+124)),Yj)]if pV and pR then pf=pR(pV,pW)if pf then if not pE and not pD then return pW end if pD and pD==pk then return pW end if pE and pD then pE[pD]=pE[0]end return nil end end if pD and pD==pk then return pW end local pu=m7[ei[53636]]local px=m7[ei[20945]]if not px and pu then px=pu[K(0x5F,Yj)]end if px then local pS pf=pR and pR(function()pS=px(pW,1)end)if pf and pS~=nil and#pS>0 then if pE and pD then pE[pD]=pE[0]end return nil end end local pM=m7[ei[13399]]if not pM and pu then pM=pu[K(((219+41-78)),Yj)]end if pM then local pK pf=pR and pR(function()pK=pM(pW,K((191-103),Yj))end)local ph=(pf and pK and type(pK)==K(((219-54+(59-59))),Yj))and pK[K((122+9),Yj)]or nil if(not ph)or ph==""then pf=pR and pR(function()pK=pM(pW)end)ph=(pf and pK and type(pK)==K(((165+0)),Yj))and pK[K((354-223),Yj)]or nil end if ph and ph~=K(((23+256-135)),Yj)and ph~=K((247-84),Yj)and ph~=""then if pE and pD then pE[pD]=ph and nil end return nil end end local pH=m7[ei[34979]]if not pH and pu then pH=pu[K(((104+196-125)),Yj)]end if pH then local ph=pH(pW,K(((393+-186-29)),Yj))if ph and ph~=K(((74+204-115)),Yj)then if pE and pD then pE[pD]=pW and nil end return nil end end return pW end m7[ei[22671]]=(function()local pP=m7[ei[57904]]if m7[ei[51803]]~=m7[ei[57904]]then pP=m7[ei[65404]]end local Yi=Qk["\103\101\116\102\101\110\118"]if Yi and m7[ei[4509]]==Yi then pP=m7[ei[65404]]end m7[ei[13503]]=pP if pP==m7[ei[65404]]then m7[ei[eR[57077]]](m0,m7[ei[eR[20503]]],m7[ei[65404]])end end)()do local pJ={}pJ[1]={ei[20706],m3[eS(392,eP,5)]}pJ[2]={ei[34979],m3[eS(379,eP,5)]}pJ[3]={ei[12260],m3[eS(370,eP,5)]}pJ[4]={ei[13399],m3[eS(936,eP,5)]}pJ[5]={ei[42106],m3[eS(371,eP,5)]}pJ[6]={ei[20945],m3[eS(639,eP,5)]}pJ[7]={ei[37205],m3[eS(617,eP,5)]}pJ[8]={ei[24139],m3[eS(988,eP,5)]}pJ[9]={ei[63360],m3[eS(889,eP,5)]}pJ[10]={ei[54137],m3[eS(830,eP,5)]}pJ[11]={ei[44502],m3[eS(959,eP,5)]}pJ[12]={ei[51681],m3[eS(196,eP,5)]}local ps=1 while ps<=12 do local pn=pJ[ps]eX(m7,pn[1],pn[2])ps=ps+1 end end m7[ei[53148]]=function()local pj=m7[ei[34979]]if pj then return pj(2,K((20*6+4),Yj))end local pL=m7[ei[13399]]if pL then local pq=pL(2,K(0x7C,Yj));return pq and pq[K((9*9+8),Yj)]end return nil end m7[ei[39163]]=(2^31)-1 m7[ei[52312]]=502930697 m7[ei[32832]]=1619976140 m7[ei[42176]]=1203152491 m7[ei[24508]]=((em(m7[ei[52312]],m7[ei[32832]])+m7[ei[42176]])%m7[ei[39163]])m7[ei[6283]]=476 m7[ei[49595]]=28 m7[ei[62085]]=2217 m7[ei[34891]]=function(pr)local p1=m7[ei[24508]]local p6=((pr*40503)%m7[ei[39163]])local p4=((m7[ei[6283]]+(m7[ei[49595]]*7)+(m7[ei[62085]]%97))%m7[ei[39163]])local p7=((em(p1,p6)+p4)%m7[ei[39163]])return((p7*(193*250+21))%m7[ei[39163]])end eg=m7[ei[34891]]m7[ei[5718]]=false m7[ei[39025]]=function(p3,G2)if m7[ei[5718]]then return{}end m7[ei[5718]]=true local p8={}local be=476 local ba=28 local bg=2217 local bd=(be*0x20000+ba*0x101+(bg%0x10000)+(43502))local p5=eg(bd)%(1073741823+1073741824)if(p5%(2*128))==0 then p5=(p5==0)and 1 or(p5+1)end local XI,Cb=1,1 local bw=m7[ei[65503]]local Xc=m7[ei[eR[24491]]]local XG=bw and Xc(bw,m7[ei[eR[53430]]])or 0 local XZ=bw and Xc(bw,m7[ei[eR[46163]]])or 0 local Xl=1 do local Xt=m7[ei[56013]]local XG=Xt and Xt(XG)or 0 local XZ=Xt and Xt(XZ)or 0 local Xl=1-((XG+XZ)%2)if Xl~=0 then Xl=Xl end end while Cb<=G2 do local bg=0 for ga=1,5 do local Zm=m7[ei[47165]]["\98\121\116\101"](p3,XI)if Zm then bg=bg*85+(m7[ei[14133]][Zm]or 0);XI=XI+1 end end local ba=ea(bg/16777216)%256 local bg=ea(bg/65536)%256 local bd=ea(bg/256)%256 local Xw=bg%256 if Cb<=G2 then p8[Cb]=em(ba,p5%(2*128));p5=(p5*(193*250+21)+(9*9))%(1073741823+1073741824);Cb=Cb+Xl end if Cb<=G2 then p8[Cb]=em(bg,p5%(2*128));p5=(p5*(193*250+21)+(9*9))%(1073741823+1073741824);Cb=Cb+Xl end if Cb<=G2 then p8[Cb]=em(bd,p5%(2*128));p5=(p5*(193*250+21)+(9*9))%(1073741823+1073741824);Cb=Cb+Xl end if Cb<=G2 then p8[Cb]=em(Xw,p5%(2*128));p5=(p5*(193*250+21)+(9*9))%(1073741823+1073741824);Cb=Cb+Xl end end return p8 end m7[ei[eR[29681]]]=0 m7[ei[eR[28833]]]=0 m7[ei[eR[22555]]]=10 m7[ei[eR[44217]]]=0 do local bY=function(bX)return function(bQ,bU,bI)return bX(bQ,bU,bI)end end m7[ei[eR[24243]]]=bY(function(bQ,bU,bI)if bQ then m7[ei[eR[21094]]]=m7[ei[eR[49228]]]+1 end if not bQ then return nil end return m7[ei[eR[49254]]](bQ,bU,bI)end)end do local bl=function(bT)return function(bC,bc,bG,bZ)return bT(bC,bc,bG,bZ)end end m7[ei[eR[24195]]]=bl(function(bC,bc,bG,bZ)m7[ei[eR[49427]]]=m7[ei[eR[24056]]]+1 IY=((IY*33)+(bZ or 0))%Id if not bC then return nil end m7[ei[eR[27198]]]=m7[ei[eR[21358]]]+1 local bp=m7[ei[eR[53863]]](bC,bc,bG)if not bp and bC then m7[ei[eR[43354]]](m0,m7[ei[eR[48045]]],m7[ei[65404]]);m7[ei[eR[24984]]](m0,m7[ei[eR[20995]]],m7[ei[65404]])m7[ei[eR[45228]]](m0,m7[ei[eR[58975]]],(m7[ei[eR[46811]]](m0,m7[ei[eR[58853]]])or 0)+1)local bb=m7[ei[eR[24920]]](m0,m7[ei[eR[33604]]])or{}bb[(0x7DF54-24839)]=m7[ei[65404]]m7[ei[eR[38238]]](m0,m7[ei[eR[32844]]],bb)end return bp end)end m7[ei[eR[30250]]]=function()local bF=m7[ei[43039]]or(m7[ei[47165]]and m7[ei[47165]][K(((79+0)),Yj)])local bz=m7[ei[eR[49559]]](bF,m7,ei[27652],19)local bo=(m7[ei[47165]]and m7[ei[47165]][K(0x4F,Yj)])or bz or bF local bB=m7[ei[19939]]or m7[ei[37238]]local bO=m7[ei[34979]]or(m7[ei[53636]]and m7[ei[53636]][K((157+18),Yj)])local bN=(m7[ei[53636]]and m7[ei[53636]][K(((394+-93-151)),Yj)])or nil if not bO then bO=ag end if not bN then bN=ad end local by=m7[ei[42106]]or eI local bv=by(bo)local bA=by(bB)local bW=by(bO)local bE=by(bN)local bD=0 local bu=0 local bx=0 local bM=false local bH=false local bK=false local bh=false local bi=false local b5=false local b9=nil local b0=false local b2=nil local b1=nil if bo and bB then local bV,bf=bB(bo,K((25*5+1),Yj),42)bM=bV and bf==K((14+107),Yj)if(not bV)or bf~=K(((121+0)),Yj)then bD=bD+1 end bV,bf=bB(bo,K(((34+330-236)),Yj),"\97",7)bH=bV and bf==K((192-28),Yj)if(not bV)or bf~=K(((26+138)),Yj)then bD=bD+1 end local bk=0 local bR=nil if m7[ei[55732]]then bR=m7[ei[55732]]({},{[K(0x5A,Yj)]=function()bk=bk+1;return K(0xBC,Yj)end})end if bR~=nil then bV,bf=bB(bo,K((212-58),Yj),bR)bK=bV and bf==K(((204-36+(156-156))),Yj)bh=bk==1 if(not bV)or bf~=K((33*5+3),Yj)then bD=bD+1 end if bk~=1 then bD=bD+1 end else bD=bD+1 end local bS=function()return 1 end local bP=function()return 2 end local bJ,bn=bB(bo,K((100+26),Yj),bS)local bs,bj=bB(bo,K(((4+240-118)),Yj),bP)bi=bJ and bs and bn~=bj if(not bJ)or(not bs)or bn==bj then bD=bD+1 end else bD=bD+2 end if bD<2 and bo and bB and bO and m7[ei[55732]]then local b3=by(bo)local bL=function(lY)local bq=nil local br=false local lX=m7[ei[55732]]({},{[K(((132-42+(123-123))),Yj)]=function()br=true local lC,lc=bB(function()return bO(8,K((331-153),Yj))end)if lC then bq=lc end return K(((161+0)),Yj)end})lY(function()bB(bo,K(((272-38-80)),Yj),lX)end)return br,bq end local lG=function(lp)lp()end local lZ=function(lp)local function lb()local function ll()local function lT()lp()end lT()end ll()end lb()end local lt=function(lp)local lF=m7[ei[57144]]local lz=lF and lF[K((236-151),Yj)]local lo=lF and lF[K(((217-24-92)),Yj)]if lz and lo then local lB=lz(function()lp()end)lo(lB)else lp()end end local lO,lN=bL(lG)b5=lO b9=lN if lO and lN==K((32*5+3),Yj)then bx=bx+1 end lO,lN=bL(lZ)b0=lO b2=lN if lO and lN==K(((163+0)),Yj)then bx=bx+1 end lO,lN=bL(lt)b6=lO b1=lN if lO and lN==K((112+51),Yj)then bx=bx+1 end end local ly=(bD>=2)or(bx>=3)if ly then m7[ei[eR[23044]]](m0,m7[ei[eR[58728]]],m7[ei[65404]]);m7[ei[eR[52267]]](m0,m7[ei[eR[36237]]],m7[ei[65404]])local ld=m7[ei[eR[29593]]](m0,m7[ei[eR[28568]]])or 0 local lw=m7[ei[56013]]and m7[ei[56013]](ld)or ld if lw==nil then lw=0 end local lQ=m7[ei[56013]]and m7[ei[56013]](bD)or bD if lQ==nil then lQ=0 end local lU=m7[ei[56013]]and m7[ei[56013]](bu)or bu if lU==nil then lU=0 end local lI=m7[ei[56013]]and m7[ei[56013]](bx)or bx if lI==nil then lI=0 end m7[ei[eR[30358]]](m0,m7[ei[eR[26789]]],lw+lQ+lU+lI)local b8=m7[ei[eR[44521]]](m0,m7[ei[eR[45377]]])if by(b8)~=el then b8={}end if bD>=2 then b8[(0x7828D+0x162A)]=m7[ei[65404]]end if bx>=3 then b8[(719281+52666)]=m7[ei[65404]]end m7[ei[eR[35015]]](m0,m7[ei[eR[33135]]],b8)end return bz end m7[ei[eR[49676]]]()m7[ei[eR[32112]]]=function()local lv=m7[ei[37238]]local lA=m7[ei[eR[53437]]](lv,m7,ei[37238],11)if not lA then m7[ei[eR[50510]]](m0,m7[ei[eR[57687]]],m7[ei[65404]]);m7[ei[eR[36629]]](m0,m7[ei[eR[48818]]],m7[ei[65404]])m7[ei[eR[23975]]](m0,m7[ei[eR[54436]]],(m7[ei[eR[25932]]](m0,m7[ei[eR[53751]]])or 0)+1)local Ty=m7[ei[eR[51641]]](m0,m7[ei[eR[35205]]])or{}Ty[(0xE842F-58219)]=m7[ei[65404]]m7[ei[eR[55425]]](m0,m7[ei[eR[56025]]],Ty)end local lW=m7[ei[53636]]local lE=m7[ei[34979]]local lD=nil local lH=m7[ei[19939]]or m7[ei[37238]]local lq=m7[ei[6580]]or m7[ei[29549]]local lu=m7[ei[42106]]or m7[ei[63164]]or type if not lE and lW then lE=lW[K((269-94),Yj)]end if lW then lD=lW[K(((150+0)),Yj)]end if not lE then lE=ag end if not lD then lD=ad end if(not lE or not lD)then local lk=m7[ei[54137]]or m7[ei[43641]]local lS=m7[ei[37205]]or m7[ei[27652]]if lk and lS and lH then local lK,lP=lH(lk,0)if lK and lu(lP)==lu({})then local lJ=lS(lP,K((24+94),Yj))if lJ and lu(lJ)==lu({})then if not lE then lE=lS(lJ,K(((332-45-112)),Yj))end if not lD then lD=lS(lJ,K((16*9+6),Yj))end end end end end local lx=m7[ei[47165]]local lM=lx and lx[K((1*7+4),Yj)]local Tc=lx and lx[K((396-229),Yj)]local TG=K(((189-60+(152-152))),Yj)local TZ=K(((264-59-25)),Yj)local l2=0 local lR=0 local l7=6 local l3=7 local TY=nil local TX=nil local lh=nil local lj=nil local l6=nil local Tu=nil local Tx=nil local TM=nil local Tm=false local Te=false local Ta=false local Tg=false local Td=false local Tw=false local TQ=false local TU=false local TI=false local bc=lu(lE)local l0=lu(lD)if lE and lH then local lK,l5=lH(function()return lE(4,K(((199-21+(36-36))),Yj))end)if lK then lh=l5 end if lK and l5==K(0xA3,Yj)then l2=l2+1 Tm=true end end if lD and lH and lM then local li,lV=lH(lD)if li and lu(lV)==lu("")then local lf=1 for ls=1,#lV do if lM(lV,ls)==10 then lf=lf+1 end end TY=lf end end local TC=ad or lD if TC and lH and lM then local li,lV=lH(TC)if li and lu(lV)==lu("")then local lf=1 for ls=1,#lV do if lM(lV,ls)==10 then lf=lf+1 end end TX=lf end end if TY~=nil and TX~=nil then if TY~=TX then l2=l2+1;Te=true end lR=TX elseif TY~=nil then if TY>6 then l2=l2+1;Ta=true end lR=TY end if lE and lH then local ln,lL=lH(function()local lL=0 for l8=1,24 do local l9,l5=lH(function()return lE(l8,K(0xB2,Yj))end)if(not l9)or l5==nil then break end lL=lL+1 end return lL end)if ln and lu(lL)==lu(0)then lj=lL end if ln and lu(lL)==lu(0)and lL>l7 then Tg=true end end if lE and lq then local lr=function()return nil end local l1,l4=lq(function()local l4=0 for l8=1,24 do local l9,l5=lq(function()return lE(l8,K(((225-22-25)),Yj))end,lr)if(not l9)or l5==nil then break end l4=l4+1 end return l4 end,lr)if l1 and lu(l4)==lu(0)then l6=l4 end if l6~=nil and l6>l3 then Td=true end end local Tv=m7[ei[57144]]local TA=Tv and Tv[K(0x55,Yj)]local TW=Tv and Tv[K(((89+47-35)),Yj)]if lE and lD and lH and lM and TA and TW then local TE=TA(function()local TH=nil local TK=nil local Th=nil local Ti,TV=lH(function()return lE(4,K((35*5+3),Yj))end)if Ti then TH=TV end Ti,TV=lH(lD)if Ti and lu(TV)==lu("")then local Tf=1 for TR=1,#TV do if lM(TV,TR)==10 then Tf=Tf+1 end end TK=Tf end Ti,TV=lH(function()local Tf=0 for Tk=1,24 do local TS,TP=lH(function()return lE(Tk,K(((76+102)),Yj))end)if(not TS)or TP==nil then break end Tf=Tf+1 end return Tf end)if Ti and lu(TV)==lu(0)then Th=TV end return TH,TK,Th end)local TD,TJ,Ts,Tn=TW(TE)if TD then Tu=TJ;Tx=Ts;TM=Tn end if Tu then l2=l2+1;Tw=true end if Tx~=nil and Tx>6 then l2=l2+1;TQ=true end if TM~=nil and TM>7 then l2=l2+1;TU=true end end local Tt=nil if lM and Tc then local Tp=#TG local Tb=1 while Tb<=Tp do local TT=lM(TG,Tb)if TT==58 then local Tl=Tb+1 while Tl<=Tp do local TF=lM(TG,Tl)if TF==58 then Tt=Tc(TG,Tb+1,Tl-1)Tl=Tp+1 Tb=Tp+1 end Tl=Tl+1 end end Tb=Tb+1 end end if Tt~=TZ then l2=l2+1;TI=true end if l2>0 then m7[ei[eR[44214]]](m0,m7[ei[eR[21809]]],m7[ei[65404]]);m7[ei[eR[36847]]](m0,m7[ei[eR[54833]]],m7[ei[65404]])m7[ei[eR[41049]]](m0,m7[ei[eR[36039]]],(m7[ei[eR[50722]]](m0,m7[ei[eR[23149]]])or 0)+l2)local TN=m7[ei[eR[48013]]](m0,m7[ei[eR[24682]]])or{}TN[(0xAE95A-36304)]=m7[ei[65404]]TN[(365897+55225)]=(Tu~=nil)m7[ei[eR[57658]]](m0,m7[ei[eR[47292]]],TN)end return lA end m7[ei[eR[54863]]]()do local T6=function()return function()local Tr=m7[ei[29549]]return m7[ei[eR[28290]]](Tr,m7,ei[27652],12)end end m7[ei[eR[22743]]]=T6()m7[ei[eR[20623]]]()end do local T6=function()return function()local Tr=m7[ei[9146]]return m7[ei[eR[21597]]](Tr,m7,ei[9146],5)end end m7[ei[eR[51347]]]=T6()m7[ei[eR[40136]]]()end do local T6=function()return function()local Tr=m7[ei[27652]]return m7[ei[eR[48159]]](Tr,m7,ei[27652],7)end end m7[ei[eR[48432]]]=T6()m7[ei[eR[31738]]]()end m7[ei[eR[24579]]]=function()local Tr=m7[ei[47165]]and m7[ei[47165]][K(189,Yj)]return m7[ei[eR[23179]]](Tr,m7,ei[27652],14)end m7[ei[eR[53796]]]()do local T8=function(T5)return function()return T5()end end m7[ei[eR[43153]]]=T8(function()m7[ei[eR[25421]]]=m7[ei[eR[37261]]]+1 IY=((IY*33)+15)%Id local T4=m3[eS(370,eP,5)]if T4 then local T7=T4()if T7~=nil then m7[ei[eR[25778]]](m0,m7[ei[eR[27227]]],m7[ei[65404]]);m7[ei[eR[23319]]](m0,m7[ei[eR[57702]]],m7[ei[65404]])m7[ei[eR[54631]]](m0,m7[ei[eR[54048]]],(m7[ei[eR[37549]]](m0,m7[ei[eR[46887]]])or 0)+1)local T3=m7[ei[eR[28151]]](m0,m7[ei[eR[35556]]])or{}T3[0xB01D0]=m7[ei[65404]]m7[ei[eR[51945]]](m0,m7[ei[eR[54988]]],T3)end end end)end m7[ei[eR[54068]]]()m7[ei[eR[36297]]]=function()local Tr=m7[ei[29601]]return m7[ei[eR[53238]]](Tr,m7,ei[29601],8)end m7[ei[eR[46306]]]()do local FU=function(FI)return function()return FI()end end m7[ei[eR[26853]]]=FU(function()local T0=m7[ei[20706]]or(m7[ei[47165]]and m7[ei[47165]][K((75-71),Yj)])local T2=m7[ei[eR[34526]]](T0,m7,ei[27652],13)local Fm=0 local Fe=m7[ei[19939]]or m7[ei[37238]]local Fd=T2 or T0 if Fd and Fe then local Fa,Fg=Fe(Fd,"\121\48\48\51\104\58\49\57\50\58\110\115\97\119\48\111",K(((173+14-64)),Yj))if(not Fa)or Fg~="\49\57\50"then Fm=Fm+1 end Fa,Fg=Fe(Fd,"\98\116\108\117\107\58\45\49\49\58\110\115\97\119\48\111",K((56*3+1),Yj))if(not Fa)or Fg~="\45\49\49"then Fm=Fm+1 end Fa,Fg=Fe(Fd,"\108\56\101\106\56\58\110\115\97\119\48\111",K(((182+298-328)),Yj))if(not Fa)or Fg~="\110\115\97\119\48\111"then Fm=Fm+1 end Fa,Fw=Fe(Fd,"\108\56\101\106\56\58\110\115\97\119\48\111",K((216-114),Yj))if(not Fa)or Fw~=nil then Fm=Fm+1 end else Fm=Fm+1 end if Fm>1 then m7[ei[eR[30647]]](m0,m7[ei[eR[38850]]],m7[ei[65404]]);m7[ei[eR[53837]]](m0,m7[ei[eR[34092]]],m7[ei[65404]])m7[ei[eR[45309]]](m0,m7[ei[eR[21699]]],(m7[ei[eR[35311]]](m0,m7[ei[eR[47306]]])or 0)+Fm)local FQ=m7[ei[eR[50201]]](m0,m7[ei[eR[27160]]])or{}FQ[(859576+0x3400)]=m7[ei[65404]]m7[ei[eR[23368]]](m0,m7[ei[eR[38234]]],FQ)end return T2 end)end m7[ei[eR[48177]]]()do local T6=function()return function()local Tr=m7[ei[43641]]return m7[ei[eR[24315]]](Tr,m7,ei[43641],6)end end m7[ei[eR[48131]]]=T6()m7[ei[eR[39420]]]()end m7[ei[eR[24153]]]=function()if m7[ei[eR[32808]]]~=m7[ei[eR[36946]]]then m7[ei[eR[25630]]](m0,m7[ei[eR[58840]]],m7[ei[65404]]);m7[ei[eR[58009]]](m0,m7[ei[eR[30815]]],m7[ei[65404]])m7[ei[eR[35156]]](m0,m7[ei[eR[39215]]],(m7[ei[eR[39570]]](m0,m7[ei[eR[54849]]])or 0)+1)local FX=m7[ei[eR[47886]]](m0,m7[ei[eR[43029]]])or{}FX[0x76F8B]=m7[ei[65404]]m7[ei[eR[24894]]](m0,m7[ei[eR[59381]]],FX)end if m7[ei[eR[30492]]]~=m7[ei[eR[27681]]]then m7[ei[eR[54493]]](m0,m7[ei[eR[36956]]],m7[ei[65404]]);m7[ei[eR[43345]]](m0,m7[ei[eR[54893]]],m7[ei[65404]])m7[ei[eR[22332]]](m0,m7[ei[eR[41097]]],(m7[ei[eR[34971]]](m0,m7[ei[eR[55136]]])or 0)+1)local FX=m7[ei[eR[54047]]](m0,m7[ei[eR[36603]]])or{}FX[576778]=m7[ei[65404]]m7[ei[eR[57614]]](m0,m7[ei[eR[36890]]],FX)end end m7[ei[eR[28124]]]()m7[ei[64381]]=K(((330-213-37)),Yj);m7[ei[33679]]=K(((162-45+(82-82))),Yj);m7[ei[20179]]=K((121+26),Yj);m7[ei[21444]]=K(((152-15+(100-100))),Yj);m7[ei[50829]]=K(((392-79-151)),Yj);m7[ei[13940]]=K((355-235),Yj);ez=K(((296+71-221)),Yj);m7[ei[8919]]=ez m7[ei[55960]]=1 m7[ei[14213]]={}ew=-1 eQ=false m7[ei[39958]]={}m7[ei[48635]]=nil m7[ei[42855]]=m7[ei[55732]]({},{__mode='k'})local Ft={}local FT={}m7[ei[55732]](FT,{__index=function(_,gt)local FZ=m3[eS(296,eP,5)](1)if FZ then local gp=FZ[gt]if gp~=nil then return gp end if Ft[gt]then return nil end end return m7[ei[39083]](gt)end})m7[ei[33827]]=m7[ei[55732]]({},{__index=FT,__newindex=function(_,Fp,Fb)local Fl=m3[eS(296,eP,5)](1)eX(Fl,Fp,Fb)if Fb==nil then Ft[Fp]=true else Ft[Fp]=nil end end})do local FF=m3[eS(296,eP,5)]local Fz=function(Fo)if Fo==nil or Fo==0 or Fo==1 then return m7[ei[33827]]end return FF(Fo)end eX(m7[ei[33827]],K((103-85),Yj),Fz)end m7[ei[20697]]=m3[eS(738,eP,5)]m7[ei[49266]]=0 m7[ei[36696]]=0 m7[ei[21112]]=function()local FO=m7[ei[53636]]and m7[ei[53636]][K(((273+190-288)),Yj)]if eI(FO)==eT then local _r=FO(1,K(((275+-17-123)),Yj))or 0 if _r<=0 or _r>49157 then return 0 end return _r end local FN=m7[ei[53636]]and m7[ei[53636]][K(182,Yj)]if eI(FN)==eT then local Fy=FN(1,K((76+59),Yj))local _r=(Fy and Fy[K(((26+158)),Yj)])or 0 if _r<=0 or _r>49157 then return 0 end return _r end return 0 end m7[ei[26559]]=function()local FO=m7[ei[53636]]and m7[ei[53636]][K(((187-12+(167-167))),Yj)]if FO then local Fv=FO(1,K(((135+0)),Yj))local _r=(Fv or 0)*1+0 if _r<=0 or _r>49157 then _r=0 end return _r end local FN=m7[ei[53636]]and m7[ei[53636]][K(((85+150-53)),Yj)]if FN then local Fy=FN(1,K(135,Yj))local _r=(Fy and Fy[K((61*3+1),Yj)]or 0)*1+0 if _r<=0 or _r>49157 then _r=0 end return _r end return 0 end m7[ei[43926]]=function()local FA={}FA[1]=m7[ei[53636]]local YT=K(((7+168)),Yj)if FA[1]and FA[1][YT]then local _r=FA[1][YT](1,K(((193-33-25)),Yj))or 0 if _r<=0 or _r>49157 then return 0 end return _r end local FW=K(((420-61-177)),Yj)if FA[1]and FA[1][FW]then local Fy=FA[1][FW](1,K(((179-44+(145-145))),Yj))local _r=(Fy and Fy[K((197-13),Yj)])or 0 if _r<=0 or _r>49157 then return 0 end return _r end return 0 end m7[ei[46400]]=function()local FE=m7[ei[39083]](K(((162-44+(63-63))),Yj))if FE then local Yh=eY(FE,K(175,Yj))if Yh then local _r=Yh(1,K(0x87,Yj))or 0 if _r<=0 or _r>49157 then return 0 end return _r end local Yh=eY(FE,K((91*2),Yj))if Yh then local Fy=Yh(1,K(((127+162-154)),Yj))local _r=(Fy and Fy[K(0xB8,Yj)])or 0 if _r<=0 or _r>49157 then return 0 end return _r end end return 0 end local FB=m7[ei[eR[56164]]]()local eB=0 m7[ei[eR[44028]]]=function(...)local FD=m3[eS(123,eP,5)];local Fu=(FD and FD(1)or 0)*1+0;if Fu<=0 or Fu>49157 then Fu=0 end;eB=Fu;return(...)[...]end m7[ei[eR[27845]]](m0,m7[ei[eR[35000]]],m7[ei[57904]])local Fx={}eX(Fx,"__mode","k")m7[ei[30665]]=m7[ei[55732]]({},Fx)m7[ei[59193]],m7[ei[59060]],m7[ei[38128]],m7[ei[16492]],m7[ei[46431]],m7[ei[16751]],m7[ei[25214]]=K(111,Yj),K(197,Yj),K(149,Yj),K(103,Yj),K(183,Yj),K(191,Yj),K(90,Yj)local E=nil m7[ei[eR[34401]]](m0,m7[ei[eR[41647]]],m7[ei[57904]])m7[ei[eR[33157]]](m0,m7[ei[eR[54994]]],m7[ei[57904]])m7[ei[19016]]=function()end m7[ei[48337]]={}local FM={}m7[ei[34076]]=FM FM[4]=476 FM[5]=28 FM[6]=2217 FM[3]=6860 FM[2]=m7[ei[9027]]do local FH=(FM[4]*131072+FM[5]*257+(FM[6]%65536)+(43502))FM[14]=eg(FH)%Iw local FK=FM[14]FM[15]=((FK*48271+FM[2])%Iw)local Fh=FM[15]FM[9]=eg(em(FK,Fh))%Iw end m7[ei[8790]]=76 m7[ei[42652]]=92 m7[ei[42211]]=11 m7[ei[38488]]=85 m7[ei[47488]]=65 m7[ei[7900]]=61 m7[ei[20527]]=4 m7[ei[64307]]=34 local Fi={}do local FV="4(d8**i*7k,@.{$:#A4*=*b@>Xy=6v+D.!sGBO/Oz^h,?xvIc8**b*AKS@z/6*ME6JgbU{FD^B?;QUMS:s+h**.^loi(.{MB}[}QwxDqGg5]Afq;>@O*&69<;c>p.PQ9yLV*D}[qi*VbWjffeST1lK[e|}&6/OYm-,h8E4%*rYAF=Rz*}ib@**ckQ<y*dX:#T4ME3e8>yeNSb*2-fOtNO<A0e*Hii(J!p21UTR**tQ#:oOhS!e1,[4o!P*Eb;*Y;.}Wj.Q}*LT&6PxS^qb|+4(_+|8b@:BO*Dl!(S*_!heZN9W24}5L/wo<:GF@$q~)SMSWsR|6(5-6X."local Ff=IC(FV)Ff=XD(Ff,514)local FR=m7[ei[62255]](Ff)local Fq=m7[ei[47165]][K(((46-35+(46-46))),Yj)]local Fr=m7[ei[47165]][K(167,Yj)]local Fk=1 local function F1()local a=Fq(FR,Fk)or 0 local b=Fq(FR,Fk+1)or 0 Fk=Fk+2 return a+(b*256)end local FS=F1()for FP=0,FS-1 do local FJ=F1()local Fj={}for Fs=1,FJ do local Fn=F1()local FL=Fr(FR,Fk,Fk+Fn-1)Fk=Fk+Fn Fj[Fs]=FL end Fi[FP]=Fj end end m7[ei[46368]]=Fi E=(function()local zg=6860 local zd=FM[9]FM[10]=eg(em(zg,zd))%Iw local F7=false local F9=(eI(bit32)==el and bit32)or(eI(bit)==el and bit)local F5=(F9 and F9.bxor)or function(Xw,XQ)local XU,XI=0,1 while Xw>0 or XQ>0 do local zQ,XX=Xw%2,XQ%2 if zQ~=XX then XU=XU+XI end Xw,XQ=(Xw-zQ)/2,(XQ-XX)/2 XI=XI*2 end return XU end local F3=function(XT,F8,F2,zm,ze,za)if F7 then return{}end F7=true local zU=102721346 if ze>0 then for zI=zm+1,zm+ze do local zY=eY(F2,zI)or 0 zU=(zU*33+((zY==za)and 1 or 0))%2147483647 end end local zC=zU FM[8]=zC local zw=FM[10]local zd=FM[9]local zc=eg(F5(F5(zw,zd),zC)+57005)%2147483647 FM[7]=zc local FK=FM[14]local F4=F5(FK,zc%256)if(F4%(2*128))==0 then F4=(F4==0)and 1 or(F4+1)end local Xx={}local GF=F4 Xx=IC(XT)local G9=F8 or#Xx for Xg=1,G9 do local XU=Xx[Xg]or 0 Xx[Xg]=F5(XU,GF%(2*128))GF=(GF*(193*250+21)+(9*9))%(1073741823+1073741824)end return Xx end local zG=function(F2,zm,ze,za)local F6=F3("[Vb1E6HFAT>tPTWmcP3uP]=8IxHe_?}.i?L6%1)9TXg]O~4WGVm|KQ>MR12K#w/LHhP;R`;z:{)J4Ync3x^Io+qi^!MrX8v$P0R?:&p1tOzS4~i(m>nBIQkI91!~VpG!>53xvh/B?RuiD]JK52fT_*(>xYs#3oNI+kt~`82+`*vNC22^l=J&8h(B}kqzzfX^8F@M}Txkq>tDPE41#o11@2ls|LSjnF^TmqXiHCa0X,n{_.L}G|-NX2-8w}g}d~nD~r#iRdJg3G3D15*g##%|z{0ek4k],DI|+6Sb!VfdgPDg+iF]erM3&v/i%i8fjS[hi)(-IC,maF1F6pNBA|R]J^]xulojZOpwv_yeHPm|]1~#0t$:pJ8:?]!Py]08/j]0~y<?9a4Jg_#xdVe^&cK2Bq#fx2Pxf(GpN07w]$P]6M(w1>r~U0l%Zgv9_{RRRwSF_9)m13IlA=3!$)PGdxNuc|<gT1C|>m_6Z|rj2W9CgpZ;vd^*hBzyF>qu~Q+#I,pxe+(q7XfEQOI/kaKQ_Y~U^g)wn]PmFBCu7NUxQIObO0>-Xq$L_D~:kW*{3+_SJ&L88?!3l208_a/BVJM[N0m^,9u1-VSi~jr=bZP}.J`?rG.H`,(o@LZfVKZfe`c&!p67MH&1GlrpSz=c]IOWTZ5%Wr,SCP.K==8*?sgdu2r9#L;6>6<LYd&l,aDgRf1Jrp{#o3IuT#tuy{,CCvt<,bS39`Qj`h<nM`95.Ln^$kqZ{6{fPlkQ6XJU[HBJ}PgaDkd^#[QhhMvvf/,BY%Yo;4&Z8;V_IY2L=`TQd7SH}!Hls;c39I7WxF&?RJlW4>i,zM>L_V2:G_{Xyx6<8K^@O2>wkG~s1vLSd%5$&/O|L3&h$0y#W2g7ZXe1nw,$1ByiFlEQI{}OoMRY<w|a;j]uSQ~2lH_Q[L_Qn=M)`N~md9?~5W+&Ce/ZJ7Hoh+6_JL]F+2.f8N5Y;L8y!9#4NwrS>u&9{|8FA+av@60x+:T|3L4v8,urt@,Hs+b1*(0aVSH=s}f>PXiEZU/gjY7#v8C<YvUm7?BR5u$A/m})a&}KD:#ssey[5z5->r._3CrAyc0n_Xq&YQs-dTd>1L=l-Oq|VKyL<^iKy(9g{myZ2V>^da@vksxEpfOhXAX3Gz-9Z!P&__JKaFdqE0T|AS|MVqMVJWA<?zf-#v%box>uiJ^|2hQWU5UH)DIUkTQwmNA4HC0HT?7vCyrG:hW<@MOhc/;PvO~)]hlP#?Xs^PQU,Aoo*!}+SlO22:3~3rBaTw]#X#f$2@p8=p=nA+@B|laL[)kn7vmP8M{b31$noI@aKnM,}=v#n_?~hI^V#Ot|F]{>==lIUUa]Ai$`}{H3ZWc>61m.5@i5iOM&KpA:*zu7a_i~<%q:GSreaB>S,f5U4r2/q&;{lkCJ;xIeq[(171mjghg:lL^7en,sVYQuts6m<J+PKbBsrmLk/,l)~wF.l8:xE,xn3dzJq0{`A]V0P1eRH9?GA3,bFTRQE_#rzPn>(_@K&+G75F^/t$gAgdcxct1]xTQWhPn{+QfAR;@=Nb<`HFODsk@:-?UYqGY48vz+gg/>zzdFKTm4:4S?AC`VaBaZqu<6SmARr|TK4BK4k}fg_:rQK38HHQ;+7J^cNz5P2$y;GNU`~[MSf~/YwH$&89OmYMB#y|3r*xd&GK,l/=cj(+iIN)Jb(s<Vx>2Aj19I5vVP^8tV&U`,OiFvMAn.:2SW_E-V;itl.vQj82<r(~<W7T,k#zC1;/qNOwko#bR(k64^WiEOg(&4RX7KX<2-pdc?3D_+I6/Np8Q#{R`Ig;spr!MiL}b4nL3K>&:{I^uyD+[?oNd5LkBS+`E]Ravmz{ARZj^}P<rits}?3{patA-ezazB/=uLmOYkhnS6FgxQPR0GlBDBpcZaLie>OdZFpdwpqVp)A[mx<|nvfb.Pje[P*io+LNoBkRXCYY^agx-Wq}?wK:x:B{ud/}!r&,M4e5LvD%H:$n6&;zp!a$x:llLr)eC@hglg:B<Tw{(KOL[Hk@xB^Uu:B#B.yPs#Z&.Ee]zkj}R#{y&g(``_69dd0ODkfJ]H;&zYs%y#n/&BGvhIG6qp(C%JtthZk+i/Sj+-uj.1$E3^eL/$Ee>V$NIJgzo8Y9#tVv$Qe(v!?Q5D7beo~2jlc|/sQCG:|zTy{B15#V.P#?BC.$fNM-mj$Stt|fI+EZ`ol0/Uj_JYF_]79u(H2rD%-?g2M;a!.oGX0MlGSJ~XJJR<2J=ylr^|/>TkVIMpFWPw5`f3m}{;?{9&|E2nCv{8Nm^YiV`{2@/xB<H_3:Y[4ls7K!gI*Mc?,BnEWxeEChQ;Qi7yO*|UKK^}NOUB(=2BrdAqbOM<a2Ps>)1&*.=4&M2#xN(CxizI/2:p^`@S,Wt~(P~Phe7r]wqSN#/YK!u66y3tLQ@}IRWUl1u&WfWF7Nc.?yA[hL0Z-)x^iOFtP#3F.rV?3b!8.4WH[vFkv>ir%B4U}[3$PT_,x8CR[_jg>sW5R%B86F,8(wiWJ7i/wGU0$4C&ZO}A}BQ!%NJCGj^cvj+87(M;AS|CCQL%SgP~_Ul{Y&A,8XX3Y3yUep[O)=s$RxPWEB?w|j>(U-:rqt7Kco$:^jqQ~GH@h/KGr.57<gt%uotuyd[UGkTHK*5M.~4#i$wP~W/h3mvtFBO%%WZ/enHu2^XdF$irf4>`I4nm2Tg[MLkp]AX;]Msad(Kd>uD2347~wPTBJERcZLgXS+@j/RYT4ruxSsl,x=oau;[wl_c}m|MX<f^A_pZ30hR>?X]1vHSS~qo!+!w5,hSd47.R1(~(OG&QUs`ha}3?0Ey6pCktrfb43eJ/2%mkc~l7aA7vrJqj1/Q!P%+#gpu$(`c!>e2A^ll$Ub4jr[S)?[j^b,?POh7gt(yQ0W}G7ZuDGSSa!(8SQILh>MVHwwGFYDa!lh53]Bodv.#)ubkuO8Lrsh%D|s58L+#Z;lk=V+-QaZhOWY|PQUXZ2RTGJD|ABN*[^eBlM_HXnG]?v+G(4^CTeT1n9M<[Sa,Hr.v+w$44N^H4%(|)d,`1}lVQbc.v,&U8cM37)Yp%>rp`!4K=Z4JK>Ti/Q`(2N`;&yC#(tI6!LekJB3aW+F`ZsrRh$fg^*9ggG@LVNf5rWa--`NwT#_hhoAVA[ZjQW2Ws|E$VCtm;oVTKS0(Ds?B4+jmr0KWWD$.v;mT,Z^UG=hv2yBa/Q3vC9Mxd:8FiGuy10+XY{>uOjnPboi;FJR!}&dp{Kl^B{zXtzi|5~U>.ka^q]apVSn|R],F#AXr]:n,=].NpdHmIid_z$j$Ny]iS=jKbEB6#Et|lESMY&_I!c/*Stg>!6ew5}S8I~O~y-S6VDnvrNMg*?zYAp}/pr0MT;`rN5VKxjA/9s;@frELk4r~3I2Ds|3=/0B<:n%D/xue/%^?B-sUnT)t;zSuXoYQrfDs$3Z(6Q]*NyI),RHU7-M4D{atz|y_OFEN)Nwf?]h4Z:jDPKJaF^#7%wE4V(aR515i?>OG(f!CU-2Z:`1<G!nVIhJ!QH_R22g_~hAQ^Ap{;<G7m$toq<_!styPjZM2j@YL?xdvuKnaCdg2fiS^kJQaD5l7#(Wsi2|%-zm9uf3jXQg=2VRl:B&t/laDK!Q-C?E4FZ^}M3ZKEU^<@[MTp(uM6bhGRdAva:C,$>YQo]u_$Vs-5(FQtv?`T_gI05ExMK8hWj8X<?ksJC,2=xI*_ss-p:-}#Ax%^gu+n4NQX2F{n_WKW66!TkC<M~iaFG(yy&^~H((PZ&X9Fj,lX#8QjVc1)wvzw_SOGk-I-z8;xjp:7m/:`4kUJ!$.{U/xlz|6#6-Y43FUh$4~a9KG9A+G+KRy#s_!HXDk}&}WN@H^oo9&bt`LX}*XdBl40GAOj$3pMOlj2~!;$%fn{&VHuhxQkNE[g_@}PvT}F3g,_0KS1>QCm`R5m,N+&!fsTk/HJ/Q,ZP]Eww.]c:4C/e_pWnT~r>l=.SW02Lp$Q[}6/C>?o$,J@@K!;RG,ojlX~m;=i(V?dGJ(A-{o/x#YGTxE:i%CmnwmCo6>6?q6P9nl=e$_%8m>v1u(D:5a5(0EIGJ1eV|}qlOVZ0}ff=RV~G4+rl~XN|E^:7o$lN/9E#$g#))Yl@?Jo#gw:V+wUO420[Ra8N,UaTB5CH,)k{]8cFc]fa73/J}5!j3z+v=e%[pTe.A,3B.d]/FUmxTmT,Gw%*;M#.gdhB/cv21TYTP?(_}^.ZD.n%;;6o7HO29p]kXu;?8xXBbTAF813D@eZM[IHu0]~H|2I,G`RD.OE3<__}RJsj/e3z2:%@h(8U[b/fMCJk09fr;^o(Kcbq~mB4%uncnL4Z=U2>Za;hxap|y/$:NR[XW1;?,3ASfohx.beRI5WFym:@riGOVKgMy61;Ju,ni5r-(5gm:CkXd6uKwYYajD29?x/,`V[XPHgcQ8&)[O^eZlA/pAy;mK_?afF?IQ}q4LJe2IxKZeKo1.+r2TUmV@+WFp=MRe8$d`<!r*OviG{/,a!HgN!H##c7V|gFBdqdn{4bZro/b=e{Lzf+=(IcS&R/yP[7k&(GDrXnvQzc9%_u!Xb*TZ69C2I:+=`0_y-<7p<~?GS2yWWj`.]S;^cc=**I8=w;aK20`AD<Z6ir^ZPbA?ZAe%rFDeX/NI-x|b[^5DRk6*OpX)gycWSCNnSP:SM920dxG^PF5)fqGIVs4egZynUGbk_z{z961ZCu[`$n8|n;5/tR1w$4JLe0bp,iKh:@RZZ@y/(B<f+l|Az+vw.k(u$(:J8o0bn@U((w:[KAq}NHW%!368gNbnTh7)u;[Iy+Csjh_^Ha7r8K.2/Ux5;2S;^2(+$)!Me*6`Y2keuQ~*)cdeAs<#AOU9Z}ZEYx.*GqN#8+,:>xK2C*uWFze|SHR=nG4tb}<Wh,Idc~9gG,l&I>oxgy=!.!UH98$WZHoYJb4Y/V]n_5A}38PzUTDZ}mE>OpF~Z-o/:=Z)$U`dAdMGuP8cb<}Zg%}bT9EtZ(8n/,Uv/d3=;S:0Z@:quB,3s9LATIe8d1,N5tIuR^gts[48FTlFm<kpi9}%MUg#^P(nA/4*4*^5Gxqdvf[+%nhC[B?BYxJ{5Sj_^&V>Dxu2O_i`IbePpdFkY-f01Q*8hB{4Y5dsM${-y}N2TRr=z@i,6:.[f:zr)blJ5J/M2],*1gH;A^mu?kvtNnVb`lXJK$zLXc[yerX]wz:CSsU5P~Y4<QEepQA6K`;qK-1/M3/t^J96rFfwPT`_:u&Kzn^V-{$FH/|WMR{I|@1uB$v5s(u>jN3D#oXTiJA4fR&Cwjp~lW8kgNzarLIp&u`^5)@7LwWV>,7J2^!|.@R@X//61J$I@X:t&?0K+EQSEj:4.6N0{yj6fM%(iJ(5BxUl7^+]9P=:JAITN4>&!]-2EUf&tT^bc4PBC/u3:RQq3Kx]c>(T6(hofDci+BH3/&A]b@{%x3?;ww_-eya8>7~wp%r4qV9~g+FobGH5(n-@Aau",4431,F2,zm,ze,za)F6=XD(F6,6860)F3=({})[100606]return F6 end return zG end)()m7[ei[39025]]=({})[100606]m8[((305+-62-187))]=(function()local _,zZ=m7[ei[37238]](m7[ei[eR[49392]]]);local zt=m7[ei[eR[38794]]](zZ,m7[ei[47165]][K((77-66),Yj)]);local zp=eo or 0;if not zt or zt<=0 or zt>49157 then zt=0 end;if zp<=0 or zp>49157 then zp=0 end;if zt==0 and zp==0 then return 0 end;return zt+(zp*65536)end)()m7[ei[23515]]=(function()local zb=(FM[4]*131072+FM[5]*257+(FM[6]%65536)+(43502))local zl=eg(zb)%Iw if FM[14]~=zl then m7[ei[eR[51135]]](m0,m7[ei[eR[46281]]],m7[ei[65404]])end local zT=((zl*48271+FM[2])%Iw)if FM[15]~=zT then m7[ei[eR[39483]]](m0,m7[ei[eR[29514]]],m7[ei[65404]])end local zF=eg(em(zl,zT))%Iw if FM[9]~=zF then m7[ei[eR[33569]]](m0,m7[ei[eR[44746]]],m7[ei[65404]])end if FM[4]~=476 then m7[ei[eR[29497]]](m0,m7[ei[eR[24227]]],m7[ei[65404]])end if FM[5]~=28 then m7[ei[eR[55355]]](m0,m7[ei[eR[41990]]],m7[ei[65404]])end if FM[6]~=2217 then m7[ei[eR[50346]]](m0,m7[ei[eR[31818]]],m7[ei[65404]])end end)()local zB={[0]={13811,7377},[1]={},[2]={15123,8044,15138,8058,15144,8065,15174,8093,15258,8159},[3]={15718,8317},[4]={15371,8638,15377,8645,15407,8673,15491,8739},[5]={},[6]={},[7]={},[8]={},[9]={17663,9316,17769,9421,17907,9549,17942,9584,18025,9677},[10]={18271,9601},[11]={},[12]={18657,10324,18692,10359,18775,10452},[13]={7003,10637,7038,10672,7121,10765},[14]={},[15]={7260,10244,7295,10279},[16]={},[17]={},[18]={9165,11193},[19]={},[20]={},[21]={},[22]={},[23]={},[24]={},[25]={},[26]={},[27]={},[28]={12637,5230},}local zo={}do for zO=0,28 do local zN=zB[zO]local zy={}if zN then local zA=4099+((2935+zO*193)%8191)local zW=6151+((7475+zO*389)%12289)for zv=1,#zN,2 do zy[zN[zv+1]-zA]=zN[zv]-zW end end zo[zO]=zy end end local function zM(zH,G2)local zK={}local XH=1 local XI=1 while true do local gp=0 local XW=m7[ei[47165]]["\98\121\116\101"](zH,XI)if not XW then break end for Xg=0,4 do local XW=m7[ei[47165]]["\98\121\116\101"](zH,XI+Xg)if XW then gp=gp*85+(m7[ei[14133]][XW]or 0)end end XI=XI+5 local Xi=ea(gp/16777216)%256 local XV=ea(gp/65536)%256 local Xf=ea(gp/256)%256 local tK=gp%256 if G2 and XH>G2 then break end zK[XH]=Xi;XH=XH+1 if G2 and XH>G2 then break end zK[XH]=XV;XH=XH+1 if G2 and XH>G2 then break end zK[XH]=Xf;XH=XH+1 if G2 and XH>G2 then break end zK[XH]=tK;XH=XH+1 end return zK end local zh=(function()local Xe={}local Xa="*4b}e;yiSOqju,CR61v<0I8Wo.2Tgr#L%zaQ>[GU)PA-~(d|fBM9Kxc5!Yl]:$FZ={D+Xhm/nHENsV^`&Jkpw37t_?@"for Xg=1,91 do Xe[m7[ei[47165]][K(((77+2-68)),Yj)](Xa,Xg)]=Xg-1 end return Xe end)()m7[ei[24494]]=function()local zi=em(3307956528,43502)%Iw local zV=eg(zi)%Iw if zV==0 then zV=1 end local zf=em(zV,15415261)%Iw local zR=eg(zf)%Iw if zR==0 then zR=1 end local zk=m8[((132-17-103))]or 0 local zS=em(em(zV,zR),zk)%Iw local GF=eg(zS)%Iw if GF%256==0 then GF=GF+1 end return GF end m7[ei[37145]]=function(GT)local zP={}local XF=1 local XS=#GT local GO=m7[ei[65503]]local GN=m7[ei[eR[28389]]]local Gy=GO and GN(GO,m7[ei[eR[59025]]])or 0 local Gv=GO and GN(GO,m7[ei[eR[37554]]])or 0 local zJ=1 do local Xt=m7[ei[56013]]local XG=Xt and Xt(Gy)or 0 local XZ=Xt and Xt(Gv)or 0 local Xl=1-((XG+XZ)%2)if Xl~=0 then zJ=Xl end end if zJ==0 then return zP end local function zs(zn)zP[#zP+1]=zn end local XI=-1 local XQ=0 local G2=0 while XF<=XS do local XW=m7[ei[47165]][K(((77+2-68)),Yj)](GT,XF)local zj=zh[XW]if zj~=nil then if XI<0 then XI=zj else local gp=XI+zj*(((0x67-4))-(2^3))XQ=XQ+gp*(2^G2)if(gp%8192)>88 then G2=G2+13 else G2=G2+14 end while G2>=8 do zs(XQ%(((0x12F-29))-(0x12)))XQ=m7[ei[63069]][K((304-146),Yj)](XQ/(((0x12F-29))-(0x12)))G2=G2-8 end XI=-1 end end XF=XF+1 end if XI>=0 then XQ=XQ+XI*(2^G2)G2=G2+7 while G2>=8 do zs(XQ%(((0x12F-29))-(0x12)))XQ=m7[ei[63069]][K((304-146),Yj)](XQ/(((0x12F-29))-(0x12)))G2=G2-8 end end return zP end m7[ei[63131]]=function(zL,GF)local zP={}local gt=GF for Xg=1,#zL do zP[Xg]=em(zL[Xg],gt%(((0x12F-29))-(0x12)))gt=(gt*((0xBCA4)-((0x14+0x1)))+(((0x80-42))-((0x8-3))))%Iw end return zP end local function zq(zL,XF)return(zL[XF]or 0)+((zL[XF+1]or 0)*(((0x12F-29))-(0x12)))+((zL[XF+2]or 0)*((0x10013)-(19)))+((zL[XF+3]or 0)*(((0xFF7CE9+33579))-((0x1E-10))))end local function zr(zL,XF)return(zL[XF]or 0)+((zL[XF+1]or 0)*(((0x12F-29))-(0x12)))end local function z1(zL,XF)local Zp,z6=0,1 while true do local XQ=zL[XF]or 0 XF=XF+1 local ZZ=XQ%(((0xB1-43))-(6))Zp=Zp+ZZ*z6 if XQ<(((0xB1-43))-(6))then break end z6=z6*(((0xB1-43))-(6))end return Zp,XF end local z7=((newproxy and m7[ei[63164]](newproxy)==m7[ei[63164]](m7[ei[37238]]))and newproxy(true))or{}local function z4(zE,zD,zu,z3)if z3~=z7 then return{}end local zx=m7[ei[24494]]()local z8=m7[ei[37145]](zE)local z5=m7[ei[63131]](z8,zx)local z9=(z5[1]==87 and z5[2]==80 and z5[3]==84)if not z9 then z5=XD(z5,(zD or 27700))end local XF=1 local z0={}local z2=zq local om=zr local oe=false local oa=false local og=false local od=false local ow=false local oQ=false local oX=function()local oC=1 repeat oC=(oC*48271+1)%Iw if oC==0 then oC=1 end until oC==0 end local oc=z5[XF+3]or 0 oa=(oc==50 or oc==51 or oc==52 or oc==53 or oc==54 or oc==55)oe=(oc==51 or oc==52 or oc==53 or oc==54 or oc==55)if not oa then return{}end local oI=((m8[((68-56+(123-123)))]or 0)%251)+1 local oU=z5[XF+4]or 0 if oU~=oI then return{}end og=(oc==52 or oc==54)od=(oc==53)ow=(oc==54)oQ=(oc==55)local oG if oe then oG={}for gt=32,126 do local gp=(m7[ei[14133]][gt])if gp then oG[gp]=m7[ei[47165]][K((261-249),Yj)](gt)end end end XF=XF+5 local oY if og then oY={[174]=8,[169]=8,[168]=8,[159]=8,[198]=8,[193]=8,[194]=8,[182]=8,[177]=8,[176]=8,[179]=8,[178]=8,[189]=8,[185]=8,[184]=8,[187]=8,[186]=8,[97]=8,[96]=8,[99]=8,[98]=8,[109]=8,[108]=8,[111]=8,[106]=8,[93]=8,[135]=8,[131]=8,[136]=8,[114]=8,[125]=8,[124]=8,[127]=8,[126]=8,[121]=8,[123]=8,[122]=8,[39]=8,[38]=8,[33]=8,[47]=8,[46]=8,[21]=8,[20]=8,[23]=8,[22]=8,[17]=8,[16]=8,[19]=8,[18]=8,[29]=8,[31]=8,[75]=8,[74]=8,[52]=8,[55]=8,[54]=8,[49]=8,[48]=8,[51]=8,[50]=8,[61]=8,[60]=8,[63]=8,[62]=8,[57]=8,[56]=8,[59]=8,[58]=8,[229]=8,[228]=8,[231]=8,[230]=8,[225]=8,[224]=8,[227]=8,[226]=8,[237]=8,[239]=8,[238]=8,[233]=8,[232]=8,[235]=8,[234]=8,[212]=9,[215]=9,[214]=9,[209]=8,[208]=8,[211]=8,[210]=8,[221]=8,[220]=8,[223]=8,[222]=8,[217]=8,[216]=8,[219]=8,[218]=8,[5]=8,[4]=8,[7]=8,[6]=8,[13]=8,[12]=8,[15]=8,[14]=8,[247]=8,[246]=8}end local oZ oZ,XF=z1(z5,XF)for cX=0,oZ-1 do local tI={}local op op,XF=z1(z5,XF)tI[3572]=op local ob,ol,oT,ot,oF ob,XF=z1(z5,XF)ol,XF=z1(z5,XF)oT,XF=z1(z5,XF)ot,XF=z1(z5,XF)oF,XF=z1(z5,XF)tI[3779]=ob tI[4980]=ol tI[2565]=oT tI[2551]=cX tI[3180]=ot if oF>0 then tI[9865]={}local oz=0 for XA=1,oF do local oo oo,XF=z1(z5,XF)oz=oz+oo tI[9865][oz]=true end else tI[9865]=nil end if od then tI[9980]=z5[XF]or 0 XF=XF+1 tI[4140]=z5[XF]or 0 XF=XF+1 tI[9447]=(z5[XF]or 0)==1 XF=XF+1 local oB oB,XF=z1(z5,XF)tI[4330]={}local oO=0 for XA=1,oB do local oN oN,XF=z1(z5,XF)oO=oO+oN tI[4330][XA-1]=oO end tI[4881]={}for XA=1,oB do local oy oy,XF=z1(z5,XF)tI[4881][XA-1]=oy end tI[9359]={}for XA=1,oB do tI[9359][XA-1]=z5[XF]or 0 XF=XF+1 end tI[8843]={}for XA=1,op do tI[8843][XA]=z5[XF+XA-1]or 0 end XF=XF+op local ov=z5[XF]or 0 XF=XF+1 tI[7344]={}for XA=1,ov do local oA=(z5[XF]or 0)==1 local cT=z5[XF+1]or 0 tI[7344][XA]={oA=oA,cT=cT}XF=XF+2 end local oW oW,XF=z1(z5,XF)local Xx={}local oE=1 local oD=(oW-(oW%4))/4 local XI=XF for ox=1,oD do local tt=z5[XI]or 0 local Xi=z5[XI+1]or 0 local XV=z5[XI+2]or 0 local Xf=z5[XI+3]or 0 local Xv=tt*(((0xFF7CE9+33579))-((0x1E-10)))+Xi*((0x10013)-(19))+XV*(((0x12F-29))-(0x12))+Xf local XE=Xv local tn=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tJ=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tS=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tR=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tV=XE%(((0x88-44))-((0xB-4)))Xx[oE]=oG[tV]Xx[oE+1]=oG[tR]Xx[oE+2]=oG[tS]Xx[oE+3]=oG[tJ]Xx[oE+4]=oG[tn]oE=oE+5 XI=XI+4 end local oM=oW-(oD*4)if oM>0 then local Xv=0 for XA=0,oM-1 do Xv=Xv*(((0x12F-29))-(0x12))+(z5[XI+XA]or 0)end for XA=oM,3 do Xv=Xv*(((0x12F-29))-(0x12))end local XE=Xv local tn=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tJ=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tS=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tR=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tV=XE%(((0x88-44))-((0xB-4)))local oH=oM+1 if oH>=1 then Xx[oE]=oG[tV]end if oH>=2 then Xx[oE+1]=oG[tR]end if oH>=3 then Xx[oE+2]=oG[tS]end if oH>=4 then Xx[oE+3]=oG[tJ]end if oH>=5 then Xx[oE+4]=oG[tn]end end tI[6973]=m7[ei[34404]][K((15+85),Yj)](Xx)XF=XF+oW local oK=z5[XF]or 0 XF=XF+1 if oK~=0 then tI[3516]=true local oh,oi,oV oh,XF=z1(z5,XF)oi,XF=z1(z5,XF)oV,XF=z1(z5,XF)tI[5873]=oh tI[6485]=oh tI[8497]=oi tI[6328]=oV local Cy=m8[((124-112+219-219))]or 0 if Cy~=0 then tI[6485]=em(tI[6485],Cy)if tI[6485]<0 then tI[6485]=tI[6485]+Id end tI[8497]=em(tI[8497],Cy)if tI[8497]<0 then tI[8497]=tI[8497]+Id end tI[6328]=em(tI[6328],Cy)if tI[6328]<0 then tI[6328]=tI[6328]+Id end end local of of,XF=z1(z5,XF)local oR={}for XA=1,of do oR[XA]=m7[ei[47165]][K(0xC,Yj)](z5[XF+XA-1]or 0)end tI[7468]=m7[ei[34404]][K((119-19),Yj)](oR)XF=XF+of local ok ok,XF=z1(z5,XF)local oS={}for XA=1,ok do oS[XA]=m7[ei[47165]][K(((243+-151-80)),Yj)](z5[XF+XA-1]or 0)end tI[8970]=m7[ei[34404]][K((14*7+2),Yj)](oS)XF=XF+ok local oP,oJ oP,XF=z1(z5,XF)oJ,XF=z1(z5,XF)if oP and oP>0 and oJ and oJ>0 then local os={}for XA=1,oJ do os[XA]=m7[ei[47165]][K(((220-6-202)),Yj)](z5[XF+XA-1]or 0)end tI[3767]=m7[ei[34404]][K(((136-36+(34-34))),Yj)](os)tI[4653]=oP end XF=XF+oJ else tI[3516]=false end tI[4503]={}local Xk=0 for XA=1,op do local p7 p7,XF=z1(z5,XF)Xk=Xk+p7 tI[4503][XA]=Xk end local on on,XF=z1(z5,XF)tI[2375]={}local oj,oL=0,0 for XA=1,on do local oq,o1 oq,XF=z1(z5,XF)o1,XF=z1(z5,XF)oj=oj+oq oL=oL+o1 tI[2375][oj]=oL end elseif ow then local ov=z5[XF]or 0 XF=XF+1 tI[7344]={}for XA=1,ov do local oA=(z5[XF]or 0)==1 local cT=z5[XF+1]or 0 tI[7344][XA]={oA=oA,cT=cT}XF=XF+2 end tI[9980]=z5[XF]or 0 XF=XF+1 tI[4140]=z5[XF]or 0 XF=XF+1 tI[9447]=(z5[XF]or 0)==1 XF=XF+1 local oB oB,XF=z1(z5,XF)tI[4330]={}local oO=0 for XA=1,oB do local oN oN,XF=z1(z5,XF)oO=oO+oN tI[4330][XA-1]=oO end tI[4881]={}for XA=1,oB do local oy oy,XF=z1(z5,XF)tI[4881][XA-1]=oy end tI[9359]={}for XA=1,oB do tI[9359][XA-1]=z5[XF]or 0 XF=XF+1 end tI[8843]={}for XA=1,op do tI[8843][XA]=z5[XF+XA-1]or 0 end XF=XF+op local oK=z5[XF]or 0 XF=XF+1 if oK~=0 then tI[3516]=true local oh,oi,oV oh,XF=z1(z5,XF)oi,XF=z1(z5,XF)oV,XF=z1(z5,XF)tI[5873]=oh tI[6485]=oh tI[8497]=oi tI[6328]=oV local Cy=m8[((91+120-199))]or 0 if Cy~=0 then tI[6485]=em(tI[6485],Cy)if tI[6485]<0 then tI[6485]=tI[6485]+Id end tI[8497]=em(tI[8497],Cy)if tI[8497]<0 then tI[8497]=tI[8497]+Id end tI[6328]=em(tI[6328],Cy)if tI[6328]<0 then tI[6328]=tI[6328]+Id end end local of of,XF=z1(z5,XF)local oR={}for XA=1,of do oR[XA]=m7[ei[47165]][K((99-87),Yj)](z5[XF+XA-1]or 0)end tI[7468]=m7[ei[34404]][K(((100+0)),Yj)](oR)XF=XF+of local ok ok,XF=z1(z5,XF)local oS={}for XA=1,ok do oS[XA]=m7[ei[47165]][K((3*4),Yj)](z5[XF+XA-1]or 0)end tI[8970]=m7[ei[34404]][K(((288-64-124)),Yj)](oS)XF=XF+ok local oP,oJ oP,XF=z1(z5,XF)oJ,XF=z1(z5,XF)if oP and oP>0 and oJ and oJ>0 then local os={}for XA=1,oJ do os[XA]=m7[ei[47165]][K(12,Yj)](z5[XF+XA-1]or 0)end tI[3767]=m7[ei[34404]][K(100,Yj)](os)tI[4653]=oP end XF=XF+oJ else tI[3516]=false end local oW oW,XF=z1(z5,XF)local Xx={}local oE=1 local oD=(oW-(oW%4))/4 local XI=XF for ox=1,oD do local tt=z5[XI]or 0 local Xi=z5[XI+1]or 0 local XV=z5[XI+2]or 0 local Xf=z5[XI+3]or 0 local Xv=tt*(((0xFF7CE9+33579))-((0x1E-10)))+Xi*((0x10013)-(19))+XV*(((0x12F-29))-(0x12))+Xf local XE=Xv local tn=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tJ=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tS=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tR=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tV=XE%(((0x88-44))-((0xB-4)))Xx[oE]=oG[tV]Xx[oE+1]=oG[tR]Xx[oE+2]=oG[tS]Xx[oE+3]=oG[tJ]Xx[oE+4]=oG[tn]oE=oE+5 XI=XI+4 end local oM=oW-(oD*4)if oM>0 then local Xv=0 for XA=0,oM-1 do Xv=Xv*(((0x12F-29))-(0x12))+(z5[XI+XA]or 0)end for XA=oM,3 do Xv=Xv*(((0x12F-29))-(0x12))end local XE=Xv local tn=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tJ=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tS=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tR=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tV=XE%(((0x88-44))-((0xB-4)))local oH=oM+1 if oH>=1 then Xx[oE]=oG[tV]end if oH>=2 then Xx[oE+1]=oG[tR]end if oH>=3 then Xx[oE+2]=oG[tS]end if oH>=4 then Xx[oE+3]=oG[tJ]end if oH>=5 then Xx[oE+4]=oG[tn]end end tI[6973]=m7[ei[34404]][K(((131+61-92)),Yj)](Xx)XF=XF+oW tI[4503]={}tI[2375]={}local Xk=0 for XA=1,op do tI[4503][XA]=Xk tI[2375][Xk]=XA local XH=tI[8843][XA]or 0 local o6=(oY and oY[XH])or 4 Xk=Xk+o6 end elseif oQ then local o4=0 local o7=0 while o4<7 do local o3=z5[XF]or 255 XF=XF+1 local o8=1 if o3==0 then o8=1 elseif o3==1 then o8=2 elseif o3==2 then o8=4 elseif o3==3 then o8=8 elseif o3==4 then o8=16 elseif o3==5 then o8=32 elseif o3==6 then o8=64 else oX()end if(o7%(o8*2))>=o8 then oX()end o7=o7+o8 o4=o4+1 if o3==0 then tI[9980]=z5[XF]or 0 XF=XF+1 tI[4140]=z5[XF]or 0 XF=XF+1 tI[9447]=(z5[XF]or 0)==1 XF=XF+1 elseif o3==1 then local ov=z5[XF]or 0 XF=XF+1 tI[7344]={}for XA=1,ov do local oA=(z5[XF]or 0)==1 local cT=z5[XF+1]or 0 tI[7344][XA]={oA=oA,cT=cT}XF=XF+2 end elseif o3==2 then tI[8843]={}for XA=1,op do tI[8843][XA]=z5[XF+XA-1]or 0 end XF=XF+op elseif o3==3 then tI[4503]={}local Xk=0 for XA=1,op do local p7 p7,XF=z1(z5,XF)Xk=Xk+p7 tI[4503][XA]=Xk end local on on,XF=z1(z5,XF)tI[2375]={}local oj,oL=0,0 for XA=1,on do local oq,o1 oq,XF=z1(z5,XF)o1,XF=z1(z5,XF)oj=oj+oq oL=oL+o1 tI[2375][oj]=oL end elseif o3==4 then local oW oW,XF=z1(z5,XF)local Xx={}local oE=1 local oD=(oW-(oW%4))/4 local XI=XF for ox=1,oD do local tt=z5[XI]or 0 local Xi=z5[XI+1]or 0 local XV=z5[XI+2]or 0 local Xf=z5[XI+3]or 0 local Xv=tt*(((0xFF7CE9+33579))-((0x1E-10)))+Xi*((0x10013)-(19))+XV*(((0x12F-29))-(0x12))+Xf local XE=Xv local tn=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tJ=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tS=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tR=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tV=XE%(((0x88-44))-((0xB-4)))Xx[oE]=oG[tV]Xx[oE+1]=oG[tR]Xx[oE+2]=oG[tS]Xx[oE+3]=oG[tJ]Xx[oE+4]=oG[tn]oE=oE+5 XI=XI+4 end local oM=oW-(oD*4)if oM>0 then local Xv=0 for XA=0,oM-1 do Xv=Xv*(((0x12F-29))-(0x12))+(z5[XI+XA]or 0)end for XA=oM,3 do Xv=Xv*(((0x12F-29))-(0x12))end local XE=Xv local tn=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tJ=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tS=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tR=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tV=XE%(((0x88-44))-((0xB-4)))local oH=oM+1 if oH>=1 then Xx[oE]=oG[tV]end if oH>=2 then Xx[oE+1]=oG[tR]end if oH>=3 then Xx[oE+2]=oG[tS]end if oH>=4 then Xx[oE+3]=oG[tJ]end if oH>=5 then Xx[oE+4]=oG[tn]end end tI[6973]=m7[ei[34404]][K(0x64,Yj)](Xx)XF=XF+oW elseif o3==5 then local oB oB,XF=z1(z5,XF)tI[4330]={}local oO=0 for XA=1,oB do local oN oN,XF=z1(z5,XF)oO=oO+oN tI[4330][XA-1]=oO end tI[4881]={}for XA=1,oB do local oy oy,XF=z1(z5,XF)tI[4881][XA-1]=oy end tI[9359]={}for XA=1,oB do tI[9359][XA-1]=z5[XF]or 0 XF=XF+1 end else local oK=z5[XF]or 0 XF=XF+1 if oK~=0 then tI[3516]=true local oh,oi,oV oh,XF=z1(z5,XF)oi,XF=z1(z5,XF)oV,XF=z1(z5,XF)tI[5873]=oh tI[6485]=oh tI[8497]=oi tI[6328]=oV local Cy=m8[(212-200)]or 0 if Cy~=0 then tI[6485]=em(tI[6485],Cy)if tI[6485]<0 then tI[6485]=tI[6485]+Id end tI[8497]=em(tI[8497],Cy)if tI[8497]<0 then tI[8497]=tI[8497]+Id end tI[6328]=em(tI[6328],Cy)if tI[6328]<0 then tI[6328]=tI[6328]+Id end end local of of,XF=z1(z5,XF)local oR={}for XA=1,of do oR[XA]=m7[ei[47165]][K(((12+0)),Yj)](z5[XF+XA-1]or 0)end tI[7468]=m7[ei[34404]][K(((217-117+84-84)),Yj)](oR)XF=XF+of local ok ok,XF=z1(z5,XF)local oS={}for XA=1,ok do oS[XA]=m7[ei[47165]][K(((32-20+(144-144))),Yj)](z5[XF+XA-1]or 0)end tI[8970]=m7[ei[34404]][K((60+40),Yj)](oS)XF=XF+ok local oP,oJ oP,XF=z1(z5,XF)oJ,XF=z1(z5,XF)if oP and oP>0 and oJ and oJ>0 then local os={}for XA=1,oJ do os[XA]=m7[ei[47165]][K(((126-114+63-63)),Yj)](z5[XF+XA-1]or 0)end tI[3767]=m7[ei[34404]][K((181-81),Yj)](os)tI[4653]=oP end XF=XF+oJ else tI[3516]=false end end end if o7~=127 then oX()end else tI[9980]=z5[XF]or 0 XF=XF+1 tI[4140]=z5[XF]or 0 XF=XF+1 tI[9447]=(z5[XF]or 0)==1 XF=XF+1 local ov=z5[XF]or 0 XF=XF+1 tI[7344]={}for XA=1,ov do local oA=(z5[XF]or 0)==1 local cT=z5[XF+1]or 0 tI[7344][XA]={oA=oA,cT=cT}XF=XF+2 end tI[8843]={}for XA=1,op do tI[8843][XA]=z5[XF+XA-1]or 0 end XF=XF+op if og then tI[4503]={}tI[2375]={}local Xk=0 for XA=1,op do tI[4503][XA]=Xk tI[2375][Xk]=XA local XH=tI[8843][XA]or 0 local o6=(oY and oY[XH])or 4 Xk=Xk+o6 end else tI[4503]={}local Xk=0 for XA=1,op do local p7 p7,XF=z1(z5,XF)Xk=Xk+p7 tI[4503][XA]=Xk end local on on,XF=z1(z5,XF)tI[2375]={}local oj,oL=0,0 for XA=1,on do local oq,o1 oq,XF=z1(z5,XF)o1,XF=z1(z5,XF)oj=oj+oq oL=oL+o1 tI[2375][oj]=oL end end local oW oW,XF=z1(z5,XF)if oe then local Xx={}local oE=1 local oD=(oW-(oW%4))/4 local XI=XF for ox=1,oD do local tt=z5[XI]or 0 local Xi=z5[XI+1]or 0 local XV=z5[XI+2]or 0 local Xf=z5[XI+3]or 0 local Xv=tt*(((0xFF7CE9+33579))-((0x1E-10)))+Xi*((0x10013)-(19))+XV*(((0x12F-29))-(0x12))+Xf local XE=Xv local tn=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tJ=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tS=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tR=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tV=XE%(((0x88-44))-((0xB-4)))Xx[oE]=oG[tV]Xx[oE+1]=oG[tR]Xx[oE+2]=oG[tS]Xx[oE+3]=oG[tJ]Xx[oE+4]=oG[tn]oE=oE+5 XI=XI+4 end local oM=oW-(oD*4)if oM>0 then local Xv=0 for XA=0,oM-1 do Xv=Xv*(((0x12F-29))-(0x12))+(z5[XI+XA]or 0)end for XA=oM,3 do Xv=Xv*(((0x12F-29))-(0x12))end local XE=Xv local tn=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tJ=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tS=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tR=XE%(((0x88-44))-((0xB-4)));XE=m7[ei[63069]][K((304-146),Yj)](XE/(((0x88-44))-((0xB-4))))local tV=XE%(((0x88-44))-((0xB-4)))local oH=oM+1 if oH>=1 then Xx[oE]=oG[tV]end if oH>=2 then Xx[oE+1]=oG[tR]end if oH>=3 then Xx[oE+2]=oG[tS]end if oH>=4 then Xx[oE+3]=oG[tJ]end if oH>=5 then Xx[oE+4]=oG[tn]end end tI[6973]=m7[ei[34404]][K((20*5),Yj)](Xx)else local o5={}for XA=1,oW do o5[XA]=m7[ei[47165]][K((60-48),Yj)](z5[XF+XA-1]or 0)end tI[6973]=m7[ei[34404]][K(((156-56+(202-202))),Yj)](o5)end XF=XF+oW local oB oB,XF=z1(z5,XF)tI[4330]={}local oO=0 for XA=1,oB do local oN oN,XF=z1(z5,XF)oO=oO+oN tI[4330][XA-1]=oO end tI[4881]={}for XA=1,oB do local oy oy,XF=z1(z5,XF)tI[4881][XA-1]=oy end tI[9359]={}for XA=1,oB do tI[9359][XA-1]=z5[XF]or 0 XF=XF+1 end local oK=z5[XF]or 0 XF=XF+1 if oK~=0 then tI[3516]=true local oh,oi,oV oh,XF=z1(z5,XF)oi,XF=z1(z5,XF)oV,XF=z1(z5,XF)tI[5873]=oh tI[6485]=oh tI[8497]=oi tI[6328]=oV local Cy=m8[((12+0))]or 0 if Cy~=0 then tI[6485]=em(tI[6485],Cy)if tI[6485]<0 then tI[6485]=tI[6485]+Id end tI[8497]=em(tI[8497],Cy)if tI[8497]<0 then tI[8497]=tI[8497]+Id end tI[6328]=em(tI[6328],Cy)if tI[6328]<0 then tI[6328]=tI[6328]+Id end end local of of,XF=z1(z5,XF)local oR={}for XA=1,of do oR[XA]=m7[ei[47165]][K(0xC,Yj)](z5[XF+XA-1]or 0)end tI[7468]=m7[ei[34404]][K(((100+0)),Yj)](oR)XF=XF+of local ok ok,XF=z1(z5,XF)local oS={}for XA=1,ok do oS[XA]=m7[ei[47165]][K(((233+-162-59)),Yj)](z5[XF+XA-1]or 0)end tI[8970]=m7[ei[34404]][K(((162-33-29)),Yj)](oS)XF=XF+ok local oP oP,XF=z1(z5,XF)local oJ oJ,XF=z1(z5,XF)if oP and oP>0 and oJ and oJ>0 then local os={}for XA=1,oJ do os[XA]=m7[ei[47165]][K(((181-106-63)),Yj)](z5[XF+XA-1]or 0)end tI[3767]=m7[ei[34404]][K(100,Yj)](os)tI[4653]=oP end XF=XF+oJ else tI[3516]=false end end local o9 o9,XF=z1(z5,XF)if o9 and o9>0 then local o0={}local o2=5231+((6436+cX*211)%8209)local Bm=7411+((1931+cX*397)%12301)local Bw=23+(((1619971221)+(cX*149)+37)%1009)local BQ=43+((((2674996074-(2674996074%1009))/1009)+(cX*269)+83)%1013)local BU=o2+Bw local BI=Bm+BQ for Be=1,o9 do local Ba,Bg Ba,XF=z1(z5,XF)Bg,XF=z1(z5,XF)local BY,Bd BY=Ba-BU;Bd=Bg-BI o0[BY]=Bd end tI[3926]=o0 end tI[9079]={}tI[9067]={}tI[6796]={}tI[5667]={}tI[6416]={}tI[1415]={}tI[4484]={}tI[6342]={}tI[5895]={}local BX=em(3307956528,43502)%Iw local zV=eg(BX)%Iw if zV==0 then zV=1 end local BC=em(zV,cX)%Iw local Bc=eg(BC)%Iw if Bc==0 then Bc=1 end local BG=m8[0xC]or 0 local BZ=(((cX+1)*2654435761)%Iw)local Bt=(((cX+1)*131+17)%Iw)local Bp=em(em(em(zV,BG),BZ),Bt)%Iw if Bp==0 then Bp=1 end local Bb=eg(Bp)%Iw if Bb==0 then Bb=1 end local Bl=(ot-Bb)%Iw if Bl~=Bc then tI[3180]=0 else tI[3180]=Bl end tI[2551]=cX if tI[3516]and not(tI[4330]and tI[4330][0]~=nil)then local BT=tI[7468]local BF=tI[8970]local Bz={}local Bo={}local BB={}local BO={}local of=m7[ei[63069]].floor((op+15)/16)local BN=(#BT==of*4)local function BD(XT,XF,Bu)local Bx=m7[ei[63069]].floor(XF/4)local BM=XF%4 local XN=Bu[Bx]if not XN then local Xy=Bx*5+1 local Xv=0 for Xg=0,4 do local XW=m7[ei[47165]]["\98\121\116\101"](XT,Xy+Xg)Xv=Xv*85+(m7[ei[14133]][XW]or 0)end XN={m7[ei[63069]].floor(Xv/((0x1000015)-((0x17-2))))%(((0x172-95))-((0xC+7))),m7[ei[63069]].floor(Xv/(((25710+0x9BA6))-((19+1))))%(((0x172-95))-((0xC+7))),m7[ei[63069]].floor(Xv/(((0x172-95))-((0xC+7))))%(((0x172-95))-((0xC+7))),Xv%(((0x172-95))-((0xC+7)))}Bu[Bx]=XN end return XN[BM+1]or 0 end for XA=1,of do local BW=(XA-1)*4 local tt=(BN and(m7[ei[47165]]["\98\121\116\101"](BT,BW+1)or 0)or BD(BT,BW+0,BB))local Xi=(BN and(m7[ei[47165]]["\98\121\116\101"](BT,BW+2)or 0)or BD(BT,BW+1,BB))local XV=(BN and(m7[ei[47165]]["\98\121\116\101"](BT,BW+3)or 0)or BD(BT,BW+2,BB))local Xf=(BN and(m7[ei[47165]]["\98\121\116\101"](BT,BW+4)or 0)or BD(BT,BW+3,BB))local Bv=tt+Xi*(((0x172-95))-((0xC+7)))+XV*(((25710+0x9BA6))-((19+1)))+Xf*((0x1000015)-((0x17-2)))local BA=ZW(Bv,0,tI[6328])Bz[XA]=BA end if BF and#BF>0 then local By=(#BF==op*4)for XA=1,op do local BE=(XA-1)*4 local tN=(By and(m7[ei[47165]]["\98\121\116\101"](BF,BE+1)or 0)or BD(BF,BE+0,BO))local ty=(By and(m7[ei[47165]]["\98\121\116\101"](BF,BE+2)or 0)or BD(BF,BE+1,BO))local tv=(By and(m7[ei[47165]]["\98\121\116\101"](BF,BE+3)or 0)or BD(BF,BE+2,BO))local tA=(By and(m7[ei[47165]]["\98\121\116\101"](BF,BE+4)or 0)or BD(BF,BE+3,BO))Bo[XA]=tN+ty*(((0x172-95))-((0xC+7)))+tv*(((25710+0x9BA6))-((19+1)))+tA*((0x1000015)-((0x17-2)))end tI[8970]=Bo tI[6033]=Bo else tI[8970]=nil end tI[7468]=Bz tI[8738]=Bz tI[6485]=Bz[1]end z0[cX]=tI end return z0 end do local BH={}BH[1]={ei[27167],zr}BH[2]={ei[30370],zq}BH[3]={ei[62672],z4}local BK=1 while BK<4 do local Bh=BH[BK]eX(m7,Bh[1],Bh[2])BK=BK+1 end end m7[ei[42812]]=(function()local _,Bi=m7[ei[37238]](m7[ei[eR[25703]]]);local BV=m7[ei[eR[57525]]](Bi,m7[ei[47165]][K(((11+0)),Yj)]);local Bf=eB or 0;if not BV or BV<=0 or BV>49157 then BV=0 end;if Bf<=0 or Bf>49157 then Bf=0 end;if BV==0 and Bf==0 then return 0 end;return BV+(Bf*65536)end)()m7[ei[62652]]=mK:sub(5717,34549)local BR=m7[ei[62672]](m7[ei[62652]],nil,nil,z7)m7[ei[57077]]=BR do for zO=0,28 do local Bk=BR[zO]if Bk then Bk[5512]=zo[zO]end end end local BS=28 local BJ=(((((e2 or 0)%257)*65537)+((((10-(m7[ei[eR[38581]]]or 0))*(10-(m7[ei[eR[38581]]]or 0)))%257)*131071)+((((2-(II or 0))*(2-(II or 0)))%257)*524287)+((((((IY or 0)-4084505518)%257)*(((IY or 0)-4084505518)%257))%257)*262147))%Id)for BP=0,BS do BR[BP][2551]=BP local Bs=BR[BP][3180]or 1 BR[BP][3180]=(Bs+BJ)%Id if BR[BP][3516]then BR[BP][6485]=BR[BP][5873]end end m7[ei[eR[39342]]]=function(IU)repeat IU=(IU*48271+1)%Iw if IU==0 then IU=1 end until IU==0 end do local Bj=BR[0][3180];local Bq=(Bj%257)*65537;local BL=(Ig and Bq or 0);BR[0][3180]=(Bj+BL)%Id end if Ig then m7[ei[eR[39341]]](m0,m7[ei[eR[44388]]],m7[ei[65404]]);local Bn=(BR[0][3180]+1);m7[ei[62255]](nil,Bn)end m7[ei[48635]]=BR[0]BR[28][5311]=1 BR[27][5311]=1 BR[26][5311]=1 BR[25][5311]=1 BR[24][5311]=1 BR[23][5311]=1 BR[22][5311]=1 BR[21][5311]=1 BR[20][5311]=1 BR[19][5311]=1 BR[18][5311]=3 BR[17][5311]=3 BR[16][5311]=3 BR[15][5311]=3 BR[14][5311]=3 BR[13][5311]=11 BR[0][5311]=9 BR[1][5311]=1 BR[2][5311]=13 BR[3][5311]=4 BR[4][5311]=5 BR[5][5311]=9 BR[6][5311]=1 BR[7][5311]=1 BR[8][5311]=1 BR[9][5311]=11 BR[10][5311]=1 BR[11][5311]=1 BR[12][5311]=11 m7[ei[47672]]=IC("Q***|Q6RGLg/B]?lfIWk&TVdK8=*Nbc8+YR|1x_GTeH$m$j~tkUuSR8a&}yLT/O^;<$]G?1=mN:?H|:erS7vs!xe{>]Wa<g{znsp1UK$TPz:sV1J`Oi`Abm<=nuNG$TP6WL%JEcl=v:]<2?{4^)|d6r06Op;sz>3p^-Gm[YcjJ{PuX3eMwW$/25_{^:?$<Tt{^:?1t_Vo[%ubpZ905.A:/6zU3+$MLuE7KBZ/t6Z%E$1I>iaF2mLuE7K(-l#:{1NNC5-1E7KG&xWHCVIi3?CZ0T>zfL#L==5<V<WnXXLD=F*(T|kL#$eeX9=j!ocI(3oo}km3_*j#|FD{|.WlCpJib,h;*}b0")m7[ei[25747]]=35 local Br=(function()local Xe={}for Xg=1,m7[ei[25747]]do Xe[Xg]=eg(32110223+Xg)%256 end return Xe end)()m7[ei[50287]]=(function()local B1=((87*9808+53*5583+460672724)%Id)local B6=((73*9808+137*5583+1966660362)%Id)for Xg=1,#m7[ei[47672]]do B1=m7[ei[55773]](B1,m7[ei[47672]][Xg])end if B1~=B6 then m7[ei[47672]]=m7[ei[7509]]end end)()m7[ei[18504]]={}m7[ei[26326]]=(function()for Xg=1,m7[ei[25747]]do local Xk=5+((Xg-1)*8)local GF=em(m7[ei[9027]],Br[Xg])%256 local XZ={}for XA=0,7 do local XQ=m7[ei[47672]][Xk+XA]XZ[XA]=em(XQ,GF)end local ZZ=XZ[0]+(XZ[1]*256)+(XZ[2]*65536)+(XZ[3]*16777216)local XR=XZ[4]+(XZ[5]*256)+(XZ[6]*65536)+(XZ[7]*16777216)local B3=((m7[ei[11553]](XR,2147483648))%2)==1 and-1 or 1 local XJ=m7[ei[11553]](XR,1048576)%2048 local B8=XR%1048576 local Xv=0 if XJ==2047 then Xv=0 elseif XJ==0 then Xv=B3*(B8/1048576.0+ZZ/4503599627370496.0)*m7[ei[63069]][K(((213-15-59)),Yj)](2,-1022)else Xv=B3*(1.0+(B8/1048576.0)+(ZZ/4503599627370496.0))*m7[ei[63069]][K(((213-15-59)),Yj)](2,XJ-1023)end m7[ei[18504]][Xg]=Xv end end)()local B9=(m7[ei[25747]]<10 and 1 or m7[ei[11553]](m7[ei[25747]],10))if B9<1344 then B9=1344 end local B0="+;+;+;;;+;++;;+;+;+;+;;+++;;+;+++++++++;+++++++;+++++++++++;;;+++;;;+;;;+;;+;;+;+;+;;;;;+;;+++;;+;;+;;+;+;;;+++;+;;+;;++++;;+++++;;;+++++;;+++;++;;++;;++;;;++;+++;;+++;+;;;++;++;;;+;+++;;;+;;;+;;;+;;;+;;;++;;+;;+;+;+++;;+;+;++;;++;++;;++;;;+;;++++;+;;+;;++++;;+;;++;;;++;;+;;+;++;+;;++;++++++++;++++++++++++;;++;+;;+++;;+;;+;;+;+;;+;+;;+;;+;;+++;;;++;++;;+;;;;+;;;+;;;+;;;+;;;+;;;+;;;++;;++++++;;++++++;;+++++;;+;;;+++;;+++;++;;+++;+;;+++;++;;+;+;++;;++;++++;;++;+++;;;++;+;;+;;;;++;;+;+;++;;;+++++;;+;+++;;+;;++++++++;;++++++++++++;++;+;;;+;;;+;;;;++;+;;+;;;++;;;+;;+++;;+;++++;+;;;+++;;+;+;++;+;;;+++;;+++++++++;++++++++++++++;+;+++;;++;+++;;++++++;;++;+++;;+;;+++;;++++++;;+;;+++;;++++++;;;++;++;+;;;+++;;+++;+++++;+;++++++++++++;++++++++++++++++++++++++++++++++++++;;+;+;+++;;+;+;+;+;++++;+++;;+++++++;;++++++++++;+++++++;;++;;++;;+++;+++;;++;+++;;+++++;;++;;+++;;++++++;;;++;++;;+++;++;;+;++++;;++;++;;++;+;+;;+++;;+;;++;++++;;+;+;+;;++++;++;;+;+;+;;+++;++;;++++;+;;++++;++;;++;+++;;;++;+;;+++;+++;;+;+;++;;;++++;;+++;;++;;+;;++;;++++;+;;+++;+++;;++++++;;+;;;++;;+;+++;;++++;+;;++;++++;;++;+++;;++;;++;;++++++;;+;;+++;;;++++;;++;+;++;;;+++++;;+++;++;;;+++++;;+++;+;;+++;+++;;;++;+;;+++;+++;;+;+++;;+++;+++;;+;;+++;;+;++++;;+;++++;;+;;++;;++;+;++;;+;+;++;;+++;+;;+++;;+;;+++;+++;;++;+++;;;++++;;+++;;++;;+++;++;;+;;;+;;++;;+++;;++++;;;;;;;;"for zI=1,#B0 do m7[ei[18504]][m7[ei[25747]]+zI]=(m7[ei[47165]][K(((172-99-62)),Yj)](B0,zI)==59)and 53 or 67 end m7[ei[52885]]=(function()for IU=1345,B9 do local z5=(((m7[ei[9027]]+(IU*37))%1000003)/1000)m7[ei[18504]][m7[ei[25747]]+IU]=z5 end end)()if B9<1648 then B9=1648 end local B2="+;+;+;;++;++;;+;+;++;++;++;;+;+++++++++;+++;+++;+++++++++++++;+;++;;+;++++;+;;;+++;;+;+;++;+;;;+++;;+++++++;++;+++++++++++++;+;+++;;++;+++;;++++++;;++;+++;;+;;+++;;++++++;;+;;+++;;++++++;;;++;++;+;;;+++;;+++;+++;++;;++++++++++++;++++;;++;;+++;;++;;++;;;++++;;++;;+++;;;++;++;;++;++;;++++;++;;+;+;;;;;;;;;"for Om=1,#B2 do m7[ei[18504]][m7[ei[25747]]+1345-1+Om]=m7[ei[47165]][K(0xB,Yj)](B2,Om)end local B7={}local Oe=m7[ei[eR[25882]]](m0,m7[ei[eR[49590]]])or function()end eX(B7,m7[ei[38128]],function()return function()end end)eX(B7,m7[ei[16492]],function()return function()end end)eX(B7,m7[ei[46431]],function()return 0 end)eX(B7,m7[ei[16751]],K((197-81),Yj))eX(B7,m7[ei[59193]],function(B5,cT)if m7[ei[19325]](cT)~=K(((235-121+151-151)),Yj)or cT<1 then m7[ei[eR[33968]]](m0,m7[ei[eR[41931]]],m7[ei[65404]]);Oe()return nil end if cT>m7[ei[25747]]then if cT<=(m7[ei[25747]]+B9)then m7[ei[eR[44139]]](m0,m7[ei[eR[42666]]],m7[ei[65404]]);Oe();return eY(m7[ei[18504]],cT)end m7[ei[eR[34044]]](m0,m7[ei[eR[56085]]],m7[ei[65404]]);Oe()return nil end return eY(m7[ei[18504]],cT)end)eX(B7,m7[ei[59060]],function()m7[ei[eR[46627]]](m0,m7[ei[eR[54005]]],m7[ei[65404]]);Oe()end)local B4=m7[ei[55732]](m7[ei[18504]],B7)if eI(E)==eT then E=E(m7[ei[18504]],m7[ei[25747]],1344,53)end do local Og=((93*9808+128*5583+2255881797)%Id)local Oa=461821919 for Od=1,#E do Oa=m7[ei[55773]](Oa,E[Od])end if Oa~=Og then do local Ow=(Oa+1);repeat Ow=(Ow*1103515245+12345)%Id until Ow==0 end end end BR[14][2049]=true BR[14][5621]=function(tI,OQ)do local ye=tI[9079]local ya=tI[3572]or 0 if ye[1]==nil and ya>0 then for Xg=1,ya do m7[ei[12555]](tI,Xg)end end end local Ok=6397 local OS=6134 local OP=3707 local OJ=5359 local Os=4265 local NU=tI[5193]if not NU then NU={};tI[5193]=NU end local NI=tI[9580]if not NI then NI={};tI[9580]=NI end local yg=table and table.create local yd=tI[3572]or 0 local yQ=tI[9079]local yU=tI[9067]local yI=tI[6796]local Ne=yg and yg(yd,0)or{}local Na=yg and yg(yd,0)or{}local Ng=yg and yg(yd,0)or{}for yw=1,yd do Ne[yw]=(yQ[yw]or 0)+1 Na[yw]=(yU[yw]or 0)+1 Ng[yw]=(yI[yw]or 0)+1 end local On={}do local yl=tI[8843]local yA=tI[3572]or 0 local yT=tI[9079]local yF=tI[9067]local yz=tI[6796]local yo=tI[5667]local yB=tI[6416]local yO=tI[1415]local yN=tI[4484]local yy=tI[4503]local yv=tI[2375]local yW=tI[5512]local yD=tI[3926]for yX=1,yA do local yY=yl[yX]local yb=nil local yt=nil local yp=nil local yE=nil local yu=nil if yY==101 or yY==243 or yY==242 or yY==100 then if yD then yu=yD[yX]end if not yu then yb=4 yt=yT[yX]yp=yF[yX]end elseif yY==237 then yb=8 yt=yT[yX]yp=yF[yX]elseif yY==97 or yY==182 or yY==177 or yY==96 or yY==176 or yY==179 or yY==99 or yY==178 or yY==189 or yY==98 or yY==185 or yY==184 or yY==109 or yY==187 or yY==186 or yY==108 or yY==111 or yY==93 then if yW then yE=yW[yX+144]end elseif yY==135 or yY==106 or yY==159 then yb=8 yt=yF[yX]yp=yz[yX]elseif yY==103 or yY==188 or yY==191 or yY==102 or yY==253 or yY==252 then if yD then yu=yD[yX]end if not yu then yb=4 yt=yF[yX]yp=yz[yX]end elseif yY==133 or yY==105 or yY==104 or yY==132 or yY==107 or yY==86 or yY==139 or yY==138 then yb=4 yt=yF[yX]yp=yz[yX]elseif yY==6 then if yW then yE=yW[yX+144]end elseif yY==217 or yY==216 then if yD then yu=yD[yX]end if not yu then yb=8 yt=yz[yX]yp=yo[yX]end elseif yY==223 then if yD then yu=yD[yX]end if not yu then yb=8 yt=yB[yX]yp=yO[yX]end elseif yY==222 then if yD then yu=yD[yX]end if not yu then yb=8 yt=yO[yX]yp=yN[yX]end end if yu then On[yX]=yu elseif yE then On[yX]=yE-769 elseif yb then local yx=nil if yY==237 then yx=3307962328 end if yx then local yM=yT[yX]or 0 if yY==101 or yY==243 or yY==242 or yY==100 or yY==237 then yM=0 end local yH=(yx+yX*73+yM*17)%65536 local yK=yH%256 yt=em((yt or 0),yK)yp=em((yp or 0),(yH-yK)/256)end local yG=(yt or 0)+((yp or 0)*256)if yG>=32768 then yG=yG-65536 end local yC=yy[yX]local yc=yC+yb+yG local yZ=yv[yc]if yZ then On[yX]=yZ end end end end local Or={}do local yh=tI[8843]local yi=tI[9067]local yV=tI[6796]local yf=tI[5667]local yR=tI[3572]or 0 for yk=1,yR do local yV_op=yh[yk]if yV_op==171 or yV_op==250 or yV_op==213 then yP=((yk*1)+147)%256 yJ=((yk*8)+61)%256 ys=em((yi[yk]or 0),yP)yn=em((yV[yk]or 0),yJ)local yS=ys+(yn*256)Or[yk]=B4[yS]or 0 elseif yV_op==114 or yV_op==125 or yV_op==124 or yV_op==127 or yV_op==126 or yV_op==121 then yP=0;yJ=0 if yV_op==114 then yP=((yk*219)+194)%256;yJ=((yk*108)+68)%256 elseif yV_op==125 then yP=((yk*144)+185)%256;yJ=((yk*222)+83)%256 elseif yV_op==124 then yP=((yk*55)+224)%256;yJ=((yk*6)+18)%256 elseif yV_op==127 then yP=((yk*133)+199)%256;yJ=((yk*175)+145)%256 elseif yV_op==126 then yP=((yk*121)+238)%256;yJ=((yk*134)+80)%256 else yP=((yk*49)+85)%256;yJ=((yk*14)+79)%256 end yn=em((yV[yk]or 0),yP)yj=em((yf[yk]or 0),yJ)local yS=yn+(yj*256)Or[yk]=B4[yS]or 0 end end end local O8={}do local y0=tI[8843]local yq=tI[3572]or 0 local y5=tI[9067]local y9=tI[6796]local yL=table and table.create if yL then O8=yL(yq)end for yr=1,yq do local y1=y0[yr]if y1==175 or y1==249 or y1==248 then y4=((yr*167)+247)%(16*16)y7=((yr*31)+65)%(16*16)y3=em((y5[yr]or 0),y4)y8=em((y9[yr]or 0),y7)y6=y3+(y8*(16*16))O8[yr]=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[y6+1],Yj)end end end local O7={}do local vX=tI[8843]local vm=tI[3572]or 0 local vI=tI[9067]local vY=tI[6796]local y2=table and table.create if y2 then O7=y2(vm)end for ve=1,vm do local va=vX[ve]if va==149 or va==1 or va==0 then vd=((ve*219)+17)%(16*16)vw=((ve*26)+107)%(16*16)vQ=em((vI[ve]or 0),vd)vU=em((vY[ve]or 0),vw)vg=vQ+(vU*(16*16))O7[ve]=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[vg+1],Yj)end end end local O6={}do local vo=tI[8843]local vc=tI[3572]or 0 local vT=tI[9067]local vF=tI[6796]local vz=tI[5667]local vC=table and table.create if vC then O6=vC(vc)end for vG=1,vc do local vZ=vo[vG]if vZ==198 or vZ==13 or vZ==12 then vp=((vG*208)+54)%(16*16)vb=((vG*69)+216)%(16*16)vU=em((vF[vG]or 0),vp)vl=em((vz[vG]or 0),vb)vt=vU+(vl*(16*16))O6[vG]=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[vt+1],Yj)elseif vZ==193 or vZ==15 or vZ==14 then vp=((vG*66)+93)%(16*16)vb=((vG*22)+151)%(16*16)vQ=em((vT[vG]or 0),vp)vU=em((vF[vG]or 0),vb)vt=vQ+(vU*(16*16))O6[vG]=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[vt+1],Yj)end end end local O2={}do local vO=tI[3572]or 0 local vB=table and table.create if vB then O2=vB(vO)end local vy=m7[ei[33827]]for vN=1,vO do local vv=O7[vN]if vv~=nil then O2[vN]=vy[vv]end end end local Nm=O2 local OL={}do local vA=tI[8843]local vW=tI[3572]or 0 local vu=table and table.create if vu then OL=vu(vW,0)end for vE=1,vW do local vD=vA[vE]if vD==0 then OL[vE]=1 elseif vD==163 then OL[vE]=2 elseif vD==139 then OL[vE]=3 elseif vD==106 then OL[vE]=4 elseif vD==52 then OL[vE]=5 elseif vD==55 then OL[vE]=6 elseif vD==219 then OL[vE]=7 elseif vD==238 then OL[vE]=8 elseif vD==241 then OL[vE]=9 elseif vD==253 then OL[vE]=10 elseif vD==254 then OL[vE]=11 elseif vD==10 then OL[vE]=12 elseif vD==13 then OL[vE]=13 elseif vD==22 then OL[vE]=14 elseif vD==223 then OL[vE]=15 elseif vD==242 then OL[vE]=16 else OL[vE]=0 end end end return function(...)local E=E local vx=(((((tI[2551])or 0)+2497195678)*7237+((((tI[2551])or 0)*39028+67865682)%7))%3)local K=(vx==0 and m7[ei[41012]])or(vx==1 and m7[ei[63825]])or m7[ei[41061]]local m2=m2 local Oo=tI[8843]local op=tI[3572]local OB=tI[9079]local OO=tI[9067]local ON=tI[6796]local Oy=tI[5667]local Ov=tI[6416]local OA=tI[1415]local OW=tI[4484]local OE=tI[6342]local OD=tI[4503]local Ou=tI[2375]local Nd=Ne local Nw=Na local NQ=Ng local Oj=On local Oq=OL local O1=Or local O4=O6 local O3=O7 local O5=O8 local vM=(tI[5311]or 0)local vH=table and table.create local OU=vH and vH((tI[4140]or 0),nil)or{}local OI={}local OG=tI[9447]and{}or nil local OZ=0 local OT=((vM%2)~=0 and{}or nil)local OF=((vM%4)>=2 and{}or nil)local Oz=((vM%8)>=4 and{}or nil)local Nj=1 local Op={...}local Ot=#Op local vK=(tI[9980]or 0)local vh=Ot if vh>vK then vh=vK end for Xg=1,vh do OU[Xg]=Op[Xg]end OZ=vK if tI[9447]then local vi=vK+1 if Ot>=vi then for Xg=vi,Ot do OG[Xg-vi+1]=Op[Xg]end OG[ez]=Ot-vK else OG[ez]=0 end end local Xz=1 local Ol local Ox,OM,OH,OK,Oh,Oi,OV,Of,OR local OX=0 local OC=0 while Xz<=op do OX=Xz+1 OC=Oq[Xz]if OC==1 then OU[Nd[Xz]]=Nm[Xz]elseif OC==2 then OU[Nd[Xz]]=OU[Nw[Xz]]elseif OC==3 then Ox=OB[Xz]CB=OU[(Ox)+1]if eI(CB)~=eT then Nl=eI(CB)Nb,Nt=m7[ei[37238]](m7[ei[48018]],CB)Np=nil if Nb then NT=eI(Nt)if NT==el then Np=Nt[K(((210+90-113)),Yj)]elseif Nl~=el and NT==eT then Np=Nt end end if eI(Np)==eT then OU[(Ox)+1],OU[(Ox+1)+1],OU[(Ox+2)+1]=Np(CB)else OU[(Ox)+1],OU[(Ox+1)+1],OU[(Ox+2)+1]=m7[ei[22901]](CB)end end OM=OD[Xz]OH=OO[Xz]+(ON[Xz]*(16*16))local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OK=OF[Nj]if not OK then OK={};OF[Nj]=OK end OK[Ox]={['NL']=Xz}Oi=Oj[Xz]if Oi then OX=Oi end elseif OC==4 then Ox=OB[Xz]Oh=OU[(Ox+1)+1]Oi=OU[(Ox+2)+1]OH=Oy[Xz]Nt=OA[Xz]or 0 if Nt~=0 then OK=OU[(Ox)+1]if Nt==2 and OK==m7[ei[52462]]and eI(Oh)==el then Np,Nb=m7[ei[52462]](Oh,Oi)else Np,Nb=OK(Oh,Oi)end if Np~=nil then OU[(Ox+2)+1]=Np if OH>=1 then OU[(Ox+3)+1]=Np end if OH>=2 then OU[(Ox+4)+1]=Nb end for Nc=3,OH do OU[(Ox+2+Nc)+1]=nil end local Cz=Oj[Xz]if Cz then OX=Cz end else end else Nl=3 if Ov[Xz]~=0 then Nl=Ov[Xz]elseif tI and tI[K(((28+148)),Yj)]~=nil then Nl=tI[K(((28+148)),Yj)]end OK=OU[(Ox)+1]CB=OK NG=Oh OV={CB(NG,Oi)}local Of=((eI(Oi)==ep and Oi or 0)*0)Oi=Nl Of=1 if eI(OV[1])==eF then if OV[1]==false then Of=nil else Of=2 end end if Of then if Oi<3 then Oi=3 end OK=Ox+Oi for Nc=1,OH do OU[(OK+(Nc-1))+1]=OV[Of+(Nc-1)]end Oh=OV[Of]if Oh~=nil then OU[(Ox+2)+1]=Oh local Cz=Oj[Xz]if Cz then OX=Cz end else end end end elseif OC==5 then local Nt,Np,Nb,Nl,NT,NF,NB,NO,NN,Ny,Nv,NA,Nz,NW,NE NW=m7[ei[7917]]Ox=OB[Xz]OM=OO[Xz]NE=ON[Xz]OH=(NE%16)-1 OK=m7[ei[14046]](NE/16)-1 ND=((Xz*1)+216)%(16*16)Nu=((Xz*80)+202)%(16*16)Of=em(Oy[Xz],ND)+(em(Ov[Xz],Nu)*(16*16))Oh=em(OA[Xz],ND)+(em(OW[Xz],Nu)*(16*16))local OR=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Of+1],Yj)OV=m7[ei[33827]][OR]OU[(OM)+1]=OV local Oi=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Oh+1],Yj)OU[(Ox)+1]=OU[(OM)+1][Oi]OV=OU[(Ox)+1]Nt={}Np=0 if OH==-1 then Nb=OZ or 0 Nl=false if Nb<=(Ox+1)and eQ and(ew~=nil and ew>(Ox+1))then Nb=ew Nl=true end if Nb>Ox+1 then Np=Nb-(Ox+1)for Nz=1,Np do Nt[Nz]=OU[(Ox+Nz)+1]end end if Nl then eQ=false end else for Nz=1,OH do Nt[Nz]=OU[(Ox+Nz)+1]end Np=OH end NT=eI(OV)NF=nil if NT==eT then NF=NW(((OK>=0)and OK or nil),OV(m2(Nt,1,Np)))else NB=m7[ei[48018]](OV)NO=NB and NB[K((49*2+1),Yj)]if NO then NN={OV}for Nz=1,Np do NN[#NN+1]=Nt[Nz]end NF=NW(((OK>=0)and OK or nil),NO(m2(NN,1,#NN)))else m7[ei[25468]]()end end if OK==-1 then Ny=NF[ez]or#NF for Nz=1,Ny do Nv=Ox+Nz-1 OU[(Nv)+1]=NF[Nz]end if Ny>0 then OU[(Ox+Ny)+1]=nil OZ=Ox+Ny else OZ=Ox end ew=OZ eQ=true else for Nz=1,OK do local Nv=Ox+Nz-1 OU[(Nv)+1]=NF[Nz]end OZ=Ox+OK ew=OZ eQ=true end NA=Ou[OD[Xz]+8]if NA then Xz=NA else Xz=Xz+1 end Ol=true elseif OC==6 then ND=((Xz*56)+191)%(16*16)Nu=((Xz*130)+73)%(16*16)Ox=em(Oy[Xz],ND)+(em(Ov[Xz],Nu)*(16*16))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OU[(ON[Xz])+1]OK=OH[OM]OU[(OB[Xz])+1]=OK Ox=em(OA[Xz],ND)+(em(OW[Xz],Nu)*(16*16))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OU[(OO[Xz])+1]=OK[OM]elseif OC==7 then local Nt,Np,Nb,Nl,NF,Nz,NT Ox=OB[Xz]OM=OO[Xz]OH=ON[Xz]ND=((Xz*12)+67)%(16*16)Nu=((Xz*152)+109)%(16*16)OK=em(Oy[Xz],ND)+(em(Ov[Xz],Nu)*(16*16))local Oh=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OK+1],Yj)Oi=m7[ei[33827]][Oh]OU[(Ox)+1]=Oi Nl,NF,Nz=nil,nil,nil Nt=eI(Oi)if Nt==eT then if OH==1 then if OM==1 then Oi()elseif OM==2 then Oi(OU[(Ox+1)+1])elseif OM==3 then Oi(OU[(Ox+1)+1],OU[(Ox+2)+1])else Oi(OU[(Ox+1)+1],OU[(Ox+2)+1],OU[(Ox+3)+1])end elseif OH==2 then if OM==1 then Nl=Oi()elseif OM==2 then Nl=Oi(OU[(Ox+1)+1])elseif OM==3 then Nl=Oi(OU[(Ox+1)+1],OU[(Ox+2)+1])else Nl=Oi(OU[(Ox+1)+1],OU[(Ox+2)+1],OU[(Ox+3)+1])end elseif OH==3 then if OM==1 then Nl,NF=Oi()elseif OM==2 then Nl,NF=Oi(OU[(Ox+1)+1])elseif OM==3 then Nl,NF=Oi(OU[(Ox+1)+1],OU[(Ox+2)+1])else Nl,NF=Oi(OU[(Ox+1)+1],OU[(Ox+2)+1],OU[(Ox+3)+1])end else if OM==1 then Nl,NF,Nz=Oi()elseif OM==2 then Nl,NF,Nz=Oi(OU[(Ox+1)+1])elseif OM==3 then Nl,NF,Nz=Oi(OU[(Ox+1)+1],OU[(Ox+2)+1])else Nl,NF,Nz=Oi(OU[(Ox+1)+1],OU[(Ox+2)+1],OU[(Ox+3)+1])end end else Np=m7[ei[48018]](Oi)Nb=Np and Np[K((49*2+1),Yj)]if Nb then if OH==1 then if OM==1 then Nb(Oi)elseif OM==2 then Nb(Oi,OU[(Ox+1)+1])elseif OM==3 then Nb(Oi,OU[(Ox+1)+1],OU[(Ox+2)+1])else Nb(Oi,OU[(Ox+1)+1],OU[(Ox+2)+1],OU[(Ox+3)+1])end elseif OH==2 then if OM==1 then Nl=Nb(Oi)elseif OM==2 then Nl=Nb(Oi,OU[(Ox+1)+1])elseif OM==3 then Nl=Nb(Oi,OU[(Ox+1)+1],OU[(Ox+2)+1])else Nl=Nb(Oi,OU[(Ox+1)+1],OU[(Ox+2)+1],OU[(Ox+3)+1])end elseif OH==3 then if OM==1 then Nl,NF=Nb(Oi)elseif OM==2 then Nl,NF=Nb(Oi,OU[(Ox+1)+1])elseif OM==3 then Nl,NF=Nb(Oi,OU[(Ox+1)+1],OU[(Ox+2)+1])else Nl,NF=Nb(Oi,OU[(Ox+1)+1],OU[(Ox+2)+1],OU[(Ox+3)+1])end else if OM==1 then Nl,NF,Nz=Nb(Oi)elseif OM==2 then Nl,NF,Nz=Nb(Oi,OU[(Ox+1)+1])elseif OM==3 then Nl,NF,Nz=Nb(Oi,OU[(Ox+1)+1],OU[(Ox+2)+1])else Nl,NF,Nz=Nb(Oi,OU[(Ox+1)+1],OU[(Ox+2)+1],OU[(Ox+3)+1])end end else m7[ei[25468]]()end end if OH==2 then OU[(Ox)+1]=Nl OZ=Ox+1 elseif OH==3 then OU[(Ox)+1]=Nl;OU[(Ox+1)+1]=NF OZ=Ox+2 elseif OH==4 then OU[(Ox)+1]=Nl;OU[(Ox+1)+1]=NF;OU[(Ox+2)+1]=Nz OZ=Ox+3 else OZ=Ox end ew=OZ eQ=true NT=Ou[OD[Xz]+8]if NT then Xz=NT else Xz=Xz+1 end Ol=true elseif OC==8 then local Nt,Np,Nb,Nl,NT,NF,Nz,NB,NO,NN,Ny,Nv,NA,NW Ox=OB[Xz]OM=OO[Xz]OH=ON[Xz]Of=((Xz*104)+30)%(16*16)OR=((Xz*62)+0)%(16*16)OK=em(Oy[Xz],Of)+(em(Ov[Xz],OR)*(16*16))OU[(Ox+1)+1]=OU[(OM)+1]Oh=OU[(Ox+1)+1]Oi=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OK+1],Yj)Nt=Oh and Oh[Oi]or nil if Nt==nil and Oh~=nil then Np=m7[ei[48018]](Oh)Nb=Np and Np[K(((137-7-19)),Yj)]Nl=eI(Nb)if Nl==eT then Nt=Nb(Oh,Oi)elseif Nl==el then Nt=Nb[Oi]end end if Nt==nil and eI(Oh)==eb then Nt=mJ and mJ[Oi]or nil end if Nt==nil and Oh~=nil and eI(Oh)~=el then Np=Np or m7[ei[48018]](Oh)Nb=Np and Np[K(((17+87)),Yj)]if eI(Nb)==eT then Nt=Nb end end if OH==0 then Ny=m7[ei[7917]]NT=eI(Nt)if NT==eT then Nv=Ny(nil,Nt(Oh))else Np=m7[ei[48018]](Nt)NF=Np and Np[K((49*2+1),Yj)]if NF then Nv=Ny(nil,NF(Nt,Oh))else m7[ei[25468]]()end end NA=Nv.n or#Nv for NW=1,NA do OU[(Ox+NW-1)+1]=Nv[NW]end OZ=Ox+NA else NT=eI(Nt)if NT==eT then if OH==1 then Nt(Oh)elseif OH==2 then Nz=Nt(Oh)elseif OH==3 then Nz,NB=Nt(Oh)else Nz,NB,NO=Nt(Oh)end else Np=m7[ei[48018]](Nt)NF=Np and Np[K((49*2+1),Yj)]if NF then if OH==1 then NF(Nt,Oh)elseif OH==2 then Nz=NF(Nt,Oh)elseif OH==3 then Nz,NB=NF(Nt,Oh)else Nz,NB,NO=NF(Nt,Oh)end else m7[ei[25468]]()end end if OH==2 then OU[(Ox)+1]=Nz OZ=Ox+1 elseif OH==3 then OU[(Ox)+1]=Nz;OU[(Ox+1)+1]=NB OZ=Ox+2 elseif OH==4 then OU[(Ox)+1]=Nz;OU[(Ox+1)+1]=NB;OU[(Ox+2)+1]=NO OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NN=Ou[OD[Xz]+8]if NN then Xz=NN else Xz=Xz+1 end Ol=true elseif OC==9 then local w0=m2 Ox=OB[Xz]OM=OO[Xz]OH=ON[Xz]OR=Nd[Xz]OK=OU[OR]if OM==0 then Oi=OZ-Ox-1 else Oi=OM-1 end local vf=OU[OR+1]local vR=OU[OR+2]local vk=OU[OR+3]if OH==0 then local Nc=m7[ei[7917]]if Oi==0 then Oh=Nc(nil,OK())elseif Oi==1 then Oh=Nc(nil,OK(vf))elseif Oi==2 then Oh=Nc(nil,OK(vf,vR))elseif Oi==3 then Oh=Nc(nil,OK(vf,vR,vk))else Oh=Nc(nil,OK(w0(OU,OR+1,OR+Oi)))end Of=Oh.n or#Oh for NC=1,Of do OU[OR+NC-1]=Oh[NC]end OZ=Ox+Of else OV=OH-1 if OV==0 then if Oi==0 then OK()elseif Oi==1 then OK(vf)elseif Oi==2 then OK(vf,vR)elseif Oi==3 then OK(vf,vR,vk)else OK(w0(OU,OR+1,OR+Oi))end elseif OV==1 then local vV if Oi==0 then vV=OK()elseif Oi==1 then vV=OK(vf)elseif Oi==2 then vV=OK(vf,vR)elseif Oi==3 then vV=OK(vf,vR,vk)else vV=OK(w0(OU,OR+1,OR+Oi))end OU[OR]=vV else local Nc=m7[ei[7917]]Oh=Nc(OV,OK(w0(OU,OR+1,OR+Oi)))for NC=1,OV do OU[OR+NC-1]=Oh[NC]end end end elseif OC==10 then OV=not(OU[(OB[Xz])+1])if OV then Oi=Oj[Xz]if Oi then OX=Oi end end elseif OC==11 then Ox=OB[Xz]OM=OO[Xz]OK=Nd[Xz]if OM==0 then local w0=m2 return w0(OU,OK,OZ)elseif OM==1 then return else OH=OM-1 if OH==1 then return OU[OK]elseif OH==2 then return OU[OK],OU[OK+1]elseif OH==3 then return OU[OK],OU[OK+1],OU[OK+2]else local w0=m2 return w0(OU,OK,OK+OH-1)end end elseif OC==12 then Ox=OB[Xz]OM=OO[Xz]OH=OQ[OM+1]OK=eI(OH)if OK==el and OH[Ok]then Oh=OH[2]if Oh~=nil then Oi=OH[1]if Oi then OK=Oi[Oh]else OK=nil end else OK=OH[1]end else OK=OH end if eC and eI(OK)==ep and m7[ei[14046]](OK)==OK then OK=m7[ei[14046]](OK)end OU[(Ox)+1]=OK elseif OC==13 then Ox=OU[Nw[Xz]]OU[Nd[Xz]]=Ox[O4[Xz]]elseif OC==14 then local NT,NF,Nz,NB,NO,NN,Np,Nb,Nl,Nv,NA,NW,NE,ND,OI OI=m7[ei[7917]]Ox=OB[Xz]OM=OO[Xz]OH=ON[Xz]-1 OK=Oy[Xz]-1 Oh=Ov[Xz]+(OA[Xz]*(16*16))Oi=OU[(OM)+1]OV=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Oh+1],Yj)Nt=Oi and Oi[OV]or nil if Nt==nil and Oi~=nil then Np=m7[ei[48018]](Oi)Nb=Np and Np[K(((137-7-19)),Yj)]Nl=eI(Nb)if Nl==eT then Nt=Nb(Oi,OV)elseif Nl==el then Nt=Nb[OV]end end if Nt==nil and eI(Oi)==eb then Nt=mJ and mJ[OV]or nil end if Nt==nil and Oi~=nil and eI(Oi)~=el then Np=Np or m7[ei[48018]](Oi)Nb=Np and Np[K(((17+87)),Yj)]if eI(Nb)==eT then Nt=Nb end end OU[(Ox)+1]=Nt OU[(Ox+1)+1]=Oi NT={}NF=0 if OH==-1 then Nz=OZ or 0 NB=false if Nz<=(Ox+1)and eQ and(ew~=nil and ew>(Ox+1))then Nz=ew NB=true end if Nz>Ox+1 then NF=Nz-(Ox+1)for Ny=1,NF do NT[Ny]=OU[(Ox+Ny)+1]end end if NB then eQ=false end else for Ny=1,OH do NT[Ny]=OU[(Ox+Ny)+1]end NF=OH end NO=eI(OU[(Ox)+1])NN=nil if NO==eT then if OK==-1 then NN=OI(nil,OU[(Ox)+1](m2(NT,1,NF)))NW=NN[ez]or#NN for Ny=1,NW do NE=Ox+Ny-1 OU[(NE)+1]=NN[Ny]end if NW>0 then OZ=Ox+NW else OZ=Ox end elseif OK==0 then OU[(Ox)+1](m2(NT,1,NF))OZ=Ox elseif OK==1 then local NK=OU[(Ox)+1](m2(NT,1,NF))OU[(Ox)+1]=NK OZ=Ox+1 elseif OK==2 then local NK,Nh=OU[(Ox)+1](m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OZ=Ox+2 elseif OK==3 then local NK,Nh,Ni=OU[(Ox)+1](m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OZ=Ox+3 elseif OK==4 then local NK,Nh,Ni,NV=OU[(Ox)+1](m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OZ=Ox+4 elseif OK==5 then local NK,Nh,Ni,NV,Cz=OU[(Ox)+1](m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OZ=Ox+5 elseif OK==6 then local NK,Nh,Ni,NV,Cz,CB=OU[(Ox)+1](m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OU[(Ox+5)+1]=CB OZ=Ox+6 elseif OK==7 then local NK,Nh,Ni,NV,Cz,CB,NG=OU[(Ox)+1](m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OU[(Ox+5)+1]=CB OU[(Ox+6)+1]=NG OZ=Ox+7 elseif OK==8 then local NK,Nh,Ni,NV,Cz,CB,NG,NZ=OU[(Ox)+1](m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OU[(Ox+5)+1]=CB OU[(Ox+6)+1]=NG OU[(Ox+7)+1]=NZ OZ=Ox+8 else NN=OI(OK,OU[(Ox)+1](m2(NT,1,NF)))for Ny=1,OK do NE=Ox+Ny-1 OU[(NE)+1]=NN[Ny]end OZ=Ox+OK end else Np=m7[ei[48018]](OU[(Ox)+1])Nv=Np and Np[K((49*2+1),Yj)]if Nv then NA={OU[(Ox)+1]}for Ny=1,NF do NA[#NA+1]=NT[Ny]end if OK==-1 then NN=OI(nil,Nv(m2(NA,1,#NA)))NW=NN[ez]or#NN for Ny=1,NW do NE=Ox+Ny-1 OU[(NE)+1]=NN[Ny]end if NW>0 then OZ=Ox+NW else OZ=Ox end elseif OK==0 then Nv(m2(NA,1,#NA))OZ=Ox elseif OK==1 then local NK=Nv(m2(NA,1,#NA))OU[(Ox)+1]=NK OZ=Ox+1 elseif OK==2 then local NK,Nh=Nv(m2(NA,1,#NA))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OZ=Ox+2 elseif OK==3 then local NK,Nh,Ni=Nv(m2(NA,1,#NA))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OZ=Ox+3 elseif OK==4 then local NK,Nh,Ni,NV=Nv(m2(NA,1,#NA))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OZ=Ox+4 elseif OK==5 then local NK,Nh,Ni,NV,Cz=Nv(m2(NA,1,#NA))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OZ=Ox+5 elseif OK==6 then local NK,Nh,Ni,NV,Cz,CB=Nv(m2(NA,1,#NA))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OU[(Ox+5)+1]=CB OZ=Ox+6 elseif OK==7 then local NK,Nh,Ni,NV,Cz,CB,NG=Nv(m2(NA,1,#NA))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OU[(Ox+5)+1]=CB OU[(Ox+6)+1]=NG OZ=Ox+7 elseif OK==8 then local NK,Nh,Ni,NV,Cz,CB,NG,NZ=Nv(m2(NA,1,#NA))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OU[(Ox+5)+1]=CB OU[(Ox+6)+1]=NG OU[(Ox+7)+1]=NZ OZ=Ox+8 else NN=OI(OK,Nv(m2(NA,1,#NA)))for Ny=1,OK do NE=Ox+Ny-1 OU[(NE)+1]=NN[Ny]end OZ=Ox+OK end else if OK==-1 then NN=OI(nil,Nt(m2(NT,1,NF)))NW=NN[ez]or#NN for Ny=1,NW do NE=Ox+Ny-1 OU[(NE)+1]=NN[Ny]end if NW>0 then OZ=Ox+NW else OZ=Ox end elseif OK==0 then Nt(m2(NT,1,NF))OZ=Ox elseif OK==1 then local NK=Nt(m2(NT,1,NF))OU[(Ox)+1]=NK OZ=Ox+1 elseif OK==2 then local NK,Nh=Nt(m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OZ=Ox+2 elseif OK==3 then local NK,Nh,Ni=Nt(m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OZ=Ox+3 elseif OK==4 then local NK,Nh,Ni,NV=Nt(m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OZ=Ox+4 elseif OK==5 then local NK,Nh,Ni,NV,Cz=Nt(m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OZ=Ox+5 elseif OK==6 then local NK,Nh,Ni,NV,Cz,CB=Nt(m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OU[(Ox+5)+1]=CB OZ=Ox+6 elseif OK==7 then local NK,Nh,Ni,NV,Cz,CB,NG=Nt(m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OU[(Ox+5)+1]=CB OU[(Ox+6)+1]=NG OZ=Ox+7 elseif OK==8 then local NK,Nh,Ni,NV,Cz,CB,NG,NZ=Nt(m2(NT,1,NF))OU[(Ox)+1]=NK OU[(Ox+1)+1]=Nh OU[(Ox+2)+1]=Ni OU[(Ox+3)+1]=NV OU[(Ox+4)+1]=Cz OU[(Ox+5)+1]=CB OU[(Ox+6)+1]=NG OU[(Ox+7)+1]=NZ OZ=Ox+8 else NN=OI(OK,Nt(m2(NT,1,NF)))for Ny=1,OK do NE=Ox+Ny-1 OU[(NE)+1]=NN[Ny]end OZ=Ox+OK end end end ew=OZ eQ=true local ND=Ou[OD[Xz]+8]if ND then Xz=ND else Xz=Xz+1 end Ol=true elseif OC==15 then Ox=ON[Xz]+(Oy[Xz]*(16*16))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)Of=OU[(OO[Xz])+1]if Of then OU[(OB[Xz])+1]=Of[OM]else OU[(OB[Xz])+1]=nil end OV=not(OU[(OB[Xz])+1])if OV then Oi=Oj[Xz]if Oi then OX=Oi end end elseif OC==16 then Ox=OB[Xz]OM=OO[Xz]Oi=Oj[Xz]if Oi then OX=Oi end else m7[ei[eR[48203]]](Oo[Xz]+1)end Xz=OX end;end;end local H=2216+1 m7[ei[58149]]=2654435769 m7[ei[14961]]=2246822507 m7[ei[41346]]=Iw m7[ei[45013]]=2166136261 m7[ei[22462]]=16777619 m7[ei[63095]]=502080460 m7[ei[32650]]=126109253 m7[ei[61423]]=408568333 m7[ei[32541]]=1105159083 local Ac=m7[ei[58149]]local AG=m7[ei[14961]]local AZ=m7[ei[41346]]local At=m7[ei[45013]]local Ap=m7[ei[22462]]local Ab=m7[ei[63095]]local Al=m7[ei[32650]]local AT=m7[ei[61423]]local function AF(Az,Ao,AB,AO,AN,Ay,Av,AA)local IU=At IU=ee(em(IU,Az),Ap)IU=ee(em(IU,Ao),Ap)IU=ee(em(IU,AB),Ap)IU=ee(em(IU,AO),Ap)IU=ee(em(IU,AN),Ap)IU=ee(em(IU,Ay),Ap)IU=ee(em(IU,Av),Ap)IU=ee(em(IU,AA),Ap)return IU end local function AW(tb,AE,AD,Au)if Au~=z7 then return 1 end local Ah=m8[(50-38)]or 0 local AH=ee(tb,0x45d9f3b)local AK=ee(Ah,0x27d4eb2d)local AM=em(em(Al,AT),em(AH,AK))%AZ local Ax=eg(AM)%AZ if Ax==0 then Ax=1 end local AS=(tb*Ac+AE*AG+AD+Ax)%AZ local AP=em(Ab,AS)%AZ local GF=eg(AP)%AZ if GF%256==0 then GF=GF+1 end return GF end local function AJ(AD,AE,An,As)if As~=z7 then return 1 end local ox=Ac local Aj=AE*ox local AL=Aj%Id local Aq=(Aj-AL)/Id local Ar=em(em(AL,AD),An)local A1=Aq local AP=(A1*Id+Ar)%AZ local A6=ee(AP,48271)local A4=(A6+81)%AZ if A4==0 then A4=1 end return A4 end m7[ei[23553]]=(function()local A7=0 local A2=m7[ei[65404]]local Wm=m7[ei[57904]]local We=m7[ei[57904]]local Wa=m8[(6*9+2)]or 0 local Wg=0 local Wd=0 if Wa>0 then Wd=m7[ei[63069]].floor(Wa/65536);Wg=Wa-(Wd*65536)end if Wg<=0 or Wg>49157 then Wg=0 end if Wd<=0 or Wd>49157 then Wd=0 end local Ww=m7[ei[42812]]or 0 local WQ=0 local WU=0 if Ww>0 then WU=m7[ei[63069]].floor(Ww/65536);WQ=Ww-(WU*65536)end if WQ<=0 or WQ>49157 then WQ=0 end if WU<=0 or WU>49157 then WU=0 end if not(Wg>0 and Wg<=49157 and WQ>0 and WQ<=49157)then A2=m7[ei[57904]]end if A2 then A7=(Wg*257)+(WQ*131)+(Wd*73)+(WU*59)+748 A3=Wg-WQ if A3<0 then A3=-A3 end if A3>1 then A7=A7+4271;Wm=m7[ei[65404]]end if Wd>0 then A5=Wg-Wd;if A5<0 then A5=-A5 end;if A5>1 then A7=A7+4288;We=m7[ei[65404]]end end if WU>0 then A9=WQ-WU;if A9<0 then A9=-A9 end;if A9>1 then A7=A7+4300;We=m7[ei[65404]]end end end return A7 end)()local WI=m7[ei[55732]]({},{[K(((148-40+(184-184))),Yj)]=K(((104+187-166)),Yj)})local function WY(vS,vP,vJ,vs)if m7[ei[32601]]~=m7[ei[33853]][4]then vS[3180]=0 return end if vS[3516]and not(vS[4330]and vS[4330][0]~=nil)then return end if vs~=z7 then return end if vJ~=Yj then return end do local WZ=ad local Wt=m7[ei[53636]]local Wp=Wt and Wt.info local Wb=Wt and Wt.traceback local WT=(am and pcall and am~=pcall)local WF=(ae and rawget and ae~=rawget)local Wz=(aa and type and aa~=type)local Wo=false local WB=false local WO=false local WN=((ag and Wp and ag~=Wp)or(WZ and Wb and WZ~=Wb))local Wl=WT or WF or Wz or Wo or WB or WO or WN if Wl then vS[3180]=0 return end end local vn=m7[ei[63069]][K(0x9E,Yj)]((vP-1)/64)if vn>0 then for Wy=0,vn-1 do if not vS[5895][Wy]then m7[ei[32601]](vS,Wy*64+1,Yj,z7)end end end if vS[5895][vn]then return end vS[5895][vn]=true if vS[2551]==0 and vn>0 and not vS[3638]then m7[ei[eR[42164]]]()end local AD=vS[3180]local vj=AW(vS[2551],vn,AD,z7)local vL=vS[6973]local vq=vn*64+1 local vr=m7[ei[63069]][K(((164-30+(196-196))),Yj)](vq+63,vS[3572])local AU=m7[ei[65503]]local AI=m7[ei[eR[29556]]]local AY=AU and AI(AU,m7[ei[eR[50930]]])or 0 local AX=AU and AI(AU,m7[ei[eR[48626]]])or 0 local AC=1 do local Xt=m7[ei[56013]]local XG=Xt and Xt(AY)or 0 local XZ=Xt and Xt(AX)or 0 local Xl=1-((XG+XZ)%2)if Xl~=0 then AC=Xl end end local Xz=WI[vS]if not Xz then Xz={};WI[vS]=Xz end local Wv,WA,WW,WE local WD,Wu,Wx,WM local v6=vS[4330][vn]or 0 local v5=(vr-vq+1)*8 local v4=(vS[4881]and vS[4881][vn])or v5 local v7=(vS[9359]and vS[9359][vn])or 0 local v9=ee((vS[2551]or 0)+1,0x7feb352d)local v0=ee(vn+1,0x846ca68b)local v2=ee((v6 or 0)%65536,0x9e3779b1)local Am=ee((v4 or 0)%65536,0x85ebca77)local Ae=((vq*131+vr*17+(v7 or 0))%256)local Aa=ee(Ae,0xc2b2ae3d)local Ag=em(m7[ei[32541]],em(v9,em(v0,em(v2,em(Am,Aa)))))Ag=em(Ag,m8[(1*8+4)]or 0)%Iw local Ad=eg(Ag)%Iw if Ad==0 then Ad=1 end vj=em(vj,Ad)%Iw if(vj%(((0xE8+0x26))-(14)))==0 then vj=vj+1 end local v3={}local v8=1 while v8<=v4 do v3[v8]=m7[ei[39350]](vL,v6+v8-1,Xz,Yj)v8=v8+1 end v8=1 while v8<=v4 do local WH=v3[v8]or 0 v3[v8]=em(WH,vj%(((0xE8+0x26))-(14)))vj=(vj*(((0xE278-9690))-((0x17-8)))+(((0x34+0x2D))-((0x12-2))))%Iw v8=v8+1 end if v7~=0 then v3=XD(v3,v5)end local v1=vq while v1<=vr do local AQ=(v1-vq)*8+1 local tV=v3[AQ+0]or 0 vS[9079][v1]=tV if v1==vq then Wv=tV end local tR=v3[AQ+1]or 0 vS[9067][v1]=tR if v1==vq then WA=tR end local tS=v3[AQ+2]or 0 vS[6796][v1]=tS if v1==vq then WW=tS end local tJ=v3[AQ+3]or 0 vS[5667][v1]=tJ if v1==vq then WE=tJ end local tn=v3[AQ+4]or 0 vS[6416][v1]=tn if v1==vq then WD=tn end local tL=v3[AQ+5]or 0 vS[1415][v1]=tL if v1==vq then Wu=tL end local tr=v3[AQ+6]or 0 vS[4484][v1]=tr if v1==vq then Wx=tr end local t6=v3[AQ+7]or 0 vS[6342][v1]=t6 if v1==vq then WM=t6 end v1=v1+AC end if not(vS[2551]==0 and vn==0)then local An=AF(Wv or 0,WA or 0,WW or 0,WE or 0,WD or 0,Wu or 0,Wx or 0,WM or 0)vS[3180]=AJ(vS[3180],vn,An,z7)end end do local WK=function(Wh,Wi,WV)return eX(Wh,Wi,WV)end WK(m7[ei[33853]],4,WY)WK(m7,ei[32601],WY)end local Ee={7,3,6,7,6,1,6,7,3,3,4,3,1,7,6,3,6,8,1,3,2,8,3,7,2,1,2,1,1,1,2,5,6,7,2,2,1,7,2,5,1,5,2,7,2,4,3,3,2,5,5,3,3,7,8,7,6,4,4,7,8,3,8,1,3,1,6,4,7,7,6,4,2,5,6,6,1,7,8,4,3,7,1,8,4,7,1,6,8,2,2,7,2,1,8,5,3,5,7,7,2,5,4,4,2,5,4,6,2,1,1,3,4,2,6,6,8,2,8,8,2,2,8,4,3,5,8,3,3,8,7,7,6,8,4,8,2,1,4,6,2,1,8,1,5,4,4,5,3,2,4,7,3,5,8,1,6,5,8,1,1,7,6,7,5,7,4,5,6,5,4,8,3,4,2,3,3,3,5,2,5,4,7,4,1,1,6,3,6,5,5,8,3,3,5,5,2,3,4,6,4,4,8,2,6,5,8,8,8,5,6,6,7,6,6,3,4,8,5,4,8,3,1,4,8,4,7,6,2,2,6,2,1,8,5,8,5,5,8,1,5,7,1,6,7,1,4,2,7,1,5,1,7,6,3,4}m7[ei[39319]]=function(tI,OQ)return function(...)local E=E local B4=B4 local vx=(((((tI[2551])or 0)+2497195678)*7237+((((tI[2551])or 0)*39028+67865682)%7))%3)local K=(vx==0 and m7[ei[41012]])or(vx==1 and m7[ei[63825]])or m7[ei[41061]]local Oo local op local OB local OD local Ou local Eu local Ex local EM local EH local Eg local Ed local OO local ON local EK=(((tI[2551]or 0)*17+3)%4)local Eh=(((tI[2551]or 0)*13+0)%2)if EK==1 then if Eh==1 then OD=tI[4503]Ou=tI[2375]Oo=tI[8843]if type(Oo)=='table'then else Oo={}tI[8843]=Oo end op=tI[3572]OB=tI[9079]if type(OB)=='table'then else OB={}tI[9079]=OB end Eg=tI[9067]if type(Eg)=='table'then else Eg={}tI[9067]=Eg end Ed=tI[6796]if type(Ed)=='table'then else Ed={}tI[6796]=Ed end if type(tI[5667])=='table'then else tI[5667]={}end if type(tI[6416])=='table'then else tI[6416]={}end if type(tI[1415])=='table'then else tI[1415]={}end if type(tI[4484])=='table'then else tI[4484]={}end if type(tI[6342])=='table'then else tI[6342]={}end OO=Eg ON=Ed else Oo=tI[8843]if type(Oo)=='table'then else Oo={}tI[8843]=Oo end op=tI[3572]OB=tI[9079]if type(OB)=='table'then else OB={}tI[9079]=OB end Eg=tI[9067]if type(Eg)=='table'then else Eg={}tI[9067]=Eg end Ed=tI[6796]if type(Ed)=='table'then else Ed={}tI[6796]=Ed end if type(tI[5667])=='table'then else tI[5667]={}end if type(tI[6416])=='table'then else tI[6416]={}end if type(tI[1415])=='table'then else tI[1415]={}end if type(tI[4484])=='table'then else tI[4484]={}end if type(tI[6342])=='table'then else tI[6342]={}end OO=Eg ON=Ed OD=tI[4503]Ou=tI[2375]end elseif EK==2 then if Eh==1 then OD=tI[4503]Ou=tI[2375]do local Ei=tI[8843]if type(Ei)=='table'then Oo=Ei else Oo={}tI[8843]=Oo end end op=tI[3572]do local Ei=tI[9079]if type(Ei)=='table'then OB=Ei else OB={}tI[9079]=OB end end do local Ei=tI[9067]if type(Ei)=='table'then Eg=Ei else Eg={}tI[9067]=Eg end end do local Ei=tI[6796]if type(Ei)=='table'then Ed=Ei else Ed={}tI[6796]=Ed end end do local EV=tI[5667]if type(EV)~='table'then tI[5667]={}end end do local EV=tI[6416]if type(EV)~='table'then tI[6416]={}end end do local EV=tI[1415]if type(EV)~='table'then tI[1415]={}end end do local EV=tI[4484]if type(EV)~='table'then tI[4484]={}end end do local EV=tI[6342]if type(EV)~='table'then tI[6342]={}end end OO=Eg ON=Ed else do local Ei=tI[8843]if type(Ei)=='table'then Oo=Ei else Oo={}tI[8843]=Oo end end op=tI[3572]do local Ei=tI[9079]if type(Ei)=='table'then OB=Ei else OB={}tI[9079]=OB end end do local Ei=tI[9067]if type(Ei)=='table'then Eg=Ei else Eg={}tI[9067]=Eg end end do local Ei=tI[6796]if type(Ei)=='table'then Ed=Ei else Ed={}tI[6796]=Ed end end do local EV=tI[5667]if type(EV)~='table'then tI[5667]={}end end do local EV=tI[6416]if type(EV)~='table'then tI[6416]={}end end do local EV=tI[1415]if type(EV)~='table'then tI[1415]={}end end do local EV=tI[4484]if type(EV)~='table'then tI[4484]={}end end do local EV=tI[6342]if type(EV)~='table'then tI[6342]={}end end OO=Eg ON=Ed OD=tI[4503]Ou=tI[2375]end elseif EK==3 then if Eh==1 then OD=tI[4503]Ou=tI[2375]do local Ef=tI[8843]Oo=(type(Ef)=='table'and Ef)or{}if Oo~=Ef then tI[8843]=Oo end end op=tI[3572]do local Ef=tI[9079]OB=(type(Ef)=='table'and Ef)or{}if OB~=Ef then tI[9079]=OB end end do local Ef=tI[9067]Eg=(type(Ef)=='table'and Ef)or{}if Eg~=Ef then tI[9067]=Eg end end do local Ef=tI[6796]Ed=(type(Ef)=='table'and Ef)or{}if Ed~=Ef then tI[6796]=Ed end end do local ER=tI[5667]tI[5667]=(type(ER)=='table'and ER)or{}end do local ER=tI[6416]tI[6416]=(type(ER)=='table'and ER)or{}end do local ER=tI[1415]tI[1415]=(type(ER)=='table'and ER)or{}end do local ER=tI[4484]tI[4484]=(type(ER)=='table'and ER)or{}end do local ER=tI[6342]tI[6342]=(type(ER)=='table'and ER)or{}end OO=Eg ON=Ed else do local Ef=tI[8843]Oo=(type(Ef)=='table'and Ef)or{}if Oo~=Ef then tI[8843]=Oo end end op=tI[3572]do local Ef=tI[9079]OB=(type(Ef)=='table'and Ef)or{}if OB~=Ef then tI[9079]=OB end end do local Ef=tI[9067]Eg=(type(Ef)=='table'and Ef)or{}if Eg~=Ef then tI[9067]=Eg end end do local Ef=tI[6796]Ed=(type(Ef)=='table'and Ef)or{}if Ed~=Ef then tI[6796]=Ed end end do local ER=tI[5667]tI[5667]=(type(ER)=='table'and ER)or{}end do local ER=tI[6416]tI[6416]=(type(ER)=='table'and ER)or{}end do local ER=tI[1415]tI[1415]=(type(ER)=='table'and ER)or{}end do local ER=tI[4484]tI[4484]=(type(ER)=='table'and ER)or{}end do local ER=tI[6342]tI[6342]=(type(ER)=='table'and ER)or{}end OO=Eg ON=Ed OD=tI[4503]Ou=tI[2375]end else if Eh==1 then OD=tI[4503]Ou=tI[2375]Oo=tI[8843]if type(Oo)~='table'then Oo={};tI[8843]=Oo end op=tI[3572]OB=tI[9079]if type(OB)~='table'then OB={};tI[9079]=OB end Eg=tI[9067]if type(Eg)~='table'then Eg={};tI[9067]=Eg end Ed=tI[6796]if type(Ed)~='table'then Ed={};tI[6796]=Ed end if type(tI[5667])~='table'then tI[5667]={}end if type(tI[6416])~='table'then tI[6416]={}end if type(tI[1415])~='table'then tI[1415]={}end if type(tI[4484])~='table'then tI[4484]={}end if type(tI[6342])~='table'then tI[6342]={}end OO=Eg ON=Ed else Oo=tI[8843]if type(Oo)~='table'then Oo={};tI[8843]=Oo end op=tI[3572]OB=tI[9079]if type(OB)~='table'then OB={};tI[9079]=OB end Eg=tI[9067]if type(Eg)~='table'then Eg={};tI[9067]=Eg end Ed=tI[6796]if type(Ed)~='table'then Ed={};tI[6796]=Ed end if type(tI[5667])~='table'then tI[5667]={}end if type(tI[6416])~='table'then tI[6416]={}end if type(tI[1415])~='table'then tI[1415]={}end if type(tI[4484])~='table'then tI[4484]={}end if type(tI[6342])~='table'then tI[6342]={}end OO=Eg ON=Ed OD=tI[4503]Ou=tI[2375]end end Eu=tI[5512]Ex=17+(((3307956528)+(((tI[2551])or 0)*131)+29)%997)EM=31+((((3307956528-(3307956528%997))/997)+(((tI[2551])or 0)*257)+71)%991)EH=tI[3926]local Ek=0 local vM=(tI[5311]or 0)local OU={}OU[(35032-3248)]=OU local OI=((vM%16)>=8 and{}or nil)local OG=tI[9447]and{}or nil local OZ=0 local OT=((vM%2)~=0 and{}or nil)local OF=((vM%4)>=2 and{}or nil)local Oz=((vM%8)>=4 and{}or nil)local Nj=1 local vK=tI[9980]local Ot local Op if tI[9447]then Op=m7[ei[7917]](nil,...)Ot=Op.n or#Op local vh=m7[ei[63069]].min(Ot,vK)for Xg=1,vh do OU[Xg-1]=Op[Xg]end elseif vK==1 then local tN=...OU[0]=tN elseif vK==2 then local tN,ty=...OU[0]=tN OU[1]=ty elseif vK==3 then local tN,ty,tv=...OU[0]=tN OU[1]=ty OU[2]=tv elseif vK>0 then Op={...}for Xg=1,vK do OU[Xg-1]=Op[Xg]end end OZ=vK if tI[9447]then local vi=vK+1 if Ot>=vi then for Xg=vi,Ot do OG[Xg-vi+1]=Op[Xg]end OG[ez]=Ot-vK else OG[ez]=0 end end local OY=1 local Es=false local En=0 local EX=Oo local Er=true while Er do if OY>op then Er=false else local E3=OB[OY]if E3==nil then if tI[4330]and tI[4330][0]~=nil then m7[ei[32601]](tI,OY,Yj,z7)else local E8=OY+63 if E8>op then E8=op end for E5=OY,E8 do if OB[E5]==nil then m7[ei[12555]](tI,E5)else break end end end end if(OY%64)==0 then local E9=m7[ei[53636]]local E0=E9 and E9.info local E2=E9 and E9.traceback local Dm=(am and pcall and am~=pcall)local De=(ae and rawget and ae~=rawget)local Da=(aa and type and aa~=type)local Dg=(ag and E0 and ag~=E0)local Dd=false local Dw=(ad and E2 and ad~=E2)local DQ=Dm or De or Da or Dg or Dd or Dw if DQ then tI[3180]=0 return end end local Wf=(Oo)[OY]local XH=Wf local Ol=false local Ob=false local Ox,OM,OH,OK,Oh,Oi,OV,Of,OR local Ea=Ee[(Wf or 0)+1]or 0 if Ea==1 then if Wf>137 then if Wf>185 then if Wf>242 then do local DU=Wf-249;if DU*(DU-2)==0 then if Wf<=249 then if(tI[4484][OY]or 0)==0 then OM=((OY*167)+247)%((3*23)+187)OH=((OY*31)+65)%((3*23)+187)tI[5667][OY]=em(OO[OY],OM)tI[6416][OY]=em(ON[OY],OH)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*((3*23)+187))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OU[OB[OY]]=OM OM=nil OH=nil else Ox=OO[OY]+(ON[OY]*(4*64))local _a=(Ox>=0x8000)and-0x10000 or 0;Ox=Ox+_a OU[OB[OY]]=Ox end Ob=true end end else do local DI=Wf-232;if DI*(DI-7)*(DI-10)==0 then if Wf<=232 then Ox=OO[OY]+(ON[OY]*((16*28)-192))local _a=(Ox>=0x8000)and-0x10000 or 0;Ox=Ox+_a OU[OB[OY]]=Ox Ox=tI[6416][OY]+(tI[1415][OY]*((16*28)-192))local _a=(Ox>=0x8000)and-0x10000 or 0;Ox=Ox+_a OU[tI[5667][OY]]=Ox elseif Wf<=239 then local Nt,Np,Nb,Nl,NT,NF,Nz,NB Ox=OB[OY]OM=OO[OY]OH=ON[OY]Of=((OY*114)+55)%(66+115+75)OR=((OY*16)+129)%(66+115+75)OK=em(tI[5667][OY],Of)+(em(tI[6416][OY],OR)*(66+115+75))OU[Ox+2]=OU[OM]Oh=OU[Ox+1]Oi=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OK+1],Yj)Nt=Oh and Oh[Oi]or nil if Nt==nil and Oh~=nil then Np=m7[ei[48018]](Oh)Nb=Np and Np[K((313-202),Yj)]Nl=eI(Nb)if Nl==eT then Nt=Nb(Oh,Oi)elseif Nl==el then Nt=Nb[Oi]end end if Nt==nil and eI(Oh)==eb then Nt=mJ and mJ[Oi]or nil end if Nt==nil and Oh~=nil and eI(Oh)~=el then Np=Np or m7[ei[48018]](Oh)Nb=Np and Np[K(((153-21-28)),Yj)]if eI(Nb)==eT then Nt=Nb end end NT=eI(Nt)if NT==eT then if OH==2 then Nz=Nt(Oh,OU[Ox+2])else Nt(Oh,OU[Ox+2])end else Np=m7[ei[48018]](Nt)NF=Np and Np[K(((99+0)),Yj)]if NF then if OH==2 then Nz=NF(Nt,Oh,OU[Ox+2])else NF(Nt,Oh,OU[Ox+2])end else m7[ei[25468]]()end end if OH==2 then OU[Ox]=Nz OZ=Ox+1 else OZ=Ox end ew=OZ eQ=true NB=Ou[OD[OY]+8]if NB then OY=NB else OY=OY+1 end Ol=true else Ox=OB[OY]OM=OO[OY]OY=EH[OY]Ol=true end Ob=true end end end else if Wf>159 then do local DY=Wf-160;if DY*(DY-24)*(DY-25)==0 then if Wf<=160 then Ox=(OO[OY]~=0)OU[OB[OY]]=Ox if ON[OY]~=0 then OY=OY+1 Ol=true end elseif Wf<=184 then OM=OU[tI[5667][OY]]Ox=OU[OB[OY]]Oh=Eu OV=Ox~=OM if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true else Ox=OU[OB[OY]]OM=OU[tI[5667][OY]]Oh=Eu OV=not(Ox==OM)if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true end Ob=true end end else do local DX=Wf-141;if DX*(DX-2)*(DX-18)==0 then if Wf<=141 then Ox=OU[OO[OY]]Oh=(4-4)if Oh~=(6-6)then Ox=Ox end if Ox then Ox[OU[ON[OY]]]=OU[OB[OY]]end elseif Wf<=143 then Ox=OB[OY]OM=OO[OY]if Ox==1 then if not OI[OM]then OI[OM]={[6397]=m7[ei[65404]],[6134]=OU,[3707]=OM,[5359]=m7[ei[57904]],[4265]=nil,[1]=OU,[2]=OM}end end else Ox=OB[OY]Oh=OU[Ox+1]Oi=OU[Ox+2]OH=tI[5667][OY]Nt=tI[1415][OY]or 0 if Nt~=0 then OK=OU[Ox]if Nt==2 and OK==m7[ei[52462]]and eI(Oh)==el then Np,Nb=m7[ei[52462]](Oh,Oi)else Np,Nb=OK(Oh,Oi)end if Np~=nil then OU[Ox+2]=Np if OH>=1 then OU[Ox+3]=Np end if OH>=2 then OU[Ox+4]=Nb end for Nc=3,OH do OU[Ox+2+Nc]=nil end OK=OD[OY]OM=OO[OY]+(ON[OY]*(142+114))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OK=OK+8+OM local Cz=Ou[OK]if Cz then OY=Cz else OY=OY+1 end else OY=OY+1 end Ol=true else Nl=3 if tI[6416][OY]~=0 then Nl=tI[6416][OY]elseif tI and tI[K(((416-207-33)),Yj)]~=nil then Nl=tI[K(((416-207-33)),Yj)]end OK=OU[Ox]CB=OK NG=Oh NZ=Oi OV={CB(NG,NZ)}Oi=Nl Of=1 if eI(OV[1])==eF then if OV[1]==false then Of=nil else Of=2 end end if Of then if Oi<3 then Oi=3 end OK=Ox+Oi for Nc=1,OH do OU[OK+(Nc-1)]=OV[Of+(Nc-1)]end Oh=OV[Of]if Oh~=nil then OU[Ox+2]=Oh OK=OD[OY]CB=OO[OY]NG=ON[OY]if CB==nil then CB=0 end if NG==nil then NG=0 end NZ=((5*23)+141)OM=CB+(NG*NZ)local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OK=OK+8+OM local Cz=Ou[OK]if Cz then OY=Cz else OY=OY+1 end else OY=OY+1 end end end Ol=true end Ob=true end end end end else if Wf>65 then if Wf>93 then do local DC=Wf-109;if DC*(DC-1)*(DC-28)==0 then if Wf<=109 then Ox=OU[OB[OY]]OM=OU[tI[5667][OY]]Oh=Eu OV=not(Ox<=OM)if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true elseif Wf<=110 then Ob=true Ox=OB[OY]Oi=(OO[OY]or 0)if Oi~=0 then Oi=Oi-Oi end if not m0.Oh then m0.Oh=true OM=1 OK=m7[ei[eR[36990]]]if OK then OM=(function()return OK(1,K((22*6+3),Yj))end)()or 1 end if OM<=1 then OR=m7[ei[eR[23282]]]if OR and m7[ei[eR[41551]]]then OV,Of=m7[ei[eR[31359]]](function()local _=nil;_()end);OM=OR(m7[ei[eR[26289]]](Of),m7[ei[eR[27533]]][K(11,Yj)])or OM end end OM=OM+Oi if OM<=0 or OM>49157 then OM=0 end OH=Ox OK=(m7[ei[eR[41556]]][90]or 0)if OK>0 then OH=OH+OK+Oi end if OH<=0 or OH>49157 then OH=0 end if OM>0 and OH>0 and OM>OH then m7[ei[eR[49889]]](m0,m7[ei[eR[45800]]],m7[ei[eR[50938]]])Oo[OY+1]=1 end end else Ox=OB[OY]if Oo[OY+1]==85 or Oo[OY+1]==241 or Oo[OY+1]==240 then if OB[OY+1]==nil then m7[ei[12555]](tI,OY+1)end OM=OB[OY+1]OH=nil if Ox==40 then OH=eI elseif Ox==12 then OH=mR.floor elseif Ox==7 then OH=mR.ceil elseif Ox==2 then OH=mR.abs elseif Ox==25 then OH=mR.sqrt elseif Ox==21 then OH=mR.pow elseif Ox==24 then OH=mR.sin elseif Ox==9 then OH=mR.cos elseif Ox==27 then OH=mR.tan elseif Ox==11 then OH=mR.exp elseif Ox==10 then OH=mR.deg elseif Ox==17 then OH=mR.log elseif Ox==22 then OH=mR.rad elseif Ox==19 then OH=mR.min elseif Ox==18 then OH=mR.max elseif Ox==45 then OH=eU.insert elseif Ox==46 then OH=m2 elseif Ox==42 then OH=mJ.byte elseif Ox==43 then OH=mJ.char elseif Ox==44 then OH=mJ.len elseif Ox==41 then OH=m7[ei[33827]].typeof elseif Ox==57 then OH=m7[ei[14367]]elseif Ox==60 then OH=m7[ei[29601]]elseif Ox==61 then OH=m7[ei[27652]]elseif Ox==62 then OH=m7[ei[33827]].rawequal elseif Ox==64 then OH=m7[ei[33827]].rawlen elseif Ox==3 then OH=mR.asin elseif Ox==4 then OH=mR.acos elseif Ox==5 then OH=mR.atan2 elseif Ox==6 then OH=mR.atan elseif Ox==13 then OH=mR.fmod elseif Ox==14 then OH=mR.ldexp elseif Ox==20 then OH=mR.modf end if OH then OU[OM]=OH end end end Ob=true end end else do local DG=Wf-76;if DG*(DG-10)*(DG-17)==0 then if Wf<=76 then Ob=true Ox=OB[OY]OM=OO[OY]OH=ON[OY]OK=true Oi=m7[ei[eR[57046]]]if type(Oi)==eb then local Np=Oi:match(K((12+69),Yj))or Oi:match(K((38*4+3),Yj))if Np then Oi=Np end end OV=m7[ei[eR[36990]]]if OV and Oi then if OH>OM+6 then OH=OM+6 end for NG=OM,OH do Oh=OV(NG,K(((151+92-65)),Yj))if Oh==nil then break end if Oh==K((218-113),Yj)then Oh=K(((219-56+(161-161))),Yj)end if type(Oh)==eb then local Np=Oh:match(K((12+69),Yj))or Oh:match(K((38*4+3),Yj))if Np then Oh=Np end end if Oh~=K(((219-56+(161-161))),Yj)and Oh~=Oi then OK=false break end local NZ=OV(NG,K(((285+52-213)),Yj))if NZ then local Nt=OV(NZ,K(((151+92-65)),Yj))if Nt==K((218-113),Yj)then Nt=K(((219-56+(161-161))),Yj)end if type(Nt)==eb then local Np=Nt:match(K((12+69),Yj))or Nt:match(K((38*4+3),Yj))if Np then Nt=Np end end if Nt and Nt~=K(((219-56+(161-161))),Yj)and Nt~=Oi then OK=false break end end end end OU[Ox]=OK OY=OY+1 Ol=true elseif Wf<=86 then Ox=OB[OY]OM=OD[OY]OH=OO[OY]+(ON[OY]*((2*18)+220))local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OK=OU[Ox]Oh=OU[Ox+1]Oi=OU[Ox+2]Oi=Oi+Oh OU[Ox+2]=Oi Of=(Oh>0 and Oi<=OK)or(Oh<=0 and Oi>=OK)if Of then OV=OM+4+OH OK=Ou[OV]if OK then OY=OK else OY=OY+1 end else Oz[Ox]=nil OY=OY+1 end Ol=true else OM=OU[tI[5667][OY]]Ox=OU[OB[OY]]Of=not(Ox<OM)Oh=Eu OV=Of if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true end Ob=true end end end else if Wf>27 then do local DZ=Wf-36;if DZ*(DZ-27)*(DZ-29)==0 then if Wf<=36 then Ox=OB[OY]OM=OO[OY]OH=OG[ez]if OH==nil then OH=OG['n']end if OH==nil then OH=0 end OK=0 if OM==0 then for NC=1,OH do OU[Ox+NC-1]=OG[NC]end OK=OH else for NC=1,OM-1 do OU[Ox+NC-1]=OG[NC]end OK=OM-1 end OU[Ox+OK]=nil OZ=Ox+OK ew=OZ eQ=true elseif Wf<=63 then NR=OO if type(NR)~='table'then NR=tI[9067]end if type(NR)~='table'then NR={}end Nk=ON if type(Nk)~='table'then Nk=tI[6796]end if type(Nk)~='table'then Nk={}end NS=tI[6416]if type(NS)~='table'then NS=tI[6416]end if type(NS)~='table'then NS={}end NP=tI[1415]if type(NP)~='table'then NP=tI[1415]end if type(NP)~='table'then NP={}end NJ=ZQ if type(NJ)~='table'then NJ=m7[ei[25802]]end if type(NJ)~='table'then NJ={}end OV=((OY*75)+135)%(112+39+105)Of=((OY*144)+81)%(112+39+105)Ox=em(NR[OY],OV)+(em(Nk[OY],Of)*(112+39+105))OM=((type(K)=='function'and K)or m7[ei[41012]])(NJ[Ox+1],Yj)OH=em(NS[OY],OV)+(em(NP[OY],Of)*(112+39+105))OK=((type(K)=='function'and K)or m7[ei[41012]])(NJ[OH+1],Yj)OU[tI[5667][OY]]=OK Oh=OU[OB[OY]]Oi=OK if Oh then Oh[OM]=Oi end OM=nil OH=nil OK=nil Oh=nil Oi=nil else Ob=true Ox=OB[OY]or 0 OM=ON[OY]or 0 if(Ox+OM)>=0 then NC=m7[ei[63360]]if NC and m7[ei[eR[45017]]]then Nc=m7[ei[eR[48157]]](m7[ei[eR[57249]]],K(0xBD,Yj))if Nc~=NC then do local Ox=m7[ei[eR[30279]]];local OM=m7[ei[eR[23419]]];local OH=m7[ei[eR[28752]]];local OK=m7[ei[eR[49665]]];OH(Ox,m7[ei[eR[28032]]],m7[ei[eR[59341]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[49828]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[44215]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[44215]]],Oi+OV)end end end end end OY=OY+1 Ol=true end Ob=true end end else do local Dt=Wf-12;if Dt*(Dt-13)*(Dt-15)==0 then if Wf<=12 then if(tI[4484][OY]or 0)==0 then Oi=((OY*208)+54)%(4*64)OV=((OY*69)+216)%(4*64)tI[6416][OY]=em(ON[OY],Oi)tI[1415][OY]=em(tI[5667][OY],OV)tI[4484][OY]=1 end Ox=tI[6416][OY]+(tI[1415][OY]*(4*64))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OU[OO[OY]]OK=OH[OM]OU[OB[OY]]=OK OM=nil OH=nil OK=nil Oi=nil OV=nil elseif Wf<=25 then if not m0.CB then m0.CB=true local Np=m7[ei[eR[25370]]](m7[ei[eR[36835]]][K(11,Yj)],nil)local NG,_=m7[ei[eR[28480]]](Np)local Ox=(OB[OY]or 0)+((OO[OY]or 0)*17)Ox=Ox+(ON[OY]or 0)if Ox<0 then Ox=0-Ox end local OM=Ox+123 local Nl=m7[ei[eR[32985]]](m7[ei[eR[41602]]],OM,K(0x7D,Yj))local NZ,_=m7[ei[eR[24027]]](Nl)local Cz=NG or NZ if Cz then local Nt=OY+13 if Nt<=#Oo then Oo[Nt]=147 end end end else Ob=true if not tI[3638]then tI[3638]=true local Nq=OB[OY]or 0 local Nr=OO[OY]or 0 local N1=ON[OY]or 0 local N6=(Nq*65599+Nr*31+N1)%Iw if N6==0 then N6=1 end local N4=m7[ei[32650]]local N7=m7[ei[61423]]local N3=m7[ei[32541]]local N8=em(N6,N4)N8=em(N8,N7*31%Iw)N8=(N8+N3+(tI.N5 or 0))%Iw local NG=m7[ei[11289]][12]or 0 local NZ=em(em(em(NG,(((tI.N5 or 0)+1)*257)%Iw),N4),N3)%Iw if NZ==0 then NZ=1 end local Nt=((NZ*48271)+81)%Iw if Nt==0 then Nt=1 end N8=(N8+Nt)%Iw if N8==0 then N8=1 end tI[3180]=((N8*48271)+81)%Iw if tI[3180]==0 then tI[3180]=1 end if m3[eS(296,eP,5)]then local Nb=tI[3180]Ox=m3[eS(296,eP,5)]((Nb and(Nb-Nb+1))or 1)if Ox~=m7[ei[eR[41556]]]then do local Ox=m7[ei[eR[59713]]];local OM=m7[ei[eR[39060]]];local OH=m7[ei[eR[41237]]];local OK=m7[ei[eR[47630]]];OH(Ox,m7[ei[eR[52843]]],m7[ei[eR[37972]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[27131]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[20596]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[20596]]],Oi+OV)end end end end if m7[ei[eR[41556]]][16273]~=49250 then Oo[OY+7]=1 end end end Ob=true end end end end end elseif Ea==2 then if Wf>108 then if Wf>149 then if Wf>228 then do local DU=Wf-231;if DU*(DU-16)==0 then if Wf<=231 then local Nt,Np,Nb,Nl,NF,Nz,NT,NB,NO,NN,Ny Ox=OB[OY]OM=OO[OY]OH=ON[OY]OK=OU[OM]OU[Ox+1]=OK Oh=OU[Ox]Nl,NF,Nz,NO,NN=nil,nil,nil,nil,nil Nt=eI(Oh)if OH==0 then NB=m7[ei[7917]]if Nt==eT then NO=NB(nil,Oh(OK))else Np=m7[ei[48018]](Oh)Nb=Np and Np[K(((99+0)),Yj)]if Nb then NO=NB(nil,Nb(Oh,OK))else m7[ei[25468]]()end end NN=NO.n or#NO for Ny=1,NN do OU[Ox+Ny-1]=NO[Ny]end OZ=Ox+NN else if Nt==eT then if OH==1 then Oh(OK)elseif OH==2 then Nl=Oh(OK)elseif OH==3 then Nl,NF=Oh(OK)else Nl,NF,Nz=Oh(OK)end else Np=m7[ei[48018]](Oh)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OH==1 then Nb(Oh,OK)elseif OH==2 then Nl=Nb(Oh,OK)elseif OH==3 then Nl,NF=Nb(Oh,OK)else Nl,NF,Nz=Nb(Oh,OK)end else m7[ei[25468]]()end end if OH==2 then OU[Ox]=Nl OZ=Ox+1 elseif OH==3 then OU[Ox]=Nl;OU[Ox+1]=NF OZ=Ox+2 elseif OH==4 then OU[Ox]=Nl;OU[Ox+1]=NF;OU[Ox+2]=Nz OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NT=Ou[OD[OY]+8]if NT then OY=NT else OY=OY+1 end Ol=true else Ox=OB[OY]OM=OO[OY]if false then OM=OM end if(tI[4484][OY]or 0)==0 then Of=((OY*106)+43)%(91+75+90)OR=((OY*184)+149)%(91+75+90)tI[6416][OY]=em(ON[OY],Of)tI[1415][OY]=em(tI[5667][OY],OR)tI[4484][OY]=1 end OH=tI[6416][OY]+(tI[1415][OY]*(91+75+90))OK=OU[OM]Oh=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OH+1],Yj)Oi=OK and OK[Oh]or nil if Oi==nil and OK~=nil then OV=m7[ei[48018]](OK)OV=OV and OV[K((313-202),Yj)]OH=eI(OV)if OH==eT then Oi=OV(OK,Oh)elseif OH==el then Oi=OV[Oh]end end if Oi==nil and eI(OK)==eb then Oi=mJ and mJ[Oh]or nil end if Oi==nil and OK~=nil and eI(OK)~=el then OV=m7[ei[48018]](OK)OV=OV and OV[K(((153-21-28)),Yj)]if eI(OV)==eT then Oi=OV end end OU[Ox]=Oi OU[Ox+1]=OK end Ob=true end end else do local DI=Wf-174;if DI*(DI-22)*(DI-54)==0 then if Wf<=174 then Ox=OO[OY]+(ON[OY]*((14*3)+214))+(tI[5667][OY]*(128*512))OM=Ox*0 if Ox>=(16384*512)then Ox=Ox-(8192*2048)end if OM~=0 then Ox=Ox end OU[OB[OY]]=Ox elseif Wf<=196 then OK=(3-3)if OK>0 then OK=OK-1 end Ox=OU[OO[OY]]OM=OU[ON[OY]]OU[OB[OY]]=Ox[OM]else local Nt,Np,Nb,Nl,NF,Nz,NT,NB,NO,NN,Ny Ox=OB[OY]OM=OO[OY]OH=ON[OY]+(tI[5667][OY]*((8*32)+0))local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OU[Ox+1]=OH OK=OU[Ox]Nl,NF,Nz,NO,NN=nil,nil,nil,nil,nil Nt=eI(OK)if OM==0 then NB=m7[ei[7917]]if Nt==eT then NO=NB(nil,OK(OH))else Np=m7[ei[48018]](OK)Nb=Np and Np[K(((99+0)),Yj)]if Nb then NO=NB(nil,Nb(OK,OH))else m7[ei[25468]]()end end NN=NO.n or#NO for Ny=1,NN do OU[Ox+Ny-1]=NO[Ny]end OZ=Ox+NN else if Nt==eT then if OM==1 then OK(OH)elseif OM==2 then Nl=OK(OH)elseif OM==3 then Nl,NF=OK(OH)else Nl,NF,Nz=OK(OH)end else Np=m7[ei[48018]](OK)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OM==1 then Nb(OK,OH)elseif OM==2 then Nl=Nb(OK,OH)elseif OM==3 then Nl,NF=Nb(OK,OH)else Nl,NF,Nz=Nb(OK,OH)end else m7[ei[25468]]()end end if OM==2 then OU[Ox]=Nl OZ=Ox+1 elseif OM==3 then OU[Ox]=Nl;OU[Ox+1]=NF OZ=Ox+2 elseif OM==4 then OU[Ox]=Nl;OU[Ox+1]=NF;OU[Ox+2]=Nz OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NT=Ou[OD[OY]+8]if NT then OY=NT else OY=OY+1 end Ol=true end Ob=true end end end else if Wf>120 then do local DY=Wf-136;if DY*(DY-4)*(DY-13)==0 then if Wf<=136 then Ox=OB[OY]if Oo[OY+1]==85 or Oo[OY+1]==241 or Oo[OY+1]==240 then if OB[OY+1]==nil then m7[ei[12555]](tI,OY+1)end OM=OB[OY+1]OH=nil if Ox==40 then OH=eI elseif Ox==12 then OH=mR.floor elseif Ox==7 then OH=mR.ceil elseif Ox==2 then OH=mR.abs elseif Ox==25 then OH=mR.sqrt elseif Ox==21 then OH=mR.pow elseif Ox==24 then OH=mR.sin elseif Ox==9 then OH=mR.cos elseif Ox==27 then OH=mR.tan elseif Ox==11 then OH=mR.exp elseif Ox==10 then OH=mR.deg elseif Ox==17 then OH=mR.log elseif Ox==22 then OH=mR.rad elseif Ox==19 then OH=mR.min elseif Ox==18 then OH=mR.max elseif Ox==45 then OH=eU.insert elseif Ox==46 then OH=m2 elseif Ox==42 then OH=mJ.byte elseif Ox==43 then OH=mJ.char elseif Ox==44 then OH=mJ.len elseif Ox==41 then OH=m7[ei[33827]].typeof elseif Ox==57 then OH=m7[ei[14367]]elseif Ox==60 then OH=m7[ei[29601]]elseif Ox==61 then OH=m7[ei[27652]]elseif Ox==62 then OH=m7[ei[33827]].rawequal elseif Ox==64 then OH=m7[ei[33827]].rawlen elseif Ox==3 then OH=mR.asin elseif Ox==4 then OH=mR.acos elseif Ox==5 then OH=mR.atan2 elseif Ox==6 then OH=mR.atan elseif Ox==13 then OH=mR.fmod elseif Ox==14 then OH=mR.ldexp elseif Ox==20 then OH=mR.modf end if OH~=nil then OK=OH OU[OM]=OK end if false then OU[OM]=OU[OM]end end elseif Wf<=140 then OU[OB[OY]]=not OU[OO[OY]]else if(tI[4484][OY]or 0)==0 then Oi=((OY*219)+17)%(4*64)OV=((OY*26)+107)%(4*64)tI[5667][OY]=em(OO[OY],Oi)tI[6416][OY]=em(ON[OY],OV)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*(4*64))Oi=(1+8)-8 OV=((Ox*131)+8)%257 if OV==257 then OV=0 end OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+Oi],Yj)if tI[2049]then OK=tI[9580]if not OK then OK={};tI[9580]=OK end OH=OK[Ox]if OH==nil then OH=m7[ei[33827]][OM]if OH~=nil then OK[Ox]=OH end end OU[OB[OY]]=OH else OU[OB[OY]]=m7[ei[33827]][OM]end OM=nil OH=nil OK=nil Oi=nil OV=nil end Ob=true end end else do local DX=Wf-113;if DX*(DX-4)*(DX-7)==0 then if Wf<=113 then Ox=OU[OO[OY]]OM=OU[ON[OY]]OU[OB[OY]]=Ox%OM if eC and eI(OU[OB[OY]])==ep and m7[ei[14046]](OU[OB[OY]])==OU[OB[OY]]then OU[OB[OY]]=m7[ei[14046]](OU[OB[OY]])end elseif Wf<=117 then Ox=OU[OO[OY]]OU[OB[OY]]=Ox+OU[ON[OY]]if eC and eI(OU[OB[OY]])==ep and m7[ei[14046]](OU[OB[OY]])==OU[OB[OY]]then OU[OB[OY]]=m7[ei[14046]](OU[OB[OY]])end else Ox=OU[OO[OY]]OM=OU[ON[OY]]OH=m7[ei[48018]](Ox)or m7[ei[48018]](OM)OK=OH and OH[K(112,Yj)]if OK then OU[OB[OY]]=OK(Ox,OM)else OU[OB[OY]]=mR[K(158,Yj)](Ox/OM)end end Ob=true end end end end else if Wf>35 then if Wf>72 then do local DC=Wf-100;if DC*(DC-4)*(DC-8)==0 then if Wf<=100 then OY=EH[OY]Ol=true elseif Wf<=104 then Ox=OB[OY]OM=OD[OY]OH=OO[OY]+(ON[OY]*((15*2)+226))local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OK=OU[Ox]Oh=OU[Ox+1]Oi=OU[Ox+2]Oz[Ox]=Oi Of=(Oh>0 and Oi<=OK)or(Oh<=0 and Oi>=OK)if Of then OY=OY+1 else OV=OM+4+OH OK=Ou[OV]if OK then OY=OK else OY=OY+1 end end Ol=true else Ox=OU[OB[OY]]OM=OU[tI[5667][OY]]Oh=Eu OV=not(Ox<OM)if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true end Ob=true end end else do local DG=Wf-38;if DG*(DG-10)*(DG-34)==0 then if Wf<=38 then Ox=OB[OY]OM=ON[OY]+(tI[5667][OY]*(80+176))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OH=OU[OO[OY]]if tI[6416][OY]~=0 then OU[Ox]=OM-OH else OU[Ox]=OH-OM end if eC and eI(OU[Ox])==ep and m7[ei[14046]](OU[Ox])==OU[Ox]then OU[Ox]=m7[ei[14046]](OU[Ox])end OK=Ou[OD[OY]+8]if OK then OY=OK else OY=OY+1 end Ol=true elseif Wf<=48 then if(tI[4484][OY]or 0)==0 then ND=((OY*200)+116)%((14*21)-38)Nu=((OY*77)+198)%((14*21)-38)ON[OY]=em(ON[OY],ND)tI[5667][OY]=em(tI[5667][OY],Nu)tI[6416][OY]=em(tI[6416][OY],ND)tI[1415][OY]=em(tI[1415][OY],Nu)tI[4484][OY]=1 end Ox=ON[OY]+(tI[5667][OY]*((14*21)-38))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=m7[ei[33827]][OM]OU[OO[OY]]=OH Ox=tI[6416][OY]+(tI[1415][OY]*((14*21)-38))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OU[OB[OY]]=OH[OM]OM=nil OH=nil else Ob=true Ox=OB[OY]OM=OO[OY]+ON[OY]*(93+101+62)OH=m7[ei[eR[56131]]]if OH and m7[ei[eR[43565]]](OH)==eT then OK=OH if OK then m7[ei[eR[35220]]](OK,m7[ei[eR[45983]]][K(11,Yj)])end if OK then m7[ei[eR[35220]]](OK,m7[ei[eR[29335]]])end end OK=nil OY=OY+1 Ol=true end Ob=true end end end else if Wf>26 then do local DZ=Wf-30;if DZ*(DZ-4)*(DZ-5)==0 then if Wf<=30 then if not m0.Cz then m0.Cz=true m0.Nb=(m0.Nb or 0)+1 end elseif Wf<=34 then Ox=OU[OO[OY]]if Ox then OU[OB[OY]]=Ox else OU[OB[OY]]=OU[ON[OY]]end else Ox=OU[OO[OY]]if Ox then OU[OB[OY]]=OU[ON[OY]]else OU[OB[OY]]=Ox end end Ob=true end end else do local Dt=Wf-20;if Dt*(Dt-4)*(Dt-6)==0 then if Wf<=20 then Ox=OB[OY]if Oo[OY+1]==85 or Oo[OY+1]==241 or Oo[OY+1]==240 then if OB[OY+1]==nil then m7[ei[12555]](tI,OY+1)end OM=OB[OY+1]OH=nil if Ox==40 then OH=eI elseif Ox==12 then OH=mR.floor elseif Ox==7 then OH=mR.ceil elseif Ox==2 then OH=mR.abs elseif Ox==25 then OH=mR.sqrt elseif Ox==21 then OH=mR.pow elseif Ox==24 then OH=mR.sin elseif Ox==9 then OH=mR.cos elseif Ox==27 then OH=mR.tan elseif Ox==11 then OH=mR.exp elseif Ox==10 then OH=mR.deg elseif Ox==17 then OH=mR.log elseif Ox==22 then OH=mR.rad elseif Ox==19 then OH=mR.min elseif Ox==18 then OH=mR.max elseif Ox==45 then OH=eU.insert elseif Ox==46 then OH=m2 elseif Ox==42 then OH=mJ.byte elseif Ox==43 then OH=mJ.char elseif Ox==44 then OH=mJ.len elseif Ox==41 then OH=m7[ei[33827]].typeof elseif Ox==57 then OH=m7[ei[14367]]elseif Ox==60 then OH=m7[ei[29601]]elseif Ox==61 then OH=m7[ei[27652]]elseif Ox==62 then OH=m7[ei[33827]].rawequal elseif Ox==64 then OH=m7[ei[33827]].rawlen elseif Ox==3 then OH=mR.asin elseif Ox==4 then OH=mR.acos elseif Ox==5 then OH=mR.atan2 elseif Ox==6 then OH=mR.atan elseif Ox==13 then OH=mR.fmod elseif Ox==14 then OH=mR.ldexp elseif Ox==20 then OH=mR.modf end if OH then OU[OM]=OH end end elseif Wf<=24 then if not m0.Np then m0.Np=true if(m0.Nb or 0)<1 then local Nc=OY+8 if Nc<=#Oo then Oo[Nc]=182 end end end else Ob=true Ox=OB[OY]+OO[OY]*(93+101+62)OM=ON[OY]+tI[5667][OY]*(93+101+62)OH=tI[6416][OY]+tI[1415][OY]*(93+101+62)OK=m7[ei[eR[49401]]]Oi=tI[4484][OY]if Oi==0 and(m7[ei[eR[41556]]][Ox]~=OM)then Oi=1 end NA=OK or 0 NW=m7[ei[eR[49553]]]or 0 NE=m7[ei[eR[27757]]]or 0 Nt=0 Np=0 Nb=0 NN=0 Ny=0 Nv=0 if NA>0 then NN=m7[ei[14046]](NA/65536);Nt=NA-(NN*65536)end if NW>0 then Ny=m7[ei[14046]](NW/65536);Np=NW-(Ny*65536)end if NE>0 then Nv=m7[ei[14046]](NE/65536);Nb=NE-(Nv*65536)end if Nt<=0 or Nt>49157 then Nt=0 end if Np<=0 or Np>49157 then Np=0 end if Nb<=0 or Nb>49157 then Nb=0 end if NN<=0 or NN>49157 then NN=0 end if Ny<=0 or Ny>49157 then Ny=0 end if Nv<=0 or Nv>49157 then Nv=0 end if Oi==0 and Nt>0 and Nb>0 and Nt~=Nb then Oi=1 end Nl=eU[OH]or 0 NT=m7[ei[eR[27401]]]or 0 NF=0 Nz=0 if Nt>0 and Nt<=49157 and Np>0 and Np<=49157 then NF=(Nt*257)+(Np*131)+(NN*73)+(Ny*59)+731 NB=Nt-Np if NB<0 then NB=-NB end if NB>1 then NF=NF+4271 end if NN>0 then ND=Nt-NN;if ND<0 then ND=-ND end;if ND>1 then NF=NF+4288 end end if Ny>0 then Nu=Np-Ny;if Nu<0 then Nu=-Nu end;if Nu>1 then NF=NF+4300 end end end if Nt>0 and Nt<=49157 and Np>0 and Np<=49157 and Nb>0 and Nb<=49157 then Nz=(Nt*257)+(Np*131)+(NN*73)+(Ny*59)+(Nb*43)+(Nv*31)+748 NB=Nt-Np if NB<0 then NB=-NB end NO=Np-Nb if NO<0 then NO=-NO end if NB>1 then Nz=Nz+4271 end if NO>1 then Nz=Nz+4464 end if NN>0 then ND=Nt-NN;if ND<0 then ND=-ND end;if ND>1 then Nz=Nz+4288 end end if Ny>0 then Nu=Np-Ny;if Nu<0 then Nu=-Nu end;if Nu>1 then Nz=Nz+4300 end end if Nv>0 then OI=Nb-Nv;if OI<0 then OI=-OI end;if OI>1 then Nz=Nz+4522 end end end if Nl~=NF or NT~=Nz then Oi=1 end if Oi~=0 then m7[ei[eR[39463]]](OY,OB,OO,ON,Oo,tI,nil)end end Ob=true end end end end end elseif Ea==3 then if Wf>96 then if Wf>175 then if Wf>193 then do local Dp=Wf-197;if Dp*(Dp-24)*(Dp-57)==0 then if Wf<=197 then Ox=OB[OY]OU[Ox]={}elseif Wf<=221 then local Nt,Np,Nb,Nl,NT Ox=OB[OY]OM=OO[OY]OH=ON[OY]OK=tI[5667][OY]ND=((OY*247)+25)%((8*6)+208)Nu=((OY*243)+179)%((8*6)+208)Oi=em(tI[6416][OY],ND)+(em(tI[1415][OY],Nu)*((8*6)+208))OV=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Oi+1],Yj)Oh=OU[Ox]Nl=nil Nt=eI(Oh)if Nt==eT then if OM==1 then Nl=Oh()elseif OM==2 then Nl=Oh(OU[Ox+1])elseif OM==3 then Nl=Oh(OU[Ox+1],OU[Ox+2])elseif OM==4 then Nl=Oh(OU[Ox+1],OU[Ox+2],OU[Ox+3])elseif OM==5 then Nl=Oh(OU[Ox+1],OU[Ox+2],OU[Ox+3],OU[Ox+4])elseif OM==6 then Nl=Oh(OU[Ox+1],OU[Ox+2],OU[Ox+3],OU[Ox+4],OU[Ox+5])elseif OM==7 then Nl=Oh(OU[Ox+1],OU[Ox+2],OU[Ox+3],OU[Ox+4],OU[Ox+5],OU[Ox+6])elseif OM==8 then Nl=Oh(OU[Ox+1],OU[Ox+2],OU[Ox+3],OU[Ox+4],OU[Ox+5],OU[Ox+6],OU[Ox+7])else Nl=Oh(OU[Ox+1],OU[Ox+2],OU[Ox+3],OU[Ox+4],OU[Ox+5],OU[Ox+6],OU[Ox+7],OU[Ox+8])end else Np=m7[ei[48018]](Oh)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OM==1 then Nl=Nb(Oh)elseif OM==2 then Nl=Nb(Oh,OU[Ox+1])elseif OM==3 then Nl=Nb(Oh,OU[Ox+1],OU[Ox+2])elseif OM==4 then Nl=Nb(Oh,OU[Ox+1],OU[Ox+2],OU[Ox+3])elseif OM==5 then Nl=Nb(Oh,OU[Ox+1],OU[Ox+2],OU[Ox+3],OU[Ox+4])elseif OM==6 then Nl=Nb(Oh,OU[Ox+1],OU[Ox+2],OU[Ox+3],OU[Ox+4],OU[Ox+5])elseif OM==7 then Nl=Nb(Oh,OU[Ox+1],OU[Ox+2],OU[Ox+3],OU[Ox+4],OU[Ox+5],OU[Ox+6])elseif OM==8 then Nl=Nb(Oh,OU[Ox+1],OU[Ox+2],OU[Ox+3],OU[Ox+4],OU[Ox+5],OU[Ox+6],OU[Ox+7])else Nl=Nb(Oh,OU[Ox+1],OU[Ox+2],OU[Ox+3],OU[Ox+4],OU[Ox+5],OU[Ox+6],OU[Ox+7],OU[Ox+8])end else m7[ei[25468]]()end end if OH==2 then OU[Ox]=Nl OZ=Ox+1 else OZ=Ox end Np=OU[OK]if Np then Np[OV]=Nl end ew=OZ eQ=true NT=Ou[OD[OY]+8]if NT then OY=NT else OY=OY+1 end Ol=true else Ox=OB[OY]OM=OO[OY]local w0=m2 local OI=m7[ei[65503]]if OI and m7[ei[27652]](OI,m7[ei[eR[20917]]])then m7[ei[39083]]=nil m7[ei[29601]](OI,m7[ei[eR[20917]]],m7[ei[57904]])OU=nil OM=2 end if OM==0 then return w0(OU,Ox,OZ-1)elseif OM==1 then return else OH=OM-1 return w0(OU,Ox,Ox+OH-1)end end Ob=true end end else do local DI=Wf-177;if DI*(DI-15)*(DI-16)==0 then if Wf<=177 then OM=OU[tI[5667][OY]]Ox=OU[OB[OY]]Oh=Eu OV=not(Ox~=OM)if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true elseif Wf<=192 then OU[OB[OY]]=OU[OO[OY]][ON[OY]+(5-4)]else NR=OO if type(NR)~='table'then NR=tI[9067]end if type(NR)~='table'then NR={}end Nk=ON if type(Nk)~='table'then Nk=tI[6796]end if type(Nk)~='table'then Nk={}end NS=tI[6416]if type(NS)~='table'then NS=tI[6416]end if type(NS)~='table'then NS={}end NP=tI[1415]if type(NP)~='table'then NP=tI[1415]end if type(NP)~='table'then NP={}end NJ=tI[4484]if type(NJ)~='table'then NJ=tI[4484]end if type(NJ)~='table'then NJ={}end if(NJ[OY]or 0)==0 then Oi=((OY*66)+93)%((15*2)+226)OV=((OY*22)+151)%((15*2)+226)NS[OY]=em(NR[OY],Oi)NP[OY]=em(Nk[OY],OV)NJ[OY]=1 end Ox=NS[OY]+(NP[OY]*((15*2)+226))Ns=ZQ if type(Ns)~='table'then Ns=m7[ei[25802]]end if type(Ns)~='table'then Ns={}end OM=((type(K)=='function'and K)or m7[ei[41012]])(Ns[Ox+1],Yj)OH=OU[OB[OY]]if OH then OH[OM]=OU[tI[5667][OY]]end if false then OH[OM]=OU[tI[5667][OY]]end OM=nil OH=nil OK=nil Ns=nil Oi=nil OV=nil NS=nil NP=nil NJ=nil NR=nil Nk=nil end Ob=true end end end else if Wf>128 then do local DY=Wf-148;if DY*(DY-24)*(DY-27)==0 then if Wf<=148 then if(tI[4484][OY]or 0)==0 then Oi=((OY*51)+56)%(128+128)OV=((OY*193)+42)%(128+128)tI[5667][OY]=em(OO[OY],Oi)tI[6416][OY]=em(ON[OY],OV)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*(128+128))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OU[OB[OY]]m7[ei[33827]][OM]=OH OM=nil OH=nil OK=nil Oi=nil OV=nil elseif Wf<=172 then Ox=OB[OY]OM=OO[OY]OH=OQ[OM+1]OK=eI(OH)if OK==el and OH[6397]then if OH[5359]then OK=OH[4265]else OV=OH[2]if OV~=nil then Of=OH[1]if Of then OK=Of[OV]else OK=nil end else OK=OH[1]end end else OK=OH end if eC and eI(OK)==ep and m7[ei[14046]](OK)==OK then OK=m7[ei[14046]](OK)end OU[Ox]=OK else if(tI[4484][OY]or 0)==0 then OM=((OY*167)+247)%((3*23)+187)OH=((OY*31)+65)%((3*23)+187)tI[5667][OY]=em(OO[OY],OM)tI[6416][OY]=em(ON[OY],OH)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*((3*23)+187))OU[OB[OY]]=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OM=nil OH=nil end Ob=true end end else do local DX=Wf-124;if DX*(DX-3)*(DX-4)==0 then if Wf<=124 then Ox=0 if(tI[4484][OY]or 0)==0 then OM=((OY*55)+224)%256 OH=((OY*6)+18)%256 tI[6416][OY]=em((ON[OY]or 0),OM)tI[1415][OY]=em((tI[5667][OY]or 0),OH)tI[4484][OY]=1 end Ox=(tI[6416][OY]or 0)+((tI[1415][OY]or 0)*256)OU[OB[OY]]=OU[OO[OY]]*(B4[Ox]or 0)if eC and eI(OU[OB[OY]])==ep and m7[ei[14046]](OU[OB[OY]])==OU[OB[OY]]then OU[OB[OY]]=m7[ei[14046]](OU[OB[OY]])end elseif Wf<=127 then Ox=0 if(tI[4484][OY]or 0)==0 then OM=((OY*133)+199)%256 OH=((OY*175)+145)%256 tI[6416][OY]=em((ON[OY]or 0),OM)tI[1415][OY]=em((tI[5667][OY]or 0),OH)tI[4484][OY]=1 end Ox=(tI[6416][OY]or 0)+((tI[1415][OY]or 0)*256)OU[OB[OY]]=OU[OO[OY]]/(B4[Ox]or 0)if eC and eI(OU[OB[OY]])==ep and m7[ei[14046]](OU[OB[OY]])==OU[OB[OY]]then OU[OB[OY]]=m7[ei[14046]](OU[OB[OY]])end else Ox=OU[OO[OY]]Oh=(7-7)if Oh~=(1-1)then Ox=Ox end OM=OU[ON[OY]]OH=OU[OB[OY]]if Ox then Ox[OM]=OH end end Ob=true end end end end else if Wf>46 then if Wf>52 then do local DC=Wf-64;if DC*(DC-16)*(DC-32)==0 then if Wf<=64 then Ob=true Ox=OB[OY]or 0 OM=OO[OY]or 0 if(Ox+OM)>=0 then NC=m7[ei[54137]]if NC then Nc=NC(1)if Nc and Nc~=m7[ei[eR[41556]]]then do local Ox=m7[ei[eR[45485]]];local OM=m7[ei[eR[32320]]];local OH=m7[ei[eR[31591]]];local OK=m7[ei[eR[44569]]];OH(Ox,m7[ei[eR[33591]]],m7[ei[eR[44043]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[23114]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[27421]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[27421]]],Oi+OV)end end end else if _ENV~=m7[ei[eR[41556]]]then do local Ox=m7[ei[eR[48852]]];local OM=m7[ei[eR[59427]]];local OH=m7[ei[eR[56268]]];local OK=m7[ei[eR[50461]]];OH(Ox,m7[ei[eR[26123]]],m7[ei[eR[41207]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[44770]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[46733]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[46733]]],Oi+OV)end end end end Cz=m7[ei[eR[45158]]]if Cz and Cz==m7[ei[eR[35793]]]then do local Ox=m7[ei[eR[21786]]];local OM=m7[ei[eR[25665]]];local OH=m7[ei[eR[45281]]];local OK=m7[ei[eR[56754]]];OH(Ox,m7[ei[eR[46452]]],m7[ei[eR[34280]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[42551]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[22356]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[22356]]],Oi+OV)end end end end OY=OY+1 Ol=true elseif Wf<=80 then if(tI[4484][OY]or 0)==0 then OK=((OY*9)+148)%(562-306)Oh=((OY*85)+230)%(562-306)tI[5667][OY]=em((OO[OY]or 0),OK)tI[6416][OY]=em((ON[OY]or 0),Oh)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*(562-306))OM={}if m7[ei[46368]][Ox]then for Nc,OH in m7[ei[58401]](m7[ei[46368]][Ox])do OM[OH]=false end end OU[OB[OY]]=OM else Ox=OU[OB[OY]]OM=OU[tI[5667][OY]]Oh=Eu OV=Ox<=OM if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true end Ob=true end end else do local DG=Wf-47;if DG*(DG-4)*(DG-5)==0 then if Wf<=47 then Ox=OB[OY]OM=ON[OY]+(tI[5667][OY]*(30+92+134))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OH=OU[OO[OY]]if tI[6416][OY]~=0 then OU[Ox]=OM%OH else OU[Ox]=OH%OM end if false then OU[Ox]=OU[Ox]end if eC and eI(OU[Ox])==ep and m7[ei[14046]](OU[Ox])==OU[Ox]then OU[Ox]=m7[ei[14046]](OU[Ox])end OK=Ou[OD[OY]+8]if OK then OY=OK else OY=OY+1 end Ol=true elseif Wf<=51 then Ox=OO[OY]OM=OQ[Ox+1]OH=eI(OM)if OH==el and OM[6397]then if OM[5359]then OK=OM[4265]else Oh=OM.NC Oi=OM[3707]if Oh and Oi~=nil then OK=Oh[Oi]else OK=OM[6134][OM[3707]]end end else OK=OM end if eC and eI(OK)==ep and m7[ei[14046]](OK)==OK then OK=m7[ei[14046]](OK)end OU[ON[OY]]=OK ND=((OY*239)+91)%(58+56+142)Nu=((OY*218)+69)%(58+56+142)Ox=em(tI[5667][OY],ND)+(em(tI[6416][OY],Nu)*(58+56+142))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OU[OB[OY]]=OK[OM]OM=nil OH=nil OK=nil else local Nt,Np,Nb,Nl,NT,NF,NB,NO,NN,Ny,Nv,NA,Nz,NW,NE NW=m7[ei[7917]]Ox=OB[OY]OM=OO[OY]NE=ON[OY]OH=(NE%16)-1 OK=m7[ei[14046]](NE/16)-1 ND=((OY*1)+216)%(56+66+134)Nu=((OY*80)+202)%(56+66+134)Of=em(tI[5667][OY],ND)+(em(tI[6416][OY],Nu)*(56+66+134))Oh=em(tI[1415][OY],ND)+(em(tI[4484][OY],Nu)*(56+66+134))local OR=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Of+1],Yj)OV=m7[ei[33827]][OR]OU[OM]=OV local Oi=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Oh+1],Yj)OU[Ox]=OU[OM][Oi]OV=OU[Ox]Nt={}Np=0 if OH==-1 then Nb=OZ or 0 Nl=false if Nb<=(Ox+1)and eQ and(ew~=nil and ew>(Ox+1))then Nb=ew Nl=true end if Nb>Ox+1 then Np=Nb-(Ox+1)for Nz=1,Np do Nt[Nz]=OU[Ox+Nz]end end if Nl then eQ=false end else for Nz=1,OH do Nt[Nz]=OU[Ox+Nz]end Np=OH end NT=eI(OV)NF=nil if NT==eT then NF=NW(((OK>=0)and OK or nil),OV(m2(Nt,1,Np)))else NB=m7[ei[48018]](OV)NO=NB and NB[K(((99+0)),Yj)]if NO then NN={OV}for Nz=1,Np do NN[#NN+1]=Nt[Nz]end NF=NW(((OK>=0)and OK or nil),NO(m2(NN,1,#NN)))else m7[ei[25468]]()end end if OK==-1 then Ny=NF[ez]or#NF for Nz=1,Ny do Nv=Ox+Nz-1 OU[Nv]=NF[Nz]end if Ny>0 then OU[Ox+Ny]=nil OZ=Ox+Ny else OZ=Ox end ew=OZ eQ=true else for Nz=1,OK do local Nv=Ox+Nz-1 OU[Nv]=NF[Nz]end OZ=Ox+OK ew=OZ eQ=true end NA=Ou[OD[OY]+8]if NA then OY=NA else OY=OY+1 end Ol=true end Ob=true end end end else if Wf>11 then do local DZ=Wf-15;if DZ*(DZ-7)*(DZ-31)==0 then if Wf<=15 then NR=OO if type(NR)~='table'then NR=tI[9067]end if type(NR)~='table'then NR={}end Nk=ON if type(Nk)~='table'then Nk=tI[6796]end if type(Nk)~='table'then Nk={}end NS=tI[6416]if type(NS)~='table'then NS=tI[6416]end if type(NS)~='table'then NS={}end NP=tI[1415]if type(NP)~='table'then NP=tI[1415]end if type(NP)~='table'then NP={}end NJ=tI[4484]if type(NJ)~='table'then NJ=tI[4484]end if type(NJ)~='table'then NJ={}end if(NJ[OY]or 0)==0 then Oi=((OY*66)+93)%((15*2)+226)OV=((OY*22)+151)%((15*2)+226)NS[OY]=em(NR[OY],Oi)NP[OY]=em(Nk[OY],OV)NJ[OY]=1 end Ox=NS[OY]+(NP[OY]*((15*2)+226))Ns=ZQ if type(Ns)~='table'then Ns=m7[ei[25802]]end if type(Ns)~='table'then Ns={}end OM=((type(K)=='function'and K)or m7[ei[41012]])(Ns[Ox+1],Yj)OH=OU[OB[OY]]OK=OU[tI[5667][OY]]if OH then OH[OM]=OK end OM=nil OH=nil OK=nil Ns=nil Oi=nil OV=nil NS=nil NP=nil NJ=nil NR=nil Nk=nil elseif Wf<=22 then local NT,NF,Nz,NB,NO,NN,Np,Nb,Nl,Nv,NA,NW,NE,ND,OI OI=m7[ei[7917]]Ox=OB[OY]OM=OO[OY]OH=ON[OY]-1 OK=tI[5667][OY]-1 Oh=tI[6416][OY]+(tI[1415][OY]*(80+176))Oi=OU[OM]OV=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Oh+1],Yj)Nt=Oi and Oi[OV]or nil if Nt==nil and Oi~=nil then Np=m7[ei[48018]](Oi)Nb=Np and Np[K((313-202),Yj)]Nl=eI(Nb)if Nl==eT then Nt=Nb(Oi,OV)elseif Nl==el then Nt=Nb[OV]end end if Nt==nil and eI(Oi)==eb then Nt=mJ and mJ[OV]or nil end if Nt==nil and Oi~=nil and eI(Oi)~=el then Np=Np or m7[ei[48018]](Oi)Nb=Np and Np[K(((153-21-28)),Yj)]if eI(Nb)==eT then Nt=Nb end end OU[Ox]=Nt OU[Ox+1]=Oi NT={}NF=0 if OH==-1 then Nz=OZ or 0 NB=false if Nz<=(Ox+1)and eQ and(ew~=nil and ew>(Ox+1))then Nz=ew NB=true end if Nz>Ox+1 then NF=Nz-(Ox+1)for Ny=1,NF do NT[Ny]=OU[Ox+Ny]end end if NB then eQ=false end else for Ny=1,OH do NT[Ny]=OU[Ox+Ny]end NF=OH end NO=eI(OU[Ox])NN=nil if NO==eT then if OK==-1 then NN=OI(nil,OU[Ox](m2(NT,1,NF)))NW=NN[ez]or#NN for Ny=1,NW do NE=Ox+Ny-1 OU[NE]=NN[Ny]end if NW>0 then OZ=Ox+NW else OZ=Ox end elseif OK==0 then OU[Ox](m2(NT,1,NF))OZ=Ox elseif OK==1 then local NK=OU[Ox](m2(NT,1,NF))OU[Ox]=NK OZ=Ox+1 elseif OK==2 then local NK,Nh=OU[Ox](m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OZ=Ox+2 elseif OK==3 then local NK,Nh,Ni=OU[Ox](m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OZ=Ox+3 elseif OK==4 then local NK,Nh,Ni,NV=OU[Ox](m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OZ=Ox+4 elseif OK==5 then local NK,Nh,Ni,NV,Cz=OU[Ox](m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OZ=Ox+5 elseif OK==6 then local NK,Nh,Ni,NV,Cz,CB=OU[Ox](m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OU[Ox+5]=CB OZ=Ox+6 elseif OK==7 then local NK,Nh,Ni,NV,Cz,CB,NG=OU[Ox](m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OU[Ox+5]=CB OU[Ox+6]=NG OZ=Ox+7 elseif OK==8 then local NK,Nh,Ni,NV,Cz,CB,NG,NZ=OU[Ox](m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OU[Ox+5]=CB OU[Ox+6]=NG OU[Ox+7]=NZ OZ=Ox+8 else NN=OI(OK,OU[Ox](m2(NT,1,NF)))for Ny=1,OK do NE=Ox+Ny-1 OU[NE]=NN[Ny]end OZ=Ox+OK end else Np=m7[ei[48018]](OU[Ox])Nv=Np and Np[K(((99+0)),Yj)]if Nv then NA={OU[Ox]}for Ny=1,NF do NA[#NA+1]=NT[Ny]end if OK==-1 then NN=OI(nil,Nv(m2(NA,1,#NA)))NW=NN[ez]or#NN for Ny=1,NW do NE=Ox+Ny-1 OU[NE]=NN[Ny]end if NW>0 then OZ=Ox+NW else OZ=Ox end elseif OK==0 then Nv(m2(NA,1,#NA))OZ=Ox elseif OK==1 then local NK=Nv(m2(NA,1,#NA))OU[Ox]=NK OZ=Ox+1 elseif OK==2 then local NK,Nh=Nv(m2(NA,1,#NA))OU[Ox]=NK OU[Ox+1]=Nh OZ=Ox+2 elseif OK==3 then local NK,Nh,Ni=Nv(m2(NA,1,#NA))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OZ=Ox+3 elseif OK==4 then local NK,Nh,Ni,NV=Nv(m2(NA,1,#NA))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OZ=Ox+4 elseif OK==5 then local NK,Nh,Ni,NV,Cz=Nv(m2(NA,1,#NA))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OZ=Ox+5 elseif OK==6 then local NK,Nh,Ni,NV,Cz,CB=Nv(m2(NA,1,#NA))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OU[Ox+5]=CB OZ=Ox+6 elseif OK==7 then local NK,Nh,Ni,NV,Cz,CB,NG=Nv(m2(NA,1,#NA))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OU[Ox+5]=CB OU[Ox+6]=NG OZ=Ox+7 elseif OK==8 then local NK,Nh,Ni,NV,Cz,CB,NG,NZ=Nv(m2(NA,1,#NA))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OU[Ox+5]=CB OU[Ox+6]=NG OU[Ox+7]=NZ OZ=Ox+8 else NN=OI(OK,Nv(m2(NA,1,#NA)))for Ny=1,OK do NE=Ox+Ny-1 OU[NE]=NN[Ny]end OZ=Ox+OK end else if OK==-1 then NN=OI(nil,Nt(m2(NT,1,NF)))NW=NN[ez]or#NN for Ny=1,NW do NE=Ox+Ny-1 OU[NE]=NN[Ny]end if NW>0 then OZ=Ox+NW else OZ=Ox end elseif OK==0 then Nt(m2(NT,1,NF))OZ=Ox elseif OK==1 then local NK=Nt(m2(NT,1,NF))OU[Ox]=NK OZ=Ox+1 elseif OK==2 then local NK,Nh=Nt(m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OZ=Ox+2 elseif OK==3 then local NK,Nh,Ni=Nt(m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OZ=Ox+3 elseif OK==4 then local NK,Nh,Ni,NV=Nt(m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OZ=Ox+4 elseif OK==5 then local NK,Nh,Ni,NV,Cz=Nt(m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OZ=Ox+5 elseif OK==6 then local NK,Nh,Ni,NV,Cz,CB=Nt(m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OU[Ox+5]=CB OZ=Ox+6 elseif OK==7 then local NK,Nh,Ni,NV,Cz,CB,NG=Nt(m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OU[Ox+5]=CB OU[Ox+6]=NG OZ=Ox+7 elseif OK==8 then local NK,Nh,Ni,NV,Cz,CB,NG,NZ=Nt(m2(NT,1,NF))OU[Ox]=NK OU[Ox+1]=Nh OU[Ox+2]=Ni OU[Ox+3]=NV OU[Ox+4]=Cz OU[Ox+5]=CB OU[Ox+6]=NG OU[Ox+7]=NZ OZ=Ox+8 else NN=OI(OK,Nt(m2(NT,1,NF)))for Ny=1,OK do NE=Ox+Ny-1 OU[NE]=NN[Ny]end OZ=Ox+OK end end end ew=OZ eQ=true local ND=Ou[OD[OY]+8]if ND then OY=ND else OY=OY+1 end Ol=true else Ox=OB[OY]OM=ON[OY]+(tI[5667][OY]*(99+61+96))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OH=OU[OO[OY]]if tI[6416][OY]~=0 then OU[Ox]=mR.pow(OM,OH)else OU[Ox]=mR.pow(OH,OM)end if eC and eI(OU[Ox])==ep and m7[ei[14046]](OU[Ox])==OU[Ox]then OU[Ox]=m7[ei[14046]](OU[Ox])end OK=Ou[OD[OY]+8]if OK then OY=OK else OY=OY+1 end Ol=true end Ob=true end end else do local Dt=Wf-1;if Dt*(Dt-7)*(Dt-10)==0 then if Wf<=1 then if(tI[4484][OY]or 0)==0 then Oi=((OY*219)+17)%(4*64)OV=((OY*26)+107)%(4*64)tI[5667][OY]=em(OO[OY],Oi)tI[6416][OY]=em(ON[OY],OV)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*(4*64))Oi=(1+8)-8 OV=((Ox*131)+8)%257 if OV==257 then OV=0 end OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+Oi],Yj)if tI[2049]then OK=tI[9580]if not OK then OK={};tI[9580]=OK end OH=OK[Ox]if OH==nil then OH=m7[ei[33827]][OM]if OH~=nil then OK[Ox]=OH end end OU[OB[OY]]=OH else OU[OB[OY]]=m7[ei[33827]][OM]end OM=nil OH=nil OK=nil Oi=nil OV=nil elseif Wf<=8 then if(tI[4484][OY]or 0)==0 then Oi=((OY*51)+56)%(128+128)OV=((OY*193)+42)%(128+128)tI[5667][OY]=em(OO[OY],Oi)tI[6416][OY]=em(ON[OY],OV)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*(128+128))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OU[OB[OY]]m7[ei[33827]][OM]=OH OM=nil OH=nil OK=nil Oi=nil OV=nil else Ox=OB[OY]OM=OO[OY]if false then OM=OM end OH=OQ[OM+1]OK=eI(OH)if OK==el and OH[6397]then if OH[5359]then OK=OH[4265]else OV=OH[2]if OV~=nil then Of=OH[1]if Of then OK=Of[OV]else OK=nil end else OK=OH[1]end end else OK=OH end if eC and eI(OK)==ep and m7[ei[14046]](OK)==OK then OK=m7[ei[14046]](OK)end OU[Ox]=OK end Ob=true end end end end end elseif Ea==4 then if Wf>134 then if Wf>198 then if Wf>223 then do local Db=Wf-225;if Db*(Db-21)*(Db-30)==0 then if Wf<=225 then local Nt,Np,Nb,Nl,NF,Nz,NT,NB,NO,NN,Ny Ox=OB[OY]OM=OO[OY]OH=ON[OY]OK=OU[OM]OU[Ox+2]=OK Oh=OU[Ox+1]Oi=OU[Ox]Nl,NF,Nz,NO,NN=nil,nil,nil,nil,nil Nt=eI(Oi)if OH==0 then NB=m7[ei[7917]]if Nt==eT then NO=NB(nil,Oi(Oh,OK))else Np=m7[ei[48018]](Oi)Nb=Np and Np[K(((99+0)),Yj)]if Nb then NO=NB(nil,Nb(Oi,Oh,OK))else m7[ei[25468]]()end end NN=NO.n or#NO for Ny=1,NN do OU[Ox+Ny-1]=NO[Ny]end OZ=Ox+NN else if Nt==eT then if OH==1 then Oi(Oh,OK)elseif OH==2 then Nl=Oi(Oh,OK)elseif OH==3 then Nl,NF=Oi(Oh,OK)else Nl,NF,Nz=Oi(Oh,OK)end else Np=m7[ei[48018]](Oi)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OH==1 then Nb(Oi,Oh,OK)elseif OH==2 then Nl=Nb(Oi,Oh,OK)elseif OH==3 then Nl,NF=Nb(Oi,Oh,OK)else Nl,NF,Nz=Nb(Oi,Oh,OK)end else m7[ei[25468]]()end end if OH==2 then OU[Ox]=Nl OZ=Ox+1 elseif OH==3 then OU[Ox]=Nl;OU[Ox+1]=NF OZ=Ox+2 elseif OH==4 then OU[Ox]=Nl;OU[Ox+1]=NF;OU[Ox+2]=Nz OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NT=Ou[OD[OY]+8]if NT then OY=NT else OY=OY+1 end Ol=true elseif Wf<=246 then Ox=OB[OY]OM=OO[OY]if(tI[4484][OY]or 0)==0 then Of=((OY*106)+43)%(91+75+90)OR=((OY*184)+149)%(91+75+90)tI[6416][OY]=em(ON[OY],Of)tI[1415][OY]=em(tI[5667][OY],OR)tI[4484][OY]=1 end OH=tI[6416][OY]+(tI[1415][OY]*(91+75+90))OK=OU[OM]Oh=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OH+1],Yj)if false then Oh=Oh end Oi=OK and OK[Oh]or nil if Oi==nil and OK~=nil then OV=m7[ei[48018]](OK)OV=OV and OV[K((313-202),Yj)]OH=eI(OV)if OH==eT then Oi=OV(OK,Oh)elseif OH==el then Oi=OV[Oh]end end if Oi==nil and eI(OK)==eb then Oi=mJ and mJ[Oh]or nil end if Oi==nil and OK~=nil and eI(OK)~=el then OV=m7[ei[48018]](OK)OV=OV and OV[K(((153-21-28)),Yj)]if eI(OV)==eT then Oi=OV end end OU[Ox]=Oi OU[Ox+1]=OK else Ox=OB[OY]OM=OO[OY]local w0=m2 local OI=m7[ei[65503]]if OI and m7[ei[27652]](OI,m7[ei[eR[20917]]])then m7[ei[39083]]=nil m7[ei[29601]](OI,m7[ei[eR[20917]]],m7[ei[57904]])OU=nil OM=2 end if OM==0 then return w0(OU,Ox,OZ-1)elseif OM==1 then return else OH=OM-1 return w0(OU,Ox,Ox+OH-1)end end Ob=true end end else do local Dl=Wf-216;if Dl*(Dl-3)*(Dl-7)==0 then if Wf<=216 then OU[OB[OY]]=(OO[OY]~=0)OV=not(OU[OB[OY]])if OV then OY=EH[OY]else OY=OY+1 end Ol=true elseif Wf<=219 then local Nt,Np,Nb,Nl,NF,Nz,NT Ox=OB[OY]OM=OO[OY]OH=ON[OY]ND=((OY*12)+67)%(4*64)Nu=((OY*152)+109)%(4*64)OK=em(tI[5667][OY],ND)+(em(tI[6416][OY],Nu)*(4*64))local Oh=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OK+1],Yj)Oi=m7[ei[33827]][Oh]OU[Ox]=Oi Nl,NF,Nz=nil,nil,nil Nt=eI(Oi)if Nt==eT then if OH==1 then if OM==1 then Oi()elseif OM==2 then Oi(OU[Ox+1])elseif OM==3 then Oi(OU[Ox+1],OU[Ox+2])else Oi(OU[Ox+1],OU[Ox+2],OU[Ox+3])end elseif OH==2 then if OM==1 then Nl=Oi()elseif OM==2 then Nl=Oi(OU[Ox+1])elseif OM==3 then Nl=Oi(OU[Ox+1],OU[Ox+2])else Nl=Oi(OU[Ox+1],OU[Ox+2],OU[Ox+3])end elseif OH==3 then if OM==1 then Nl,NF=Oi()elseif OM==2 then Nl,NF=Oi(OU[Ox+1])elseif OM==3 then Nl,NF=Oi(OU[Ox+1],OU[Ox+2])else Nl,NF=Oi(OU[Ox+1],OU[Ox+2],OU[Ox+3])end else if OM==1 then Nl,NF,Nz=Oi()elseif OM==2 then Nl,NF,Nz=Oi(OU[Ox+1])elseif OM==3 then Nl,NF,Nz=Oi(OU[Ox+1],OU[Ox+2])else Nl,NF,Nz=Oi(OU[Ox+1],OU[Ox+2],OU[Ox+3])end end else Np=m7[ei[48018]](Oi)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OH==1 then if OM==1 then Nb(Oi)elseif OM==2 then Nb(Oi,OU[Ox+1])elseif OM==3 then Nb(Oi,OU[Ox+1],OU[Ox+2])else Nb(Oi,OU[Ox+1],OU[Ox+2],OU[Ox+3])end elseif OH==2 then if OM==1 then Nl=Nb(Oi)elseif OM==2 then Nl=Nb(Oi,OU[Ox+1])elseif OM==3 then Nl=Nb(Oi,OU[Ox+1],OU[Ox+2])else Nl=Nb(Oi,OU[Ox+1],OU[Ox+2],OU[Ox+3])end elseif OH==3 then if OM==1 then Nl,NF=Nb(Oi)elseif OM==2 then Nl,NF=Nb(Oi,OU[Ox+1])elseif OM==3 then Nl,NF=Nb(Oi,OU[Ox+1],OU[Ox+2])else Nl,NF=Nb(Oi,OU[Ox+1],OU[Ox+2],OU[Ox+3])end else if OM==1 then Nl,NF,Nz=Nb(Oi)elseif OM==2 then Nl,NF,Nz=Nb(Oi,OU[Ox+1])elseif OM==3 then Nl,NF,Nz=Nb(Oi,OU[Ox+1],OU[Ox+2])else Nl,NF,Nz=Nb(Oi,OU[Ox+1],OU[Ox+2],OU[Ox+3])end end else m7[ei[25468]]()end end if OH==2 then OU[Ox]=Nl OZ=Ox+1 elseif OH==3 then OU[Ox]=Nl;OU[Ox+1]=NF OZ=Ox+2 elseif OH==4 then OU[Ox]=Nl;OU[Ox+1]=NF;OU[Ox+2]=Nz OZ=Ox+3 else OZ=Ox end ew=OZ eQ=true NT=Ou[OD[OY]+8]if NT then OY=NT else OY=OY+1 end Ol=true else Ox=ON[OY]+(tI[5667][OY]*(393-137))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)Of=OU[OO[OY]]if Of then OU[OB[OY]]=Of[OM]else OU[OB[OY]]=nil end OV=not(OU[OB[OY]])if OV then OY=EH[OY]else OY=OY+1 end Ol=true Ox=nil OM=nil Of=nil end Ob=true end end end else if Wf>173 then do local DT=Wf-181;if DT*(DT-2)*(DT-17)==0 then if Wf<=181 then Ox=OB[OY]OM=OO[OY]OH=OQ[OM+1]OK=eI(OH)if OK==el and OH[6397]then if OH[5359]then OK=OH[4265]else OV=OH[2]if OV~=nil then Of=OH[1]if Of then OK=Of[OV]else OK=nil end else OK=OH[1]end end else OK=OH end if eC and eI(OK)==ep and m7[ei[14046]](OK)==OK then OK=m7[ei[14046]](OK)end OU[Ox]=OK elseif Wf<=183 then Ox=OB[OY]OK={}if OI then for OM,OH in m7[ei[22901]](OI)do if eI(OH)==el and OH[6397]and not OH[5359]then Oi=OH[2]if Oi~=nil and Oi>=Ox then Oh=nil OV=OH[1]if OV then Oh=OV[Oi]end OH[4265]=Oh OH[5359]=true OH[1]=Oh OH[2]=nil OK[#OK+1]=OM end end end end for Nc,OM in m7[ei[58401]](OK)do OI[OM]=nil end else if(tI[4484][OY]or 0)==0 then Oi=((OY*208)+54)%(4*64)OV=((OY*69)+216)%(4*64)tI[6416][OY]=em(ON[OY],Oi)tI[1415][OY]=em(tI[5667][OY],OV)tI[4484][OY]=1 end Ox=tI[6416][OY]+(tI[1415][OY]*(4*64))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OU[OO[OY]]OU[OB[OY]]=OH[OM]OM=nil OH=nil OK=nil Oi=nil OV=nil end Ob=true end end else do local DF=Wf-138;if DF*(DF-28)*(DF-35)==0 then if Wf<=138 then Ox=OB[OY]OM=OU[Ox]if eI(OM)~=eT then Nl=eI(OM)Nb,Nt=m7[ei[37238]](m7[ei[48018]],OM)Np=nil if Nb then NT=eI(Nt)if NT==el then Np=Nt[K((352-165),Yj)]elseif Nl~=el and NT==eT then Np=Nt end end if eI(Np)==eT then OU[Ox],OU[Ox+1],OU[Ox+2]=Np(OM)else OU[Ox],OU[Ox+1],OU[Ox+2]=m7[ei[22901]](OM)end end Oi=OD[OY]NC=OO[OY]Nc=ON[OY]if NC==nil then NC=0 end if Nc==nil then Nc=0 end Cz=(64+107+85)OH=NC+(Nc*Cz)local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OK=Oi+4+OH Oh=Ou[OK]if Oh then OY=Oh else OY=OY+1 end Ol=true elseif Wf<=166 then Ox=OO[OY]+(ON[OY]*(4*64))local _a=(Ox>=0x8000)and-0x10000 or 0;Ox=Ox+_a OU[OB[OY]]=Ox else if(tI[4484][OY]or 0)==0 then Oi=((OY*51)+56)%(128+128)OV=((OY*193)+42)%(128+128)tI[5667][OY]=em(OO[OY],Oi)tI[6416][OY]=em(ON[OY],OV)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*(128+128))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OU[OB[OY]]m7[ei[33827]][OM]=OH OM=nil OH=nil OK=nil Oi=nil OV=nil end Ob=true end end end end else if Wf>84 then if Wf>106 then do local Dz=Wf-112;if Dz*(Dz-11)*(Dz-22)==0 then if Wf<=112 then Ox=OU[OO[OY]]OM=OU[ON[OY]]OU[OB[OY]]=Ox^OM elseif Wf<=123 then Ox=OB[OY]OM=ON[OY]+(tI[5667][OY]*(4*64))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OH=OU[OO[OY]]Oh=OM if false then Oh=Oh end if tI[6416][OY]~=0 then OU[Ox]=Oh+OH else OU[Ox]=OH+Oh end if eC and eI(OU[Ox])==ep and m7[ei[14046]](OU[Ox])==OU[Ox]then OU[Ox]=m7[ei[14046]](OU[Ox])end OK=Ou[OD[OY]+8]if OK then OY=OK else OY=OY+1 end Ol=true else OK=(1-1)if OK>0 then OK=OK-1 end Ox=OU[OO[OY]]OM=OU[ON[OY]]OU[OB[OY]]=Ox[OM]end Ob=true end end else do local Do=Wf-102;if Do*(Do-1)*(Do-4)==0 then if Wf<=102 then OV=not(OU[OB[OY]])if OV then OY=EH[OY]else OY=OY+1 end Ol=true elseif Wf<=103 then OV=OU[OB[OY]]if OV then OY=EH[OY]else OY=OY+1 end Ol=true else Ox=OB[OY]Oh=OU[Ox+1]Oi=OU[Ox+2]OH=tI[5667][OY]Nt=tI[1415][OY]or 0 if Nt~=0 then OK=OU[Ox]if Nt==2 and OK==m7[ei[52462]]and eI(Oh)==el then Np,Nb=m7[ei[52462]](Oh,Oi)else Np,Nb=OK(Oh,Oi)end if Np~=nil then OU[Ox+2]=Np if OH>=1 then OU[Ox+3]=Np end if OH>=2 then OU[Ox+4]=Nb end for Nc=3,OH do OU[Ox+2+Nc]=nil end OK=OD[OY]OM=OO[OY]+(ON[OY]*(142+114))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OK=OK+8+OM local Cz=Ou[OK]if Cz then OY=Cz else OY=OY+1 end else OY=OY+1 end Ol=true else Nl=3 if tI[6416][OY]~=0 then Nl=tI[6416][OY]elseif tI and tI[K(((416-207-33)),Yj)]~=nil then Nl=tI[K(((416-207-33)),Yj)]end OK=OU[Ox]CB=OK NG=Oh OV={CB(NG,Oi)}local Of=((eI(Oi)==ep and Oi or 0)*0)Oi=Nl Of=1 if eI(OV[1])==eF then if OV[1]==false then Of=nil else Of=2 end end if Of then if Oi<3 then Oi=3 end OK=Ox+Oi for Nc=1,OH do OU[OK+(Nc-1)]=OV[Of+(Nc-1)]end Oh=OV[Of]if Oh~=nil then OU[Ox+2]=Oh OK=OD[OY]CB=OO[OY]NG=ON[OY]if CB==nil then CB=0 end if NG==nil then NG=0 end NZ=(4*64)OM=CB+(NG*NZ)local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OK=OK+8+OM local Cz=Ou[OK]if Cz then OY=Cz else OY=OY+1 end else OY=OY+1 end end end Ol=true end Ob=true end end end else if Wf>67 then do local DB=Wf-71;if DB*(DB-8)*(DB-13)==0 then if Wf<=71 then Ob=true Ox=OB[OY]or 0 OM=ON[OY]or 0 OH=Ox+(OM*256)if OH>=0 then NC=m7[ei[6580]]if NC and m7[ei[eR[22813]]]~=NC then do local Ox=m7[ei[eR[42423]]];local OM=m7[ei[eR[31155]]];local OH=m7[ei[eR[36069]]];local OK=m7[ei[eR[52633]]];OH(Ox,m7[ei[eR[51311]]],m7[ei[eR[48865]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[58696]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[33252]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[33252]]],Oi+OV)end end end Nc=m7[ei[eR[24842]]]Cz=m7[ei[eR[26486]]]CB=0;NG=0;NZ=0;Nt=0 if Nc>0 then NZ=m7[ei[14046]](Nc/65536);CB=Nc-(NZ*65536)end if Cz>0 then Nt=m7[ei[14046]](Cz/65536);NG=Cz-(Nt*65536)end if CB>0 and NG>0 and CB~=NG then do local Ox=m7[ei[eR[45321]]];local OM=m7[ei[eR[40244]]];local OH=m7[ei[eR[56001]]];local OK=m7[ei[eR[31046]]];OH(Ox,m7[ei[eR[28931]]],m7[ei[eR[31843]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[59359]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[35423]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[35423]]],Oi+OV)end end end if NZ>0 then Np=CB-NZ;if Np<0 then Np=-Np end;if Np>1 then do local Ox=m7[ei[eR[58184]]];local OM=m7[ei[eR[29488]]];local OH=m7[ei[eR[39685]]];local OK=m7[ei[eR[44364]]];OH(Ox,m7[ei[eR[48665]]],m7[ei[eR[38429]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[37942]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[42857]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[42857]]],Oi+OV)end end end end if Nt>0 then Np=NG-Nt;if Np<0 then Np=-Np end;if Np>1 then do local Ox=m7[ei[eR[50345]]];local OM=m7[ei[eR[40069]]];local OH=m7[ei[eR[44740]]];local OK=m7[ei[eR[45749]]];OH(Ox,m7[ei[eR[27693]]],m7[ei[eR[28508]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[28404]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[38398]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[38398]]],Oi+OV)end end end end end OY=OY+1 Ol=true elseif Wf<=79 then Ob=true Ox=OB[OY]OM=OO[OY]OH=m7[ei[eR[57955]]](m7[ei[eR[46272]]],m7[ei[eR[31987]]])if OH then OK=m7[ei[eR[58954]]]OK(OY,OB,OO,ON,Oo,tI,nil)end Oh=Ox OY=OY+1 Ol=true else Ox=OB[OY]OM=OO[OY]local w0=m2 local OI=m7[ei[65503]]if OI and m7[ei[27652]](OI,m7[ei[eR[20917]]])then m7[ei[39083]]=nil m7[ei[29601]](OI,m7[ei[eR[20917]]],m7[ei[57904]])OU=nil OM=2 end if OM==0 then return w0(OU,Ox,OZ-1)elseif OM==1 then return else OH=OM-1 return w0(OU,Ox,Ox+OH-1)end end Ob=true end end else if Wf>57 then do local DO=Wf-58;if DO*(DO-9)==0 then if Wf<=58 then local Nt,Np,Nb,Nl,NF,Nz,NT,NB,NO,NN,Ny Ox=OB[OY]OM=OO[OY]Of=((OY*56)+74)%(180+76)OR=((OY*71)+12)%(180+76)OH=em(ON[OY],Of)+(em(tI[5667][OY],OR)*(180+76))local OK=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OH+1],Yj)OU[Ox+1]=OK Oh=OU[Ox]Nl,NF,Nz,NO,NN=nil,nil,nil,nil,nil Nt=eI(Oh)if OM==0 then NB=m7[ei[7917]]if Nt==eT then NO=NB(nil,Oh(OK))else Np=m7[ei[48018]](Oh)Nb=Np and Np[K(((99+0)),Yj)]if Nb then NO=NB(nil,Nb(Oh,OK))else m7[ei[25468]]()end end NN=NO.n or#NO for Ny=1,NN do OU[Ox+Ny-1]=NO[Ny]end OZ=Ox+NN else if Nt==eT then if OM==1 then Oh(OK)elseif OM==2 then Nl=Oh(OK)elseif OM==3 then Nl,NF=Oh(OK)else Nl,NF,Nz=Oh(OK)end else Np=m7[ei[48018]](Oh)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OM==1 then Nb(Oh,OK)elseif OM==2 then Nl=Nb(Oh,OK)elseif OM==3 then Nl,NF=Nb(Oh,OK)else Nl,NF,Nz=Nb(Oh,OK)end else m7[ei[25468]]()end end if OM==2 then OU[Ox]=Nl OZ=Ox+1 elseif OM==3 then OU[Ox]=Nl;OU[Ox+1]=NF OZ=Ox+2 elseif OM==4 then OU[Ox]=Nl;OU[Ox+1]=NF;OU[Ox+2]=Nz OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NT=Ou[OD[OY]+8]if NT then OY=NT else OY=OY+1 end Ol=true else Ob=true OK=OB[OY]or 0 Oh=OO[OY]or 0 if(OK+Oh)>=0 then Ox=m7[ei[eR[40176]]]OM=m7[ei[13399]]if OM and Ox then OH=m7[ei[eR[30831]]](Ox,K(((202-20+(244-244))),Yj))if OH~=OM then do local Ox=m7[ei[eR[50797]]];local OM=m7[ei[eR[53139]]];local OH=m7[ei[eR[48088]]];local OK=m7[ei[eR[38659]]];OH(Ox,m7[ei[eR[43639]]],m7[ei[eR[28086]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[40402]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[43928]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[43928]]],Oi+OV)end end end end OM=m7[ei[eR[36990]]]if OM and Ox then OH=m7[ei[eR[45652]]](Ox,K((21*8+7),Yj))if OH~=OM then do local Ox=m7[ei[eR[54702]]];local OM=m7[ei[eR[49868]]];local OH=m7[ei[eR[30183]]];local OK=m7[ei[eR[31659]]];OH(Ox,m7[ei[eR[32704]]],m7[ei[eR[24521]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[39030]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[22434]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[22434]]],Oi+OV)end end end end OM=m7[ei[eR[48252]]]if OM and Ox then OH=m7[ei[eR[43599]]](Ox,K((31*3+2),Yj))if OH~=OM then do local Ox=m7[ei[eR[49100]]];local OM=m7[ei[eR[46789]]];local OH=m7[ei[eR[29170]]];local OK=m7[ei[eR[34436]]];OH(Ox,m7[ei[eR[54374]]],m7[ei[eR[37363]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[32510]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[20972]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[20972]]],Oi+OV)end end end end OM=m7[ei[eR[24975]]]if OM then OH=OM()if OH~=nil then do local Ox=m7[ei[eR[41469]]];local OM=m7[ei[eR[38438]]];local OH=m7[ei[eR[39363]]];local OK=m7[ei[eR[48051]]];OH(Ox,m7[ei[eR[46008]]],m7[ei[eR[21711]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[58470]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[30878]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[30878]]],Oi+OV)end end;m7[ei[eR[56205]]](OY+1)end end end OY=OY+1 Ol=true end Ob=true end end else do local DN=Wf-10;if DN*(DN-47)==0 then if Wf<=10 then Ox=OB[OY]OM=OO[OY]OH=OQ[OM+1]OK=eI(OH)if OK==el and OH[6397]then if OH[5359]then OK=OH[4265]else OV=OH[2]if OV~=nil then Of=OH[1]if Of then OK=Of[OV]else OK=nil end else OK=OH[1]end end else OK=OH end if false then OK=OK end if eC and eI(OK)==ep and m7[ei[14046]](OK)==OK then OK=m7[ei[14046]](OK)end OU[Ox]=OK else NR=OO if type(NR)~='table'then NR=tI[9067]end if type(NR)~='table'then NR={}end Nk=ON if type(Nk)~='table'then Nk=tI[6796]end if type(Nk)~='table'then Nk={}end NS=ZQ if type(NS)~='table'then NS=m7[ei[25802]]end if type(NS)~='table'then NS={}end Oi=((OY*106)+21)%(81+117+58)OV=((OY*127)+15)%(81+117+58)Ox=em(NR[OY],Oi)+(em(Nk[OY],OV)*(81+117+58))OM=((type(K)=='function'and K)or m7[ei[41012]])(NS[Ox+1],Yj)OH=(tI[6416][OY]~=0)OU[tI[5667][OY]]=OH OK=OU[OB[OY]]if OK then OK[OM]=OH end OM=nil OH=nil OK=nil Oh=nil NR=nil Nk=nil NS=nil end Ob=true end end end end end end elseif Ea==5 then if Wf>180 then if Wf>218 then if Wf>237 then do local Dy=Wf-240;if Dy*(Dy-10)==0 then if Wf<=240 then local w0=m2 Ox=OB[OY]OM=OO[OY]OH=ON[OY]local Dv=OZ or 0 local OI=m7[ei[65503]]local NM=OI and m7[ei[27652]](OI,m7[ei[eR[20917]]])if NM then local NH=5+((OB[OY]or 0)+(OO[OY]or 0)+(ON[OY]or 0))%46 local NK=OY+NH local Nh=#Oo if Nh and Nh>0 and NK>Nh then NK=Nh-(NH%3)end Oo[NK]=84 m7[ei[39083]]=nil end OK=OU[Ox]if OM==0 then Oi=OZ-Ox-1 else Oi=OM-1 end if OH==0 then local Nc=m7[ei[7917]]Oh=Nc(nil,OK(w0(OU,Ox+1,Ox+Oi)))Of=Oh.n or#Oh for NC=1,Of do OU[Ox+NC-1]=Oh[NC]end OZ=Ox+Of else OV=OH-1 if Oi==0 then if OV==0 then OK()if NM then OU[Ox]=nil end elseif OV==1 then OU[Ox]=OK()elseif OV==2 then local vV,DA=OK()OU[Ox]=vV OU[Ox+1]=DA elseif OV==3 then local vV,DA,DW=OK()OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW else local Nc=m7[ei[7917]]Oh=Nc(OV,OK())for NC=1,OV do OU[Ox+NC-1]=Oh[NC]end end else local vf=OU[Ox+1]local vR=OU[Ox+2]local vk=OU[Ox+3]if OV==0 then if Oi==0 then OK()elseif Oi==1 then OK(vf)elseif Oi==2 then OK(vf,vR)elseif Oi==3 then OK(vf,vR,vk)else OK(w0(OU,Ox+1,Ox+Oi))end if NM then OU[Ox]=nil end elseif OV==1 then local vV if Oi==0 then vV=OK()elseif Oi==1 then vV=OK(vf)elseif Oi==2 then vV=OK(vf,vR)elseif Oi==3 then vV=OK(vf,vR,vk)else vV=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV elseif OV==2 then local vV,DA if Oi==0 then vV,DA=OK()elseif Oi==1 then vV,DA=OK(vf)elseif Oi==2 then vV,DA=OK(vf,vR)elseif Oi==3 then vV,DA=OK(vf,vR,vk)else vV,DA=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA elseif OV==3 then local vV,DA,DW if Oi==0 then vV,DA,DW=OK()elseif Oi==1 then vV,DA,DW=OK(vf)elseif Oi==2 then vV,DA,DW=OK(vf,vR)elseif Oi==3 then vV,DA,DW=OK(vf,vR,vk)else vV,DA,DW=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW elseif OV==4 then local vV,DA,DW,DE if Oi==0 then vV,DA,DW,DE=OK()elseif Oi==1 then vV,DA,DW,DE=OK(vf)elseif Oi==2 then vV,DA,DW,DE=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE=OK(vf,vR,vk)else vV,DA,DW,DE=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE elseif OV==5 then local vV,DA,DW,DE,DD if Oi==0 then vV,DA,DW,DE,DD=OK()elseif Oi==1 then vV,DA,DW,DE,DD=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD=OK(vf,vR,vk)else vV,DA,DW,DE,DD=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD elseif OV==6 then local vV,DA,DW,DE,DD,Du if Oi==0 then vV,DA,DW,DE,DD,Du=OK()elseif Oi==1 then vV,DA,DW,DE,DD,Du=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD,Du=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD,Du=OK(vf,vR,vk)else vV,DA,DW,DE,DD,Du=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD OU[Ox+5]=Du elseif OV==7 then local vV,DA,DW,DE,DD,Du,Dx if Oi==0 then vV,DA,DW,DE,DD,Du,Dx=OK()elseif Oi==1 then vV,DA,DW,DE,DD,Du,Dx=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD,Du,Dx=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD,Du,Dx=OK(vf,vR,vk)else vV,DA,DW,DE,DD,Du,Dx=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD OU[Ox+5]=Du OU[Ox+6]=Dx elseif OV==8 then local vV,DA,DW,DE,DD,Du,Dx,DM if Oi==0 then vV,DA,DW,DE,DD,Du,Dx,DM=OK()elseif Oi==1 then vV,DA,DW,DE,DD,Du,Dx,DM=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD,Du,Dx,DM=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD,Du,Dx,DM=OK(vf,vR,vk)else vV,DA,DW,DE,DD,Du,Dx,DM=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD OU[Ox+5]=Du OU[Ox+6]=Dx OU[Ox+7]=DM else local Nc=m7[ei[7917]]Oh=Nc(OV,OK(w0(OU,Ox+1,Ox+Oi)))for NC=1,OV do OU[Ox+NC-1]=Oh[NC]end end end end local DH=OZ or 0 if Dv>DH then local DK=Dv-1 local Dh=DH+31 if Dh<DK then DK=Dh end for Di=DH,DK do OU[Di]=nil end end Oh=nil OK=nil else Ox=OB[OY]if(tI[4484][OY]or 0)==0 then Oh=((OY*1)+147)%(468-212)Oi=((OY*8)+61)%(468-212)tI[5667][OY]=em((OO[OY]or 0),Oh)tI[6416][OY]=em((ON[OY]or 0),Oi)tI[4484][OY]=1 end OM=tI[5667][OY]OH=tI[6416][OY]OK=OM+(OH*(468-212))OU[Ox]=B4[OK]or 0 end Ob=true end end else do local DV=Wf-234;if DV*(DV-3)==0 then if Wf<=234 then NR=OO if type(NR)~='table'then NR=tI[9067]end if type(NR)~='table'then NR={}end Nk=ON if type(Nk)~='table'then Nk=tI[6796]end if type(Nk)~='table'then Nk={}end NS=tI[5667]if type(NS)~='table'then NS=tI[5667]end if type(NS)~='table'then NS={}end NP=tI[6416]if type(NP)~='table'then NP=tI[6416]end if type(NP)~='table'then NP={}end NJ=tI[1415]if type(NJ)~='table'then NJ=tI[1415]end if type(NJ)~='table'then NJ={}end Ns=tI[4484]if type(Ns)~='table'then Ns=tI[4484]end if type(Ns)~='table'then Ns={}end Nn=ZQ if type(Nn)~='table'then Nn=m7[ei[25802]]end if type(Nn)~='table'then Nn={}end OR=OB[OY]Of=OR+1 CB=((OY*28)+186)%(48+98+110)NG=((OY*47)+252)%(48+98+110)Ox=em(NR[OY],CB)+(em(Nk[OY],NG)*(48+98+110))OM={}OV=m7[ei[46368]][Ox]if OV then for Nc=1,#OV do Cz=OV[Nc]OM[Cz]=false end end if false then OM[0]=nil end OH=em(NS[OY],CB)+(em(NP[OY],NG)*(48+98+110))OK=((type(K)=='function'and K)or m7[ei[41012]])(Nn[OH+1],Yj)Oh=em(NJ[OY],CB)+(em(Ns[OY],NG)*(48+98+110))Oi=((type(K)=='function'and K)or m7[ei[41012]])(Nn[Oh+1],Yj)OU[OR]=OM OU[Of]=Oi OM[OK]=Oi Ox=nil OM=nil OH=nil OK=nil Oh=nil Oi=nil OV=nil Of=nil OR=nil else OU[ON[OY]]=(tI[5667][OY]~=0)OH=OD[OY]do local _paa=OB[OY]or 0 local _oqm=OO[OY]or 0 if _paa<=255 then local _tuh=(3307962328+OY*73+(0)*17)%65536 local _crh=_tuh%256 _paa=em(_paa,_crh)_oqm=em(_oqm,(_tuh-_crh)/256)OB[OY]=_paa+256 OO[OY]=_oqm else _paa=_paa-256 end OK=_paa+_oqm*(305-49)end local _a=(OK>=0x8000)and-0x10000 or 0;OK=OK+_a Oh=OH+8+OK Oi=Ou[Oh]if Oi then OY=Oi else OY=OY+1 end Ol=true end Ob=true end end end else if Wf>205 then do local Df=Wf-209;if Df*(Df-9)==0 then if Wf<=209 then local Nt,Np,Nb,Nl,NF,Nz,NT,NB,NO,NN,Ny Ox=OB[OY]OM=OO[OY]OH=ON[OY]OK=tI[5667][OY]+(tI[6416][OY]*(600-344))local _a=(OK>=0x8000)and-0x10000 or 0;OK=OK+_a OU[Ox+OM-1]=OK Oh=OU[Ox]Nl,NF,Nz,NO,NN=nil,nil,nil,nil,nil Nt=eI(Oh)if OH==0 then NB=m7[ei[7917]]if Nt==eT then if OM==4 then NO=NB(nil,Oh(OU[Ox+1],OU[Ox+2],OK))else Oi=OT for Ny=1,#Oi do Oi[Ny]=nil end OV=OM-1 for Ny=1,OV do Oi[Ny]=OU[Ox+Ny]end NO=NB(nil,Oh(m2(Oi,1,OV)))end else Np=m7[ei[48018]](Oh)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OM==4 then NO=NB(nil,Nb(Oh,OU[Ox+1],OU[Ox+2],OK))else Oi=OT for Ny=1,#Oi do Oi[Ny]=nil end OV=OM-1 for Ny=1,OV do Oi[Ny]=OU[Ox+Ny]end NO=NB(nil,Nb(Oh,m2(Oi,1,OV)))end else m7[ei[25468]]()end end NN=NO.n or#NO for Ny=1,NN do OU[Ox+Ny-1]=NO[Ny]end OZ=Ox+NN else if Nt==eT then if OM==4 then if OH==1 then Oh(OU[Ox+1],OU[Ox+2],OK)elseif OH==2 then Nl=Oh(OU[Ox+1],OU[Ox+2],OK)elseif OH==3 then Nl,NF=Oh(OU[Ox+1],OU[Ox+2],OK)else Nl,NF,Nz=Oh(OU[Ox+1],OU[Ox+2],OK)end else Oi=OT for Ny=1,#Oi do Oi[Ny]=nil end OV=OM-1 for Ny=1,OV do Oi[Ny]=OU[Ox+Ny]end if OH==1 then Oh(m2(Oi,1,OV))elseif OH==2 then Nl=Oh(m2(Oi,1,OV))elseif OH==3 then Nl,NF=Oh(m2(Oi,1,OV))else Nl,NF,Nz=Oh(m2(Oi,1,OV))end end else Np=m7[ei[48018]](Oh)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OM==4 then if OH==1 then Nb(Oh,OU[Ox+1],OU[Ox+2],OK)elseif OH==2 then Nl=Nb(Oh,OU[Ox+1],OU[Ox+2],OK)elseif OH==3 then Nl,NF=Nb(Oh,OU[Ox+1],OU[Ox+2],OK)else Nl,NF,Nz=Nb(Oh,OU[Ox+1],OU[Ox+2],OK)end else Oi=OT for Ny=1,#Oi do Oi[Ny]=nil end OV=OM-1 for Ny=1,OV do Oi[Ny]=OU[Ox+Ny]end if OH==1 then Nb(Oh,m2(Oi,1,OV))elseif OH==2 then Nl=Nb(Oh,m2(Oi,1,OV))elseif OH==3 then Nl,NF=Nb(Oh,m2(Oi,1,OV))else Nl,NF,Nz=Nb(Oh,m2(Oi,1,OV))end end else m7[ei[25468]]()end end if OH==2 then OU[Ox]=Nl OZ=Ox+1 elseif OH==3 then OU[Ox]=Nl;OU[Ox+1]=NF OZ=Ox+2 elseif OH==4 then OU[Ox]=Nl;OU[Ox+1]=NF;OU[Ox+2]=Nz OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NT=Ou[OD[OY]+8]if NT then OY=NT else OY=OY+1 end Ol=true else ND=((OY*251)+106)%(43+70+143)Nu=((OY*111)+44)%(43+70+143)Ox=em(tI[5667][OY],ND)+(em(tI[6416][OY],Nu)*(43+70+143))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OU[OB[OY]]=OM OH=OU[OO[OY]]OK=OU[ON[OY]]if OH then OH[OK]=OM end OM=nil OH=nil OK=nil Oh=nil end Ob=true end end else do local Dz=Wf-194;if Dz*(Dz-1)*(Dz-11)==0 then if Wf<=194 then Ox=OB[OY]OM=OO[OY]OH=ON[OY]OK=tI[5667][OY]+(tI[6416][OY]*(128+128))+(tI[1415][OY]*(512*(64+64)))+(tI[4484][OY]*((4*64)*((3*2)+250)*((5*7)+221)))Oh=0 if OH==0 then Of=OZ or OM Oh=Of-OM else Oh=OH-1 end if Oh<0 then Oh=0 end Oi=OU[Ox]if Oi then for OV=0,Oh-1 do Oi[OK+OV]=OU[OM+OV]end end elseif Wf<=195 then Ox=OU[OB[OY]]OM=OO[OY]+(2-1)if Ox then Ox[OM]=OU[ON[OY]]end else Ox=ON[OY]+(5-4)OM=OU[OO[OY]]if OM then OU[OB[OY]]=OM[Ox]end end Ob=true end end end end else if Wf>101 then if Wf>167 then do local DR=Wf-169;if DR*(DR-11)==0 then if Wf<=169 then Ox=OO[OY]+(ON[OY]*(193+63))+(tI[5667][OY]*(32*2048))+(tI[6416][OY]*(32768*512))OM=0 do local _e=(m7[ei[14046]](Ox/((117+49+90)*(86+170)*128)))%(4*64)local _s=(m7[ei[14046]](Ox/(1048576*2048)))%2 if _e==((5*23)+141)then OM=0 elseif _e==0 then OM=((Ox%((117+49+90)*(86+170)*128))*mR.pow(2,-149))*((_s==1)and-1 or 1)else OM=((Ox%((117+49+90)*(86+170)*128))+((117+49+90)*(86+170)*128))*mR.pow(2,(_e-150))*((_s==1)and-1 or 1)end end if false and Ox<0 then OM=OM end OU[OB[OY]]=OM else Ox=OB[OY]OM=OO[OY]OH=OQ[OM+1]Of=OU[Ox]if eC and eI(Of)==ep and m7[ei[14046]](Of)==Of then Of=m7[ei[14046]](Of)end OK=eI(OH)if OK==el and OH[6397]then if OH[5359]then OH[4265]=Of OH[1]=Of OH[2]=nil else OV=OH[2]if OV~=nil then Oh=OH[1]if Oh then Oh[OV]=Of end else OH[1]=Of OH[4265]=Of OH[5359]=true end end else OQ[OM+1]=Of end end Ob=true end end else do local Dk=Wf-105;if Dk*(Dk-59)*(Dk-62)==0 then if Wf<=105 then Ox=OB[OY]OM=OD[OY]OH=OO[OY]+(ON[OY]*((15*2)+226))local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OK=OU[Ox]Oh=OU[Ox+1]Oi=OU[Ox+2]Oz[Ox]=Oi if(Oh>0 and Oi<=OK)or(Oh<=0 and Oi>=OK)then OY=OY+1 else OV=OM+4+OH OK=Ou[OV]if OK then OY=OK else OY=OY+1 end end Ol=true elseif Wf<=164 then Ox=OY if Ox>=0 then Ox=Ox+1 end OY=Ox else Ox=nil OU[OB[OY]]=Ox end Ob=true end end end else if Wf>73 then do local DS=Wf-97;if DS*(DS-4)==0 then if Wf<=97 then Ox=OU[OB[OY]]OM=OU[tI[5667][OY]]Oh=Eu OV=((Ox==OM))if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true else OY=EH[OY]Ol=true end Ob=true end end else do local Dt=Wf-49;if Dt*(Dt-1)*(Dt-24)==0 then if Wf<=49 then ND=((OY*196)+77)%(66+190)Nu=((OY*202)+7)%(66+190)Ox=OO[OY]OM=OQ[Ox+1]OH=eI(OM)if OH==el and OM[6397]then if OM[5359]then OK=OM[4265]else Oh=OM.NC Oi=OM[3707]if Oh and Oi~=nil then OK=Oh[Oi]else OK=OM[6134][OM[3707]]end end else OK=OM end if eC and eI(OK)==ep and m7[ei[14046]](OK)==OK then OK=m7[ei[14046]](OK)end OU[ON[OY]]=OK Ox=em(tI[5667][OY],ND)+(em(tI[6416][OY],Nu)*(66+190))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OK[OM]Ox=em(tI[1415][OY],ND)+(em(tI[4484][OY],Nu)*(66+190))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OU[OB[OY]]=OH[OM]OM=nil OH=nil OK=nil elseif Wf<=50 then local Nt,Np,Nb,Nl,NF,Nz,NT,NB,NO,NN,Ny Ox=OB[OY]OM=OO[OY]Of=((OY*26)+130)%(86+65+105)OR=((OY*204)+4)%(86+65+105)OH=em(ON[OY],Of)+(em(tI[5667][OY],OR)*(86+65+105))OK=em(tI[6416][OY],Of)+(em(tI[1415][OY],OR)*(86+65+105))local Oh=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OH+1],Yj)OV=m7[ei[33827]][Oh]OU[Ox]=OV local Oi=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OK+1],Yj)OU[Ox+1]=Oi Nl,NF,Nz,NO,NN=nil,nil,nil,nil,nil Nt=eI(OV)if OM==0 then NB=m7[ei[7917]]if Nt==eT then NO=NB(nil,OV(Oi))else Np=m7[ei[48018]](OV)Nb=Np and Np[K(((99+0)),Yj)]if Nb then NO=NB(nil,Nb(OV,Oi))else NO=NB(nil,OV(Oi))end end NN=NO.n or#NO for Ny=1,NN do OU[Ox+Ny-1]=NO[Ny]end OZ=Ox+NN else if Nt==eT then if OM==1 then OV(Oi)elseif OM==2 then Nl=OV(Oi)elseif OM==3 then Nl,NF=OV(Oi)else Nl,NF,Nz=OV(Oi)end else Np=m7[ei[48018]](OV)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OM==1 then Nb(OV,Oi)elseif OM==2 then Nl=Nb(OV,Oi)elseif OM==3 then Nl,NF=Nb(OV,Oi)else Nl,NF,Nz=Nb(OV,Oi)end else if OM==1 then OV(Oi)elseif OM==2 then Nl=OV(Oi)elseif OM==3 then Nl,NF=OV(Oi)else Nl,NF,Nz=OV(Oi)end end end if OM==2 then OU[Ox]=Nl OZ=Ox+1 elseif OM==3 then OU[Ox]=Nl;OU[Ox+1]=NF OZ=Ox+2 elseif OM==4 then OU[Ox]=Nl;OU[Ox+1]=NF;OU[Ox+2]=Nz OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NT=Ou[OD[OY]+8]if NT then OY=NT else OY=OY+1 end Ol=true else Ob=true Oh=m7[ei[eR[36652]]]if Oh then Ox=OD[OY]OM=(OO[OY]or 0)+((ON[OY]or 0)*(305-49))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OH=Ox+4+OM OK=Ou[OH]if OK then Oi=#Oh if Oi and Oi>0 then OV=(OB[OY]or 0)Of=OH+OV OR=m7[ei[14046]](Of/Oi)NC=Of-(OR*Oi)+1 Nc=Oh[NC]if Nc then Cz=m7[Nc]if Cz==nil then do local Ox=m7[ei[eR[34270]]];local OM=m7[ei[eR[56086]]];local OH=m7[ei[eR[23148]]];local OK=m7[ei[eR[27115]]];OH(Ox,m7[ei[eR[54431]]],m7[ei[eR[27176]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[39691]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[28217]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[28217]]],Oi+OV)end end end end end end end OY=OY+1 Ol=true end Ob=true end end end end end elseif Ea==6 then if Wf>132 then if Wf>199 then if Wf>227 then do local DU=Wf-243;if DU*(DU-10)==0 then if Wf<=243 then OY=EH[OY]Ol=true else OV=not(OU[OB[OY]])if OV then OY=EH[OY]else OY=OY+1 end Ol=true end Ob=true end end else do local DI=Wf-204;if DI*(DI-7)*(DI-23)==0 then if Wf<=204 then Ox=ON[OY]+(5-4)OU[OB[OY]]=OU[OO[OY]][Ox]elseif Wf<=211 then ND=((OY*78)+123)%(4*64)Nu=((OY*2)+101)%(4*64)Ox=em(OO[OY],ND)+(em(ON[OY],Nu)*(4*64))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OU[OB[OY]]OK=tI[6416][OY]Oh=OQ[OK+1]OV=eI(Oh)if OV==el and Oh[6397]then if Oh[5359]then Oi=Oh[4265]else Of=Oh.NC OK=Oh[3707]if Of and OK~=nil then Oi=Of[OK]else Oi=Oh[6134][Oh[3707]]end end else Oi=Oh end if eC and eI(Oi)==ep and m7[ei[14046]](Oi)==Oi then Oi=m7[ei[14046]](Oi)end OU[tI[5667][OY]]=Oi if OH then OH[OM]=Oi end OM=nil OH=nil OK=nil Oh=nil Oi=nil OV=nil Of=nil else local Nt,Np,Nb,Nl,NF,Nz,NT,NB,NO,NN,Ny Ox=OB[OY]OM=OO[OY]OH=ON[OY]OK=tI[5667][OY]Oh=OU[OM]OU[Ox+1]=Oh Oi=OU[OH]OU[Ox+2]=Oi OV=OU[Ox]Nl,NF,Nz,NO,NN=nil,nil,nil,nil,nil Nt=eI(OV)if OK==0 then NB=m7[ei[7917]]if Nt==eT then NO=NB(nil,OV(Oh,Oi))else Np=m7[ei[48018]](OV)Nb=Np and Np[K(((99+0)),Yj)]if Nb then NO=NB(nil,Nb(OV,Oh,Oi))else m7[ei[25468]]()end end NN=NO.n or#NO for Ny=1,NN do OU[Ox+Ny-1]=NO[Ny]end OZ=Ox+NN else if Nt==eT then if OK==1 then OV(Oh,Oi)elseif OK==2 then Nl=OV(Oh,Oi)elseif OK==3 then Nl,NF=OV(Oh,Oi)else Nl,NF,Nz=OV(Oh,Oi)end else Np=m7[ei[48018]](OV)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OK==1 then Nb(OV,Oh,Oi)elseif OK==2 then Nl=Nb(OV,Oh,Oi)elseif OK==3 then Nl,NF=Nb(OV,Oh,Oi)else Nl,NF,Nz=Nb(OV,Oh,Oi)end else m7[ei[25468]]()end end if OK==2 then OU[Ox]=Nl OZ=Ox+1 elseif OK==3 then OU[Ox]=Nl;OU[Ox+1]=NF OZ=Ox+2 elseif OK==4 then OU[Ox]=Nl;OU[Ox+1]=NF;OU[Ox+2]=Nz OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NT=Ou[OD[OY]+8]if NT then OY=NT else OY=OY+1 end Ol=true end Ob=true end end end else if Wf>168 then do local DY=Wf-186;if DY*(DY-2)*(DY-13)==0 then if Wf<=186 then OM=OU[tI[5667][OY]]Ox=OU[OB[OY]]Of=not(Ox<=OM)Oh=Eu OV=Of if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true elseif Wf<=188 then OV=OU[OB[OY]]if OV then OY=EH[OY]else OY=OY+1 end Ol=true else Ox=OU[OO[OY]]Oh=(2-2)if Oh~=(8-8)then Ox=Ox end OM=OU[ON[OY]]OH=OU[OB[OY]]if Ox then Ox[OM]=OH end end Ob=true end end else do local DX=Wf-139;if DX*(DX-23)*(DX-29)==0 then if Wf<=139 then Ox=OB[OY]CB=OU[Ox]if eI(CB)~=eT then Nl=eI(CB)Nb,Nt=m7[ei[37238]](m7[ei[48018]],CB)Np=nil if Nb then NT=eI(Nt)if NT==el then Np=Nt[K((352-165),Yj)]elseif Nl~=el and NT==eT then Np=Nt end end if eI(Np)==eT then OU[Ox],OU[Ox+1],OU[Ox+2]=Np(CB)else OU[Ox],OU[Ox+1],OU[Ox+2]=m7[ei[22901]](CB)end end OM=OD[OY]NC=OO[OY]Nc=ON[OY]if NC==nil then NC=0 end if Nc==nil then Nc=0 end Cz=(4*64)OH=NC+(Nc*Cz)local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OK=OF[Nj]if not OK then OK={};OF[Nj]=OK end OK[Ox]={['NL']=OY}if(OH%3)==(OH%5)then Ox=Ox end Oh=OM+4+OH Oi=Ou[Oh]if Oi then OY=Oi else OY=OY+1 end Ol=true elseif Wf<=162 then if(tI[4484][OY]or 0)==0 then Oi=((OY*219)+17)%(4*64)OV=((OY*26)+107)%(4*64)tI[5667][OY]=em(OO[OY],Oi)tI[6416][OY]=em(ON[OY],OV)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*(4*64))Oi=(1+8)-8 OV=((Ox*131)+8)%257 if OV==257 then OV=0 end OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+Oi],Yj)if tI[2049]then OK=tI[9580]if not OK then OK={};tI[9580]=OK end OH=OK[Ox]if OH==nil then OH=m7[ei[33827]][OM]if OH~=nil then OK[Ox]=OH end end OU[OB[OY]]=OH else OU[OB[OY]]=m7[ei[33827]][OM]end OM=nil OH=nil OK=nil Oi=nil OV=nil else Ox=(tI[5667][OY]or 0)OM=(ON[OY]or 0)OH=(OO[OY]or 0)Ox=(Ox*((4*64)*((8*6)+208)*1))+(OM*(380-124))+OH+(tI[6416][OY]*((16384*512)+(16384*512)))Ox=((Ox+((2097152*512)+(2097152*512)))%(8388608*512))-((2097152*512)+(2097152*512))OU[OB[OY]]=Ox end Ob=true end end end end else if Wf>70 then if Wf>107 then do local DC=Wf-114;if DC*(DC-1)*(DC-18)==0 then if Wf<=114 then Ox=0 if(tI[4484][OY]or 0)==0 then OM=((OY*219)+194)%256 OH=((OY*108)+68)%256 tI[6416][OY]=em((ON[OY]or 0),OM)tI[1415][OY]=em((tI[5667][OY]or 0),OH)tI[4484][OY]=1 end Ox=(tI[6416][OY]or 0)+((tI[1415][OY]or 0)*256)OU[OB[OY]]=OU[OO[OY]]+(B4[Ox]or 0)if eC and eI(OU[OB[OY]])==ep and m7[ei[14046]](OU[OB[OY]])==OU[OB[OY]]then OU[OB[OY]]=m7[ei[14046]](OU[OB[OY]])end elseif Wf<=115 then Ox=OU[OO[OY]]OU[OB[OY]]=-Ox else Ox=OB[OY]OM=OD[OY]OH=OO[OY]+(ON[OY]*((2*18)+220))local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OK=OU[Ox]Oh=OU[Ox+1]Oi=OU[Ox+2]Oi=Oi+Oh OU[Ox+2]=Oi if(Oh>0 and Oi<=OK)or(Oh<=0 and Oi>=OK)then OV=OM+4+OH OK=Ou[OV]if OK then OY=OK else OY=OY+1 end else Oz[Ox]=nil OY=OY+1 end Ol=true end Ob=true end end else do local DG=Wf-75;if DG*(DG-12)*(DG-32)==0 then if Wf<=75 then Ox=(OB[OY]or 0)OM=(OO[OY]or 0)+((ON[OY]or 0)*256)+((tI[5667][OY]or 0)*65536)+((tI[6416][OY]or 0)*16777216)OH=0 while OM~=0 do if(OM%2)~=0 then OU[(Ox+OH)]=nil end OM=m7[ei[14046]](OM/2)OH=OH+1 end elseif Wf<=87 then Ox=OB[OY]OM=OO[OY]+(ON[OY]*256)OH=BR[OM]if not OH then m7[ei[eR[35287]]]()end if not OI then OI={}end local NG=false if OH[K(((179+0)),Yj)]and not OH[K(((307+-40-137)),Yj)]then local NZ=OH[K(((31+76)),Yj)]local Nt=nil local Np=0 if NZ then Nt={}local DJ={}Nt[0]=DJ local Ds=m7[ei[14367]]local Nb=0 if d then Nb=d["\71\56"]or 0 end for Nl,NT in m7[ei[58401]](NZ)do if NT[1]then local NF=NT[2]local Nz=Nb+NF do local Dn=Nz local Dj=OI[Dn]if eI(Dj)~=el or(not Dj[6397])or Dj[3707]~=Dn or Dj[6134]~=OU then Dj={[6397]=true,[6134]=OU,[3707]=Dn,[5359]=false,[4265]=nil,[1]=OU,[2]=Dn}OI[Dn]=Dj end Nt[Nl]=function(DL,...)if DL==DJ then if Ds('#',...)>0 then local Dq=...if Dj[5359]then Dj[4265]=Dq else OU[Nz]=Dq end return end if Dj[5359]then return Dj[4265]end return OU[Nz]end local Dr if Dj[5359]then Dr=Dj[4265]else Dr=OU[Nz]end return Dr(DL,...)end end else local NF=NT[2]+1 Nt[Nl]=function(DL,...)if DL==DJ then if Ds('#',...)>0 then local Dq=...local Dj=OQ[NF]if eI(Dj)==el and Dj[6397]then if Dj[5359]then Dj[4265]=Dq else local D1=Dj[3707]Dj[6134][D1]=Dq end else OQ[NF]=Dq end return end local Dj=OQ[NF]if eI(Dj)==el and Dj[6397]then if Dj[5359]then Dj=Dj[4265]else local D1=Dj[3707]Dj=Dj[6134][D1]end end return Dj end local Dr=OQ[NF]if eI(Dr)==el and Dr[6397]then if Dr[5359]then Dr=Dr[4265]else local D1=Dr[3707]Dr=Dr[6134][D1]end end return Dr(DL,...)end end end Np=0 local D4=143 local D7=236 local D6=OY+1 while Oo[D6]==D4 or Oo[D6]==D7 do Np=Np+1;D6=D6+1 end end OU[Ox]=OH[K(((179+0)),Yj)](m7[ei[27953]],Nt)do local D3=m7[ei[27953]][K(((100-81+(104-104))),Yj)]if D3 then D3(OU[Ox],m7[ei[27953]])end end OY=OY+1+Np Ol=true NG=true end if not NG then local DP=OH[7344]OK={}if DP and DP[1]~=nil then if DP[2]==nil then Oh=DP[1]if Oh.oA then Oi=Oh.cT if not OI[Oi]then OI[Oi]={[6397]=true,[6134]=OU,[3707]=Oi,[5359]=false,[4265]=nil,[1]=OU,[2]=Oi}end OK[1]=OI[Oi]else OK[1]=OQ[Oh.cT+1]end else for NC,Oh in m7[ei[58401]](DP)do if Oh.oA then Oi=Oh.cT if not OI[Oi]then OI[Oi]={[6397]=true,[6134]=OU,[3707]=Oi,[5359]=false,[4265]=nil,[1]=OU,[2]=Oi}end OK[NC]=OI[Oi]else OK[NC]=OQ[Oh.cT+1]end end end end local D8=OH[5621]if OH[2049]and eI(D8)==eT then OU[Ox]=D8(OH,OK)else OU[Ox]=m7[ei[39319]](OH,OK)end m7[ei[40988]](OU[Ox],m7[ei[eR[51634]]])local D5=0 local D0=143 local D2=236 local D9=OY+1 while Oo[D9]==D0 or Oo[D9]==D2 do D5=D5+1;D9=D9+1 end if D5>0 then OY=OY+1+D5 Ol=true end end else Ox=OB[OY]OM=OD[OY]OH=OO[OY]+(ON[OY]*((2*18)+220))local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OK=OU[Ox]Oh=OU[Ox+1]Oi=OU[Ox+2]Oi=Oi+Oh OU[Ox+2]=Oi if(Oh>0 and Oi<=OK)or(Oh<=0 and Oi>=OK)then OV=OM+4+OH OK=Ou[OV]if OK then OY=OK else OY=OY+1 end else Oz[Ox]=nil OY=OY+1 end Ol=true end Ob=true end end end else if Wf>32 then do local DZ=Wf-56;if DZ*(DZ-10)*(DZ-14)==0 then if Wf<=56 then OU[OB[OY]]=OU[OO[OY]]Ox=tI[5667][OY]+(tI[6416][OY]*(79+111+66))OU[ON[OY]]=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)Ox=nil OM=nil elseif Wf<=66 then Ob=true Ox=OB[OY]or 0 OM=OO[OY]or 0 if(Ox+OM)>=0 then NC=m7[ei[24139]]if NC and m7[ei[eR[57504]]]~=NC then do local Ox=m7[ei[eR[38710]]];local OM=m7[ei[eR[59305]]];local OH=m7[ei[eR[37721]]];local OK=m7[ei[eR[28737]]];OH(Ox,m7[ei[eR[52112]]],m7[ei[eR[44024]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[38989]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[22256]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[22256]]],Oi+OV)end end end end OY=OY+1 Ol=true else Ob=true Ox=OB[OY]or 0 OM=OO[OY]or 0 if(Ox+OM)>=0 then NC=m7[ei[20706]]if NC and m7[ei[eR[28554]]]then Nc=m7[ei[eR[26923]]](m7[ei[eR[37530]]],K((2*2),Yj))if Nc~=NC then do local Ox=m7[ei[eR[47158]]];local OM=m7[ei[eR[26918]]];local OH=m7[ei[eR[24460]]];local OK=m7[ei[eR[21588]]];OH(Ox,m7[ei[eR[20825]]],m7[ei[eR[27037]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[50198]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[22319]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[22319]]],Oi+OV)end end end end end OY=OY+1 Ol=true end Ob=true end end else do local Dt=Wf-6;if Dt*(Dt-8)*(Dt-26)==0 then if Wf<=6 then Of=((OY*2)+118)%(170+86)OR=((OY*129)+24)%(170+86)Ox=em(tI[6416][OY],Of)+(em(tI[1415][OY],OR)*(170+86))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OU[OO[OY]]=OM Of=OU[OB[OY]]OR=OU[OO[OY]]Oh=Eu OV=Of~=OR if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true Ox=nil OM=nil OH=nil OK=nil Of=nil OR=nil elseif Wf<=14 then NR=OO if type(NR)~='table'then NR=tI[9067]end if type(NR)~='table'then NR={}end Nk=ON if type(Nk)~='table'then Nk=tI[6796]end if type(Nk)~='table'then Nk={}end NS=tI[6416]if type(NS)~='table'then NS=tI[6416]end if type(NS)~='table'then NS={}end NP=tI[1415]if type(NP)~='table'then NP=tI[1415]end if type(NP)~='table'then NP={}end NJ=tI[4484]if type(NJ)~='table'then NJ=tI[4484]end if type(NJ)~='table'then NJ={}end if(NJ[OY]or 0)==0 then Oi=((OY*66)+93)%((15*2)+226)OV=((OY*22)+151)%((15*2)+226)NS[OY]=em(NR[OY],Oi)NP[OY]=em(Nk[OY],OV)NJ[OY]=1 end Ox=NS[OY]+(NP[OY]*((15*2)+226))Ns=ZQ if type(Ns)~='table'then Ns=m7[ei[25802]]end if type(Ns)~='table'then Ns={}end OM=((type(K)=='function'and K)or m7[ei[41012]])(Ns[Ox+1],Yj)OH=OU[OB[OY]]if OH then OK=OH OK[OM]=OU[tI[5667][OY]]end OM=nil OH=nil OK=nil Ns=nil Oi=nil OV=nil NS=nil NP=nil NJ=nil NR=nil Nk=nil else Ox=OB[OY]OM=OO[OY]OH=ON[OY]if OM>OH then OU[Ox]=''else OV={}Of=true for Oh=OM,OH do OV[#OV+1]=OU[Oh]if eI(OU[Oh])~=eb and eI(OU[Oh])~=ep then Of=false end end if Of then OU[Ox]=eU[K(0x64,Yj)](OV)else OK=OV[1]for Oh=2,#OV do OK=OK..OV[Oh]end OU[Ox]=OK end end Oi=Ou[OD[OY]+4]if Oi then OY=Oi else OY=OY+1 end Ol=true end Ob=true end end end end end elseif Ea==7 then if Wf>98 then if Wf>165 then if Wf>241 then do local um=Wf-244;if um*(um-4)*(um-8)==0 then if Wf<=244 then Ox=OB[OY]OM=OO[OY]OH=OQ[OM+1]Of=OU[Ox]if eC and eI(Of)==ep and m7[ei[14046]](Of)==Of then Of=m7[ei[14046]](Of)end OK=eI(OH)if OK==el and OH[6397]then if OH[5359]then OH[4265]=Of OH[1]=Of OH[2]=nil else OV=OH[2]if OV~=nil then Oh=OH[1]if Oh then Oh[OV]=Of end else OH[1]=Of OH[4265]=Of OH[5359]=true end end else if false then Of=Of end OQ[OM+1]=Of end elseif Wf<=248 then if(tI[4484][OY]or 0)==0 then OM=((OY*167)+247)%((3*23)+187)OH=((OY*31)+65)%((3*23)+187)tI[5667][OY]=em(OO[OY],OM)tI[6416][OY]=em(ON[OY],OH)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*((3*23)+187))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH={OM}if false and Ox<0 then OH[1]=OM end OU[OB[OY]]=OH[1]OM=nil OH=nil else OV=(OU[OB[OY]]==nil or not OU[OB[OY]])if OV then OY=EH[OY]else OY=OY+1 end Ol=true end Ob=true end end else do local ue=Wf-182;if ue*(ue-44)*(ue-59)==0 then if Wf<=182 then Ox=OU[OB[OY]]OM=OU[tI[5667][OY]]Oh=Eu OV=((Ox==OM))if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true elseif Wf<=226 then OU[OB[OY]]=OU[OO[OY]]OU[ON[OY]]=OU[tI[5667][OY]]else local w0=m2 Ox=OB[OY]OM=OO[OY]OH=ON[OY]local Dv=OZ or 0 local OI=m7[ei[65503]]local NM=OI and m7[ei[27652]](OI,m7[ei[eR[20917]]])if NM then local NH=5+((OB[OY]or 0)+(OO[OY]or 0)+(ON[OY]or 0))%46 local NK=OY+NH local Nh=#Oo if Nh and Nh>0 and NK>Nh then NK=Nh-(NH%3)end Oo[NK]=84 m7[ei[39083]]=nil end OK=OU[Ox]if OM==0 then Oi=OZ-Ox-1 else Oi=OM-1 end if OH==0 then local Nc=m7[ei[7917]]Oh=Nc(nil,OK(w0(OU,Ox+1,Ox+Oi)))Of=Oh.n or#Oh for NC=1,Of do OU[Ox+NC-1]=Oh[NC]end OZ=Ox+Of else OV=OH-1 if Oi==0 then if OV==0 then OK()if NM then OU[Ox]=nil end elseif OV==1 then OU[Ox]=OK()elseif OV==2 then local vV,DA=OK()OU[Ox]=vV OU[Ox+1]=DA elseif OV==3 then local vV,DA,DW=OK()OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW else local Nc=m7[ei[7917]]Oh=Nc(OV,OK())for NC=1,OV do OU[Ox+NC-1]=Oh[NC]end end else local vf=OU[Ox+1]local vR=OU[Ox+2]local vk=OU[Ox+3]if OV==0 then if Oi==0 then OK()elseif Oi==1 then OK(vf)elseif Oi==2 then OK(vf,vR)elseif Oi==3 then OK(vf,vR,vk)else OK(w0(OU,Ox+1,Ox+Oi))end if NM then OU[Ox]=nil end elseif OV==1 then local vV if Oi==0 then vV=OK()elseif Oi==1 then vV=OK(vf)elseif Oi==2 then vV=OK(vf,vR)elseif Oi==3 then vV=OK(vf,vR,vk)else vV=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV elseif OV==2 then local vV,DA if Oi==0 then vV,DA=OK()elseif Oi==1 then vV,DA=OK(vf)elseif Oi==2 then vV,DA=OK(vf,vR)elseif Oi==3 then vV,DA=OK(vf,vR,vk)else vV,DA=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA elseif OV==3 then local vV,DA,DW if Oi==0 then vV,DA,DW=OK()elseif Oi==1 then vV,DA,DW=OK(vf)elseif Oi==2 then vV,DA,DW=OK(vf,vR)elseif Oi==3 then vV,DA,DW=OK(vf,vR,vk)else vV,DA,DW=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW elseif OV==4 then local vV,DA,DW,DE if Oi==0 then vV,DA,DW,DE=OK()elseif Oi==1 then vV,DA,DW,DE=OK(vf)elseif Oi==2 then vV,DA,DW,DE=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE=OK(vf,vR,vk)else vV,DA,DW,DE=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE elseif OV==5 then local vV,DA,DW,DE,DD if Oi==0 then vV,DA,DW,DE,DD=OK()elseif Oi==1 then vV,DA,DW,DE,DD=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD=OK(vf,vR,vk)else vV,DA,DW,DE,DD=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD elseif OV==6 then local vV,DA,DW,DE,DD,Du if Oi==0 then vV,DA,DW,DE,DD,Du=OK()elseif Oi==1 then vV,DA,DW,DE,DD,Du=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD,Du=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD,Du=OK(vf,vR,vk)else vV,DA,DW,DE,DD,Du=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD OU[Ox+5]=Du elseif OV==7 then local vV,DA,DW,DE,DD,Du,Dx if Oi==0 then vV,DA,DW,DE,DD,Du,Dx=OK()elseif Oi==1 then vV,DA,DW,DE,DD,Du,Dx=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD,Du,Dx=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD,Du,Dx=OK(vf,vR,vk)else vV,DA,DW,DE,DD,Du,Dx=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD OU[Ox+5]=Du OU[Ox+6]=Dx elseif OV==8 then local vV,DA,DW,DE,DD,Du,Dx,DM if Oi==0 then vV,DA,DW,DE,DD,Du,Dx,DM=OK()elseif Oi==1 then vV,DA,DW,DE,DD,Du,Dx,DM=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD,Du,Dx,DM=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD,Du,Dx,DM=OK(vf,vR,vk)else vV,DA,DW,DE,DD,Du,Dx,DM=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD OU[Ox+5]=Du OU[Ox+6]=Dx OU[Ox+7]=DM else local Nc=m7[ei[7917]]Oh=Nc(OV,OK(w0(OU,Ox+1,Ox+Oi)))for NC=1,OV do OU[Ox+NC-1]=Oh[NC]end end end end local DH=OZ or 0 if Dv>DH then local DK=Dv-1 local Dh=DH+31 if Dh<DK then DK=Dh end for Di=DH,DK do OU[Di]=nil end end Oh=nil OK=nil end Ob=true end end end else if Wf>151 then do local ua=Wf-161;if ua*(ua-2)*(ua-4)==0 then if Wf<=161 then if(tI[4484][OY]or 0)==0 then OM=((OY*154)+61)%((15*27)-149)OH=((OY*114)+119)%((15*27)-149)tI[5667][OY]=em(OO[OY],OM)tI[6416][OY]=em(ON[OY],OH)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*((15*27)-149))OU[OB[OY]]=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OM=nil OH=nil elseif Wf<=163 then OU[OB[OY]]=OU[OO[OY]]else Ox=OY Ox=Ox+1 OY=Ox end Ob=true end end else if Wf>130 then do local DV=Wf-131;if DV*(DV-20)==0 then if Wf<=131 then Ox=OB[OY]OM=OO[OY]if(tI[4484][OY]or 0)==0 then Of=((OY*106)+43)%(91+75+90)OR=((OY*184)+149)%(91+75+90)tI[6416][OY]=em(ON[OY],Of)tI[1415][OY]=em(tI[5667][OY],OR)tI[4484][OY]=1 end OH=tI[6416][OY]+(tI[1415][OY]*(91+75+90))OK=OU[OM]Oh=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OH+1],Yj)OV=OK Oi=OV and OV[Oh]or nil if Oi==nil and OV~=nil then Of=m7[ei[48018]](OV)Of=Of and Of[K((313-202),Yj)]OH=eI(Of)if OH==eT then Oi=Of(OV,Oh)elseif OH==el then Oi=Of[Oh]end end if false then Oi=Oi end if Oi==nil and eI(OK)==eb then Oi=mJ and mJ[Oh]or nil end if Oi==nil and OK~=nil and eI(OK)~=el then OV=m7[ei[48018]](OK)OV=OV and OV[K(((153-21-28)),Yj)]if eI(OV)==eT then Oi=OV end end OU[Ox]=Oi OU[Ox+1]=OK else Ox=OB[OY]if(tI[4484][OY]or 0)==0 then OV=((OY*232)+159)%(4*64)Oi=((OY*123)+41)%(4*64)tI[5667][OY]=em(OO[OY],OV)tI[6416][OY]=em(ON[OY],Oi)tI[4484][OY]=1 end OM=tI[5667][OY]+(tI[6416][OY]*(4*64))Oi=(1+19)-19 OV=((OM*131)+19)%257 if OV==257 then OV=0 end Of=nil OR=nil if tI and tI[2049]then Of=tI[5193]if not Of then Of={};tI[5193]=Of end OR=Of[OM]end if OR~=nil then OU[Ox]=OR else OH=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OM+Oi],Yj)OK=nil for Oh in mJ[K(((253+66-206)),Yj)](OH,'[^.]+')do if OK==nil then OK=m7[ei[39083]](Oh)else OK=OK[Oh]end if OK==nil then m7[ei[25468]]()end end OU[Ox]=OK if Of then Of[OM]=OK end end end Ob=true end end else do local Df=Wf-99;if Df*(Df-31)==0 then if Wf<=99 then Ox=OU[OB[OY]]OM=OU[tI[5667][OY]]Oh=Eu OV=not(Ox>=OM)if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true else Ox=OB[OY]if Oo[OY+1]==85 or Oo[OY+1]==241 or Oo[OY+1]==240 then if OB[OY+1]==nil then m7[ei[12555]](tI,OY+1)end OM=OB[OY+1]OH=nil if Ox==40 then OH=eI elseif Ox==12 then OH=mR.floor elseif Ox==7 then OH=mR.ceil elseif Ox==2 then OH=mR.abs elseif Ox==25 then OH=mR.sqrt elseif Ox==21 then OH=mR.pow elseif Ox==24 then OH=mR.sin elseif Ox==9 then OH=mR.cos elseif Ox==27 then OH=mR.tan elseif Ox==11 then OH=mR.exp elseif Ox==10 then OH=mR.deg elseif Ox==17 then OH=mR.log elseif Ox==22 then OH=mR.rad elseif Ox==19 then OH=mR.min elseif Ox==18 then OH=mR.max elseif Ox==45 then OH=eU.insert elseif Ox==46 then OH=m2 elseif Ox==42 then OH=mJ.byte elseif Ox==43 then OH=mJ.char elseif Ox==44 then OH=mJ.len elseif Ox==41 then OH=m7[ei[33827]].typeof elseif Ox==57 then OH=m7[ei[14367]]elseif Ox==60 then OH=m7[ei[29601]]elseif Ox==61 then OH=m7[ei[27652]]elseif Ox==62 then OH=m7[ei[33827]].rawequal elseif Ox==64 then OH=m7[ei[33827]].rawlen elseif Ox==3 then OH=mR.asin elseif Ox==4 then OH=mR.acos elseif Ox==5 then OH=mR.atan2 elseif Ox==6 then OH=mR.atan elseif Ox==13 then OH=mR.fmod elseif Ox==14 then OH=mR.ldexp elseif Ox==20 then OH=mR.modf end if OH~=nil then OK=OH OU[OM]=OK end if false then OU[OM]=OU[OM]end end end Ob=true end end end end end else if Wf>59 then if Wf>77 then do local Dz=Wf-81;if Dz*(Dz-4)*(Dz-17)==0 then if Wf<=81 then Ox=OB[OY]OM=OO[OY]+(ON[OY]*256)OH=BR[OM]if not OH then m7[ei[eR[48618]]]()end if not OI then OI={}end local NG=false if OH[K(((179+0)),Yj)]and not OH[K(((307+-40-137)),Yj)]then local NZ=OH[K(((31+76)),Yj)]local Nt=nil local Np=0 if NZ then Nt={}local DJ={}Nt[0]=DJ local Ds=m7[ei[14367]]local Nb=0 if d then Nb=d["\71\56"]or 0 end for Nl,NT in m7[ei[58401]](NZ)do if NT[1]then local NF=NT[2]local Nz=Nb+NF do local Dn=Nz local Dj=OI[Dn]if eI(Dj)~=el or(not Dj[6397])or Dj[3707]~=Dn or Dj[6134]~=OU then Dj={[6397]=true,[6134]=OU,[3707]=Dn,[5359]=false,[4265]=nil,[1]=OU,[2]=Dn}OI[Dn]=Dj end Nt[Nl]=function(DL,...)if DL==DJ then if Ds('#',...)>0 then local Dq=...if Dj[5359]then Dj[4265]=Dq else OU[Nz]=Dq end return end if Dj[5359]then return Dj[4265]end return OU[Nz]end local Dr if Dj[5359]then Dr=Dj[4265]else Dr=OU[Nz]end return Dr(DL,...)end end else local NF=NT[2]+1 Nt[Nl]=function(DL,...)if DL==DJ then if Ds('#',...)>0 then local Dq=...local Dj=OQ[NF]if eI(Dj)==el and Dj[6397]then if Dj[5359]then Dj[4265]=Dq else local D1=Dj[3707]Dj[6134][D1]=Dq end else OQ[NF]=Dq end return end local Dj=OQ[NF]if eI(Dj)==el and Dj[6397]then if Dj[5359]then Dj=Dj[4265]else local D1=Dj[3707]Dj=Dj[6134][D1]end end return Dj end local Dr=OQ[NF]if eI(Dr)==el and Dr[6397]then if Dr[5359]then Dr=Dr[4265]else local D1=Dr[3707]Dr=Dr[6134][D1]end end return Dr(DL,...)end end end Np=0 local D4=143 local D7=236 local D6=OY+1 while Oo[D6]==D4 or Oo[D6]==D7 do Np=Np+1;D6=D6+1 end end OU[Ox]=OH[K(((179+0)),Yj)](m7[ei[27953]],Nt)do local D3=m7[ei[27953]][K(((65+179-225)),Yj)]if D3 then D3(OU[Ox],m7[ei[27953]])end end OY=OY+1+Np Ol=true NG=true end if not NG then local DP=OH[7344]OK={}if DP and DP[1]~=nil then if DP[2]==nil then Oh=DP[1]if Oh.oA then Oi=Oh.cT if not OI[Oi]then OI[Oi]={[6397]=true,[6134]=OU,[3707]=Oi,[5359]=false,[4265]=nil,[1]=OU,[2]=Oi}end OK[1]=OI[Oi]else OK[1]=OQ[Oh.cT+1]end else for NC,Oh in m7[ei[58401]](DP)do if Oh.oA then Oi=Oh.cT if not OI[Oi]then OI[Oi]={[6397]=true,[6134]=OU,[3707]=Oi,[5359]=false,[4265]=nil,[1]=OU,[2]=Oi}end OK[NC]=OI[Oi]else OK[NC]=OQ[Oh.cT+1]end end end end local D8=OH[5621]if OH[2049]and eI(D8)==eT then OU[Ox]=D8(OH,OK)else OU[Ox]=m7[ei[39319]](OH,OK)end m7[ei[40988]](OU[Ox],m7[ei[eR[51634]]])local D5=0 local D0=143 local D2=236 local D9=OY+1 while Oo[D9]==D0 or Oo[D9]==D2 do D5=D5+1;D9=D9+1 end if D5>0 then OY=OY+1+D5 Ol=true end end elseif Wf<=85 then local w0=m2 Ox=OB[OY]OM=OO[OY]OH=ON[OY]local Dv=OZ or 0 local OI=m7[ei[65503]]local NM=OI and m7[ei[27652]](OI,m7[ei[eR[20917]]])if NM then local NH=5+((OB[OY]or 0)+(OO[OY]or 0)+(ON[OY]or 0))%46 local NK=OY+NH local Nh=#Oo if Nh and Nh>0 and NK>Nh then NK=Nh-(NH%3)end Oo[NK]=84 m7[ei[39083]]=nil end OK=OU[Ox]if OM==0 then Oi=OZ-Ox-1 else Oi=OM-1 end if OH==0 then local Nc=m7[ei[7917]]Oh=Nc(nil,OK(w0(OU,Ox+1,Ox+Oi)))Of=Oh.n or#Oh for NC=1,Of do OU[Ox+NC-1]=Oh[NC]end OZ=Ox+Of else OV=OH-1 if Oi==0 then if OV==0 then OK()if NM then OU[Ox]=nil end elseif OV==1 then OU[Ox]=OK()elseif OV==2 then local vV,DA=OK()OU[Ox]=vV OU[Ox+1]=DA elseif OV==3 then local vV,DA,DW=OK()OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW else local Nc=m7[ei[7917]]Oh=Nc(OV,OK())for NC=1,OV do OU[Ox+NC-1]=Oh[NC]end end else local vf=OU[Ox+1]local vR=OU[Ox+2]local vk=OU[Ox+3]if OV==0 then if Oi==0 then OK()elseif Oi==1 then OK(vf)elseif Oi==2 then OK(vf,vR)elseif Oi==3 then OK(vf,vR,vk)else OK(w0(OU,Ox+1,Ox+Oi))end if NM then OU[Ox]=nil end elseif OV==1 then local vV if Oi==0 then vV=OK()elseif Oi==1 then vV=OK(vf)elseif Oi==2 then vV=OK(vf,vR)elseif Oi==3 then vV=OK(vf,vR,vk)else vV=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV elseif OV==2 then local vV,DA if Oi==0 then vV,DA=OK()elseif Oi==1 then vV,DA=OK(vf)elseif Oi==2 then vV,DA=OK(vf,vR)elseif Oi==3 then vV,DA=OK(vf,vR,vk)else vV,DA=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA elseif OV==3 then local vV,DA,DW if Oi==0 then vV,DA,DW=OK()elseif Oi==1 then vV,DA,DW=OK(vf)elseif Oi==2 then vV,DA,DW=OK(vf,vR)elseif Oi==3 then vV,DA,DW=OK(vf,vR,vk)else vV,DA,DW=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW elseif OV==4 then local vV,DA,DW,DE if Oi==0 then vV,DA,DW,DE=OK()elseif Oi==1 then vV,DA,DW,DE=OK(vf)elseif Oi==2 then vV,DA,DW,DE=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE=OK(vf,vR,vk)else vV,DA,DW,DE=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE elseif OV==5 then local vV,DA,DW,DE,DD if Oi==0 then vV,DA,DW,DE,DD=OK()elseif Oi==1 then vV,DA,DW,DE,DD=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD=OK(vf,vR,vk)else vV,DA,DW,DE,DD=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD elseif OV==6 then local vV,DA,DW,DE,DD,Du if Oi==0 then vV,DA,DW,DE,DD,Du=OK()elseif Oi==1 then vV,DA,DW,DE,DD,Du=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD,Du=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD,Du=OK(vf,vR,vk)else vV,DA,DW,DE,DD,Du=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD OU[Ox+5]=Du elseif OV==7 then local vV,DA,DW,DE,DD,Du,Dx if Oi==0 then vV,DA,DW,DE,DD,Du,Dx=OK()elseif Oi==1 then vV,DA,DW,DE,DD,Du,Dx=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD,Du,Dx=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD,Du,Dx=OK(vf,vR,vk)else vV,DA,DW,DE,DD,Du,Dx=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD OU[Ox+5]=Du OU[Ox+6]=Dx elseif OV==8 then local vV,DA,DW,DE,DD,Du,Dx,DM if Oi==0 then vV,DA,DW,DE,DD,Du,Dx,DM=OK()elseif Oi==1 then vV,DA,DW,DE,DD,Du,Dx,DM=OK(vf)elseif Oi==2 then vV,DA,DW,DE,DD,Du,Dx,DM=OK(vf,vR)elseif Oi==3 then vV,DA,DW,DE,DD,Du,Dx,DM=OK(vf,vR,vk)else vV,DA,DW,DE,DD,Du,Dx,DM=OK(w0(OU,Ox+1,Ox+Oi))end OU[Ox]=vV OU[Ox+1]=DA OU[Ox+2]=DW OU[Ox+3]=DE OU[Ox+4]=DD OU[Ox+5]=Du OU[Ox+6]=Dx OU[Ox+7]=DM else local Nc=m7[ei[7917]]Oh=Nc(OV,OK(w0(OU,Ox+1,Ox+Oi)))for NC=1,OV do OU[Ox+NC-1]=Oh[NC]end end end end local DH=OZ or 0 if Dv>DH then local DK=Dv-1 local Dh=DH+31 if Dh<DK then DK=Dh end for Di=DH,DK do OU[Di]=nil end end Oh=nil OK=nil else Ox=OU[OB[OY]]OM=OU[tI[5667][OY]]Oh=Eu OV=Ox~=OM if OV then Oi=Oh and Oh[(OY+Ex)]or nil if Oi then OY=(Oi-EM)else OY=OY+1 end else OY=OY+1 end Ol=true end Ob=true end end else do local Do=Wf-68;if Do*(Do-1)*(Do-9)==0 then if Wf<=68 then Ob=true Ox=OB[OY]or 0 OM=OO[OY]or 0 OH=Ox+(OM*256)if OH>=0 then NC=m7[ei[19939]]if NC and m7[ei[eR[43101]]]~=NC then do local Ox=m7[ei[eR[35161]]];local OM=m7[ei[eR[52441]]];local OH=m7[ei[eR[21562]]];local OK=m7[ei[eR[41635]]];OH(Ox,m7[ei[eR[29805]]],m7[ei[eR[53594]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[53691]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[37560]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[37560]]],Oi+OV)end end end Nc=m7[ei[eR[48915]]]Cz=m7[ei[eR[39233]]]CB=0;NG=0;NZ=0;Nt=0 if Nc>0 then NZ=m7[ei[14046]](Nc/65536);CB=Nc-(NZ*65536)end if Cz>0 then Nt=m7[ei[14046]](Cz/65536);NG=Cz-(Nt*65536)end if CB>0 and NG>0 and CB~=NG then do local Ox=m7[ei[eR[27658]]];local OM=m7[ei[eR[25212]]];local OH=m7[ei[eR[33098]]];local OK=m7[ei[eR[55790]]];OH(Ox,m7[ei[eR[37681]]],m7[ei[eR[23318]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[43871]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[53734]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[53734]]],Oi+OV)end end end if NZ>0 then Np=CB-NZ;if Np<0 then Np=-Np end;if Np>1 then do local Ox=m7[ei[eR[59439]]];local OM=m7[ei[eR[32007]]];local OH=m7[ei[eR[51590]]];local OK=m7[ei[eR[27793]]];OH(Ox,m7[ei[eR[46553]]],m7[ei[eR[50338]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[46566]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[33707]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[33707]]],Oi+OV)end end end end if Nt>0 then Np=NG-Nt;if Np<0 then Np=-Np end;if Np>1 then do local Ox=m7[ei[eR[39148]]];local OM=m7[ei[eR[24289]]];local OH=m7[ei[eR[27642]]];local OK=m7[ei[eR[39191]]];OH(Ox,m7[ei[eR[37468]]],m7[ei[eR[20966]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[25414]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[57347]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[57347]]],Oi+OV)end end end end end OY=OY+1 Ol=true elseif Wf<=69 then Ob=true OH=OD[OY]OK=(OO[OY]or 0)+((ON[OY]or 0)*(305-49))local _a=(OK>=0x8000)and-0x10000 or 0;OK=OK+_a Oh=OH+4+OK Oi=Ou[Oh]if Oi then Ox=(OB[OY]or 0)OM=Oh+Ox OV=m7[ei[14046]](OM/4)Of=OM-(OV*4)Ox=Of+1 OM=m7[ei[eR[46085]]]OV=m7[ei[eR[38269]]]OM=OM and OM[Ox]if OM then OV=OV and OV[Ox]OV=OV and m7[OV]if OV~=OM then do local Ox=m7[ei[eR[48710]]];local OM=m7[ei[eR[23842]]];local OH=m7[ei[eR[54327]]];local OK=m7[ei[eR[29858]]];OH(Ox,m7[ei[eR[44413]]],m7[ei[eR[27625]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[35596]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[47859]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[47859]]],Oi+OV)end end end end end if Oi then OY=Oi else OY=OY+1 end Ol=true else Ob=true Ox=(OB[OY]or 0)OM=(OO[OY]or 0)+((ON[OY]or 0)*256)OH=OD[OY]+Ox+OM+1 do local Ox=m7[ei[eR[56770]]];local OM=m7[ei[eR[54989]]];local OH=m7[ei[eR[58500]]];local OK=m7[ei[eR[55703]]];OH(Ox,m7[ei[eR[20331]]],m7[ei[eR[40650]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[26045]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[23536]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[23536]]],Oi+OV)end end OK=m7[ei[eR[37756]]]if OH then OK(OY,OB,OO,ON,Oo,tI,nil)end m7[ei[eR[59151]]](OH)OY=OY+1 Ol=true end Ob=true end end end else if Wf>37 then do local DB=Wf-53;if DB*(DB-2)*(DB-6)==0 then if Wf<=53 then Ox=OO[OY]+(ON[OY]*(4*64))local _a=(Ox>=0x8000)and-0x10000 or 0;Ox=Ox+_a OU[OB[OY]]=Ox elseif Wf<=55 then ND=((OY*56)+191)%(123+133)Nu=((OY*130)+73)%(123+133)Ox=em(tI[5667][OY],ND)+(em(tI[6416][OY],Nu)*(123+133))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OU[ON[OY]]OK=OH[OM]OU[OB[OY]]=OK Ox=em(tI[1415][OY],ND)+(em(tI[4484][OY],Nu)*(123+133))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OU[OO[OY]]=OK[OM]OM=nil OH=nil OK=nil else local Nt,Np,Nb,Nl,NT,NF,Nz,NB,NO Ox=OB[OY]OM=OO[OY]Of=((OY*41)+35)%(41+80+135)OR=((OY*40)+77)%(41+80+135)OH=em(ON[OY],Of)+(em(tI[5667][OY],OR)*(41+80+135))OK=em(tI[6416][OY],Of)+(em(tI[1415][OY],OR)*(41+80+135))local NO=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OK+1],Yj)OU[Ox+2]=NO Oh=OU[Ox+1]Oi=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OH+1],Yj)Nt=Oh and Oh[Oi]or nil if Nt==nil and Oh~=nil then Np=m7[ei[48018]](Oh)Nb=Np and Np[K((313-202),Yj)]Nl=eI(Nb)if Nl==eT then Nt=Nb(Oh,Oi)elseif Nl==el then Nt=Nb[Oi]end end if Nt==nil and eI(Oh)==eb then Nt=mJ and mJ[Oi]or nil end if Nt==nil and Oh~=nil and eI(Oh)~=el then Np=Np or m7[ei[48018]](Oh)Nb=Np and Np[K(((153-21-28)),Yj)]if eI(Nb)==eT then Nt=Nb end end NT=eI(Nt)if NT==eT then if OM==2 then Nz=Nt(Oh,OU[Ox+2])else Nt(Oh,OU[Ox+2])end else Np=m7[ei[48018]](Nt)NF=Np and Np[K(((99+0)),Yj)]if NF then if OM==2 then Nz=NF(Nt,Oh,OU[Ox+2])else NF(Nt,Oh,OU[Ox+2])end else m7[ei[25468]]()end end if OM==2 then OU[Ox]=Nz OZ=Ox+1 else OZ=Ox end ew=OZ eQ=true NB=Ou[OD[OY]+8]if NB then OY=NB else OY=OY+1 end Ol=true end Ob=true end end else if Wf>13 then do local DO=Wf-33;if DO*(DO-4)==0 then if Wf<=33 then Ox=OB[OY]OM=ON[OY]+(tI[5667][OY]*(123+133))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OH=OU[OO[OY]]Oh=tI[6416][OY]~=0 if Oh then Oi=OM/OH else Oi=OH/OM end OU[Ox]=Oi OK=Ou[OD[OY]+8]if OK then OY=OK else OY=OY+1 end Ol=true else Ox=OB[OY]OG={}OM=Ox+1 OH=Ot or#Op if OH>=OM then for NC=OM,OH do OG[NC-OM+1]=Op[NC]end OG[ez]=OH-Ox OG['n']=OG[ez]else OG[ez]=0 OG['n']=0 end end Ob=true end end else do local DN=Wf-0;if DN*(DN-13)==0 then if Wf<=0 then if(tI[4484][OY]or 0)==0 then Oi=((OY*219)+17)%(4*64)OV=((OY*26)+107)%(4*64)tI[5667][OY]=em(OO[OY],Oi)tI[6416][OY]=em(ON[OY],OV)tI[4484][OY]=1 end Ox=tI[5667][OY]+(tI[6416][OY]*(4*64))Oi=(1+8)-8 OV=((Ox*131)+8)%257 if OV==257 then OV=0 end OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+Oi],Yj)if tI[2049]then OK=tI[9580]if not OK then OK={};tI[9580]=OK end OH=OK[Ox]if OH==nil then OH=m7[ei[33827]][OM]if OH~=nil then OK[Ox]=OH end end OU[OB[OY]]=OH else OU[OB[OY]]=m7[ei[33827]][OM]end OM=nil OH=nil OK=nil Oi=nil OV=nil else if(tI[4484][OY]or 0)==0 then Oi=((OY*208)+54)%(4*64)OV=((OY*69)+216)%(4*64)tI[6416][OY]=em(ON[OY],Oi)tI[1415][OY]=em(tI[5667][OY],OV)tI[4484][OY]=1 end Ox=(tI[1415][OY]*(4*64))+tI[6416][OY]OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OU[OO[OY]]OU[OB[OY]]=OH[OM]OM=nil OH=nil OK=nil Oi=nil OV=nil end Ob=true end end end end end end elseif Ea==8 then if Wf>133 then if Wf>217 then if Wf>233 then do local ug=Wf-235;if ug*(ug-3)==0 then if Wf<=235 then Ox=tI[5667][OY]OM=tI[6416][OY]+(tI[1415][OY]*(76+107+73))OH=BR[OM]if not OH then m7[ei[eR[50854]]]()end local ud=false if OH[K(((179+0)),Yj)]and not OH[K(((307+-40-137)),Yj)]then local uw=OH[K(((31+76)),Yj)]local uQ=nil if uw then uQ={}uQ[0]={}end OU[Ox]=OH[K(((179+0)),Yj)](m7[ei[27953]],uQ)do local uU=m7[ei[27953]][K(((87-54-14)),Yj)]if uU then uU(OU[Ox],m7[ei[27953]])end end ud=true end if not ud then local DP=OH[7344]OK={}for NC,Oh in m7[ei[58401]](DP)do if Oh.oA then Oi=Oh.cT if not OI[Oi]then OI[Oi]={[6397]=true,[6134]=OU,[3707]=Oi,[5359]=false,[4265]=nil,[1]=OU,[2]=Oi}end OK[NC]=OI[Oi]else OK[NC]=OQ[Oh.cT+1]end end local D8=OH[5621]if OH[2049]and eI(D8)==eT then OU[Ox]=D8(OH,OK)else OU[Ox]=m7[ei[39319]](OH,OK)end m7[ei[40988]](OU[Ox],m7[ei[eR[51634]]])end NR=OO if type(NR)~='table'then NR=tI[9067]end if type(NR)~='table'then NR={}end Nk=ON if type(Nk)~='table'then Nk=tI[6796]end if type(Nk)~='table'then Nk={}end Ox=NR[OY]+(Nk[OY]*((15*2)+226))Ns=ZQ if type(Ns)~='table'then Ns=m7[ei[25802]]end if type(Ns)~='table'then Ns={}end OM=((type(K)=='function'and K)or m7[ei[41012]])(Ns[Ox+1],Yj)OH=OU[OB[OY]]if OH then OH[OM]=OU[tI[5667][OY]]end if false then OH[OM]=OU[tI[5667][OY]]end OM=nil OH=nil OK=nil Ns=nil NR=nil Nk=nil else local Nt,Np,Nb,Nl,NT,NF,Nz,NB,NO,NN,Ny,Nv,NA,NW Ox=OB[OY]OM=OO[OY]OH=ON[OY]Of=((OY*104)+30)%((6*32)+64)OR=((OY*62)+0)%((6*32)+64)OK=em(tI[5667][OY],Of)+(em(tI[6416][OY],OR)*((6*32)+64))OU[Ox+1]=OU[OM]Oh=OU[Ox+1]Oi=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OK+1],Yj)Nt=Oh and Oh[Oi]or nil if Nt==nil and Oh~=nil then Np=m7[ei[48018]](Oh)Nb=Np and Np[K((313-202),Yj)]Nl=eI(Nb)if Nl==eT then Nt=Nb(Oh,Oi)elseif Nl==el then Nt=Nb[Oi]end end if Nt==nil and eI(Oh)==eb then Nt=mJ and mJ[Oi]or nil end if Nt==nil and Oh~=nil and eI(Oh)~=el then Np=Np or m7[ei[48018]](Oh)Nb=Np and Np[K(((153-21-28)),Yj)]if eI(Nb)==eT then Nt=Nb end end if OH==0 then Ny=m7[ei[7917]]NT=eI(Nt)if NT==eT then Nv=Ny(nil,Nt(Oh))else Np=m7[ei[48018]](Nt)NF=Np and Np[K(((99+0)),Yj)]if NF then Nv=Ny(nil,NF(Nt,Oh))else m7[ei[25468]]()end end NA=Nv.n or#Nv for NW=1,NA do OU[Ox+NW-1]=Nv[NW]end OZ=Ox+NA else NT=eI(Nt)if NT==eT then if OH==1 then Nt(Oh)elseif OH==2 then Nz=Nt(Oh)elseif OH==3 then Nz,NB=Nt(Oh)else Nz,NB,NO=Nt(Oh)end else Np=m7[ei[48018]](Nt)NF=Np and Np[K(((99+0)),Yj)]if NF then if OH==1 then NF(Nt,Oh)elseif OH==2 then Nz=NF(Nt,Oh)elseif OH==3 then Nz,NB=NF(Nt,Oh)else Nz,NB,NO=NF(Nt,Oh)end else m7[ei[25468]]()end end if OH==2 then OU[Ox]=Nz OZ=Ox+1 elseif OH==3 then OU[Ox]=Nz;OU[Ox+1]=NB OZ=Ox+2 elseif OH==4 then OU[Ox]=Nz;OU[Ox+1]=NB;OU[Ox+2]=NO OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NN=Ou[OD[OY]+8]if NN then OY=NN else OY=OY+1 end Ol=true end Ob=true end end else do local ua=Wf-220;if ua*(ua-4)*(ua-13)==0 then if Wf<=220 then local Nt,Np,Nb,Nl,NT,NF,Nz,NB,NO Ox=OB[OY]OM=OO[OY]OH=ON[OY]OK=tI[5667][OY]Oh=OQ[OM+1]OV=eI(Oh)if OV==el and Oh[6397]then if Oh[5359]then Oi=Oh[4265]else local NN=Oh.NC Of=Oh[3707]if NN and Of~=nil then Oi=NN[Of]else Oi=Oh[6134][Oh[3707]]end end else Oi=Oh end if eC and eI(Oi)==ep and m7[ei[14046]](Oi)==Oi then Oi=m7[ei[14046]](Oi)end OU[Ox]=Oi Nt=OU[Ox+1]Np=OU[Ox+2]Nb=OU[Ox+3]OV=eI(Oi)if OV==eT then if OH==1 then if OK==1 then Oi()elseif OK==2 then NF=Oi()elseif OK==3 then NF,Nz=Oi()else NF,Nz,NB=Oi()end elseif OH==2 then if OK==1 then Oi(Nt)elseif OK==2 then NF=Oi(Nt)elseif OK==3 then NF,Nz=Oi(Nt)else NF,Nz,NB=Oi(Nt)end elseif OH==3 then if OK==1 then Oi(Nt,Np)elseif OK==2 then NF=Oi(Nt,Np)elseif OK==3 then NF,Nz=Oi(Nt,Np)else NF,Nz,NB=Oi(Nt,Np)end else if OK==1 then Oi(Nt,Np,Nb)elseif OK==2 then NF=Oi(Nt,Np,Nb)elseif OK==3 then NF,Nz=Oi(Nt,Np,Nb)else NF,Nz,NB=Oi(Nt,Np,Nb)end end else Nl=m7[ei[48018]](Oi)NT=Nl and Nl[K(((99+0)),Yj)]if NT then if OH==1 then if OK==1 then NT(Oi)elseif OK==2 then NF=NT(Oi)elseif OK==3 then NF,Nz=NT(Oi)else NF,Nz,NB=NT(Oi)end elseif OH==2 then if OK==1 then NT(Oi,Nt)elseif OK==2 then NF=NT(Oi,Nt)elseif OK==3 then NF,Nz=NT(Oi,Nt)else NF,Nz,NB=NT(Oi,Nt)end elseif OH==3 then if OK==1 then NT(Oi,Nt,Np)elseif OK==2 then NF=NT(Oi,Nt,Np)elseif OK==3 then NF,Nz=NT(Oi,Nt,Np)else NF,Nz,NB=NT(Oi,Nt,Np)end else if OK==1 then NT(Oi,Nt,Np,Nb)elseif OK==2 then NF=NT(Oi,Nt,Np,Nb)elseif OK==3 then NF,Nz=NT(Oi,Nt,Np,Nb)else NF,Nz,NB=NT(Oi,Nt,Np,Nb)end end else m7[ei[25468]]()end end if OK==2 then OU[Ox]=NF OZ=Ox+1 elseif OK==3 then OU[Ox]=NF;OU[Ox+1]=Nz OZ=Ox+2 elseif OK==4 then OU[Ox]=NF;OU[Ox+1]=Nz;OU[Ox+2]=NB OZ=Ox+3 else OZ=Ox end ew=OZ eQ=true NO=Ou[OD[OY]+8]if NO then OY=NO else OY=OY+1 end Ol=true elseif Wf<=224 then local Nt,Np,Nb,Nl,NF,Nz,NT,NB,NO,NN,Ny Ox=OB[OY]OM=OO[OY]OH=ON[OY]+(tI[5667][OY]*((15*17)+1))local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OK=tI[6416][OY]+(tI[1415][OY]*((15*17)+1))local _a=(OK>=0x8000)and-0x10000 or 0;OK=OK+_a OU[Ox+1]=OH OU[Ox+2]=OK Oh=OH Oi=OK OV=OU[Ox]Nl,NF,Nz,NO,NN=nil,nil,nil,nil,nil Nt=eI(OV)if OM==0 then NB=m7[ei[7917]]if Nt==eT then NO=NB(nil,OV(Oh,Oi))else Np=m7[ei[48018]](OV)Nb=Np and Np[K(((99+0)),Yj)]if Nb then NO=NB(nil,Nb(OV,Oh,Oi))else m7[ei[25468]]()end end NN=NO.n or#NO for Ny=1,NN do OU[Ox+Ny-1]=NO[Ny]end OZ=Ox+NN else if Nt==eT then if OM==1 then OV(Oh,Oi)elseif OM==2 then Nl=OV(Oh,Oi)elseif OM==3 then Nl,NF=OV(Oh,Oi)else Nl,NF,Nz=OV(Oh,Oi)end else Np=m7[ei[48018]](OV)Nb=Np and Np[K(((99+0)),Yj)]if Nb then if OM==1 then Nb(OV,Oh,Oi)elseif OM==2 then Nl=Nb(OV,Oh,Oi)elseif OM==3 then Nl,NF=Nb(OV,Oh,Oi)else Nl,NF,Nz=Nb(OV,Oh,Oi)end else m7[ei[25468]]()end end if OM==2 then OU[Ox]=Nl OZ=Ox+1 elseif OM==3 then OU[Ox]=Nl;OU[Ox+1]=NF OZ=Ox+2 elseif OM==4 then OU[Ox]=Nl;OU[Ox+1]=NF;OU[Ox+2]=Nz OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NT=Ou[OD[OY]+8]if NT then OY=NT else OY=OY+1 end Ol=true else local Nt,Np,Nb,Nl,NT,NF,Nz,NB,NO,NN,Ny,Nv,NA,NW,NE Ox=OB[OY]OM=OO[OY]OH=ON[OY]Of=((OY*182)+69)%(36+116+104)OR=((OY*132)+191)%(36+116+104)OK=em(tI[5667][OY],Of)+(em(tI[6416][OY],OR)*(36+116+104))Oh=em(tI[1415][OY],Of)+(em(tI[4484][OY],OR)*(36+116+104))OU[Ox+1]=OU[OM]local Ny=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Oh+1],Yj)OU[Ox+2]=Ny Oi=OU[Ox+1]OV=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OK+1],Yj)Nt=Oi and Oi[OV]or nil if Nt==nil and Oi~=nil then Np=m7[ei[48018]](Oi)Nb=Np and Np[K((313-202),Yj)]Nl=eI(Nb)if Nl==eT then Nt=Nb(Oi,OV)elseif Nl==el then Nt=Nb[OV]end end if Nt==nil and eI(Oi)==eb then Nt=mJ and mJ[OV]or nil end if Nt==nil and Oi~=nil and eI(Oi)~=el then Np=Np or m7[ei[48018]](Oi)Nb=Np and Np[K(((153-21-28)),Yj)]if eI(Nb)==eT then Nt=Nb end end if OH==0 then Nv=m7[ei[7917]]NT=eI(Nt)if NT==eT then NA=Nv(nil,Nt(Oi,OU[Ox+2]))else Np=m7[ei[48018]](Nt)NF=Np and Np[K(((99+0)),Yj)]if NF then NA=Nv(nil,NF(Nt,Oi,OU[Ox+2]))else m7[ei[25468]]()end end NW=NA.n or#NA for NE=1,NW do OU[Ox+NE-1]=NA[NE]end OZ=Ox+NW else NT=eI(Nt)if NT==eT then if OH==1 then Nt(Oi,OU[Ox+2])elseif OH==2 then Nz=Nt(Oi,OU[Ox+2])elseif OH==3 then Nz,NB=Nt(Oi,OU[Ox+2])else Nz,NB,NO=Nt(Oi,OU[Ox+2])end else Np=m7[ei[48018]](Nt)NF=Np and Np[K(((99+0)),Yj)]if NF then if OH==1 then NF(Nt,Oi,OU[Ox+2])elseif OH==2 then Nz=NF(Nt,Oi,OU[Ox+2])elseif OH==3 then Nz,NB=NF(Nt,Oi,OU[Ox+2])else Nz,NB,NO=NF(Nt,Oi,OU[Ox+2])end else m7[ei[25468]]()end end if OH==2 then OU[Ox]=Nz OZ=Ox+1 elseif OH==3 then OU[Ox]=Nz;OU[Ox+1]=NB OZ=Ox+2 elseif OH==4 then OU[Ox]=Nz;OU[Ox+1]=NB;OU[Ox+2]=NO OZ=Ox+3 else OZ=Ox end end ew=OZ eQ=true NN=Ou[OD[OY]+8]if NN then OY=NN else OY=OY+1 end Ol=true end Ob=true end end end else if Wf>171 then do local uI=Wf-191;if uI*(uI-17)*(uI-26)==0 then if Wf<=191 then Ox=OU[OB[OY]]OV=Ox~=nil and Ox if OV then OY=EH[OY]else OY=OY+1 end Ol=true elseif Wf<=208 then ND=((OY*13)+20)%(4*64)Nu=((OY*204)+102)%(4*64)Ox=em(tI[5667][OY],ND)+(em(tI[6416][OY],Nu)*(4*64))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=em(tI[1415][OY],ND)+(em(tI[4484][OY],Nu)*(4*64))OK=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[OH+1],Yj)Oh=OU[OO[OY]]if Oh then Oi=Oh[OM]else Oi=nil end OU[OB[OY]]=Oi if Oi then Oi[OK]=OU[ON[OY]]end OM=nil OK=nil Oh=nil Oi=nil OV=nil else OU[OB[OY]]=OU[OO[OY]]OV=not(OU[OB[OY]])if OV then OY=EH[OY]else OY=OY+1 end Ol=true end Ob=true end end else do local uY=Wf-135;if uY*(uY-7)*(uY-36)==0 then if Wf<=135 then Ox=OB[OY]Oh=OU[Ox+1]Oi=OU[Ox+2]OH=tI[5667][OY]Nt=tI[1415][OY]or 0 if Nt~=0 then OK=OU[Ox]if Nt==2 and OK==m7[ei[52462]]and eI(Oh)==el then Np,Nb=m7[ei[52462]](Oh,Oi)else Np,Nb=OK(Oh,Oi)end if Np~=nil then OU[Ox+2]=Np if OH>=1 then OU[Ox+3]=Np end if OH>=2 then OU[Ox+4]=Nb end for Nc=3,OH do OU[Ox+2+Nc]=nil end OK=OD[OY]OM=OO[OY]+(ON[OY]*(142+114))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OK=OK+8+OM local Cz=Ou[OK]if Cz then OY=Cz else OY=OY+1 end else OY=OY+1 end Ol=true else Nl=3 if tI[6416][OY]~=0 then Nl=tI[6416][OY]elseif tI and tI[K(((416-207-33)),Yj)]~=nil then Nl=tI[K(((416-207-33)),Yj)]end OK=OU[Ox]OV={OK(Oh,Oi)}Oi=Nl Of=1 if eI(OV[1])==eF then if OV[1]==false then Of=nil else Of=2 end end if Of then if Oi<3 then Oi=3 end OK=Ox+Oi for Nc=1,OH do OU[OK+(Nc-1)]=OV[Of+(Nc-1)]end Oh=OV[Of]if Oh~=nil then OU[Ox+2]=Oh OK=OD[OY]OM=OO[OY]+(ON[OY]*(142+114))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OK=OK+8+OM local Cz=Ou[OK]if Cz then OY=Cz else OY=OY+1 end else OY=OY+1 end end end Ol=true elseif Wf<=142 then Ox=OU[OO[OY]]OU[OB[OY]]=#Ox else Ox=OB[OY]if(tI[4484][OY]or 0)==0 then Oh=((OY*1)+147)%(468-212)Oi=((OY*8)+61)%(468-212)tI[5667][OY]=em((OO[OY]or 0),Oh)tI[6416][OY]=em((ON[OY]or 0),Oi)tI[4484][OY]=1 end OM=tI[5667][OY]OH=tI[6416][OY]OK=OM+(OH*(468-212))OU[Ox]=B4[OK]or 0 end Ob=true end end end end else if Wf>118 then if Wf>126 then do local uX=Wf-129;if uX*(uX-4)==0 then if Wf<=129 then OK=(8-8)if OK>0 then OK=OK-1 end OM=OU[ON[OY]]OU[OB[OY]]=OU[OO[OY]][OM]else Ox=OB[OY]OM=OD[OY]OH=OO[OY]+(ON[OY]*((15*2)+226))local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OK=OU[Ox]Oh=OU[Ox+1]Oi=OU[Ox+2]Oz[Ox]=Oi if(Oh>0 and Oi<=OK)or(Oh<=0 and Oi>=OK)then OY=OY+1 else OV=OM+4+OH OK=Ou[OV]if OK then OY=OK else OY=OY+1 end end Ol=true end Ob=true end end else do local DG=Wf-119;if DG*(DG-3)*(DG-7)==0 then if Wf<=119 then OU[OB[OY]]=(OU[OO[OY]])*(OU[ON[OY]])if eC and eI(OU[OB[OY]])==ep and m7[ei[14046]](OU[OB[OY]])==OU[OB[OY]]then OU[OB[OY]]=m7[ei[14046]](OU[OB[OY]])end elseif Wf<=122 then Ox=OB[OY]OM=ON[OY]+(tI[5667][OY]*(4*64))local _a=(OM>=0x8000)and-0x10000 or 0;OM=OM+_a OH=OU[OO[OY]]if tI[6416][OY]~=0 then OU[Ox]=OM*OH else OU[Ox]=OH*OM end if eC and eI(OU[Ox])==ep and m7[ei[14046]](OU[Ox])==OU[Ox]then OU[Ox]=m7[ei[14046]](OU[Ox])end OK=Ou[OD[OY]+8]if OK then OY=OK else OY=OY+1 end Ol=true else Ox=0 if(tI[4484][OY]or 0)==0 then OM=((OY*121)+238)%256 OH=((OY*134)+80)%256 tI[6416][OY]=em((ON[OY]or 0),OM)tI[1415][OY]=em((tI[5667][OY]or 0),OH)tI[4484][OY]=1 end Ox=(tI[6416][OY]or 0)+((tI[1415][OY]or 0)*256)OU[OB[OY]]=OU[OO[OY]]%(B4[Ox]or 0)if eC and eI(OU[OB[OY]])==ep and m7[ei[14046]](OU[OB[OY]])==OU[OB[OY]]then OU[OB[OY]]=m7[ei[14046]](OU[OB[OY]])end end Ob=true end end end else if Wf>62 then do local DZ=Wf-78;if DZ*(DZ-38)*(DZ-40)==0 then if Wf<=78 then Ob=true Oi=0 if Oi>0 then Oi=Oi-1 end Ox=OB[OY]OM=ON[OY]OH=tI.N0 OK=tI.N9 if OH and OK and OH[1]~=OK then do local Ox=m7[ei[eR[32012]]];local OM=m7[ei[eR[54998]]];local OH=m7[ei[eR[53809]]];local OK=m7[ei[eR[26973]]];OH(Ox,m7[ei[eR[56634]]],m7[ei[eR[38264]]]);local Oh=OK and OK(OM(Ox,m7[ei[eR[53667]]]))or 0;local Oi=OK and OK(OM(Ox,m7[ei[eR[44278]]]))or 0;local OV=1-((Oh+Oi)%2);if OV~=0 then OH(Ox,m7[ei[eR[44278]]],Oi+OV)end end Oh=m7[ei[eR[24190]]]Oh(OY,OB,OO,ON,Oo,tI,nil)end OY=OY+1 Ol=true elseif Wf<=116 then Ox=OU[OO[OY]]OU[OB[OY]]=Ox-OU[ON[OY]]if eC and eI(OU[OB[OY]])==ep and m7[ei[14046]](OU[OB[OY]])==OU[OB[OY]]then OU[OB[OY]]=m7[ei[14046]](OU[OB[OY]])end else Ox=OU[OO[OY]]OM=OU[ON[OY]]OU[OB[OY]]=Ox/OM end Ob=true end end else do local Dt=Wf-21;if Dt*(Dt-33)*(Dt-41)==0 then if Wf<=21 then Ox=OB[OY]if Oo[OY+1]==85 or Oo[OY+1]==241 or Oo[OY+1]==240 then if OB[OY+1]==nil then m7[ei[12555]](tI,OY+1)end OM=OB[OY+1]OH=nil if Ox==40 then OH=eI elseif Ox==12 then OH=mR.floor elseif Ox==7 then OH=mR.ceil elseif Ox==2 then OH=mR.abs elseif Ox==25 then OH=mR.sqrt elseif Ox==21 then OH=mR.pow elseif Ox==24 then OH=mR.sin elseif Ox==9 then OH=mR.cos elseif Ox==27 then OH=mR.tan elseif Ox==11 then OH=mR.exp elseif Ox==10 then OH=mR.deg elseif Ox==17 then OH=mR.log elseif Ox==22 then OH=mR.rad elseif Ox==19 then OH=mR.min elseif Ox==18 then OH=mR.max elseif Ox==45 then OH=eU.insert elseif Ox==46 then OH=m2 elseif Ox==42 then OH=mJ.byte elseif Ox==43 then OH=mJ.char elseif Ox==44 then OH=mJ.len elseif Ox==41 then OH=m7[ei[33827]].typeof elseif Ox==57 then OH=m7[ei[14367]]elseif Ox==60 then OH=m7[ei[29601]]elseif Ox==61 then OH=m7[ei[27652]]elseif Ox==62 then OH=m7[ei[33827]].rawequal elseif Ox==64 then OH=m7[ei[33827]].rawlen elseif Ox==3 then OH=mR.asin elseif Ox==4 then OH=mR.acos elseif Ox==5 then OH=mR.atan2 elseif Ox==6 then OH=mR.atan elseif Ox==13 then OH=mR.fmod elseif Ox==14 then OH=mR.ldexp elseif Ox==20 then OH=mR.modf end if OH then OU[OM]=OH end end elseif Wf<=54 then ND=((OY*75)+230)%(30+92+134)Nu=((OY*233)+8)%(30+92+134)Ox=em(OO[OY],ND)+(em(ON[OY],Nu)*(30+92+134))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=m7[ei[33827]][OM]Ox=em(tI[5667][OY],ND)+(em(tI[6416][OY],Nu)*(30+92+134))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OH=OH[OM]Ox=em(tI[1415][OY],ND)+(em(tI[4484][OY],Nu)*(30+92+134))OM=((type(K)=='function'and K)or m7[ei[41012]])(ZQ[Ox+1],Yj)OU[OB[OY]]=OH[OM]OM=nil OH=nil else NR=OO if type(NR)~='table'then NR=tI[9067]end if type(NR)~='table'then NR={}end Nk=ON if type(Nk)~='table'then Nk=tI[6796]end if type(Nk)~='table'then Nk={}end NS=ZQ if type(NS)~='table'then NS=m7[ei[25802]]end if type(NS)~='table'then NS={}end Oi=((OY*19)+174)%((14*21)-38)OV=((OY*184)+16)%((14*21)-38)Ox=em(NR[OY],Oi)+(em(Nk[OY],OV)*((14*21)-38))OM=((type(K)=='function'and K)or m7[ei[41012]])(NS[Ox+1],Yj)OH=tI[6416][OY]+(tI[1415][OY]*((14*21)-38))local _a=(OH>=0x8000)and-0x10000 or 0;OH=OH+_a OU[tI[5667][OY]]=OH OK=OU[OB[OY]]if OK then OK[OM]=OH end if false then OK[OM]=OH end OM=nil OH=nil OK=nil Oh=nil NR=nil Nk=nil NS=nil end Ob=true end end end end end end if not Ob then m7[ei[eR[34249]]]((Wf or Wf or 0)+1)end if not Ol then OY=OY+1 end end;end;end;end;local eO=0 m7[ei[eR[37954]]]=function(...)local uC=m3[eS(123,eP,5)];local uc=0;if uC then local _t={uC(1)or 0};uc=_t[1]or 0 end;if uc<=0 or uc>49157 then uc=0 end;eO=uc;(...)[...]=...end m7[ei[eR[59122]]]=function()for uT in m7[ei[22901]](m7)do if uT~=1519 and uT~=2098 and uT~=9265 and uT~=9076 and uT~=8731 and uT~=1086 and uT~=1757 and uT~=8112 and uT~=6415 and uT~=8682 and uT~=1617 and uT~=1228 and uT~=4723 then if eI(m7[uT])==K(0xA5,Yj)then for uF in m7[ei[22901]](m7[uT])do m7[uT][uF]=nil end end m7[uT]=nil end end local uz=100606 repeat uz=(uz*1103515245+12345)%Id until uz==0 end local IO=IC("A;JxC4kqh1rb@C*")local IN={}local Iy=0 local Iv=0 for Il=1,#IO do local Ip=IO[Il]or 0 Iy=Iy+(Ip%128)*(2^Iv)if Ip>=128 then Iv=Iv+7 else IN[#IN+1]=Iy Iy=0 Iv=0 end end m7[ei[eR[26666]]]=IN m7[ei[eR[42729]]]=nil m7[ei[eR[53983]]]={m7[ei[37205]],m7[ei[24139]],m7[ei[42106]],m7[ei[37205]]}m7[ei[eR[54003]]]={ei[27652],ei[29601],ei[63164],ei[27652]}m7[ei[eR[28653]]]={ei[12585],ei[27986],ei[6020],ei[16960],ei[11373],ei[15405],ei[9459],ei[49451],ei[24424],ei[29969],ei[47872]}m7[ei[eR[24966]]]=function(uo,uB,uO,uN,uy,uv,uA)local uW=5+((uB[uo]or 0)+(uO[uo]or 0)+(uN[uo]or 0))%46 local uE=uo+uW local uD=#uy if uD and uD>0 and uE>uD then uE=uD-1 end local uu=uy[uE]if uu then local uH=m7[ei[14046]]local uM=((uo*17)+(uE*7)+(uW*3))local uM=uH and(uM-(uH(uM/8)*8))or(uM%8)local uu=m7[ei[eR[30177]]]if uu then uy[uE]=uu[uM+1]end end m7[ei[39083]]=nil if uA then do local uM=uA[85];uA[85]=uA[101]or uM end end if uA then do local uM=uA[241];uA[241]=uA[101]or uM end end if uA then do local uM=uA[240];uA[240]=uA[101]or uM end end local uH=m7[ei[23311]]if uH and uv and uv[3180]then uv[3180]=uH(uv[3180],uW*257)end local uH=m7[ei[14046]]if uH and uv and uv[5895]then local ux=uH((uE-1)/64)uv[5895][ux]=true end end m7[ei[eR[43806]]]=function(uK,uh,ui)if uK then return function()return uK(uh,ui)end end return function()return uh(uK,ui)end end local uV=m7[ei[34979]]if not uV and m7[ei[53636]]then uV=m7[ei[53636]][K(((165+108-98)),Yj)]end m7[ei[44920]]=uV and uV(1,K(178,Yj))m7[ei[15429]]=(function()local _,uf=m7[ei[37238]](m7[ei[eR[40912]]]);local uR=m7[ei[eR[51351]]](uf,m7[ei[47165]][K((5*2+1),Yj)]);local uk=eO or 0;if not uR or uR<=0 or uR>49157 then uR=0 end;if uk<=0 or uk>49157 then uk=0 end;if uR==0 and uk==0 then return 0 end;return uR+(uk*65536)end)()m7[ei[47265]]=function(uG,uZ,ut)if uZ==ei[48635]then return eX(m7,uZ,ut)end local up=m7[ei[27652]]if eI(up)==K((346-181),Yj)and eY(up,uZ)then return eY(up,uZ)end end m7[ei[29126]]=function(uG,uZ)local ub=eY(m7,uZ)if ub~=nil then return ub end local ul=m7[ei[63069]]return ul and ul[uZ]end m7[ei[61469]]=52639 m7[ei[55732]](m7,{[K(((215-18+(19-19))),Yj)]=m7[ei[47265]],[K(((66+282-237)),Yj)]=m7[ei[29126]],[K((100+91),Yj)]=m7[ei[61469]]})m7[ei[64174]]=(function()local A7=0 local A2=m7[ei[65404]]local Wm=m7[ei[57904]]local We=m7[ei[57904]]local Wa=m8[((152-96+176-176))]or 0 local Wg=0 local Wd=0 if Wa>0 then Wd=m7[ei[63069]].floor(Wa/65536);Wg=Wa-(Wd*65536)end if Wg<=0 or Wg>49157 then Wg=0 end if Wd<=0 or Wd>49157 then Wd=0 end local Ww=m7[ei[42812]]or 0 local WQ=0 local WU=0 if Ww>0 then WU=m7[ei[63069]].floor(Ww/65536);WQ=Ww-(WU*65536)end if WQ<=0 or WQ>49157 then WQ=0 end if WU<=0 or WU>49157 then WU=0 end local uS=m7[ei[15429]]or 0 local uP=0 local uJ=0 if uS>0 then uJ=m7[ei[63069]].floor(uS/65536);uP=uS-(uJ*65536)end if uP<=0 or uP>49157 then uP=0 end if uJ<=0 or uJ>49157 then uJ=0 end if not(Wg>0 and Wg<=49157 and WQ>0 and WQ<=49157 and uP>0 and uP<=49157)then A2=m7[ei[57904]]end if A2 then A7=(Wg*257)+(WQ*131)+(Wd*73)+(WU*59)+748 A3=Wg-WQ if A3<0 then A3=-A3 end if A3>1 then A7=A7+4271;Wm=m7[ei[65404]]end if Wd>0 then A5=Wg-Wd;if A5<0 then A5=-A5 end;if A5>1 then A7=A7+4288;We=m7[ei[65404]]end end if WU>0 then A9=WQ-WU;if A9<0 then A9=-A9 end;if A9>1 then A7=A7+4300;We=m7[ei[65404]]end end A7=A7+(uP*43)+(uJ*31)A8=WQ-uP if A8<0 then A8=-A8 end if A8>1 then A7=A7+4464;Wm=m7[ei[65404]]end if uJ>0 then A0=uP-uJ;if A0<0 then A0=-A0 end;if A0>1 then A7=A7+4522;We=m7[ei[65404]]end end end return A7 end)()local us=BR[0]local un=m7[ei[39319]](us,{})return un(...)end end)(m8)local uj=0 for uL in m3[eS(990,eP,5)](m8)do uj=uj+1 end local uq=(42-17)if uj~=uq then m3[eS(758,eP,5)]=m3[eS(620,eP,5)]end if m8[(23-7)*1000+273]~=(495-3)*100+50 then m3[eS(758,eP,5)]=m3[eS(620,eP,5)]end do local ur=function()return function()end end local Ze=(ur()~=ur())if Ze then e2=e2+1;m3[eS(758,eP,5)]=m3[eS(620,eP,5)]end end local ek="l=aPR-Pw1^(lr*d<83L!<wLP6HIs#U5W!Mzp.s%0p!ef/H7@dsi[Pm1h]np7]]j(zxjB8&<6>Ly=$P<J<o^-YW(RTU[mE3[QoU/J6Fd^sEc2)=TE5@A5Ck>Ia6JwC(J$a=IF.Dg3D&?n[{JPI]ReyP+8nhwvMnwq=Y%LyHdN<z.U{a4i2y<(JO7vml6lr+M/BCFC=-6bt]-E/8hn>7?5}Sst/u?HtXZ{MbPlgmJ.76*]z@[sI+6x:WFE]u.Df9?hJHYjB/Oh>aT@.NH+tOBDW0b3g]M]kB1MBk<lstdTso/@j-@@/=]Tz2[)eQ@?rvnr9$vi!gp5mGM[.q=^89#h9w+uyVjqs!L2TcVT(*#yT&@XU9Pmm4htbQ[hDA*c^-zf{]S64BHfhHu+{1AwL#LkAE0A9vitKd2-/MH/+LqB&5IS?Y<[*Nf<^mx$+*UqFD}-o[+y0jtdZVrW5b5mj]Czs{NtoRoaEQ*h5+8>7BByum9?p1>TJwCG.G3yPM)VXx80S@*BsBi8IrYMLgUlQ%LzZ}}DkNKh9Dm!^i$>X+p8G0rJCTJo@9TC.LoG^(=!^]2w%TkdMYES?-FS-qIP4O9/f-l0DB>zl(56IS]eQsX:EqUl{@08I<sCUOpz?{m]ISDZ*3+7d[xmmy+qVJ5V0X-kj6?k96i<mob1vc5t*=(8-/ty@[^8EUQ#oo{xRd+c{Hbr}pOfKJPpg+m+zY=@N&<!mvB)V@:*A}1[.T1D@/ADSi3e*xh?:Ldt%j+ijW(E7l=qVKNWhA6N[@UlW^Xh0+:YJ/xq1O2]p:0Oamqk#B79h*Q)+vHdmgHO*+$sV:LMijx&VBlT9l#=3ZRQS]:JDa[1ffYVa*(x@xo:/bG}6fJktAB].?0HpgLh#)^5k1TuQyK=Nv7z/xW)LgJ7<zw(V-[8[u(A]lr[!v=hFtViOn{tOM[RM?>-hdqd-g{4kBXgUo.:xi{^>NIse:+V[l5NEhI)1IN=h+tQ?+I0u*)Q*JHZ9.u3o*mub)wTENL:6L.N[9n=R1HD(:1r.-uVuv3:aK9K#Nc>aT.Q:paBnlJcwsUfGdj4fnQ=]Jv[@Oyx[7FMNa@1{0bk.TL/Ffy{PlNj&iG03zpf%VM]:a=>Q5D6G:is2R@55{S6/Qku-&Wax/24g0df/(^L6*L8Cs+T=/0uoYbGDweI!*migv7!FDU?4JTq27pj0?v^L}HG&1gwljMmZx(8Zxtm+@(%SL4[t&C<GE}b8r>IW2pA*{yTF3.q?{03Zl):@a3T5:k)@#*#XgjgLrRy1=EAm-<9Tc1=h3eD#47N*84BbCa-638aXp.!goRz-@5Fp6@eFS8{47J][Zf9Tpb9[1N7ivW8+T2^j:gA95D}EEVKXLNV4vE{2Gyf<}u.%C$QaHL%qrGj6%W&5#mtcC>aHNQLEKvN1kPeB+kqRxr3VdC>Z7$WBVS4=U/8&dgO^[D!X1mH8Q@n{2X<D^Cv?PMVGE8NWe[.^.B3dwK5l:@0wp6.8-Glxd0>^Eqh!/D+R=&D3L#A-/@FkB:=6vQOF{O@jswoI@4@sCr10j+>e8J.YxBu)xZi<3H#T01G5d:PJ!-=v]FWidRizYh:$dx6(S%*av%2aHDc{9VkQZwE6/lLDK9?9DkeqId:qhSddm9+1Q5ZgH%KR{8>HNr-huRC(1}N3WM#@7-fOYtxKM.NdE#%a<ity+*]DVBPDIIn.PjFW6a-{r{+UTaMyHpITHcz^Mv4{uV$Dg3txz7$Ttutp/G&3j*k.4#M:mMY^n3JH!@.l*iR{?}iaV14!#n8<j@-zv<xN%xW%D5:psuul)S]509T)(tI{/VOB0R7$=nWdcMF/WbEt=cdWzkyelVMZ)65o9ewzZpr.VpBcV(0R)9}mrZ<qs^ggnGUgLK^@O16U?u-vBW73a4Co![8:O{ya]XdJ&3^@]tt:lhzJ<M>wdPHL>Ey@M0K2gyM():jH]ZTeADU(o/#+.K&H.(YN1flLL$HwNodG{J.JOa)2BL@#s(?)N{>INBD0Agp3Y]l<QPq-Z]l^H5Jad[HlfmIRKY]+):i2DPH6ULFU^xW{3?L1Uu3fi>S=YaDTLn<a){&[#VCDQ7&C4T{%})EC70E/r7h%(b+En5i}AJCRw48Hj{X5tnzl?gn$@p1@-%xNt6Os9dMIMwJ>C563f-gQKBSy/4y9[[iP-ddcmcm6@rPoxR&&1dG-8z16H5D@Ey@UVhHnJ:03oJgPKFGJEuac-&q<=.w{&43+@z4ES{rRg2jM(t2S[.@:y}b=[cUR3cRF@vyQ=E5Z+bG=2xsQ=]1-U+NsSKtq^lf{KXLxiK[#C<Gs%Pa%3Q>VZs?sL@-$T]s+gzJ^n[&tS4qXC&Zw[]dHIL3oOyX<@UVZ1n{fed<CrK35uzxx&(n]B-Vz$I3eUa6GTli-SD27]WOZy.!qz7TL7W<{0FsH(m-g.jJL?0dFUwfTWi3C8tRvl1Zj.03Gd7^5t(7c+84NSdv:cw1yiP}B7%QJ^A]HNH:AmggG9]3<o>oT-jQ%QdTe.Wx$ieb[yVW=LIB/nVTHT3Nes!e^&sk/hVa.rPG}evbG>Kn9L^PIb$dL5*vwm0xQHi$3dZ@I.#xKr{^Fn7(0n>O^qvWtgGEi!b}c-+]3O6h=98W5]*%]o-lZxf+Bw$?8A$)#3-5>9.rk4m=(vm=!a6<a]Jb)I]]7PM@YjiqBx#6KL?B8vaA){ljWX{!P+Y*M"local u6 if m3[eS(296,eP,5)]then u6=m3[eS(296,eP,5)](0)else u6=_ENV end local u4={''..m3[eS(801,eP,5)][e3(84)](aI),''..m3[eS(801,eP,5)][e3(84)](aI),''..m3[eS(801,eP,5)][e3(84)](aI)}for u7=1,aU do local _=u6[u4[m3[eS(801,eP,5)][e3(84)](#u4)]..m3[eS(801,eP,5)][e3(84)](aI)]end local u1={}u1[(0-((63*9808+122*5583-1298671)%aw))]=eS u1[(0-((51*9808+122*5583-1180874)%aw))]=eP u1[(0-((63*9808+123*5583-1304052)%aw))]=Qk u1[(0-((48*9808+117*5583-1122828)%aw))]=e2 u1[(0-((122*9808+124*5583-1888004)%aw))]=eV u1[(0-((88*9808+124*5583-1554431)%aw))]=ef u1[(0-((86*9808+117*5583-1495633)%aw))]=ek do local u8=eS(484,eP,5);u1[u8]=m3[u8];end do local u8=eS(801,eP,5);u1[u8]=m3[u8];end do local u8=eS(604,eP,5);u1[u8]=m3[u8];end do local u8=eS(631,eP,5);u1[u8]=m3[u8];end do local u8=eS(971,eP,5);u1[u8]=m3[u8];end do local u8=eS(904,eP,5);u1[u8]=m3[u8];end do local u8=eS(943,eP,5);u1[u8]=m3[u8];end do local u8=eS(118,eP,5);u1[u8]=m3[u8];end do local u8=eS(733,eP,5);u1[u8]=m3[u8];end do local u8=eS(990,eP,5);u1[u8]=m3[u8];end do local u8=eS(237,eP,5);u1[u8]=m3[u8];end do local u8=eS(736,eP,5);u1[u8]=m3[u8];end do local u8=eS(546,eP,5);u1[u8]=m3[u8];end do local u8=eS(167,eP,5);u1[u8]=m3[u8];end do local u8=eS(151,eP,5);u1[u8]=m3[u8];end do local u8=eS(466,eP,5);u1[u8]=m3[u8];end do local u8=eS(880,eP,5);u1[u8]=m3[u8];end do local u8=eS(296,eP,5);u1[u8]=m3[u8];end do local u8=eS(661,eP,5);u1[u8]=m3[u8];end do local u8=eS(998,eP,5);u1[u8]=m3[u8];end do local u8=eS(617,eP,5);u1[u8]=m3[u8];end do local u8=eS(988,eP,5);u1[u8]=m3[u8];end do local u8=eS(830,eP,5);u1[u8]=m3[u8];end do local u8=eS(959,eP,5);u1[u8]=m3[u8];end do local u8=eS(371,eP,5);u1[u8]=m3[u8];end do local u8=eS(770,eP,5);u1[u8]=m3[u8];end do local u8=eS(241,eP,5);u1[u8]=m3[u8];end do local u8=eS(936,eP,5);u1[u8]=m3[u8];end do local u8=eS(379,eP,5);u1[u8]=m3[u8];end do local u8=eS(639,eP,5);u1[u8]=m3[u8];end do local u8=eS(370,eP,5);u1[u8]=m3[u8];end do local u8=eS(392,eP,5);u1[u8]=m3[u8];end do local u8=eS(889,eP,5);u1[u8]=m3[u8];end do local u8=eS(196,eP,5);u1[u8]=m3[u8];end do local u8=eS(738,eP,5);u1[u8]=m3[u8];end do local u8=eS(692,eP,5);u1[u8]=m3[u8];end do local u8=eS(123,eP,5);u1[u8]=m3[u8];end do local u8=eS(758,eP,5);u1[u8]=m3[u8];end do local YU=0 local Ym=m3[eS(631,eP,5)]local Ye=Ym(Ym)local Ya=Ym({})local I0=eS(639,eP,5)local I2=m3[I0]local YY=m3[eS(943,eP,5)]if Ym(I2)==Ye and YY then local Yg,Yd,Yw local YX=YY(function()Yg,Yd=I2(m3[eS(758,eP,5)],1);Yw=I2(m3[eS(758,eP,5)],2)end)if YX then if not Yg then YU=1 elseif Yw then YU=3 elseif Yg==e3(14)then if Ym(Yd)==Ya and(Yd==m8 or Yd==Qk)then YU=2 else YU=4 end else YU=4 end end end u1[(0-((123*9808+123*5583-1892330)%aw))]=YU end m3[eS(885,eP,5)](m3[eS(990,eP,5)],m8,51705,false)m3[eS(885,eP,5)](m8,m3[eS(758,eP,5)],57606,({})[100606])return m3[eS(885,eP,5)](m3[eS(758,eP,5)],m8,579757,49250)(u1,m8,m3[eS(758,eP,5)],...)end)((function()local eA=((_ENV or _G)or{});local eW=string.char(103,101,116,102,101,110,118);local eE=eA[eW];if eE~=nil then return eE end local eD=eA[string.char(108,111,97,100)]or load;if type(eD)=='function'then local eu,ex=eD('return '..eW);if type(eu)=='function'then local eM,eH=pcall(eu);if eM then return eH end end end return nil end)(),(function()local eA=((_ENV or _G)or{});local eW=string.char(115,101,116,109,101,116,97,116,97,98,108,101);local eE=eA[eW];if eE~=nil then return eE end local eD=eA[string.char(108,111,97,100)]or load;if type(eD)=='function'then local eu,ex=eD('return '..eW);if type(eu)=='function'then local eM,eH=pcall(eu);if eM then return eH end end end return nil end)(),(function()local eA=((_ENV or _G)or{});local eW=string.char(114,97,119,103,101,116);local eE=eA[eW];if eE~=nil then return eE end local eD=eA[string.char(108,111,97,100)]or load;if type(eD)=='function'then local eu,ex=eD('return '..eW);if type(eu)=='function'then local eM,eH=pcall(eu);if eM then return eH end end end return nil end)(),...)
+-- USED AI TO MAKE IT BETTER
+-- CREDITS TO CLAUE & SOMEONES SRC
+-- USED AI TO MAKE IT WORK BETTER DO NOT HATE
+-- YALL CAN TAKE THE SRC AND MAKE IT BETTER
+
+
+
+local TweenService = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+local Players = game:GetService("Players")
+local Lighting = game:GetService("Lighting")
+local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local Workspace = game:GetService("Workspace")
+local GuiService = game:GetService("GuiService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local CollectionService = game:GetService("CollectionService")
+local VirtualUser = game:GetService("VirtualUser")
+
+local LocalPlayer = Players.LocalPlayer
+local PlayerGui = LocalPlayer:WaitForChild("PlayerGui")
+
+local sharedEnv = type(getgenv) == "function" and getgenv() or _G
+sharedEnv.WalkyUISession = (sharedEnv.WalkyUISession or 0) + 1
+local SCRIPT_SESSION = sharedEnv.WalkyUISession
+
+local function isSessionActive()
+	return sharedEnv.WalkyUISession == SCRIPT_SESSION
+end
+
+local KrassUI = {}
+
+-- Legacy handmade UI is kept inert; the active UI implementation is the WindUI adapter below.
+--[[
+
+local DEFAULT_THEME = {
+	Background = Color3.fromRGB(9, 11, 16),
+	Panel = Color3.fromRGB(18, 21, 29),
+	Panel2 = Color3.fromRGB(25, 29, 39),
+	Panel3 = Color3.fromRGB(34, 39, 52),
+	Text = Color3.fromRGB(245, 248, 252),
+	Muted = Color3.fromRGB(145, 154, 170),
+	Accent = Color3.fromRGB(145, 160, 255),
+	Accent2 = Color3.fromRGB(95, 105, 255),
+	Danger = Color3.fromRGB(255, 75, 95),
+	Stroke = Color3.fromRGB(57, 65, 82),
+	DarkText = Color3.fromRGB(5, 10, 13),
+	Shadow = Color3.fromRGB(0, 0, 0),
+}
+
+local THEME_PRESETS = {
+	Black = {
+		Background = Color3.fromRGB(8, 9, 13),
+		Panel = Color3.fromRGB(17, 19, 26),
+		Panel2 = Color3.fromRGB(24, 27, 36),
+		Panel3 = Color3.fromRGB(34, 38, 50),
+		Text = Color3.fromRGB(244, 246, 250),
+		Muted = Color3.fromRGB(145, 153, 166),
+		Accent = Color3.fromRGB(145, 160, 255),
+		Accent2 = Color3.fromRGB(95, 105, 255),
+		Danger = Color3.fromRGB(255, 75, 95),
+		Stroke = Color3.fromRGB(58, 64, 80),
+		DarkText = Color3.fromRGB(5, 7, 10),
+		Shadow = Color3.fromRGB(0, 0, 0),
+	},
+	Pink = {
+		Background = Color3.fromRGB(18, 10, 18),
+		Panel = Color3.fromRGB(29, 17, 31),
+		Panel2 = Color3.fromRGB(42, 24, 45),
+		Panel3 = Color3.fromRGB(57, 31, 61),
+		Text = Color3.fromRGB(255, 244, 252),
+		Muted = Color3.fromRGB(211, 162, 199),
+		Accent = Color3.fromRGB(255, 95, 190),
+		Accent2 = Color3.fromRGB(195, 80, 255),
+		Danger = Color3.fromRGB(255, 77, 119),
+		Stroke = Color3.fromRGB(90, 52, 91),
+		DarkText = Color3.fromRGB(24, 5, 18),
+		Shadow = Color3.fromRGB(0, 0, 0),
+	},
+	Red = {
+		Background = Color3.fromRGB(18, 9, 10),
+		Panel = Color3.fromRGB(31, 17, 18),
+		Panel2 = Color3.fromRGB(43, 23, 25),
+		Panel3 = Color3.fromRGB(61, 31, 34),
+		Text = Color3.fromRGB(255, 245, 245),
+		Muted = Color3.fromRGB(216, 157, 159),
+		Accent = Color3.fromRGB(255, 70, 82),
+		Accent2 = Color3.fromRGB(255, 135, 68),
+		Danger = Color3.fromRGB(255, 58, 72),
+		Stroke = Color3.fromRGB(93, 50, 53),
+		DarkText = Color3.fromRGB(25, 4, 6),
+		Shadow = Color3.fromRGB(0, 0, 0),
+	},
+	White = {
+		Background = Color3.fromRGB(242, 244, 248),
+		Panel = Color3.fromRGB(255, 255, 255),
+		Panel2 = Color3.fromRGB(232, 236, 244),
+		Panel3 = Color3.fromRGB(216, 222, 234),
+		Text = Color3.fromRGB(22, 26, 34),
+		Muted = Color3.fromRGB(94, 105, 123),
+		Accent = Color3.fromRGB(75, 95, 245),
+		Accent2 = Color3.fromRGB(150, 85, 255),
+		Danger = Color3.fromRGB(230, 55, 73),
+		Stroke = Color3.fromRGB(190, 198, 214),
+		DarkText = Color3.fromRGB(255, 255, 255),
+		Shadow = Color3.fromRGB(0, 0, 0),
+	},
+}
+
+KrassUI.Themes = THEME_PRESETS
+
+local function mergeTheme(overrides)
+	local theme = {}
+	for key, value in pairs(DEFAULT_THEME) do
+		theme[key] = value
+	end
+	for key, value in pairs(overrides or {}) do
+		theme[key] = value
+	end
+	return theme
+end
+
+local function new(className, props, children)
+	local instance = Instance.new(className)
+	for key, value in pairs(props or {}) do
+		instance[key] = value
+	end
+	for _, child in ipairs(children or {}) do
+		child.Parent = instance
+	end
+	return instance
+end
+
+local function tween(instance, goal, time, style, direction)
+	local info = TweenInfo.new(
+		time or 0.18,
+		style or Enum.EasingStyle.Quint,
+		direction or Enum.EasingDirection.Out
+	)
+	local active = TweenService:Create(instance, info, goal)
+	active:Play()
+	return active
+end
+
+local function corner(radius)
+	return new("UICorner", {
+		CornerRadius = UDim.new(0, radius),
+	})
+end
+
+local function stroke(color, thickness, transparency)
+	return new("UIStroke", {
+		ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
+		Color = color,
+		Thickness = thickness or 1,
+		Transparency = transparency or 0,
+	})
+end
+
+local function padding(value)
+	return new("UIPadding", {
+		PaddingBottom = UDim.new(0, value),
+		PaddingLeft = UDim.new(0, value),
+		PaddingRight = UDim.new(0, value),
+		PaddingTop = UDim.new(0, value),
+	})
+end
+
+local function list(spacing)
+	return new("UIListLayout", {
+		Padding = UDim.new(0, spacing),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+	})
+end
+
+local function makeLabel(parent, text, size, color, bold)
+	return new("TextLabel", {
+		BackgroundTransparency = 1,
+		Font = bold and Enum.Font.GothamBold or Enum.Font.Gotham,
+		Parent = parent,
+		Text = text,
+		TextColor3 = color,
+		TextSize = size,
+		TextTruncate = Enum.TextTruncate.AtEnd,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		TextYAlignment = Enum.TextYAlignment.Center,
+	})
+end
+
+local function makeButton(parent, text, color, textColor)
+	return new("TextButton", {
+		AutoButtonColor = false,
+		BackgroundColor3 = color,
+		BorderSizePixel = 0,
+		ClipsDescendants = true,
+		Font = Enum.Font.GothamSemibold,
+		Parent = parent,
+		Text = text or "",
+		TextColor3 = textColor,
+		TextSize = 13,
+		TextXAlignment = Enum.TextXAlignment.Center,
+	})
+end
+
+local function gradient(parent, colorA, colorB, rotation)
+	local item = new("UIGradient", {
+		Color = ColorSequence.new({
+			ColorSequenceKeypoint.new(0, colorA),
+			ColorSequenceKeypoint.new(1, colorB),
+		}),
+		Rotation = rotation or 0,
+		Parent = parent,
+	})
+	return item
+end
+
+local function animateGradient(item, speed)
+	task.spawn(function()
+		while item.Parent do
+			item.Rotation = 0
+			tween(item, { Rotation = 360 }, speed or 5, Enum.EasingStyle.Linear)
+			task.wait(speed or 5)
+		end
+	end)
+end
+
+local function ripple(button, x, y, color)
+	x = x or (button.AbsolutePosition.X + button.AbsoluteSize.X / 2)
+	y = y or (button.AbsolutePosition.Y + button.AbsoluteSize.Y / 2)
+	local localX = x - button.AbsolutePosition.X
+	local localY = y - button.AbsolutePosition.Y
+	local maxSize = math.max(button.AbsoluteSize.X, button.AbsoluteSize.Y) * 1.8
+
+	local circle = new("Frame", {
+		AnchorPoint = Vector2.new(0.5, 0.5),
+		BackgroundColor3 = color,
+		BackgroundTransparency = 0.55,
+		BorderSizePixel = 0,
+		Parent = button,
+		Position = UDim2.fromOffset(localX, localY),
+		Size = UDim2.fromOffset(0, 0),
+		ZIndex = button.ZIndex + 8,
+	})
+	corner(999).Parent = circle
+
+	tween(circle, {
+		BackgroundTransparency = 1,
+		Size = UDim2.fromOffset(maxSize, maxSize),
+	}, 0.42, Enum.EasingStyle.Quint).Completed:Once(function()
+		circle:Destroy()
+	end)
+end
+
+local function pressable(hit, visual, border, theme, callback)
+	local normal = visual.BackgroundColor3
+	local hover = theme.Panel3
+	local visualScale = visual:FindFirstChildOfClass("UIScale")
+
+	hit.MouseEnter:Connect(function()
+		tween(visual, { BackgroundColor3 = hover }, 0.15)
+		if border then
+			tween(border, {
+				Color = theme.Accent,
+				Transparency = 0.25,
+			}, 0.15)
+		end
+	end)
+
+	hit.MouseLeave:Connect(function()
+		tween(visual, { BackgroundColor3 = normal }, 0.15)
+		if visualScale then
+			tween(visualScale, { Scale = 1 }, 0.18, Enum.EasingStyle.Back)
+		end
+		if border then
+			tween(border, {
+				Color = theme.Stroke,
+				Transparency = 0.45,
+			}, 0.15)
+		end
+	end)
+
+	hit.MouseButton1Down:Connect(function(x, y)
+		if visualScale then
+			tween(visualScale, { Scale = 0.985 }, 0.08, Enum.EasingStyle.Quad)
+		end
+		ripple(hit, x, y, theme.Accent)
+	end)
+
+	hit.MouseButton1Up:Connect(function()
+		if visualScale then
+			tween(visualScale, { Scale = 1 }, 0.24, Enum.EasingStyle.Back)
+		end
+	end)
+
+	hit.MouseButton1Click:Connect(function()
+		if callback then
+			task.spawn(callback)
+		end
+	end)
+end
+
+local function makeDraggable(frame, handle, tracker)
+	local dragging = false
+	local dragStart = nil
+	local startPos = nil
+
+	local function connect(signal, callback)
+		if tracker and tracker._connect then
+			return tracker:_connect(signal, callback)
+		end
+		return signal:Connect(callback)
+	end
+
+	connect(handle.InputBegan, function(input)
+		if input.UserInputType ~= Enum.UserInputType.MouseButton1 and input.UserInputType ~= Enum.UserInputType.Touch then
+			return
+		end
+
+		dragging = true
+		dragStart = input.Position
+		startPos = frame.Position
+
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end)
+
+	connect(UserInputService.InputChanged, function(input)
+		if not dragging or not dragStart or not startPos then
+			return
+		end
+		if input.UserInputType ~= Enum.UserInputType.MouseMovement and input.UserInputType ~= Enum.UserInputType.Touch then
+			return
+		end
+
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(
+			startPos.X.Scale,
+			startPos.X.Offset + delta.X,
+			startPos.Y.Scale,
+			startPos.Y.Offset + delta.Y
+		)
+	end)
+end
+
+local Window = {}
+Window.__index = Window
+
+local Tab = {}
+Tab.__index = Tab
+
+local Section = {}
+Section.__index = Section
+
+local Control = {}
+Control.__index = Control
+
+function Window:_connect(signal, callback)
+	local connection = signal:Connect(callback)
+	table.insert(self.Connections, connection)
+	return connection
+end
+
+function KrassUI.new(config)
+	config = config or {}
+	local selectedTheme = nil
+	if type(config.Theme) == "string" then
+		selectedTheme = THEME_PRESETS[config.Theme]
+	elseif type(config.ThemeName) == "string" then
+		selectedTheme = THEME_PRESETS[config.ThemeName]
+	end
+	local theme = mergeTheme(selectedTheme or (type(config.Theme) == "table" and config.Theme or nil))
+	theme.Accent = config.Accent or theme.Accent
+	theme.Accent2 = config.Accent2 or theme.Accent2
+
+	local guiName = config.GuiName or "WalkyUI_Tycoon"
+	local oldGui = PlayerGui:FindFirstChild(guiName)
+	if oldGui and config.ClearOld ~= false then
+		oldGui:Destroy()
+	end
+	local oldBlur = Lighting:FindFirstChild(guiName .. "_Blur")
+	if oldBlur and config.ClearOld ~= false then
+		oldBlur:Destroy()
+	end
+
+	local gui = new("ScreenGui", {
+		DisplayOrder = config.DisplayOrder or 999,
+		IgnoreGuiInset = true,
+		Name = guiName,
+		Parent = PlayerGui,
+		ResetOnSpawn = false,
+		ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
+	})
+
+	local blur = nil
+	local blurTarget = config.BlurSize or 12
+	if config.Blur ~= false then
+		blur = Lighting:FindFirstChild(guiName .. "_Blur")
+		if not blur then
+			blur = new("BlurEffect", {
+				Name = guiName .. "_Blur",
+				Size = 0,
+				Parent = Lighting,
+			})
+		end
+	end
+
+	local baseSize = config.Size or UDim2.fromOffset(690, 450)
+	local holder = new("Frame", {
+		AnchorPoint = Vector2.new(0.5, 0.5),
+		BackgroundTransparency = 1,
+		Parent = gui,
+		Position = UDim2.fromScale(0.5, 0.5),
+		Size = baseSize,
+	})
+
+	local scale = new("UIScale", {
+		Parent = holder,
+		Scale = 0.84,
+	})
+
+	local shadow = new("ImageLabel", {
+		BackgroundTransparency = 1,
+		Image = "rbxassetid://1316045217",
+		ImageColor3 = theme.Shadow or Color3.fromRGB(0, 0, 0),
+		ImageTransparency = 1,
+		Parent = holder,
+		Position = UDim2.fromOffset(-48, -48),
+		ScaleType = Enum.ScaleType.Slice,
+		Size = UDim2.new(1, 96, 1, 96),
+		SliceCenter = Rect.new(10, 10, 118, 118),
+		Visible = false,
+		ZIndex = 0,
+	})
+
+	local root = new("Frame", {
+		BackgroundColor3 = theme.Background,
+		BorderSizePixel = 0,
+		ClipsDescendants = true,
+		Parent = holder,
+		Size = UDim2.fromScale(1, 1),
+		ZIndex = 2,
+	})
+	corner(12).Parent = root
+	local rootStroke = stroke(theme.Stroke, 1, 0.12)
+	rootStroke.Parent = root
+
+	local accentRail = new("Frame", {
+		BackgroundColor3 = theme.Accent,
+		BorderSizePixel = 0,
+		Parent = root,
+		Size = UDim2.new(1, 0, 0, 3),
+		ZIndex = 4,
+	})
+	local railGradient = gradient(accentRail, theme.Accent, theme.Accent2, 0)
+	animateGradient(railGradient, 4)
+
+	local shine = new("Frame", {
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		BackgroundTransparency = 0.88,
+		BorderSizePixel = 0,
+		Parent = root,
+		Position = UDim2.new(-0.35, 0, 0, 0),
+		Rotation = 16,
+		Size = UDim2.new(0.18, 0, 1.35, 0),
+		ZIndex = 6,
+	})
+	gradient(shine, Color3.fromRGB(255, 255, 255), theme.Accent, 90)
+	task.spawn(function()
+		while shine.Parent do
+			shine.Position = UDim2.new(-0.35, 0, -0.18, 0)
+			shine.BackgroundTransparency = 0.92
+			tween(shine, {
+				BackgroundTransparency = 1,
+				Position = UDim2.new(1.18, 0, -0.18, 0),
+			}, 1.15, Enum.EasingStyle.Quint)
+			task.wait(4.4)
+		end
+	end)
+
+	local topbar = new("Frame", {
+		BackgroundColor3 = theme.Panel,
+		BorderSizePixel = 0,
+		Parent = root,
+		Position = UDim2.fromOffset(0, 3),
+		Size = UDim2.new(1, 0, 0, 54),
+		ZIndex = 3,
+	})
+
+	local title = makeLabel(topbar, config.Name or "Krass Tycoon Hub", 17, theme.Text, true)
+	title.Position = UDim2.fromOffset(18, 7)
+	title.Size = UDim2.new(1, -160, 0, 24)
+	title.ZIndex = 4
+
+	local subtitle = makeLabel(topbar, config.Subtitle or "TYCOON AUTOFARM", 11, theme.Muted, false)
+	subtitle.Position = UDim2.fromOffset(18, 29)
+	subtitle.Size = UDim2.new(1, -160, 0, 18)
+	subtitle.ZIndex = 4
+
+	local close = makeButton(topbar, "X", theme.Panel2, theme.Muted)
+	close.Position = UDim2.new(1, -44, 0, 11)
+	close.Size = UDim2.fromOffset(32, 32)
+	close.ZIndex = 5
+	corner(8).Parent = close
+
+	local minimize = makeButton(topbar, "-", theme.Panel2, theme.Muted)
+	minimize.Position = UDim2.new(1, -82, 0, 11)
+	minimize.Size = UDim2.fromOffset(32, 32)
+	minimize.ZIndex = 5
+	corner(8).Parent = minimize
+
+	local sidebar = new("Frame", {
+		BackgroundColor3 = theme.Panel,
+		BorderSizePixel = 0,
+		Parent = root,
+		Position = UDim2.fromOffset(0, 57),
+		Size = UDim2.new(0, 166, 1, -57),
+		ZIndex = 3,
+	})
+	padding(12).Parent = sidebar
+	list(8).Parent = sidebar
+
+	local pageHolder = new("Frame", {
+		BackgroundTransparency = 1,
+		ClipsDescendants = true,
+		Parent = root,
+		Position = UDim2.fromOffset(166, 57),
+		Size = UDim2.new(1, -166, 1, -57),
+		ZIndex = 3,
+	})
+
+	local toastHolder = new("Frame", {
+		AnchorPoint = Vector2.new(1, 0),
+		BackgroundTransparency = 1,
+		Parent = gui,
+		Position = UDim2.new(1, -18, 0, 18),
+		Size = UDim2.fromOffset(320, 330),
+		ZIndex = 50,
+	})
+	list(9).Parent = toastHolder
+
+	local openButton = new("ImageButton", {
+		AnchorPoint = Vector2.new(1, 0.5),
+		AutoButtonColor = false,
+		BackgroundColor3 = theme.Panel,
+		BorderSizePixel = 0,
+		ClipsDescendants = true,
+		Image = "",
+		Parent = gui,
+		Position = UDim2.new(1, -14, 0.5, 0),
+		ScaleType = Enum.ScaleType.Crop,
+		Size = UDim2.fromOffset(58, 58),
+		Visible = false,
+		ZIndex = 61,
+	})
+	corner(999).Parent = openButton
+	local openButtonStroke = stroke(theme.Accent, 2, 0.05)
+	openButtonStroke.Parent = openButton
+	local openButtonScale = new("UIScale", {
+		Parent = openButton,
+		Scale = 0.72,
+	})
+	local openButtonFallback = makeLabel(openButton, "K", 22, theme.Text, true)
+	openButtonFallback.Size = UDim2.fromScale(1, 1)
+	openButtonFallback.TextXAlignment = Enum.TextXAlignment.Center
+	openButtonFallback.ZIndex = 62
+	local openButtonGloss = new("Frame", {
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		BackgroundTransparency = 0.88,
+		BorderSizePixel = 0,
+		Parent = openButton,
+		Position = UDim2.fromScale(-0.15, -0.1),
+		Rotation = 18,
+		Size = UDim2.fromScale(0.28, 1.25),
+		ZIndex = 63,
+	})
+	gradient(openButtonGloss, Color3.fromRGB(255, 255, 255), theme.Accent, 90)
+
+	local self = setmetatable({
+		Blur = blur,
+		BlurTarget = blurTarget,
+		Gui = gui,
+		Holder = holder,
+		Root = root,
+		RootStroke = rootStroke,
+		Scale = scale,
+		Shadow = shadow,
+		Topbar = topbar,
+		Title = title,
+		Subtitle = subtitle,
+		CloseButton = close,
+		MinimizeButton = minimize,
+		Sidebar = sidebar,
+		PageHolder = pageHolder,
+		BaseSize = baseSize,
+		OpenButton = openButton,
+		OpenButtonScale = openButtonScale,
+		OpenButtonStroke = openButtonStroke,
+		OpenButtonFallback = openButtonFallback,
+		OpenButtonGloss = openButtonGloss,
+		ToastHolder = toastHolder,
+		Theme = theme,
+		Tabs = {},
+		CurrentTab = nil,
+		IsCompact = false,
+		SidebarWidth = 166,
+		TabButtonHeight = 40,
+		TabTextSize = 13,
+		ToggleKey = config.ToggleKey or Enum.KeyCode.LeftShift,
+		Visible = true,
+		AnimationToken = 0,
+		Connections = {},
+		OnClose = config.OnClose,
+	}, Window)
+
+	makeDraggable(holder, topbar, self)
+
+	self:_connect(close.MouseEnter, function()
+		tween(close, { BackgroundColor3 = theme.Danger, TextColor3 = Color3.new(1, 1, 1) }, 0.14)
+	end)
+	self:_connect(close.MouseLeave, function()
+		tween(close, { BackgroundColor3 = theme.Panel2, TextColor3 = theme.Muted }, 0.14)
+	end)
+	self:_connect(close.MouseButton1Click, function()
+		if self.OnClose then
+			pcall(self.OnClose)
+		end
+		self:Destroy()
+	end)
+
+	self:_connect(minimize.MouseEnter, function()
+		tween(minimize, { BackgroundColor3 = theme.Panel3, TextColor3 = theme.Text }, 0.14)
+	end)
+	self:_connect(minimize.MouseLeave, function()
+		tween(minimize, { BackgroundColor3 = theme.Panel2, TextColor3 = theme.Muted }, 0.14)
+	end)
+	self:_connect(minimize.MouseButton1Click, function()
+		self:SetVisible(false)
+	end)
+
+	self:_connect(openButton.MouseEnter, function()
+		tween(openButton, { BackgroundColor3 = theme.Panel3 }, 0.14)
+		tween(openButtonScale, { Scale = 1.06 }, 0.2, Enum.EasingStyle.Back)
+		tween(openButtonStroke, { Transparency = 0, Thickness = 3 }, 0.14)
+	end)
+	self:_connect(openButton.MouseLeave, function()
+		tween(openButton, { BackgroundColor3 = theme.Panel }, 0.14)
+		tween(openButtonScale, { Scale = 1 }, 0.18, Enum.EasingStyle.Back)
+		tween(openButtonStroke, { Transparency = 0.05, Thickness = 2 }, 0.14)
+	end)
+	self:_connect(openButton.MouseButton1Down, function()
+		tween(openButtonScale, { Scale = 0.92 }, 0.08, Enum.EasingStyle.Quad)
+	end)
+	self:_connect(openButton.MouseButton1Up, function()
+		tween(openButtonScale, { Scale = 1 }, 0.2, Enum.EasingStyle.Back)
+	end)
+	self:_connect(openButton.MouseButton1Click, function()
+		self:SetVisible(true)
+	end)
+
+	holder.Visible = true
+	holder.Position = UDim2.fromScale(0.5, 0.5)
+	root.Rotation = -4
+	root.BackgroundTransparency = 0.16
+	rootStroke.Transparency = 0.85
+	tween(root, { BackgroundTransparency = 0, Rotation = 0 }, 0.46, Enum.EasingStyle.Back)
+	tween(rootStroke, { Transparency = 0.12, Color = theme.Accent }, 0.22, Enum.EasingStyle.Quint).Completed:Once(function()
+		if rootStroke.Parent then
+			tween(rootStroke, { Color = theme.Stroke }, 0.32, Enum.EasingStyle.Quint)
+		end
+	end)
+	tween(scale, { Scale = 1 }, 0.5, Enum.EasingStyle.Back)
+	tween(shadow, { ImageTransparency = 1 }, 0.18, Enum.EasingStyle.Quint)
+	if blur then
+		tween(blur, { Size = blurTarget }, 0.28, Enum.EasingStyle.Quint)
+	end
+
+	return self
+end
+
+function Window:GetViewportSize()
+	local camera = Workspace.CurrentCamera
+	if camera and camera.ViewportSize.X > 0 and camera.ViewportSize.Y > 0 then
+		return camera.ViewportSize
+	end
+	if self.Gui and self.Gui.AbsoluteSize.X > 0 and self.Gui.AbsoluteSize.Y > 0 then
+		return self.Gui.AbsoluteSize
+	end
+	return Vector2.new(1280, 720)
+end
+
+function Window:ApplyResponsiveLayout(skipAnimation)
+	local viewport = self:GetViewportSize()
+	local isTouch = UserInputService.TouchEnabled
+	local compact = viewport.X < 760 or viewport.Y < 540 or (isTouch and viewport.X < 930)
+	local sideWidth = compact and 118 or 166
+	local windowWidth = compact and math.min(690, math.max(290, viewport.X - 22)) or self.BaseSize.X.Offset
+	local windowHeight = compact and math.min(520, math.max(340, viewport.Y - 72)) or self.BaseSize.Y.Offset
+	local topbarHeight = compact and 52 or 54
+	local contentTop = topbarHeight + 3
+	local sidebarPadding = compact and 8 or 12
+	local tabHeight = compact and 36 or 40
+	local tabTextSize = compact and 11 or 13
+	local pagePadding = compact and 9 or 14
+	local titleSize = compact and 15 or 17
+	local subtitleSize = compact and 10 or 11
+
+	self.IsCompact = compact
+	self.SidebarWidth = sideWidth
+	self.TabButtonHeight = tabHeight
+	self.TabTextSize = tabTextSize
+
+	local function applyOrTween(instance, goal, time)
+		if skipAnimation then
+			for key, value in pairs(goal) do
+				instance[key] = value
+			end
+		else
+			tween(instance, goal, time or 0.18)
+		end
+	end
+
+	applyOrTween(self.Holder, {
+		Position = UDim2.fromScale(0.5, 0.5),
+		Size = UDim2.fromOffset(windowWidth, windowHeight),
+	}, 0.2)
+	self.Topbar.Size = UDim2.new(1, 0, 0, topbarHeight)
+	self.Title.Position = UDim2.fromOffset(compact and 12 or 18, compact and 6 or 7)
+	self.Title.Size = UDim2.new(1, compact and -112 or -160, 0, 23)
+	self.Title.TextSize = titleSize
+	self.Subtitle.Position = UDim2.fromOffset(compact and 12 or 18, compact and 28 or 29)
+	self.Subtitle.Size = UDim2.new(1, compact and -112 or -160, 0, 18)
+	self.Subtitle.TextSize = subtitleSize
+
+	local buttonSize = compact and 34 or 32
+	local buttonTop = compact and 9 or 11
+	self.CloseButton.Position = UDim2.new(1, compact and -42 or -44, 0, buttonTop)
+	self.CloseButton.Size = UDim2.fromOffset(buttonSize, buttonSize)
+	self.MinimizeButton.Position = UDim2.new(1, compact and -82 or -82, 0, buttonTop)
+	self.MinimizeButton.Size = UDim2.fromOffset(buttonSize, buttonSize)
+
+	self.Sidebar.Position = UDim2.fromOffset(0, contentTop)
+	self.Sidebar.Size = UDim2.new(0, sideWidth, 1, -contentTop)
+	local sidebarPad = self.Sidebar:FindFirstChildOfClass("UIPadding")
+	if sidebarPad then
+		sidebarPad.PaddingBottom = UDim.new(0, sidebarPadding)
+		sidebarPad.PaddingLeft = UDim.new(0, sidebarPadding)
+		sidebarPad.PaddingRight = UDim.new(0, sidebarPadding)
+		sidebarPad.PaddingTop = UDim.new(0, sidebarPadding)
+	end
+	local sidebarList = self.Sidebar:FindFirstChildOfClass("UIListLayout")
+	if sidebarList then
+		sidebarList.Padding = UDim.new(0, compact and 6 or 8)
+	end
+
+	self.PageHolder.Position = UDim2.fromOffset(sideWidth, contentTop)
+	self.PageHolder.Size = UDim2.new(1, -sideWidth, 1, -contentTop)
+
+	for _, tab in ipairs(self.Tabs or {}) do
+		tab.Button.Size = UDim2.new(1, 0, 0, tabHeight)
+		tab.Label.Position = UDim2.fromOffset(compact and 9 or 14, 0)
+		tab.Label.Size = UDim2.new(1, compact and -14 or -24, 1, 0)
+		tab.Label.TextSize = tabTextSize
+		tab.Page.Position = UDim2.fromOffset(0, 0)
+		tab.Page.Size = UDim2.fromScale(1, 1)
+		tab.Page.ScrollBarThickness = compact and 4 or 3
+		local pad = tab.Page:FindFirstChildOfClass("UIPadding")
+		if pad then
+			pad.PaddingBottom = UDim.new(0, pagePadding)
+			pad.PaddingLeft = UDim.new(0, pagePadding)
+			pad.PaddingRight = UDim.new(0, pagePadding)
+			pad.PaddingTop = UDim.new(0, pagePadding)
+		end
+	end
+
+	self.OpenButton.Size = UDim2.fromOffset(compact and 64 or 58, compact and 64 or 58)
+	self.OpenButton.Position = UDim2.new(1, compact and -10 or -14, 0.5, 0)
+	self.OpenButtonFallback.TextSize = compact and 24 or 22
+	self.ToastHolder.Position = UDim2.new(1, compact and -10 or -18, 0, compact and 10 or 18)
+	self.ToastHolder.Size = UDim2.fromOffset(math.max(240, math.min(320, viewport.X - 20)), 330)
+end
+
+function Window:SetVisible(visible)
+	self.AnimationToken = (self.AnimationToken or 0) + 1
+	local token = self.AnimationToken
+	self.Visible = visible
+
+	if visible then
+		self.Holder.Visible = true
+		if self.OpenButton then
+			tween(self.OpenButtonScale, { Scale = 0.72 }, 0.14, Enum.EasingStyle.Quad)
+			tween(self.OpenButton, { ImageTransparency = 1, BackgroundTransparency = 1 }, 0.14, Enum.EasingStyle.Quad).Completed:Once(function()
+				if token == self.AnimationToken and self.Visible then
+					self.OpenButton.Visible = false
+					self.OpenButton.BackgroundTransparency = 0
+					self.OpenButton.ImageTransparency = 0
+				end
+			end)
+		end
+		self.PageHolder.Visible = false
+		if self.CurrentTab then
+			self.CurrentTab.Page.Visible = true
+		end
+		self.Scale.Scale = 0.78
+		self.Root.Rotation = -4
+		self.Root.BackgroundTransparency = 0.16
+		self.RootStroke.Transparency = 0.85
+		tween(self.Root, { BackgroundTransparency = 0, Rotation = 0 }, 0.4, Enum.EasingStyle.Back)
+		tween(self.RootStroke, { Transparency = 0.12, Color = self.Theme.Accent }, 0.2, Enum.EasingStyle.Quint).Completed:Once(function()
+			if self.Visible and self.RootStroke.Parent then
+				tween(self.RootStroke, { Color = self.Theme.Stroke }, 0.3, Enum.EasingStyle.Quint)
+			end
+		end)
+		tween(self.Scale, { Scale = 1 }, 0.46, Enum.EasingStyle.Back)
+		tween(self.Shadow, { ImageTransparency = 1 }, 0.16, Enum.EasingStyle.Quint)
+		if self.Blur then
+			tween(self.Blur, { Size = self.BlurTarget }, 0.24, Enum.EasingStyle.Quint)
+		end
+		task.delay(0.24, function()
+			if token == self.AnimationToken and self.Visible then
+				self.PageHolder.Visible = true
+			end
+		end)
+	else
+		self.PageHolder.Visible = false
+		tween(self.Root, { BackgroundTransparency = 0.18, Rotation = 4 }, 0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
+		tween(self.RootStroke, { Transparency = 0.8 }, 0.16, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
+		tween(self.Scale, { Scale = 0.76 }, 0.2, Enum.EasingStyle.Back, Enum.EasingDirection.In)
+		tween(self.Shadow, { ImageTransparency = 1 }, 0.16, Enum.EasingStyle.Quad)
+		if self.Blur then
+			tween(self.Blur, { Size = 0 }, 0.16, Enum.EasingStyle.Quad)
+		end
+		task.delay(0.21, function()
+			if token == self.AnimationToken and not self.Visible then
+				self.Holder.Visible = false
+				self.Root.Rotation = 0
+				self.Root.BackgroundTransparency = 0
+				self.RootStroke.Color = self.Theme.Stroke
+				self.RootStroke.Transparency = 0.12
+				self.Scale.Scale = 1
+				self.PageHolder.Visible = true
+				if self.OpenButton then
+					self.OpenButton.Visible = true
+					self.OpenButton.ImageTransparency = 1
+					self.OpenButton.BackgroundTransparency = 1
+					self.OpenButtonScale.Scale = 0.72
+					tween(self.OpenButton, { ImageTransparency = 0, BackgroundTransparency = 0 }, 0.2, Enum.EasingStyle.Quint)
+					tween(self.OpenButtonScale, { Scale = 1 }, 0.32, Enum.EasingStyle.Back)
+				end
+			end
+		end)
+	end
+end
+
+function Window:Destroy()
+	for _, connection in ipairs(self.Connections or {}) do
+		pcall(function()
+			connection:Disconnect()
+		end)
+	end
+	self.Connections = {}
+	if self.Blur then
+		self.Blur:Destroy()
+	end
+	self.Gui:Destroy()
+end
+
+function Window:Notify(titleText, bodyText, duration)
+	local theme = self.Theme
+	local lifetime = duration or 3
+
+	local toast = new("Frame", {
+		BackgroundColor3 = theme.Panel,
+		BorderSizePixel = 0,
+		ClipsDescendants = true,
+		Parent = self.ToastHolder,
+		Size = UDim2.fromOffset(320, bodyText and 82 or 58),
+		ZIndex = 51,
+	})
+	corner(10).Parent = toast
+	stroke(theme.Stroke, 1, 0.2).Parent = toast
+
+	local scale = new("UIScale", {
+		Parent = toast,
+		Scale = 0.86,
+	})
+
+	local accent = new("Frame", {
+		BackgroundColor3 = theme.Accent,
+		BorderSizePixel = 0,
+		Parent = toast,
+		Size = UDim2.new(0, 4, 1, 0),
+		ZIndex = 52,
+	})
+	gradient(accent, theme.Accent, theme.Accent2, 90)
+
+	local title = makeLabel(toast, titleText, 14, theme.Text, true)
+	title.Position = UDim2.fromOffset(16, 8)
+	title.Size = UDim2.new(1, -30, 0, 24)
+	title.ZIndex = 53
+
+	if bodyText then
+		local body = makeLabel(toast, bodyText, 12, theme.Muted, false)
+		body.Position = UDim2.fromOffset(16, 34)
+		body.Size = UDim2.new(1, -30, 0, 34)
+		body.TextWrapped = true
+		body.TextYAlignment = Enum.TextYAlignment.Top
+		body.ZIndex = 53
+	end
+
+	local progress = new("Frame", {
+		BackgroundColor3 = theme.Accent,
+		BorderSizePixel = 0,
+		Parent = toast,
+		Position = UDim2.new(0, 0, 1, -3),
+		Size = UDim2.new(1, 0, 0, 3),
+		ZIndex = 52,
+	})
+	gradient(progress, theme.Accent, theme.Accent2, 0)
+
+	tween(scale, { Scale = 1 }, 0.32, Enum.EasingStyle.Back)
+	tween(progress, { Size = UDim2.new(0, 0, 0, 3) }, lifetime, Enum.EasingStyle.Linear)
+
+	task.delay(lifetime, function()
+		if not toast.Parent then
+			return
+		end
+		tween(scale, { Scale = 0.86 }, 0.18, Enum.EasingStyle.Quad)
+		tween(toast, { BackgroundTransparency = 1 }, 0.18).Completed:Once(function()
+			toast:Destroy()
+		end)
+	end)
+end
+
+function Window:Tab(name)
+	local theme = self.Theme
+
+	local page = new("ScrollingFrame", {
+		Active = true,
+		AutomaticCanvasSize = Enum.AutomaticSize.Y,
+		BackgroundTransparency = 1,
+		BorderSizePixel = 0,
+		CanvasSize = UDim2.fromOffset(0, 0),
+		ClipsDescendants = true,
+		Parent = self.PageHolder,
+		Position = UDim2.fromOffset(0, 0),
+		ScrollBarImageColor3 = theme.Accent,
+		ScrollBarThickness = 3,
+		Size = UDim2.fromScale(1, 1),
+		Visible = false,
+		ZIndex = 4,
+	})
+	padding(14).Parent = page
+	list(12).Parent = page
+	local pageScale = new("UIScale", {
+		Parent = page,
+		Scale = 1,
+	})
+
+	local button = makeButton(self.Sidebar, "", theme.Panel2, theme.Muted)
+	button.Size = UDim2.new(1, 0, 0, 40)
+	button.Text = ""
+	button.ZIndex = 5
+	corner(9).Parent = button
+	local buttonStroke = stroke(theme.Stroke, 1, 0.5)
+	buttonStroke.Parent = button
+	local buttonScale = new("UIScale", {
+		Parent = button,
+		Scale = 1,
+	})
+
+	local activeRail = new("Frame", {
+		BackgroundColor3 = theme.Accent,
+		BackgroundTransparency = 1,
+		BorderSizePixel = 0,
+		Parent = button,
+		Position = UDim2.fromOffset(0, 20),
+		Size = UDim2.fromOffset(3, 0),
+		Visible = true,
+		ZIndex = 6,
+	})
+	corner(4).Parent = activeRail
+	gradient(activeRail, theme.Accent, theme.Accent2, 90)
+
+	local text = makeLabel(button, name, 13, theme.Muted, true)
+	text.Position = UDim2.fromOffset(14, 0)
+	text.Size = UDim2.new(1, -24, 1, 0)
+	text.ZIndex = 6
+
+	local tab = setmetatable({
+		Button = button,
+		ButtonScale = buttonScale,
+		ButtonStroke = buttonStroke,
+		Label = text,
+		Name = name,
+		Page = page,
+		PageScale = pageScale,
+		Rail = activeRail,
+		Sections = {},
+		Window = self,
+	}, Tab)
+
+	table.insert(self.Tabs, tab)
+	self:ApplyResponsiveLayout(true)
+
+	button.MouseButton1Click:Connect(function()
+		self:SelectTab(tab)
+	end)
+
+	button.MouseEnter:Connect(function()
+		if self.CurrentTab ~= tab then
+			tween(button, { BackgroundColor3 = theme.Panel3 }, 0.14)
+			tween(buttonStroke, { Transparency = 0.25 }, 0.14)
+		end
+	end)
+
+	button.MouseLeave:Connect(function()
+		if self.CurrentTab ~= tab then
+			tween(button, { BackgroundColor3 = theme.Panel2 }, 0.14)
+			tween(buttonStroke, { Transparency = 0.5 }, 0.14)
+		end
+	end)
+
+	if not self.CurrentTab then
+		self:SelectTab(tab)
+	end
+
+	return tab
+end
+
+function Window:SelectTab(tab)
+	local theme = self.Theme
+
+	for _, item in ipairs(self.Tabs) do
+		local active = item == tab
+		item.Page.Visible = active
+		tween(item.Button, {
+			BackgroundColor3 = active and theme.Accent or theme.Panel2,
+		}, active and 0.2 or 0.16, Enum.EasingStyle.Quint)
+		tween(item.ButtonScale, {
+			Scale = active and 1.025 or 1,
+		}, active and 0.28 or 0.16, active and Enum.EasingStyle.Back or Enum.EasingStyle.Quad)
+		tween(item.ButtonStroke, {
+			Color = active and theme.Accent or theme.Stroke,
+			Transparency = active and 0.1 or 0.5,
+		}, 0.18, Enum.EasingStyle.Quint)
+		tween(item.Label, {
+			TextColor3 = active and theme.DarkText or theme.Muted,
+		}, 0.18, Enum.EasingStyle.Quint)
+		tween(item.Rail, {
+			BackgroundTransparency = active and 0 or 1,
+			Position = active and UDim2.fromOffset(0, 9) or UDim2.fromOffset(0, 20),
+			Size = active and UDim2.fromOffset(3, 22) or UDim2.fromOffset(3, 0),
+		}, active and 0.26 or 0.14, Enum.EasingStyle.Quint)
+	end
+
+	tab.Page.CanvasPosition = Vector2.new(0, 0)
+	local startOffset = self.IsCompact and 8 or 18
+	tab.Page.Position = UDim2.fromOffset(startOffset, 0)
+	tab.Page.Size = UDim2.new(1, -startOffset, 1, 0)
+	tab.PageScale.Scale = 0.985
+	tween(tab.Page, {
+		Position = UDim2.fromOffset(0, 0),
+		Size = UDim2.fromScale(1, 1),
+	}, 0.32, Enum.EasingStyle.Quint)
+	tween(tab.PageScale, {
+		Scale = 1,
+	}, 0.34, Enum.EasingStyle.Back)
+
+	self.CurrentTab = tab
+end
+
+function Tab:Section(titleText)
+	local theme = self.Window.Theme
+
+	local frame = new("Frame", {
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundColor3 = theme.Panel,
+		BorderSizePixel = 0,
+		ClipsDescendants = true,
+		Parent = self.Page,
+		Size = UDim2.new(1, 0, 0, 0),
+		ZIndex = 4,
+	})
+	corner(10).Parent = frame
+	stroke(theme.Stroke, 1, 0.25).Parent = frame
+	padding(12).Parent = frame
+	list(10).Parent = frame
+
+	local header = new("Frame", {
+		BackgroundTransparency = 1,
+		LayoutOrder = 1,
+		Parent = frame,
+		Size = UDim2.new(1, 0, 0, 24),
+		ZIndex = 5,
+	})
+
+	local accent = new("Frame", {
+		BackgroundColor3 = theme.Accent,
+		BorderSizePixel = 0,
+		Parent = header,
+		Position = UDim2.fromOffset(0, 7),
+		Size = UDim2.fromOffset(4, 12),
+		ZIndex = 6,
+	})
+	corner(4).Parent = accent
+	gradient(accent, theme.Accent, theme.Accent2, 90)
+
+	local title = makeLabel(header, titleText, 14, theme.Text, true)
+	title.Position = UDim2.fromOffset(12, 0)
+	title.Size = UDim2.new(1, -12, 1, 0)
+	title.ZIndex = 6
+
+	local content = new("Frame", {
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundTransparency = 1,
+		LayoutOrder = 2,
+		Parent = frame,
+		Size = UDim2.new(1, 0, 0, 0),
+		ZIndex = 5,
+	})
+	list(8).Parent = content
+
+	local section = setmetatable({
+		Content = content,
+		Count = 0,
+		Frame = frame,
+		Window = self.Window,
+	}, Section)
+
+	table.insert(self.Sections, section)
+	return section
+end
+
+function Section:_baseRow(height)
+	local theme = self.Window.Theme
+	self.Count = self.Count + 1
+
+	local row = new("Frame", {
+		BackgroundColor3 = theme.Panel2,
+		BackgroundTransparency = 1,
+		BorderSizePixel = 0,
+		ClipsDescendants = true,
+		Parent = self.Content,
+		Size = UDim2.new(1, 0, 0, height or 44),
+		ZIndex = 6,
+	})
+	corner(9).Parent = row
+
+	local rowStroke = stroke(theme.Stroke, 1, 1)
+	rowStroke.Parent = row
+
+	local rowScale = new("UIScale", {
+		Parent = row,
+		Scale = 0.96,
+	})
+
+	task.delay(self.Count * 0.025, function()
+		if not row.Parent then
+			return
+		end
+		tween(row, { BackgroundTransparency = 0 }, 0.18)
+		tween(rowStroke, { Transparency = 0.45 }, 0.18)
+		tween(rowScale, { Scale = 1 }, 0.36, Enum.EasingStyle.Back)
+	end)
+
+	return row, rowStroke
+end
+
+function Section:Label(text)
+	local theme = self.Window.Theme
+	local row = self:_baseRow(36)
+	local label = makeLabel(row, text, 12, theme.Muted, false)
+	label.Position = UDim2.fromOffset(12, 0)
+	label.Size = UDim2.new(1, -24, 1, 0)
+	label.ZIndex = 7
+	return setmetatable({
+		Instance = row,
+		Label = label,
+		Set = function(nextText, color)
+			label.Text = nextText
+			if color then
+				label.TextColor3 = color
+			end
+		end,
+	}, Control)
+end
+
+function Section:Button(text, callback)
+	local theme = self.Window.Theme
+	local row, rowStroke = self:_baseRow(44)
+
+	local label = makeLabel(row, text, 13, theme.Text, true)
+	label.Position = UDim2.fromOffset(12, 0)
+	label.Size = UDim2.new(1, -44, 1, 0)
+	label.ZIndex = 7
+
+	local arrow = makeLabel(row, ">", 15, theme.Muted, true)
+	arrow.Position = UDim2.new(1, -32, 0, 0)
+	arrow.Size = UDim2.fromOffset(20, 44)
+	arrow.TextXAlignment = Enum.TextXAlignment.Center
+	arrow.ZIndex = 7
+
+	local hit = makeButton(row, "", theme.Panel2, theme.Text)
+	hit.BackgroundTransparency = 1
+	hit.Size = UDim2.fromScale(1, 1)
+	hit.ZIndex = 8
+
+	pressable(hit, row, rowStroke, theme, function()
+		tween(arrow, { Position = UDim2.new(1, -26, 0, 0), TextColor3 = theme.Accent }, 0.08)
+		task.delay(0.08, function()
+			if arrow.Parent then
+				tween(arrow, { Position = UDim2.new(1, -32, 0, 0), TextColor3 = theme.Muted }, 0.2)
+			end
+		end)
+		if callback then
+			callback()
+		end
+	end)
+
+	return setmetatable({ Instance = row }, Control)
+end
+
+function Section:Toggle(text, default, callback)
+	local theme = self.Window.Theme
+	local enabled = default == true
+	local row, rowStroke = self:_baseRow(46)
+
+	local label = makeLabel(row, text, 13, theme.Text, true)
+	label.Position = UDim2.fromOffset(12, 0)
+	label.Size = UDim2.new(1, -82, 1, 0)
+	label.ZIndex = 7
+
+	local switch = new("Frame", {
+		BackgroundColor3 = enabled and theme.Accent or theme.Panel3,
+		BorderSizePixel = 0,
+		Parent = row,
+		Position = UDim2.new(1, -58, 0.5, -12),
+		Size = UDim2.fromOffset(46, 24),
+		ZIndex = 7,
+	})
+	corner(999).Parent = switch
+	local switchGradient = gradient(switch, theme.Accent, theme.Accent2, 0)
+	switchGradient.Enabled = enabled
+
+	local knob = new("Frame", {
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		BorderSizePixel = 0,
+		Parent = switch,
+		Position = enabled and UDim2.new(1, -21, 0, 3) or UDim2.fromOffset(3, 3),
+		Size = UDim2.fromOffset(18, 18),
+		ZIndex = 8,
+	})
+	corner(999).Parent = knob
+
+	local hit = makeButton(row, "", theme.Panel2, theme.Text)
+	hit.BackgroundTransparency = 1
+	hit.Size = UDim2.fromScale(1, 1)
+	hit.ZIndex = 9
+
+	local function set(value, fire)
+		enabled = value
+		tween(switch, {
+			BackgroundColor3 = enabled and theme.Accent or theme.Panel3,
+		}, 0.16)
+		switchGradient.Enabled = enabled
+		tween(knob, {
+			Position = enabled and UDim2.new(1, -21, 0, 3) or UDim2.fromOffset(3, 3),
+		}, 0.25, Enum.EasingStyle.Back)
+		tween(rowStroke, {
+			Color = enabled and theme.Accent or theme.Stroke,
+			Transparency = enabled and 0.18 or 0.45,
+		}, 0.18)
+		if callback and fire ~= false then
+			task.spawn(callback, enabled)
+		end
+	end
+
+	pressable(hit, row, rowStroke, theme, function()
+		set(not enabled)
+	end)
+
+	if callback then
+		task.spawn(callback, enabled)
+	end
+
+	return setmetatable({
+		Instance = row,
+		Get = function()
+			return enabled
+		end,
+		Set = set,
+	}, Control)
+end
+
+function Control:Destroy()
+	if self.Instance then
+		self.Instance:Destroy()
+	end
+end
+
+function Section:Textbox(text, placeholder, callback)
+	local theme = self.Window.Theme
+	local row, rowStroke = self:_baseRow(46)
+
+	local label = makeLabel(row, text, 13, theme.Text, true)
+	label.Position = UDim2.fromOffset(12, 0)
+	label.Size = UDim2.new(1, -82, 1, 0)
+	label.ZIndex = 7
+
+	local textbox = new("TextBox", {
+		BackgroundColor3 = theme.Panel3,
+		BackgroundTransparency = 0.5,
+		BorderSizePixel = 0,
+		ClearTextOnFocus = false,
+		PlaceholderColor3 = theme.Muted,
+		PlaceholderText = placeholder or "",
+		Parent = row,
+		Position = UDim2.new(1, -78, 0.5, -15),
+		Size = UDim2.fromOffset(66, 30),
+		Text = "",
+		TextColor3 = theme.Text,
+		TextSize = 13,
+		ZIndex = 8,
+	})
+	corner(8).Parent = textbox
+	stroke(theme.Stroke, 1, 0.4).Parent = textbox
+
+	textbox.FocusLost:Connect(function(enterPressed)
+		if callback then
+			task.spawn(callback, textbox.Text, enterPressed)
+		end
+	end)
+
+	return setmetatable({
+		Instance = row,
+		Get = function()
+			return textbox.Text
+		end,
+		Set = function(text)
+			textbox.Text = text
+		end,
+	}, Control)
+end
+
+function Section:Slider(text, default, min, max, callback)
+	local theme = self.Window.Theme
+	local value = default or min
+	local precision = 0
+	local step = (max - min) / 100
+	
+	-- Auto-detect precision from default value
+	if type(default) == "number" then
+		local str = tostring(default)
+		if str:find("%.") then
+			precision = #str:split("%.") - 1
+		end
+	end
+	
+	local row, rowStroke = self:_baseRow(46)
+
+	local label = makeLabel(row, text, 13, theme.Text, true)
+	label.Position = UDim2.fromOffset(12, 0)
+	label.Size = UDim2.new(1, -82, 1, 0)
+	label.ZIndex = 7
+
+	local valueLabel = makeLabel(row, tostring(value), 13, theme.Accent, true)
+	valueLabel.Position = UDim2.new(1, -58, 0.5, -10)
+	valueLabel.Size = UDim2.fromOffset(46, 20)
+	valueLabel.TextXAlignment = Enum.TextXAlignment.Center
+	valueLabel.ZIndex = 7
+
+	local sliderFrame = new("Frame", {
+		BackgroundColor3 = theme.Panel3,
+		BorderSizePixel = 0,
+		Parent = row,
+		Position = UDim2.fromOffset(12, 32),
+		Size = UDim2.new(1, -24, 0, 6),
+		ZIndex = 7,
+	})
+	corner(3).Parent = sliderFrame
+
+	local fill = new("Frame", {
+		BackgroundColor3 = theme.Accent,
+		BorderSizePixel = 0,
+		Parent = sliderFrame,
+		Size = UDim2.fromScale((value - min) / (max - min), 1),
+		ZIndex = 8,
+	})
+	corner(3).Parent = fill
+	gradient(fill, theme.Accent, theme.Accent2, 0)
+
+	local knob = new("Frame", {
+		BackgroundColor3 = Color3.fromRGB(255, 255, 255),
+		BorderSizePixel = 0,
+		Parent = sliderFrame,
+		Position = UDim2.fromScale((value - min) / (max - min), 0.5),
+		Size = UDim2.fromOffset(14, 14),
+		ZIndex = 9,
+	})
+	corner(999).Parent = knob
+
+	local hit = makeButton(row, "", theme.Panel2, theme.Text)
+	hit.BackgroundTransparency = 1
+	hit.Size = UDim2.fromScale(1, 1)
+	hit.ZIndex = 10
+
+	local function formatValue(v)
+		if precision > 0 then
+			return string.format("%." .. precision .. "f", v)
+		end
+		return tostring(math.floor(v))
+	end
+
+	local function setValue(newValue, fire)
+		value = math.clamp(newValue, min, max)
+		local ratio = (value - min) / (max - min)
+		valueLabel.Text = formatValue(value)
+		fill.Size = UDim2.fromScale(ratio, 1)
+		knob.Position = UDim2.fromScale(ratio, 0.5)
+		if callback and fire ~= false then
+			task.spawn(callback, value)
+		end
+	end
+
+	local function getValueFromMouse()
+		local mousePos = UserInputService:GetMouseLocation()
+		local sliderPos = sliderFrame.AbsolutePosition
+		local sliderSize = sliderFrame.AbsoluteSize
+		local ratio = math.clamp((mousePos.X - sliderPos.X) / sliderSize.X, 0, 1)
+		return min + ratio * (max - min)
+	end
+
+	local dragging = false
+	local dragConnection = nil
+	local upConnection = nil
+	local leaveConnection = nil
+
+	hit.MouseButton1Down:Connect(function()
+		dragging = true
+		setValue(getValueFromMouse(), false)
+		
+		dragConnection = UserInputService.InputChanged:Connect(function(input)
+			if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+				setValue(getValueFromMouse(), false)
+			end
+		end)
+		
+		upConnection = UserInputService.InputEnded:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 then
+				if dragging then
+					dragging = false
+					setValue(getValueFromMouse(), true)
+					if dragConnection then dragConnection:Disconnect() end
+					if upConnection then upConnection:Disconnect() end
+					if leaveConnection then leaveConnection:Disconnect() end
+				end
+			end
+		end)
+	end)
+
+	-- Click to jump to position
+	hit.MouseButton1Click:Connect(function()
+		if not dragging then
+			setValue(getValueFromMouse(), true)
+		end
+	end)
+
+	if callback then
+		task.spawn(callback, value)
+	end
+
+	return setmetatable({
+		Instance = row,
+		Get = function()
+			return value
+		end,
+		Set = function(v, fire)
+			setValue(v, fire)
+		end,
+	}, Control)
+end
+
+function Section:Dropdown(text, options, default, callback)
+	local theme = self.Window.Theme
+	local compact = self.Window.IsCompact
+	local selected = (type(default) == "string" and default ~= "") and default or options[1] or ""
+	local open = false
+	local row, rowStroke = self:_baseRow(46)
+	row.ClipsDescendants = true
+
+	local label = makeLabel(row, text, 13, theme.Text, true)
+	label.Position = compact and UDim2.fromOffset(12, 3) or UDim2.fromOffset(12, 0)
+	label.Size = compact and UDim2.new(1, -52, 0, 20) or UDim2.new(1, -210, 0, 46)
+	label.TextSize = compact and 12 or 13
+	label.ZIndex = 7
+
+	local selectedLabel = makeLabel(row, selected, 12, theme.Muted, true)
+	selectedLabel.Position = compact and UDim2.fromOffset(12, 22) or UDim2.new(1, -176, 0, 0)
+	selectedLabel.Size = compact and UDim2.new(1, -52, 0, 22) or UDim2.fromOffset(132, 46)
+	selectedLabel.TextXAlignment = compact and Enum.TextXAlignment.Left or Enum.TextXAlignment.Right
+	selectedLabel.ZIndex = 7
+
+	local arrow = makeLabel(row, ">", 15, theme.Muted, true)
+	arrow.Position = UDim2.new(1, -32, 0, 0)
+	arrow.Size = UDim2.fromOffset(20, 46)
+	arrow.TextXAlignment = Enum.TextXAlignment.Center
+	arrow.ZIndex = 7
+
+	local holder = new("Frame", {
+		BackgroundTransparency = 1,
+		Parent = row,
+		Position = UDim2.fromOffset(8, 48),
+		Size = UDim2.new(1, -16, 0, math.max(1, #options) * 34),
+		ZIndex = 7,
+	})
+	list(6).Parent = holder
+
+	local function choose(option, fire)
+		selected = option
+		selectedLabel.Text = option
+		if callback and fire ~= false then
+			task.spawn(callback, selected)
+		end
+	end
+
+	for _, option in ipairs(options) do
+		local optionButton = makeButton(holder, option, theme.Panel3, theme.Text)
+		optionButton.Size = UDim2.new(1, 0, 0, 30)
+		optionButton.TextXAlignment = Enum.TextXAlignment.Left
+		optionButton.ZIndex = 8
+		corner(8).Parent = optionButton
+		padding(10).Parent = optionButton
+
+		optionButton.MouseEnter:Connect(function()
+			tween(optionButton, { BackgroundColor3 = theme.Accent, TextColor3 = theme.DarkText }, 0.12)
+		end)
+		optionButton.MouseLeave:Connect(function()
+			tween(optionButton, { BackgroundColor3 = theme.Panel3, TextColor3 = theme.Text }, 0.12)
+		end)
+		optionButton.MouseButton1Down:Connect(function(x, y)
+			ripple(optionButton, x, y, Color3.fromRGB(255, 255, 255))
+		end)
+		optionButton.MouseButton1Click:Connect(function()
+			choose(option)
+			open = false
+			tween(row, { Size = UDim2.new(1, 0, 0, 46) }, 0.2)
+			tween(arrow, { Rotation = 0 }, 0.2)
+		end)
+	end
+
+	local hit = makeButton(row, "", theme.Panel2, theme.Text)
+	hit.BackgroundTransparency = 1
+	hit.Size = UDim2.new(1, 0, 0, 46)
+	hit.ZIndex = 9
+
+	pressable(hit, row, rowStroke, theme, function()
+		open = not open
+		local targetHeight = open and (54 + math.max(1, #options) * 36) or 46
+		tween(row, { Size = UDim2.new(1, 0, 0, targetHeight) }, 0.22, Enum.EasingStyle.Quint)
+		tween(arrow, { Rotation = open and 90 or 0 }, 0.22)
+	end)
+
+	if callback and selected ~= "" then
+		task.spawn(callback, selected)
+	end
+
+	return setmetatable({
+		Instance = row,
+		Get = function()
+			return selected
+		end,
+		Set = choose,
+	}, Control)
+end
+]]
+
+local WindUI = nil
+local function getWindUI()
+	if not WindUI then
+		WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/main/dist/main.lua"))()
+		pcall(function()
+			WindUI:SetNotificationLower(true)
+		end)
+	end
+	return WindUI
+end
+
+local WindWindow = {}
+WindWindow.__index = WindWindow
+
+local WindTab = {}
+WindTab.__index = WindTab
+
+local WindSection = {}
+WindSection.__index = WindSection
+
+local WindControl = {}
+WindControl.__index = WindControl
+
+local function runCallback(callback, ...)
+	if callback then
+		task.spawn(callback, ...)
+	end
+end
+
+local function sliderStep(...)
+	local decimals = 0
+	for _, value in ipairs({ ... }) do
+		if type(value) == "number" then
+			local fraction = tostring(value):match("%.(%d+)")
+			if fraction then
+				decimals = math.max(decimals, #fraction)
+			end
+		end
+	end
+	return decimals > 0 and 10 ^ (-decimals) or 1
+end
+
+local function normalizeDropdownValue(value, multi)
+	if not multi then
+		if type(value) == "table" then
+			return value.Title or value.Value or value.Name or value[1] or tostring(value)
+		end
+		return value
+	end
+
+	local selected = {}
+	if type(value) == "table" then
+		for key, item in pairs(value) do
+			if type(item) == "table" then
+				local title = item.Title or item.Value or item.Name
+				if title then
+					selected[#selected + 1] = title
+				end
+			elseif item == true then
+				selected[#selected + 1] = key
+			elseif type(item) == "string" then
+				selected[#selected + 1] = item
+			end
+		end
+	elseif type(value) == "string" then
+		selected[#selected + 1] = value
+	end
+	return selected
+end
+
+local function setWindText(element, text, color)
+	text = tostring(text or "")
+	element.Title = text
+
+	if element.SetTitle then
+		pcall(function()
+			element:SetTitle(text)
+		end)
+	end
+
+	local frame = element.ParagraphFrame or element.ButtonFrame or element.ToggleFrame or element.InputFrame or element.SliderFrame or element.DropdownFrame
+	if frame and frame.UIElements and frame.UIElements.Title then
+		frame.UIElements.Title.Text = text
+		if color then
+			frame.UIElements.Title.TextColor3 = color
+		end
+		return
+	end
+
+	local root = element.ElementFrame
+	if root and root.GetDescendants then
+		for _, item in ipairs(root:GetDescendants()) do
+			if item:IsA("TextLabel") then
+				item.Text = text
+				if color then
+					item.TextColor3 = color
+				end
+				return
+			end
+		end
+	end
+end
+
+function KrassUI.new(config)
+	config = config or {}
+	local library = getWindUI()
+	local window = library:CreateWindow({
+		Title = config.Name or "Grow a Garden 2",
+		Author = config.Subtitle,
+		Folder = "Floppa Hub",
+		Size = config.Size or UDim2.fromOffset(860, 620),
+		Theme = "Dark",
+		ToggleKey = config.ToggleKey or Enum.KeyCode.LeftControl,
+		NewElements = true,
+		HideSearchBar = false,
+		IgnoreAlerts = true,
+		Topbar = {
+			Height = 44,
+			ButtonsType = "Mac",
+		},
+		OpenButton = {
+			Title = "Open " .. (config.Name or "UI"),
+			Enabled = true,
+			Draggable = true,
+			OnlyMobile = false,
+			Scale = 0.62,
+			CornerRadius = UDim.new(1, 0),
+			StrokeThickness = 2,
+			Color = ColorSequence.new(
+				config.Accent or Color3.fromRGB(145, 160, 255),
+				config.Accent2 or Color3.fromRGB(95, 105, 255)
+			),
+		},
+	})
+
+	return setmetatable({
+		Window = window,
+		Library = library,
+		Tabs = {},
+	}, WindWindow)
+end
+
+function WindWindow:Tab(name)
+	local tab = self.Window:Tab({
+		Title = name,
+		Border = true,
+	})
+	local wrapped = setmetatable({
+		Tab = tab,
+		Window = self,
+		Sections = {},
+	}, WindTab)
+
+	self.Tabs[#self.Tabs + 1] = wrapped
+	if #self.Tabs == 1 and tab.Select then
+		tab:Select()
+	end
+
+	return wrapped
+end
+
+function WindWindow:SelectTab(tab)
+	if tab and tab.Tab and tab.Tab.Select then
+		tab.Tab:Select()
+	end
+end
+
+function WindWindow:Notify(titleText, bodyText, duration)
+	self.Library:Notify({
+		Title = titleText,
+		Content = bodyText,
+		Duration = duration or 3,
+	})
+end
+
+function WindWindow:Destroy()
+	if self.Window and self.Window.Destroy then
+		self.Window:Destroy()
+	end
+end
+
+function WindTab:Section(titleText)
+	local section = self.Tab:Section({
+		Title = titleText,
+		Box = true,
+		BoxBorder = true,
+		Opened = true,
+		TextSize = 17,
+	})
+	local wrapped = setmetatable({
+		Section = section,
+		Window = self.Window,
+		Controls = {},
+	}, WindSection)
+
+	self.Sections[#self.Sections + 1] = wrapped
+	return wrapped
+end
+
+function WindSection:Label(text)
+	local element = self.Section:Paragraph({
+		Title = tostring(text or ""),
+	})
+
+	local control = setmetatable({
+		Element = element,
+	}, WindControl)
+
+	function control:Get()
+		return element.Title
+	end
+
+	function control:Set(nextText, color)
+		setWindText(element, nextText, color)
+	end
+
+	return control
+end
+
+function WindSection:Button(text, callback)
+	local element = self.Section:Button({
+		Title = text,
+		Icon = "",
+		Justify = "Center",
+		Callback = function()
+			runCallback(callback)
+		end,
+	})
+
+	return setmetatable({
+		Element = element,
+	}, WindControl)
+end
+
+function WindSection:Toggle(text, default, callback)
+	local element = self.Section:Toggle({
+		Title = text,
+		Value = default == true,
+		Callback = function(value)
+			runCallback(callback, value)
+		end,
+	})
+	runCallback(callback, default == true)
+
+	return setmetatable({
+		Element = element,
+		Get = function()
+			return element.Value
+		end,
+		Set = function(value, fire)
+			if element.Set then
+				element:Set(value == true, fire ~= false, true)
+			end
+		end,
+	}, WindControl)
+end
+
+function WindSection:Textbox(text, placeholder, callback)
+	local element = self.Section:Input({
+		Title = text,
+		Placeholder = placeholder or "",
+		Value = "",
+		ClearTextOnFocus = false,
+		Callback = function(value)
+			runCallback(callback, value)
+		end,
+	})
+
+	return setmetatable({
+		Element = element,
+		Get = function()
+			return element.Value
+		end,
+		Set = function(value)
+			if element.Set then
+				element:Set(tostring(value or ""))
+			end
+		end,
+	}, WindControl)
+end
+
+function WindSection:Slider(text, default, min, max, callback)
+	local element = self.Section:Slider({
+		Title = text,
+		Step = sliderStep(default, min, max),
+		IsTooltip = true,
+		Width = 200,
+		Value = {
+			Min = min,
+			Max = max,
+			Default = default,
+		},
+		Callback = function(value)
+			runCallback(callback, value)
+		end,
+	})
+	runCallback(callback, default or min)
+
+	return setmetatable({
+		Element = element,
+		Get = function()
+			return element.Value and element.Value.Default
+		end,
+		Set = function(value)
+			if element.Set then
+				element:Set(value)
+			end
+		end,
+	}, WindControl)
+end
+
+function WindSection:Dropdown(text, options, default, callback)
+	options = options or {}
+	local multi = type(default) == "table"
+	local current = multi and {} or ((type(default) == "string" and default ~= "") and default or options[1])
+	local element = self.Section:Dropdown({
+		Title = text,
+		Values = options,
+		Value = multi and nil or current,
+		Multi = multi,
+		AllowNone = multi,
+		SearchBarEnabled = #options > 8,
+		Callback = function(value)
+			current = normalizeDropdownValue(value, multi)
+			runCallback(callback, current)
+		end,
+	})
+
+	return setmetatable({
+		Element = element,
+		Get = function()
+			return current
+		end,
+		Set = function(value, fire)
+			current = normalizeDropdownValue(value, multi)
+			if element.Select then
+				element:Select(value)
+			elseif fire ~= false then
+				runCallback(callback, current)
+			end
+		end,
+		Refresh = function(values)
+			options = values or {}
+			if element.Refresh then
+				element:Refresh(options)
+			end
+		end,
+	}, WindControl)
+end
+
+function WindControl:Destroy()
+	if self.Element and self.Element.Destroy then
+		self.Element:Destroy()
+	end
+end
+
+pcall(function()
+    local prev = getgenv and getgenv().WalkyGAG2
+    if prev then
+        if prev.S then prev.S.killed = true end
+        if prev.unload then pcall(prev.unload) end
+    end
+end)
+
+pcall(function()
+    if setthreadidentity then setthreadidentity(8) end
+    if syn and syn.set_thread_identity then syn.set_thread_identity(8) end
+end)
+
+-- block ALL Robux purchase prompts so no farm action can pop a real-money dialog
+pcall(function()
+    local nc = newcclosure or function(f) return f end
+    local oldNc
+    local function blocker(self, ...)
+        local m = getnamecallmethod and getnamecallmethod()
+        if type(m) == "string" and string.sub(m, 1, 6) == "Prompt" and string.find(m, "Purchase") then return end
+        return oldNc(self, ...)
+    end
+    if hookmetamethod then
+        oldNc = hookmetamethod(game, "__namecall", nc(blocker))
+    elseif getrawmetatable and setreadonly then
+        local mt = getrawmetatable(game); oldNc = mt.__namecall
+        setreadonly(mt, false); mt.__namecall = nc(blocker); setreadonly(mt, true)
+    end
+end)
+
+-- // ============================================================ \\ --
+-- //                       NETWORK / DATA                         \\ --
+-- // ============================================================ \\ --
+local Net
+do
+    local sm = ReplicatedStorage:WaitForChild("SharedModules", 15)
+    local mod = sm and sm:FindFirstChild("Networking")
+    if mod then local ok, m = pcall(require, mod); if ok then Net = m end end
+end
+if not Net then
+    warn("[Floppa Hub] Networking module not found — wrong game?")
+    return
+end
+
+-- light global pacer + jitter (precautionary; GAG2 has no proven AC vector yet)
+local _rl = { w = 0, c = 0, cap = 60 }
+local function pace()
+    local now = os.clock()
+    if now - _rl.w >= 1 then _rl.w = now; _rl.c = 0 end
+    if _rl.c >= _rl.cap then task.wait(0.05); return pace() end
+    _rl.c = _rl.c + 1
+end
+local function jitter(a, b) a = a or 0.05; b = b or 0.12; return a + math.random() * (b - a) end
+
+local function action(path)
+    local cur = Net
+    for part in string.gmatch(path, "[^.]+") do
+        if type(cur) ~= "table" then return nil end
+        cur = cur[part]
+    end
+    return cur
+end
+local function fire(path, ...)            -- fire-and-forget OR returns value (both via :Fire)
+    local a = action(path)
+    if not (a and a.Fire) then return false, "no action: " .. path end
+    pace()
+    local args = table.pack(...)
+    local ok, res = pcall(function() return a:Fire(table.unpack(args, 1, args.n)) end)
+    if not ok then return false, res end
+    return true, res
+end
+-- NO pacer: for the high-volume harvest/sell hot path (the 60/s pacer throttled it to ~0).
+local function fireFast(path, ...)
+    local a = action(path)
+    if not (a and a.Fire) then return false, "no action: " .. path end
+    local args = table.pack(...)
+    local ok, res = pcall(function() return a:Fire(table.unpack(args, 1, args.n)) end)
+    if not ok then return false, res end
+    return true, res
+end
+-- Retry wrapper for critical operations
+local function fireWithRetry(path, maxRetries, ...)
+    maxRetries = maxRetries or 3
+    for i = 1, maxRetries do
+        local ok, res = fire(path, ...)
+        if ok then return true, res end
+        if i < maxRetries then task.wait(0.1 * i) end
+    end
+    return false, "max retries exceeded"
+end
+
+-- local-player replica (Sheckles / Tokens / Inventory / PurchasedThisRestock / OwnedExpansions)
+local _replica
+local function replica()
+    if _replica then return _replica end
+    local ok, psc = pcall(function() return require(ReplicatedStorage.ClientModules.PlayerStateClient) end)
+    if ok and psc and psc.WaitForLocalReplica then
+        local ok2, r = pcall(function() return psc:WaitForLocalReplica(30) end)
+        if ok2 and r then _replica = r end
+    end
+    return _replica
+end
+local function pdata() local r = replica(); return (r and r.Data) or {} end
+local function getSheckles() return tonumber(pdata().Sheckles) or 0 end
+local function getTokens()   return tonumber(pdata().Tokens) or 0 end
+local function inv(category) local i = pdata().Inventory; return (i and i[category]) or {} end
+local function fmt(n)
+    n = tonumber(n) or 0
+    if n >= 1e12 then return string.format("%.2fT", n/1e12)
+    elseif n >= 1e9 then return string.format("%.2fB", n/1e9)
+    elseif n >= 1e6 then return string.format("%.2fM", n/1e6)
+    elseif n >= 1e3 then return string.format("%.2fK", n/1e3)
+    else return tostring(math.floor(n)) end
+end
+-- extract a usable item "name" + count from an inventory entry (shape varies: count-by-name or uuid->record)
+local function invNames(category)
+    local out = {}                       -- { name = totalCount }
+    for k, v in pairs(inv(category)) do
+        local name, count
+        if type(v) == "table" then
+            name = v.Name or v.ItemName or v.Type or (type(k) == "string" and not v.Name and k) or tostring(k)
+            count = tonumber(v.Count) or tonumber(v.Amount) or 1
+        elseif type(v) == "number" then
+            name, count = tostring(k), v
+        else
+            name, count = tostring(k), 1
+        end
+        if name then out[name] = (out[name] or 0) + (count or 1) end
+    end
+    return out
+end
+
+-- // ============================================================ \\ --
+-- //                         CATALOGS                             \\ --
+-- // ============================================================ \\ --
+local function seedCatalog()
+    local out = {}
+    local ok, data = pcall(function() return require(ReplicatedStorage.SharedModules.SeedData) end)
+    if ok and type(data) == "table" then
+        for _, e in pairs(data) do
+            if type(e) == "table" and e.SeedName and e.RestockShop ~= false and e.PurchasePrice then
+                out[#out + 1] = { name = e.SeedName, price = tonumber(e.PurchasePrice) or 0, rarity = e.Rarity or "" }
+            end
+        end
+    end
+    table.sort(out, function(a, b) return a.price < b.price end)
+    if #out == 0 then
+        for _, n in ipairs({ "Carrot","Strawberry","Blueberry","Tulip","Tomato","Apple","Bamboo","Corn",
+            "Cactus","Pineapple","Mushroom","Green Bean","Banana","Grape","Coconut","Mango","Dragon Fruit",
+            "Acorn","Cherry","Sunflower","Venus Fly Trap","Pomegranate","Poison Apple","Moon Bloom",
+            "Dragon's Breath","Ghost Pepper","Poison Ivy" }) do out[#out + 1] = { name = n, price = 0, rarity = "" } end
+    end
+    return out
+end
+local function gearCatalog()
+    local out, seen = {}, {}
+    local ok, data = pcall(function() return require(ReplicatedStorage.SharedModules.GearShopData) end)
+    if ok and data and type(data.Data) == "table" then
+        for _, e in pairs(data.Data) do
+            if type(e) == "table" and e.ItemName and not e.RobuxOnly then
+                if not seen[e.ItemName] then seen[e.ItemName] = true; out[#out + 1] = e.ItemName end
+            end
+        end
+    end
+    if #out == 0 then  -- fall back to live stock items
+        local ok2, items = pcall(function() return ReplicatedStorage.StockValues.GearShop.Items end)
+        if ok2 and items then for _, c in ipairs(items:GetChildren()) do out[#out + 1] = c.Name end end
+    end
+    table.sort(out)
+    return out
+end
+local CATALOG = seedCatalog()
+local SEED_NAMES = {} ; for _, s in ipairs(CATALOG) do SEED_NAMES[#SEED_NAMES + 1] = s.name end
+local GEAR_NAMES = gearCatalog()
+
+local function stockOf(shop, name)
+    local ok, items = pcall(function() return ReplicatedStorage.StockValues[shop].Items end)
+    if not ok or not items then return nil end
+    local v = items:FindFirstChild(name)
+    return v and tonumber(v.Value) or 0
+end
+
+-- // ============================================================ \\ --
+-- //                  PLOT / TOOLS / WORLD STATE                  \\ --
+-- // ============================================================ \\ --
+local function myPlot()
+    local id = LocalPlayer:GetAttribute("PlotId")
+    local gardens = Workspace:FindFirstChild("Gardens")
+    if not (id and gardens) then return nil end
+    return gardens:FindFirstChild("Plot" .. tostring(id))
+end
+local function myPlotId() return LocalPlayer:GetAttribute("PlotId") end
+local function humanoid() local c = LocalPlayer.Character; return c and c:FindFirstChildOfClass("Humanoid") end
+
+-- tools in Backpack+Character carrying attribute `attr` (optionally matching a name)
+local function toolsByAttr(attr, wantName)
+    local out = {}
+    local function scan(c)
+        if not c then return end
+        for _, t in ipairs(c:GetChildren()) do
+            if t:IsA("Tool") and t:GetAttribute(attr) ~= nil then
+                if (not wantName) or t:GetAttribute(attr) == wantName or t.Name == wantName then out[#out + 1] = t end
+            end
+        end
+    end
+    scan(LocalPlayer:FindFirstChild("Backpack")); scan(LocalPlayer.Character)
+    return out
+end
+local function heldToolByAttr(attr)
+    local c = LocalPlayer.Character
+    local t = c and c:FindFirstChildWhichIsA("Tool")
+    if t and t:GetAttribute(attr) ~= nil then return t end
+    return nil
+end
+local function equipByAttr(attr, wantName)
+    local t = heldToolByAttr(attr)
+    if t and ((not wantName) or t:GetAttribute(attr) == wantName) then return t end
+    local tools = toolsByAttr(attr, wantName)
+    if #tools == 0 then return nil end
+    t = tools[1]
+    local hum = humanoid(); if not hum then return nil end
+    local ok = pcall(function() hum:EquipTool(t) end)
+    if not ok then return nil end
+    task.wait(0.22)
+    return heldToolByAttr(attr)
+end
+
+-- PlantArea parts inside MY plot
+local function myPlantAreas()
+    local out, plot = {}, myPlot()
+    if not plot then return out end
+    for _, p in ipairs(CollectionService:GetTagged("PlantArea")) do
+        if p:IsA("BasePart") and p:IsDescendantOf(plot) then out[#out + 1] = p end
+    end
+    return out
+end
+-- a grid of world positions over my PlantArea, raycast-confirmed onto the surface
+local function plantGrid(spacing)
+    local pts, areas = {}, myPlantAreas()
+    if #areas == 0 then return pts end
+    spacing = math.max(2, spacing or 4)
+    local params = RaycastParams.new()
+    params.FilterType = Enum.RaycastFilterType.Include
+    params.FilterDescendantsInstances = areas
+    local scanned = 0
+    for _, area in ipairs(areas) do
+        local ok, cf, size = pcall(function() return area.CFrame, area.Size end)
+        if not ok then 
+            -- skip this area if error
+        else
+            local topY = (cf * CFrame.new(0, size.Y/2, 0)).Position.Y
+            for dx = -size.X/2 + spacing/2, size.X/2 - spacing/2, spacing do
+                for dz = -size.Z/2 + spacing/2, size.Z/2 - spacing/2, spacing do
+                    local w = (cf * CFrame.new(dx, 0, dz)).Position
+                    local hit = Workspace:Raycast(Vector3.new(w.X, topY + 10, w.Z), Vector3.new(0, -40, 0), params)
+                    if hit then pts[#pts + 1] = hit.Position end
+                    scanned += 1
+                    if scanned % 80 == 0 then task.wait(0.1) end
+                end
+            end
+        end
+    end
+    return pts
+end
+local function existingPlantPositions()
+    local out, plot = {}, myPlot()
+    local plants = plot and plot:FindFirstChild("Plants")
+    if not plants then return out end
+    for i, m in ipairs(plants:GetChildren()) do
+        local ok, pivot = pcall(function() return m:GetPivot().Position end)
+        if ok then out[#out + 1] = pivot end
+        if i % 80 == 0 then task.wait(0.1) end
+    end
+    return out
+end
+
+-- carrier model that holds PlantId/FruitId/UserId for a given prompt
+local function promptCarrier(prompt)
+    local node = prompt.Parent
+    while node and node ~= Workspace and node:GetAttribute("PlantId") == nil do node = node.Parent end
+    if node and node:GetAttribute("PlantId") ~= nil then return node end
+    return prompt:FindFirstAncestorWhichIsA("Model")
+end
+local function ripeHarvests()       -- own ripe fruit (tag "HarvestPrompt")
+    local out = {}
+    for i, pr in ipairs(CollectionService:GetTagged("HarvestPrompt")) do
+        if pr:IsA("ProximityPrompt") and pr.Enabled and pr:IsDescendantOf(Workspace) then
+            local m = promptCarrier(pr)
+            local pid = m and m:GetAttribute("PlantId")
+            if pid then
+                local uid = tonumber(m:GetAttribute("UserId"))
+                if uid == nil or uid == LocalPlayer.UserId then
+                    out[#out + 1] = { plantId = tostring(pid), fruitId = tostring(m:GetAttribute("FruitId") or "") }
+                end
+            end
+        end
+        if i % 100 == 0 then task.wait(0.1) end
+    end
+    return out
+end
+-- world wild pets you walk up to and buy/tame: Map.WildPetRef parts carry PetName/Price/OwnerUserId
+local function wildPets()
+    local out = {}
+    local map = Workspace:FindFirstChild("Map")
+    local ref = map and map:FindFirstChild("WildPetRef")
+    if ref then for _, p in ipairs(ref:GetChildren()) do
+        if p:IsA("BasePart") then
+            out[#out + 1] = {
+                part = p, name = p:GetAttribute("PetName"),
+                price = tonumber(p:GetAttribute("Price")) or 0,
+                owner = tonumber(p:GetAttribute("OwnerUserId")) or 0,
+                pos = p.Position,
+            }
+        end
+    end end
+    return out
+end
+-- teleport char to a world position, run fn, restore original CFrame
+local function atPosition(pos, fn)
+    local char = LocalPlayer.Character
+    local hrp = char and char:FindFirstChild("HumanoidRootPart")
+    if not hrp then return false end
+    local saved = hrp.CFrame
+    pcall(function() hrp.CFrame = CFrame.new(pos + Vector3.new(0, 4, 0)) end)
+    task.wait(0.45)
+    local ok = pcall(fn)
+    task.wait(0.15)
+    if hrp and hrp.Parent then pcall(function() hrp.CFrame = saved end) end
+    return ok
+end
+
+-- // ============================================================ \\ --
+-- //                          STATE                              \\ --
+-- // ============================================================ \\ --
+local S = {
+    -- master
+    autoFarm = false,
+    -- buy / plant / harvest / sell
+    autoBuy = false, buySeeds = {}, buyInterval = 5, buyPerTick = 8,
+    autoPlant = false, plantSpacing = 4, plantSeed = "Best owned",
+    autoHarvest = false, harvestInterval = 2, harvestDelay = 0.1,
+    autoSell = false, sellInterval = 15,
+    autoExpand = false, autoPot = false, autoDaily = false,
+    -- boosts
+    autoSprinkler = false, sprinklerInterval = 30,
+    autoWater = false, waterInterval = 8,
+    -- pets
+    autoEquipPets = false, autoPetSlot = false,
+    autoBuyPets = false, maxPetPrice = 25000, petTeleport = true, petBuyInterval = 5,
+    sellPets = {}, autoSellPets = false,
+    -- crates / packs
+    autoCrate = false, autoPack = false, openInterval = 4,
+    -- shop
+    autoGear = false, gearBuy = {}, gearInterval = 10,
+    -- misc
+    autoMail = false, autoAcceptGift = false, autoHop = false, hopInterval = 0,
+    codeText = "", autoCodes = false, antiAfk = true,
+    -- perf / webhook
+    fpsBoost = false,
+    webhookEnabled = false, webhookUrl = "", webhookInterval = 300,
+    killed = false,
+}
+local Stats = { bought = 0, planted = 0, harvested = 0, sold = 0, earned = 0,
+    sprinklers = 0, watered = 0, tamed = 0, opened = 0, codes = 0, startAt = os.clock() }
+
+local ACTION_DELAY = 0.1
+
+local _due = {}
+local function due(key, period)
+    local now = os.clock()
+    if not _due[key] or now - _due[key] >= period then _due[key] = now; return true end
+    return false
+end
+-- passive background loop bound to a getter
+local function loopOn(getOn, period, body)
+    task.spawn(function()
+        while not S.killed do
+            if getOn() then
+                pcall(body)
+                local p = (type(period) == "function") and period() or period
+                local e = 0; while e < p and getOn() and not S.killed do task.wait(0.4); e += 0.4 end
+            else task.wait(0.4) end
+        end
+    end)
+end
+local function picked(t) for _ in pairs(t) do return true end return false end
+local function pickMulti(sel, into)
+    for k in pairs(into) do into[k] = nil end
+    if type(sel) == "table" then for k, v in pairs(sel) do
+        if v == true then into[k] = true elseif type(v) == "string" then into[v] = true end
+    end end
+end
+
+-- // ============================================================ \\ --
+-- //                     CORE FARM (master loop)                 \\ --
+-- // ============================================================ \\ --
+local function stepBuy()
+    if not due("buy", S.buyInterval) then return end
+    if not picked(S.buySeeds) then return end
+    for _, s in ipairs(CATALOG) do
+        if not (S.autoFarm or S.autoBuy) then break end
+        if S.buySeeds[s.name] then
+            local stock, bought = stockOf("SeedShop", s.name), 0
+            while bought < S.buyPerTick do
+                if stock ~= nil and stock <= 0 then break end
+                if s.price > 0 and getSheckles() < s.price then break end
+                local ok = fire("SeedShop.PurchaseSeed", s.name)
+                if not ok then break end
+                Stats.bought += 1; bought += 1
+                if stock ~= nil then stock -= 1 end
+                task.wait(jitter(0.1, 0.22))
+            end
+        end
+    end
+end
+
+local function pickPlantTool()
+    if S.plantSeed ~= "Best owned" and S.plantSeed ~= "" then
+        local t = toolsByAttr("SeedTool", S.plantSeed)[1]
+        if t then return t end
+    end
+    -- best owned = rarest/most expensive seed we hold
+    local best, bestPrice
+    for _, t in ipairs(toolsByAttr("SeedTool")) do
+        local nm = t:GetAttribute("SeedTool")
+        local price = 0
+        for _, s in ipairs(CATALOG) do if s.name == nm then price = s.price; break end end
+        if not bestPrice or price > bestPrice then best, bestPrice = t, price end
+    end
+    return best or toolsByAttr("SeedTool")[1]
+end
+
+local function stepPlant()
+    local grid = plantGrid(S.plantSpacing)
+    if #grid == 0 then return end
+    local tool = pickPlantTool(); if not tool then return end
+    local hum = humanoid(); if not hum then return end
+    if heldToolByAttr("SeedTool") ~= tool then 
+        pcall(function() hum:EquipTool(tool) end)
+        task.wait(0.22) 
+    end
+    tool = heldToolByAttr("SeedTool"); if not tool then return end
+    local seedAttr = tool:GetAttribute("SeedTool")
+    if not seedAttr then return end
+    local occupied = existingPlantPositions()
+    for _, pos in ipairs(grid) do
+        if not (S.autoFarm or S.autoPlant) then break end
+        local clear = true
+        for _, op in ipairs(occupied) do
+            if (Vector2.new(pos.X, pos.Z) - Vector2.new(op.X, op.Z)).Magnitude < 1 then clear = false; break end
+        end
+        if clear then
+            if not heldToolByAttr("SeedTool") then
+                local nx = pickPlantTool(); if not nx then return end
+                pcall(function() hum:EquipTool(nx) end)
+                task.wait(0.2)
+                tool = heldToolByAttr("SeedTool"); if not tool then return end
+                seedAttr = tool:GetAttribute("SeedTool")
+                if not seedAttr then return end
+            end
+            pcall(function() fire("Plant.PlantSeed", pos, seedAttr, tool) end)
+            Stats.planted += 1; occupied[#occupied + 1] = pos
+            task.wait(jitter(ACTION_DELAY, 0.18))   -- paced to avoid client lag
+        end
+    end
+end
+
+local function maxFruitCap() return tonumber(LocalPlayer:GetAttribute("MaxFruitCapacity")) or 100 end
+local function fruitCount()  return tonumber(LocalPlayer:GetAttribute("FruitCount")) or 0 end
+local function sellAllNow()
+    local ok, res = fireFast("NPCS.SellAll")
+    if ok and type(res) == "table" and res.Success then
+        local n = tonumber(res.SoldCount) or 0
+        Stats.sold += n; Stats.earned += tonumber(res.SellPrice) or 0
+        return n
+    end
+    return 0
+end
+
+-- THROUGHPUT FIX: inventory caps at MaxFruitCapacity (100) and the server only accepts
+-- ~20-25 collects/sec. So harvest in a tight cycle and SELL THE MOMENT the pack is full —
+-- never idle holding a full inventory. Firing faster than the server's rate just gets
+-- dropped (delay=0 collected LESS), so harvestDelay paces each collect.
+local function stepHarvest()
+    local sell = (S.autoFarm or S.autoSell)
+    local list = ripeHarvests()
+    if #list == 0 then
+        if sell and fruitCount() > 0 then 
+            pcall(sellAllNow)
+        end
+        return
+    end
+    local cap = maxFruitCap()
+    local d = math.max(S.harvestDelay or ACTION_DELAY, ACTION_DELAY)
+    -- fire a fresh batch of collects (the firing time lets the async collects materialize
+    -- into the pack), stop if the pack is genuinely full, then sell the whole batch at once.
+    for _, h in ipairs(list) do
+        if not (S.autoFarm or S.autoHarvest) then break end
+        if fruitCount() >= cap - 1 then break end
+        pcall(function() fireFast("Garden.CollectFruit", h.plantId, h.fruitId) end)
+        Stats.harvested += 1
+        if d > 0 then task.wait(d) end
+    end
+    if sell then pcall(sellAllNow) end
+end
+
+local function stepSell()       -- sell-only mode (when Auto-Harvest is off)
+    if not due("sell", S.sellInterval) then return end
+    local n = sellAllNow()
+    if n > 0 then warn("[Sold] " .. n .. " items") end
+end
+
+local function stepExpand()
+    if not due("expand", 12) then return end
+    fire("Actions.ExpandGarden")        -- server/client-gates affordability itself
+end
+local function stepDaily()
+    if not due("daily", 60) then return end
+    fire("NPCS.CheckDailyDeal"); task.wait(0.3); fire("NPCS.UseDailyDealAll")
+end
+
+task.spawn(function()
+    while not S.killed do
+        if S.autoFarm or S.autoBuy     then pcall(stepBuy); task.wait(ACTION_DELAY) end
+        if S.autoFarm or S.autoPlant   then pcall(stepPlant); task.wait(ACTION_DELAY) end
+        if S.autoFarm or S.autoExpand  then pcall(stepExpand); task.wait(ACTION_DELAY) end
+        if S.autoFarm or S.autoDaily   then pcall(stepDaily); task.wait(ACTION_DELAY) end
+        task.wait(0.55)
+    end
+end)
+
+-- dedicated harvest+sell loop: tight cycle so a big backlog drains at the server's max
+-- collect rate (never blocked behind buy/plant/expand on the slow master loop).
+task.spawn(function()
+    while not S.killed do
+        if S.autoFarm or S.autoHarvest then
+            pcall(stepHarvest)
+            task.wait(ACTION_DELAY)
+        elseif S.autoSell then
+            pcall(stepSell)
+            task.wait(0.3)
+        else
+            task.wait(0.4)
+        end
+    end
+end)
+
+-- // ============================================================ \\ --
+-- //                       BOOSTS (passive)                      \\ --
+-- // ============================================================ \\ --
+-- Auto-Sprinkler: place every owned sprinkler tool, spread across the plot
+loopOn(function() return S.autoSprinkler end, function() return S.sprinklerInterval end, function()
+    local pid = myPlotId(); if not pid then return end
+    local placed = existingPlantPositions()  -- avoid clustering
+    for _, t in ipairs(toolsByAttr("Sprinkler")) do
+        if not S.autoSprinkler then break end
+        local hum = humanoid(); if not hum then break end
+        pcall(function() hum:EquipTool(t) end)
+        task.wait(0.22)
+        t = heldToolByAttr("Sprinkler"); if not t then break end
+        local grid = plantGrid(8)
+        for _, pos in ipairs(grid) do
+            local far = true
+            for _, op in ipairs(placed) do if (pos - op).Magnitude < 12 then far = false; break end end
+            if far then
+                fire("Place.PlaceSprinkler", pos, t:GetAttribute("Sprinkler"), t, pid)
+                Stats.sprinklers += 1; placed[#placed + 1] = pos; task.wait(0.3)
+                break
+            end
+        end
+    end
+    pcall(function() humanoid():UnequipTools() end)
+end)
+
+-- Auto-Water: use watering can over planted crops
+loopOn(function() return S.autoWater end, function() return S.waterInterval end, function()
+    local t = equipByAttr("WateringCan"); if not t then return end
+    local name = t:GetAttribute("WateringCan")
+    for _, pos in ipairs(existingPlantPositions()) do
+        if not S.autoWater then break end
+        fire("WateringCan.UseWateringCan", pos - Vector3.new(0, 0.3, 0), name, t)
+        Stats.watered += 1; task.wait(jitter(0.15, 0.3))
+    end
+end)
+
+-- // ============================================================ \\ --
+-- //                          PETS                               \\ --
+-- // ============================================================ \\ --
+local function ownedPetNames()
+    local names, seen = {}, {}
+    for nm in pairs(invNames("Pets")) do if not seen[nm] then seen[nm] = true; names[#names + 1] = nm end end
+    for _, t in ipairs(toolsByAttr("PetId")) do
+        local nm = t:GetAttribute("PetName") or t.Name
+        if nm and not seen[nm] then seen[nm] = true; names[#names + 1] = nm end
+    end
+    table.sort(names); return names
+end
+local function equippedPetCount()
+    local ok, list = fire("Pets.GetEquippedPets")
+    if ok and type(list) == "table" then
+        local n = 0; for _ in pairs(list) do n += 1 end; return n
+    end
+    return 0
+end
+loopOn(function() return S.autoEquipPets end, 12, function()
+    local cap = tonumber(LocalPlayer:GetAttribute("MaxEquippedPets")) or 3
+    local have = equippedPetCount()
+    if have >= cap then return end
+    for _, nm in ipairs(ownedPetNames()) do
+        if not S.autoEquipPets or have >= cap then break end
+        fire("Pets.RequestEquipByName", nm); have += 1; task.wait(0.3)
+    end
+end)
+loopOn(function() return S.autoPetSlot end, 20, function()
+    fire("Pets.RequestPurchasePetSlot")
+end)
+-- Auto-Buy world pets: walk up (teleport) to each affordable unowned wild pet and buy it.
+-- Buying == Pets.WildPetTame:Fire(refPart); server charges Price and REQUIRES proximity.
+loopOn(function() return S.autoBuyPets end, function() return S.petBuyInterval end, function()
+    for _, w in ipairs(wildPets()) do
+        if not S.autoBuyPets then break end
+        if w.owner == 0 and w.price > 0 and w.price <= S.maxPetPrice and getSheckles() >= w.price then
+            if S.petTeleport and w.pos then
+                atPosition(w.pos, function() fire("Pets.WildPetTame", w.part) end)
+            else
+                fire("Pets.WildPetTame", w.part)
+            end
+            Stats.tamed += 1
+            task.wait(jitter(0.3, 0.6))
+        end
+    end
+end)
+loopOn(function() return S.autoSellPets end, 4, function()
+    if not picked(S.sellPets) then return end
+    for _, t in ipairs(toolsByAttr("PetId")) do
+        if not S.autoSellPets then break end
+        local nm = t:GetAttribute("PetName") or t.Name
+        if S.sellPets[nm] then
+            local hum = humanoid()
+            if hum then pcall(function() hum:EquipTool(t) end); task.wait(0.25) end
+            fire("NPCS.SellPet", t:GetAttribute("PetId")); task.wait(0.3)
+        end
+    end
+end)
+
+-- // ============================================================ \\ --
+-- //                  CRATES / SEED PACKS                        \\ --
+-- // ============================================================ \\ --
+local function openAll(category, path)
+    for nm, count in pairs(invNames(category)) do
+        if S.killed then break end
+        for _ = 1, math.min(count, 25) do
+            local ok, res = fire(path, nm)
+            if not ok then break end
+            if type(res) == "table" and res.Success == false then break end
+            Stats.opened += 1; task.wait(jitter(0.25, 0.5))
+        end
+    end
+end
+loopOn(function() return S.autoCrate end, function() return S.openInterval end, function() openAll("Crates", "Crate.OpenCrate") end)
+loopOn(function() return S.autoPack  end, function() return S.openInterval end, function() openAll("SeedPacks", "SeedPack.OpenSeedPack") end)
+
+-- // ============================================================ \\ --
+-- //                      SHOP (gear)                            \\ --
+-- // ============================================================ \\ --
+loopOn(function() return S.autoGear end, function() return S.gearInterval end, function()
+    if not picked(S.gearBuy) then return end
+    for name in pairs(S.gearBuy) do
+        if not S.autoGear then break end
+        local stock = stockOf("GearShop", name)
+        if stock == nil or stock > 0 then
+            fire("GearShop.PurchaseGear", name); task.wait(jitter(0.2, 0.4))
+        end
+    end
+end)
+
+-- // ============================================================ \\ --
+-- //                  MISC (mail / gifts / hop / codes)          \\ --
+-- // ============================================================ \\ --
+loopOn(function() return S.autoMail end, 30, function()
+    local ok, box = fire("Mailbox.OpenInbox")
+    if ok and type(box) == "table" then
+        local mb = box.Mailbox or box.Inbox or box
+        for id, entry in pairs(mb) do
+            if not S.autoMail then break end
+            if type(entry) == "table" and (entry.Claimed == true or entry.IsClaimed == true) then
+                -- skip already claimed
+            else
+                fire("Mailbox.Claim", id); task.wait(0.3)
+            end
+        end
+    end
+end)
+-- accept incoming gifts automatically
+pcall(function()
+    local g = action("Gifting.Prompted")
+    if g and g.OnClientEvent then
+        g.OnClientEvent:Connect(function(fromPlayer)
+            if S.autoAcceptGift and fromPlayer then pcall(function() fire("Gifting.Response", fromPlayer, true) end) end
+        end)
+    end
+end)
+-- server hop when enabled (RequestHop asks the server to migrate the player)
+loopOn(function() return S.autoHop end, function() return math.max(60, S.hopInterval) end, function()
+    if S.hopInterval > 0 then fire("AntiAfk.RequestHop") end
+end)
+-- Anti-AFK: defeat the idle kick via VirtualUser input on Idled (default on)
+if VirtualUser then
+    LocalPlayer.Idled:Connect(function()
+        if S.killed or not S.antiAfk then return end
+        pcall(function() VirtualUser:CaptureController(); VirtualUser:ClickButton2(Vector2.new(0, 0)) end)
+    end)
+end
+-- codes
+local CODE_LIST = {}                  -- add known GAG2 codes here
+local triedCodes = {}
+local function redeemCodes(list)
+    local n = 0
+    for _, code in ipairs(list) do
+        if code ~= "" and not triedCodes[code] then
+            local ok, res = fire("Settings.SubmitCode", code)
+            triedCodes[code] = true
+            if ok and res == true then n += 1; Stats.codes += 1 end
+            task.wait(0.4)
+        end
+    end
+    return n
+end
+loopOn(function() return S.autoCodes end, 120, function() redeemCodes(CODE_LIST) end)
+
+-- // ============================================================ \\ --
+-- //                       PERFORMANCE                           \\ --
+-- // ============================================================ \\ --
+local _fpsApplied = false
+local function applyFpsBoost(on)
+    if on and not _fpsApplied then
+        _fpsApplied = true
+        pcall(function()
+            Lighting.GlobalShadows = false; Lighting.FogEnd = 1e6
+            for _, e in ipairs(Lighting:GetChildren()) do
+                if e:IsA("BloomEffect") or e:IsA("SunRaysEffect") or e:IsA("DepthOfFieldEffect") or e:IsA("BlurEffect") then e.Enabled = false end
+            end
+            if sethiddenproperty then pcall(sethiddenproperty, Lighting, "Technology", 1) end
+            settings().Rendering.QualityLevel = 1
+        end)
+        task.spawn(function()
+            for i, d in ipairs(Workspace:GetDescendants()) do
+                if not S.fpsBoost then break end
+                if d:IsA("ParticleEmitter") or d:IsA("Trail") or d:IsA("Smoke") or d:IsA("Fire") or d:IsA("Sparkles") then d.Enabled = false
+                elseif d:IsA("Texture") or d:IsA("Decal") then pcall(function() d.Transparency = 1 end) end
+                if i % 120 == 0 then task.wait(0.1) end
+            end
+        end)
+    end
+end
+
+-- // ============================================================ \\ --
+-- //                    WEBHOOK REPORTING                        \\ --
+-- // ============================================================ \\ --
+local httpRequest = (syn and syn.request) or http_request or request or (http and http.request)
+local function hms(sec)
+    sec = math.floor(sec); local h = sec//3600; local m = (sec%3600)//60
+    if h > 0 then return string.format("%dh %dm", h, m) end
+    if m > 0 then return string.format("%dm %ds", m, sec%60) end
+    return sec .. "s"
+end
+local function sendWebhook(isTest)
+    if not httpRequest then warn("[Webhook] Executor exposes no HTTP request fn"); return false end
+    if not string.match(S.webhookUrl or "", "^https?://") then warn("[Webhook] Set a valid webhook URL"); return false end
+    local payload = { username = "Grow a Garden 2", embeds = { {
+        title = "🌱 Farm Report — " .. LocalPlayer.Name, color = 5763719,
+        fields = {
+            { name = "💰 Sheckles", value = fmt(getSheckles()), inline = true },
+            { name = "🪙 Tokens",   value = fmt(getTokens()),   inline = true },
+            { name = "🌾 Plot",     value = tostring((myPlot() and myPlot().Name) or "?"), inline = true },
+            { name = "📊 Session",  value = string.format("bought %d · planted %d · harvested %d · sold %d (+%s)",
+                Stats.bought, Stats.planted, Stats.harvested, Stats.sold, fmt(Stats.earned)), inline = false },
+            { name = "✨ Extras",   value = string.format("sprinklers %d · watered %d · tamed %d · opened %d",
+                Stats.sprinklers, Stats.watered, Stats.tamed, Stats.opened), inline = false },
+            { name = "⏱️ Uptime",   value = hms(os.clock() - Stats.startAt), inline = true },
+        }, footer = { text = "Floppa Hub · GAG2" },
+    } } }
+    local ok, res = pcall(function()
+        return httpRequest({ Url = S.webhookUrl, Method = "POST",
+            Headers = { ["Content-Type"] = "application/json" }, Body = HttpService:JSONEncode(payload) })
+    end)
+    local code = ok and res and (res.StatusCode or res.Status or res.status_code)
+    local good = ok and (code == nil or code == 200 or code == 204)
+    if isTest then warn("[Webhook] " .. (good and "Test sent ✅" or ("Failed (" .. tostring(code) .. ")"))) end
+    return good
+end
+loopOn(function() return S.webhookEnabled end, function() return S.webhookInterval end, function() sendWebhook(false) end)
+
+-- // ============================================================ \\ --
+-- //                            UI                               \\ --
+-- // ============================================================ \\ --
+-- Create UI with WindUI
+local ui = KrassUI.new({
+    Name = "Grow a Garden 2",
+    Subtitle = "Floppa Hub | GAG2",
+    Theme = "Black",
+	Size = UDim2.fromOffset(480, 360), -- window size
+    MinSize = Vector2.new(560, 350), -- minimal window size
+    MaxSize = Vector2.new(850, 560), -- maximum window size
+    Accent = Color3.fromRGB(145, 160, 255),
+    Accent2 = Color3.fromRGB(95, 105, 255),
+    Size = UDim2.fromOffset(860, 620),
+    ToggleKey = Enum.KeyCode.LeftControl,
+})
+
+local farmTab = ui:Tab("Farm")
+local petsTab = ui:Tab("Pets")
+local shopTab = ui:Tab("Shop")
+local miscTab = ui:Tab("Misc")
+local settingsTab = ui:Tab("Settings")
+
+-- ---- FARM ----
+local secStatus = farmTab:Section("Status")
+local plotLabel = secStatus:Label("Plot: …")
+local cashLabel = secStatus:Label("Sheckles: …")
+local statLabel = secStatus:Label("—")
+
+local secMaster = farmTab:Section("Auto-Farm (master)")
+secMaster:Toggle("Auto-Farm (buy+plant+harvest+sell+expand)", false, function(v) S.autoFarm = v end)
+secMaster:Toggle("Auto-Expand garden", false, function(v) S.autoExpand = v end)
+secMaster:Toggle("Auto-Daily deals", false, function(v) S.autoDaily = v end)
+
+local secPlant = farmTab:Section("Plant / Harvest / Sell")
+local plantOpts = { "Best owned" }; for _, n in ipairs(SEED_NAMES) do plantOpts[#plantOpts + 1] = n end
+secPlant:Dropdown("Seed to plant", plantOpts, "Best owned", function(v) S.plantSeed = v end)
+secPlant:Toggle("Auto-Plant (fill plot)", false, function(v) S.autoPlant = v end)
+secPlant:Slider("Plant spacing (studs)", 4, 2, 10, function(v) S.plantSpacing = v end)
+secPlant:Toggle("Auto-Harvest ripe fruit", false, function(v) S.autoHarvest = v end)
+secPlant:Slider("Harvest pace (s/fruit)", 0.1, 0.1, 0.5, function(v) S.harvestDelay = v end)
+secPlant:Toggle("Auto-Sell (auto-sells when pack full)", false, function(v) S.autoSell = v end)
+secPlant:Slider("Sell interval (s, sell-only mode)", 15, 3, 120, function(v) S.sellInterval = v end)
+secPlant:Toggle("Auto-Pot grown plants", false, function(v) S.autoPot = v end)
+
+secPlant:Toggle("Auto-place Sprinklers", false, function(v) S.autoSprinkler = v end)
+secPlant:Slider("Sprinkler interval (s)", 30, 10, 120, function(v) S.sprinklerInterval = v end)
+secPlant:Toggle("Auto-Watering Can", false, function(v) S.autoWater = v end)
+secPlant:Slider("Water interval (s)", 8, 2, 60, function(v) S.waterInterval = v end)
+
+-- ---- PETS ----
+local secPet = petsTab:Section("Pets")
+secPet:Toggle("Auto-Equip pets (to slot cap)", false, function(v) S.autoEquipPets = v end)
+secPet:Toggle("Auto-Buy pet slots", false, function(v) S.autoPetSlot = v end)
+secPet:Toggle("Auto-Buy pets", false, function(v) S.autoBuyPets = v end)
+secPet:Slider("Max pet price (Sheckles)", 25000, 1000, 1000000, function(v) S.maxPetPrice = v end)
+secPet:Toggle("Teleport to pet", true, function(v) S.petTeleport = v end)
+secPet:Slider("Pet buy interval (s)", 5, 2, 60, function(v) S.petBuyInterval = v end)
+
+local secPetSell = petsTab:Section("Sell pets")
+secPetSell:Dropdown("Pets to sell", ownedPetNames(), {}, function(sel) pickMulti(sel, S.sellPets) end)
+secPetSell:Toggle("Auto-Sell selected pets", false, function(v) S.autoSellPets = v end)
+
+-- ---- CRATES & PACKS ----
+secPlant:Toggle("Auto-Open Crates", false, function(v) S.autoCrate = v end)
+secPlant:Toggle("Auto-Open Seed Packs", false, function(v) S.autoPack = v end)
+secPlant:Slider("Open interval (s)", 4, 1, 30, function(v) S.openInterval = v end)
+
+-- ---- SHOP ----
+local secBuy = shopTab:Section("Buy seeds")
+secBuy:Dropdown("Seeds to buy", SEED_NAMES, {}, function(sel) pickMulti(sel, S.buySeeds) end)
+secBuy:Toggle("Auto-Buy selected", false, function(v) S.autoBuy = v end)
+secBuy:Slider("Buy interval (s)", 5, 1, 30, function(v) S.buyInterval = v end)
+secBuy:Slider("Max buys / seed / pass", 8, 1, 50, function(v) S.buyPerTick = v end)
+
+local secShop = shopTab:Section("Gear shop")
+secShop:Dropdown("Gear to buy", GEAR_NAMES, {}, function(sel) pickMulti(sel, S.gearBuy) end)
+secShop:Toggle("Auto-Buy selected gear", false, function(v) S.autoGear = v end)
+secShop:Slider("Gear buy interval (s)", 10, 2, 60, function(v) S.gearInterval = v end)
+
+-- ---- MISC ----
+local secMail = miscTab:Section("Mail & Gifts")
+secMail:Toggle("Auto-Claim mailbox", false, function(v) S.autoMail = v end)
+secMail:Toggle("Auto-Accept gifts", false, function(v) S.autoAcceptGift = v end)
+
+local secHop = miscTab:Section("Session")
+secHop:Toggle("Anti-AFK (never idle-kicked)", true, function(v) S.antiAfk = v end)
+secHop:Toggle("Auto server-hop", false, function(v) S.autoHop = v end)
+secHop:Slider("Hop every (min, 0=off)", 0, 0, 120, function(v) S.hopInterval = v * 60 end)
+
+local secCode = miscTab:Section("Codes")
+secCode:Textbox("Redeem a code", "enter code", function(text)
+    if text and text ~= "" then
+        local ok, res = fire("Settings.SubmitCode", text)
+        warn("[Code] " .. ((ok and res == true) and ("Redeemed: " .. text) or ("Invalid: " .. text)))
+    end
+end)
+secCode:Toggle("Auto-redeem code list", false, function(v) S.autoCodes = v end)
+
+-- ---- SETTINGS ----
+local secPerf = settingsTab:Section("Performance & Interface")
+secPerf:Toggle("FPS Boost (low graphics)", false, function(v) S.fpsBoost = v; applyFpsBoost(v) end)
+secPerf:Button("Unload hub (stops everything)", function() S.killed = true; pcall(function() ui:Destroy() end) end)
+
+local secWeb = settingsTab:Section("Discord Webhook")
+secWeb:Textbox("Webhook URL", "https://discord.com/api/webhooks/...", function(t) S.webhookUrl = t or "" end)
+secWeb:Toggle("Enable reports", false, function(v) S.webhookEnabled = v end)
+secWeb:Slider("Report interval (min)", 5, 1, 60, function(v) S.webhookInterval = v * 60 end)
+secWeb:Button("Send test report", function() task.spawn(function() sendWebhook(true) end) end)
+
+local secInfo = settingsTab:Section("Info")
+secInfo:Label("Grow a Garden 2 · Floppa Hub")
+secInfo:Label("Hotkey: Left Ctrl toggles UI")
+
+-- Auto-Pot loop (own grown plants flagged via prompt tag is rare; pot all listed plants)
+loopOn(function() return S.autoPot end, 10, function()
+    local plot = myPlot(); local plants = plot and plot:FindFirstChild("Plants")
+    if not plants then return end
+    for _, m in ipairs(plants:GetChildren()) do
+        if not S.autoPot then break end
+        local pid = m:GetAttribute("PlantId") or m.Name
+        if pid then fire("Garden.PotPlant", tostring(pid)); task.wait(0.3) end
+    end
+end)
+
+-- live status
+task.spawn(function()
+    while not S.killed do
+        local p = myPlot()
+        pcall(function() plotLabel:Set("Plot: " .. (p and p.Name or "?")) end)
+        pcall(function() cashLabel:Set(string.format("Sheckles: %s · Tokens: %s", fmt(getSheckles()), fmt(getTokens()))) end)
+        pcall(function() statLabel:Set(string.format("bought %d · planted %d · harvested %d · sold %d (+%s)",
+            Stats.bought, Stats.planted, Stats.harvested, Stats.sold, fmt(Stats.earned))) end)
+        task.wait(2)
+    end
+end)
+
+pcall(function()
+    if getgenv then getgenv().WalkyGAG2 = {
+        S = S, Stats = Stats, Net = Net, fire = fire, action = action,
+        catalog = CATALOG, gearNames = GEAR_NAMES, myPlot = myPlot, replica = replica,
+        ripeHarvests = ripeHarvests, wildPets = wildPets,
+        toolsByAttr = toolsByAttr, plantGrid = plantGrid, ownedPetNames = ownedPetNames,
+        stepHarvest = stepHarvest, fireFast = fireFast, fruitCount = fruitCount, sellAllNow = sellAllNow, maxFruitCap = maxFruitCap,
+        unload = function() S.killed = true; pcall(function() ui:Destroy() end) end,
+    } end
+end)
+
+warn("[Floppa Hub] GAG2 full-auto loaded · " .. #SEED_NAMES .. " seeds · " .. #GEAR_NAMES .. " gear")
+print("[Floppa Hub] Grow a Garden 2 full-auto loaded.")
